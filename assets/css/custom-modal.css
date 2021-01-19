@@ -82,9 +82,4 @@
   color: #000;
   font-weight: 600;
 }
-
-.select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected] {
-  background-color: #fafafa !important;
-  color: #000 !important;
-}
 /*# sourceMappingURL=custom-modal.css.map */
