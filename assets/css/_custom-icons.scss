@@ -1,0 +1,61 @@
+.menu-icon {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23fff' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-menu white-color'%3E%3Cline x1='3' y1='12' x2='21' y2='12'%3E%3C/line%3E%3Cline x1='3' y1='6' x2='21' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='18' x2='21' y2='18'%3E%3C/line%3E%3C/svg%3E");
+}
+
+.menu-icon-hover {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23131727' stroke='%23131727' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-menu white-color'%3E%3Cline x1='3' y1='12' x2='21' y2='12'%3E%3C/line%3E%3Cline x1='3' y1='6' x2='21' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='18' x2='21' y2='18'%3E%3C/line%3E%3C/svg%3E");
+}
+
+/* BG ICON */
+.bg-custom-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dashboard-white-icon {
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/icons/custom/house-white.png);
+}
+
+.schedule-white-icon {
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/icons/custom/calendar-white.png);
+}
+
+.management-white-icon {
+  width: 19px;
+  height: 19px;
+  background-image: url(../images/icons/custom/team-white.png);
+}
+
+.digital-menu-white {
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/icons/custom/digital-menu-white.png);
+}
+
+.sales-white {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/custom/sales-white.png);
+}
+
+.marketing-white {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/custom/marketing-white.png);
+}
+
+.communication-white {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/custom/communication-white.png);
+}
