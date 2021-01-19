@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Schedule | Fiser</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#06151B">
+<meta name="msapplication-navbutton-color" content="#06151B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/asPieProgress.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/dasboard.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper dashboard-wrapper">
+
+  <!-- left-side -->
+  <div class="left-side-nav">
+    <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo" >
+            <img src="assets/images/logo.png" class="logo" alt="logo" /> 
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item ">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
+                    <span class="text-collapse-menu">Communication</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+        
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+    </div>
+  </div>
+  <!--  End of left-side  -->
+
+  <!-- Begin page content -->
+  <main role="main" class="middle-area-dashboard main-dashboard">
+    <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid d-block">
+                    
+                    <div class="row col-header-row">
+                        <div class="col-lg-12 col-12">
+
+                            <div class="nav-dashboard-row">
+
+                                <div class="nav-dashboard-left">
+                                    <div class="heading-div"><h1>Dashboard</h1></div>
+                                </div>
+
+                                <div class="nav-dashboard-right">
+                                    <div class="user-drop-down">
+                                        <div class="dropdown drop-left dropdown-custom-top">
+                                            <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <div class="user-profile">
+                                                  <div class="user-img">
+                                                      <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                                  </div>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="admin-settings.html"> Settings</a></li>
+                                                    <li class="logout-li"><a class="dropdown-item" href="login.html"> <i class="fe fe-log-in"></i> Logout</a></li>
+                                                </ul>                   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </nav>
+        </header>
+        <!-- End of header -->
+        
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                 <section class="breadcrumb-section">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Schedule</li>
+                    </ol>
+                  </nav>
+                 </section>
+                   <!-- bread crumb end -->
+
+                  <section class="setting-tools-section">
+                      <div class="setting-tools-group">
+
+                        <div class="">
+                          <!-- add tabs here -->
+                        </div>
+
+                        <div class="btn-group-setting">
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
+                          <a href="#" class="btn btn-tools mr-2" data-toggle="modal" data-target="#schedule-settings"><span class="btn-icon mr-2"><i class="fe fe-file"></i></span>Add</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-upload"></i></span>Export</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-settings"></i></span>Setting</a>
+                        </div>
+                          
+                      </div>
+                  </section>
+                  
+                  <section class="calendar-section">
+                    <div class="calendar-inner">
+                      <div class="filter-result">
+                        
+                        <div class="dropdown">
+                          <button class="btn btn-result dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Filter results
+                          </button>
+                          <div class="dropdown-menu dropdown-mune-result" aria-labelledby="dropdownMenuButton">
+                          <div class="row">
+                            <div class="col-lg-3">
+                              <h3>Team</h3>
+                              <p>Youssef</p>
+                            </div>
+                            <div class="col-lg-3">
+                              <h3>Tags</h3>
+                              <ul class="tags">
+                                <li>
+                                  <a href="#" class="tag">Quote</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="tag green">Opportunity</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="tag yellow">Followup</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="tag red">Callback</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-3">
+                              <h3>Status</h3>
+                              <ul class="list">
+                                <li>
+                                  <a href="#" class="">All</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Accepted</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">In progress</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Cancelled</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Completed</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-3">
+                              <h3>Service Type</h3>
+                              <ul class="list">
+                                <li>
+                                  <a href="#" class="">Hand Wash</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Engine Bay</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Complete Detail</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Interior Detail</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="">Completed</a>
+                                </li>
+                              </ul>
+                              
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="card card-body">
+                        <div id="calendar" ></div>
+                      </div>
+                    </div>
+                  </section>
+                </div>  
+              </div>        
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+    </div>
+  </main>
+
+</div><!-- end of wrapper -->
+
+
+<!-- modal -->
+
+<div class="modal fade fixed-right" tabindex="-1" role="dialog" id="schedule-settings">
+  <div class="modal-dialog modal-dialog-vertical" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Schedule Settings</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="schedule-content">
+          <h3>Business hours</h3>
+          <table class="table ">
+            <thead>
+              <tr>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-save">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-asPieProgress.js"></script>
+
+<script src="assets/js/admin-dashboard.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<script src="assets/js/calender.min.js"></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    initialDate: '2020-09-07',
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'dayGridMonth,timeGridWeek,timeGridDay'
+    },
+    // 		customButtons: {
+		// 	addRoom: {
+		// 		text: 'Add room',
+		// 	},
+		// 	addReservation: {
+		// 		text: 'Add reservation',
+		// 	},
+		// },
+    events: [
+      {
+        title: 'All Day Event',
+        start: '2020-09-01'
+      },
+      {
+        title: 'Long Event',
+        start: '2020-09-07',
+        end: '2020-09-10',
+        color: '#ff0000'
+      },
+      {
+        groupId: '999',
+        title: 'Repeating Event',
+        start: '2020-09-09T16:00:00',
+      
+      },
+      {
+        groupId: '999',
+        title: 'Repeating Event',
+        start: '2020-09-16T16:00:00'
+      },
+      {
+        title: 'Conference',
+        start: '2020-09-11',
+        end: '2020-09-13'
+      },
+      {
+        title: 'Meeting',
+        start: '2020-09-12T10:30:00',
+        end: '2020-09-12T12:30:00'
+      },
+      {
+        title: 'Lunch',
+        start: '2020-09-12T12:00:00'
+      },
+      {
+        title: 'Meeting',
+        start: '2020-09-12T14:30:00'
+      },
+      {
+        title: 'Birthday Party',
+        start: '2020-09-13T07:00:00'
+      },
+      {
+        title: 'Click for Google',
+        url: 'http://google.com/',
+        start: '2020-09-28',
+        color: '#FFcc00'
+      }
+    ]
+  });
+
+  calendar.render();
+});
+</script>
+
+</body>
+</html>
