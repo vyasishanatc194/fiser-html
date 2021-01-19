@@ -202,6 +202,122 @@
   padding: 0 0 0 0;
 }
 
+.custom-card-weather-section .custom-color-card01 {
+  border: none;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
+  margin: 0 0 40px 0;
+  border-radius: 20px;
+  background-color: #f9cb2f;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body {
+  padding: 35px 30px 30px 30px;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body h3 {
+  color: #06151b;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body p {
+  color: #06151b;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx {
+  padding: 15px 20px;
+  margin: 30px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background: #06151b;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 8px;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-left-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-left-bx .icon-span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-left-bx .txt-span {
+  color: #fff;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  margin: 0;
+  letter-spacing: 1px;
+  width: calc(100% - 55px);
+  padding: 3px 0 0 12px;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-right-bx .btn.btn-weather-primary {
+  padding: 5px 20px;
+  margin: 0;
+  background: #707070;
+  color: #fff;
+  min-height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-right-bx .btn.btn-weather-primary:hover, .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-right-bx .btn.btn-weather-primary:focus {
+  background: #595858;
+}
+
 @media (max-width: 767px) {
   .table-white-card-section .white-card .white-card-inner .white-card-header {
     padding: 15px 15px;
