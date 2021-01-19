@@ -8,6 +8,21 @@
           transform: translateX(0);
 }
 
+.modal.fixed-right .modal-dialog-vertical {
+  margin-left: auto;
+}
+
+.modal-dialog-vertical {
+  height: 100%;
+  max-width: 700px;
+  margin: 0;
+}
+
+.modal-dialog-vertical .modal-content {
+  border: 0 !important;
+  border-radius: 0;
+}
+
 .modal.fixed-right {
   padding-right: 0 !important;
 }
@@ -16,6 +31,11 @@
   background-color: #EBEAEA;
   font-size: 24px;
   line-height: 34px;
+}
+
+.modal.fixed-right .modal-header .close {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .modal.fixed-right .modal-body {
@@ -33,6 +53,24 @@
   font-weight: 600;
 }
 
+.modal.fixed-right .modal-body .schedule-content .table {
+  border: 0;
+}
+
+.modal.fixed-right .modal-body .schedule-content .table th {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  border: 0;
+}
+
+.modal.fixed-right .modal-body .schedule-content .table td {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  border: 0;
+}
+
 .modal.fixed-right .modal-footer {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -45,13 +83,8 @@
   font-weight: 600;
 }
 
-.modal.fixed-right .modal-dialog-vertical {
-  margin-left: auto;
-}
-
-.modal-dialog-vertical {
-  height: 100%;
-  max-width: 700px;
-  margin: 0;
+.select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected] {
+  background-color: #fafafa !important;
+  color: #000 !important;
 }
 /*# sourceMappingURL=custom-modal.css.map */
