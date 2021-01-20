@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Schedule | Fiser</title>
+<title>Management | Fiser</title>
 <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
 <meta name="theme-color" content="#06151B">
 <meta name="msapplication-navbutton-color" content="#06151B">
@@ -67,13 +67,13 @@
                     <span class="text-collapse-menu">Dashboard</span>
                   </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item ">
                   <a class="nav-link nav-normal" href="#">
                     <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
                     <span class="text-collapse-menu">Schedule</span>
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link nav-normal" href="#">
                     <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
                     <span class="text-collapse-menu">Management</span>
@@ -241,8 +241,8 @@
                  <section class="breadcrumb-section ">
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Schedule</li>
+                      <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Support</li>
                     </ol>
                   </nav>
                  </section>
@@ -252,13 +252,14 @@
                       <div class="setting-tools-group">
 
                         <div class="">
-                          <!-- add tabs here -->
+                          
                         </div>
+                  
 
                         <div class="btn-group-setting">
-                          <a href="#" class="btn btn-tools mr-2"  id="search"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
+                          <a href="#" class="btn btn-tools mr-2" id="search"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
                           <a href="#" class="btn btn-tools mr-2" data-toggle="modal" data-target="#schedule-settings"><span class="btn-icon mr-2"><i class="fe fe-file"></i></span>Add</a>
-                          <a href="#!" class="btn btn-tools mr-2" id="filter"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
                           <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-upload"></i></span>Export</a>
                           <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-settings"></i></span>Setting</a>
                         </div>
@@ -275,85 +276,238 @@
                     </div>
                   </section>
                   
-                  <section class="calendar-section">
-                    <div class="calendar-inner">
-                      <div class="filter-result" style="display: none;">
-                        
-                        <div class="dropdown">
-                          <button class="btn btn-result dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Filter results
-                          </button>
-                          <div class="dropdown-menu dropdown-mune-result" aria-labelledby="dropdownMenuButton">
-                          <div class="row">
-                            <div class="col-lg-3">
-                              <h3>Team</h3>
-                              <p>Youssef</p>
-                            </div>
-                            <div class="col-lg-3">
-                              <h3>Tags</h3>
-                              <ul class="tags">
-                                <li>
-                                  <a href="#" class="tag">Quote</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="tag green">Opportunity</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="tag yellow">Followup</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="tag red">Callback</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="col-lg-3">
-                              <h3>Status</h3>
-                              <ul class="list">
-                                <li>
-                                  <a href="#" class="">All</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Accepted</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">In progress</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Cancelled</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Completed</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="col-lg-3">
-                              <h3>Service Type</h3>
-                              <ul class="list">
-                                <li>
-                                  <a href="#" class="">Hand Wash</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Engine Bay</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Complete Detail</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Interior Detail</a>
-                                </li>
-                                <li>
-                                  <a href="#" class="">Completed</a>
-                                </li>
-                              </ul>
+                  <!-- mgmt card -->
+
+                  <section class="mgmt-card-section">
+                    <div class="mgmt-inner">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="card">
+                            <div class="card-header">
+                              <h3>Upcomming</h3>
+                              <div class="dropdown">
+                                <a class="text-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fe fe-more-vertical"></i>
+                                </a>
                               
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
                             </div>
-                          </div>
+
+                            <div class="card-body">
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag">wating</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag">wating</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-blue">aproved</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                              <a href="#" class="btn btn-secondary btn-100"><i class="fe fe-plus mr-2"></i>Add New</a>
+                            </div>
                           </div>
                         </div>
-                        
-                      </div>
-                      <div class="card card-body">
-                        <div id="calendar" ></div>
+
+                        <div class="col-lg-4 col-md-6">
+                          <div class="card">
+                            <div class="card-header">
+                              <h3>Inprogress</h3>
+                              <div class="dropdown">
+                                <a class="text-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fe fe-more-vertical"></i>
+                                </a>
+                              
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-green">Complete</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-yellow">pending</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-green">Complete</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                              <a href="#" class="btn btn-secondary btn-100"><i class="fe fe-plus mr-2"></i>Add New</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                          <div class="card">
+                            <div class="card-header">
+                              <h3>Completed</h3>
+                              <div class="dropdown">
+                                <a class="text-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fe fe-more-vertical"></i>
+                                </a>
+                              
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-green">Complete</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-green">Complete</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="card-box">
+                                  <div class="card-top">
+                                    <h3>Topnav layout desgin<span class="tag tag-blue">wating</span></h3>
+                                    <p>14 oct 2019</p>
+                                  </div>
+                                  <div class="card-bottom">
+                                    <div class="card-pic">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                      <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="card-budget">
+                                      <h3>$145</h3>
+                                      <p>Budget</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                              <a href="#" class="btn btn-secondary btn-100"><i class="fe fe-plus mr-2"></i>Add New</a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </section>
@@ -610,14 +764,10 @@
   $("#search").click(function(){
     $(".search-bar").toggle();
   });
-  
-  $("#filter").click(function(){
-    $(".filter-result").toggle();
-  });
 
   $('.select2').select2(
       {
-        minimumResultsForSearch: -1,
+          minimumResultsForSearch: -1,
         width: 100,
       }
   );
