@@ -36,6 +36,11 @@
 .modal.fixed-right .modal-header .close {
   -webkit-box-shadow: none;
           box-shadow: none;
+  outline: 0 !important;
+}
+
+.modal.fixed-right .modal-header .close i {
+  font-size: 30px;
 }
 
 .modal.fixed-right .modal-body {
