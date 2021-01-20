@@ -2374,6 +2374,70 @@ body {
   outline: none;
 }
 
+.custom-satisfaction-card-section .custom-white-card02 .card-header {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.custom-satisfaction-card-section .custom-white-card02 .card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.gauge-graph-root .gauge-graph {
+  height: 300px;
+}
+
+.gauge-graph-root .highcharts-figure,
+.gauge-graph-root .highcharts-data-table table {
+  min-width: 280px;
+  max-width: 500px;
+  margin: 1em auto;
+}
+
+.gauge-graph-root .highcharts-credits {
+  display: none;
+}
+
+.gauge-graph-root g.highcharts-exporting-group {
+  display: none;
+}
+
+.gauge-graph-root .highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.gauge-graph-root .highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.gauge-graph-root .highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.gauge-graph-root .highcharts-data-table td,
+.gauge-graph-root .highcharts-data-table th,
+.gauge-graph-root .highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.gauge-graph-root .highcharts-data-table thead tr,
+.gauge-graph-root .highcharts-data-table tr:nth-child(even) {
+  background: #fff;
+}
+
+.gauge-graph-root .highcharts-data-table tr:hover {
+  background: #fff;
+}
+
 @media (min-width: 1025px) {
   /* main right content area */
   .middle-area-dashboard .main-middle-area.active-progress-area {
@@ -2526,6 +2590,21 @@ body {
     line-height: 16px;
     font-size: 12px;
   }
+  .form-root .custom-checkbox {
+    font-size: 16px;
+  }
+  .form-root .custom-checkbox .custom-control-label {
+    padding: 0 0 0 30px;
+  }
+  .form-root .custom-checkbox .custom-control-label::before {
+    width: 20px;
+    height: 20px;
+  }
+  .form-root .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-size: 12px;
+    top: 4px;
+    left: 2px;
+  }
   /* End of get started */
   .heading-main-section .breadcrumb-card-root {
     margin: 0 0 20px 0;
@@ -2571,6 +2650,9 @@ body {
   .custom-card-section .custom-white-card02 .card-header h3 {
     font-size: 20px;
   }
+  .custom-card-section .custom-white-card02 .card-header .title-txt-div .h2-title {
+    font-size: 18px;
+  }
   .custom-card-section .custom-white-card02 .card-body {
     padding: 10px 20px 10px 20px;
   }
@@ -2596,6 +2678,44 @@ body {
   .custom-icon-card-section .card .card-body .card-icon-txt-box .card-icon-txt-right-box .img-thumb-div .img-icon {
     width: 60px;
     height: 60px;
+  }
+  .custom-tasks-card-section .card-tabs-box-root .card-tabs-box-header .nav-tabs .nav-link {
+    font-size: 16px;
+    padding: 10px 20px 8px 20px;
+  }
+  .custom-tasks-card-section .card-tabs-box-root .card-tabs-box-body .tab-container-inner .form-root .check-list-root .check-list-row {
+    padding: 18px 10px 15px 10px;
+  }
+  .custom-upc-jobs-card-section .custom-white-card02 .card-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .custom-upc-jobs-card-section .upc-jobs-root-div .upc-jobs-root-top {
+    padding: 0 20px;
+  }
+  .custom-upc-jobs-card-section .upc-jobs-root-div .upc-jobs-root-top .upc-jobs-root-top-left {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  .custom-upc-jobs-card-section .upc-jobs-root-div .upc-jobs-root-top .upc-jobs-root-top-left h4 {
+    font-size: 14px;
+  }
+  .custom-upc-jobs-card-section .upc-jobs-root-div .upc-jobs-root-top .upc-jobs-root-top-right {
+    width: 100%;
+  }
+  .custom-upc-jobs-card-section .upc-jobs-root-div .upc-jobs-root-top .upc-jobs-root-top-right .select2-form-group {
+    width: 100%;
+  }
+  .custom-map-lt-card-section .map-lt-root-div .map-lt-root-top .map-lt-root-top-left {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .custom-map-lt-card-section .map-lt-root-div .map-lt-root-top .map-lt-root-top-right {
+    width: 100%;
+  }
+  .custom-map-lt-card-section .map-lt-root-div .map-lt-root-top .map-lt-root-top-right .search-new-div {
+    width: 100%;
   }
 }
 

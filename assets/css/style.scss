@@ -1888,6 +1888,78 @@
   }
 }
 
+.custom-satisfaction-card-section {
+  .custom-white-card02 {
+    .card-header {
+      border-bottom: 1px solid #f4f4f4;
+    }
+
+    .card-body {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.gauge-graph-root {
+  .gauge-graph {
+    height: 300px;
+  }
+
+  .highcharts-figure,
+  .highcharts-data-table table {
+    min-width: 280px;
+    max-width: 500px;
+    margin: 1em auto;
+  }
+
+  .highcharts-credits {
+    display: none;
+  }
+
+  g.highcharts-exporting-group {
+    display: none;
+  }
+
+  .highcharts-data-table {
+    table {
+      font-family: Verdana, sans-serif;
+      border-collapse: collapse;
+      border: 1px solid #ebebeb;
+      margin: 10px auto;
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    caption {
+      padding: 1em 0;
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    th {
+      font-weight: 600;
+      padding: 0.5em;
+    }
+
+    td,
+    th,
+    caption {
+      padding: 0.5em;
+    }
+  }
+
+  .highcharts-data-table thead tr,
+  .highcharts-data-table tr:nth-child(even) {
+    background: #fff;
+  }
+
+  .highcharts-data-table tr:hover {
+    background: #fff;
+  }
+}
+
 @media (min-width: 1025px) {
   /* main right content area */
   .middle-area-dashboard {
@@ -2076,6 +2148,27 @@
     }
   }
 
+  .form-root {
+    .custom-checkbox {
+      font-size: 16px;
+
+      .custom-control-label {
+        padding: 0 0 0 30px;
+
+        &::before {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      .custom-control-input:checked ~ .custom-control-label::after {
+        background-size: 12px;
+        top: 4px;
+        left: 2px;
+      }
+    }
+  }
+
   /* End of get started */
 
   .heading-main-section {
@@ -2129,6 +2222,12 @@
         h3 {
           font-size: 20px;
         }
+
+        .title-txt-div {
+          .h2-title {
+            font-size: 18px;
+          }
+        }
       }
 
       .card-body {
@@ -2170,6 +2269,83 @@
                 height: 60px;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  .custom-tasks-card-section {
+    .card-tabs-box-root {
+      .card-tabs-box-header {
+        .nav-tabs {
+          .nav-link {
+            font-size: 16px;
+            padding: 10px 20px 8px 20px;
+          }
+        }
+      }
+
+      .card-tabs-box-body {
+        .tab-container-inner {
+          .form-root {
+            .check-list-root {
+              .check-list-row {
+                padding: 18px 10px 15px 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .custom-upc-jobs-card-section {
+    .custom-white-card02 {
+      .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    .upc-jobs-root-div {
+      .upc-jobs-root-top {
+        padding: 0 20px;
+
+        .upc-jobs-root-top-left {
+          width: 100%;
+          margin: 0 0 15px 0;
+
+          h4 {
+            font-size: 14px;
+          }
+        }
+
+        .upc-jobs-root-top-right {
+          width: 100%;
+
+          .select2-form-group {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .custom-map-lt-card-section {
+    .map-lt-root-div {
+      .map-lt-root-top {
+        .map-lt-root-top-left {
+          width: 100%;
+          margin: 0 0 10px 0;
+        }
+
+        .map-lt-root-top-right {
+          width: 100%;
+
+          .search-new-div {
+            width: 100%;
           }
         }
       }
