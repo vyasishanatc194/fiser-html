@@ -275,6 +275,12 @@ body {
   background-image: url(../images/icons/custom/book-icon.svg);
 }
 
+.weather-sun-solid-icon {
+  width: 55px;
+  height: 45px;
+  background-image: url(../images/icons/custom/weather-sun.svg);
+}
+
 /*  general css */
 .display_show {
   display: block;
@@ -748,7 +754,7 @@ body {
 }
 
 .middle-area-dashboard .main-middle-area {
-  padding: 0 0 0 20px;
+  padding: 0 15px 0 15px;
   margin: 0;
   position: relative;
   min-height: 100vh;

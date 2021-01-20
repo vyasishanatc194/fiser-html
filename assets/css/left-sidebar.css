@@ -108,6 +108,12 @@
   background-image: url(../images/icons/custom/book-icon.svg);
 }
 
+.weather-sun-solid-icon {
+  width: 55px;
+  height: 45px;
+  background-image: url(../images/icons/custom/weather-sun.svg);
+}
+
 .left-side-nav {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
