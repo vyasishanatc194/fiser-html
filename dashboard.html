@@ -16,6 +16,11 @@
 <link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/asPieProgress.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+<link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+
 <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/dasboard.css" media="all" rel="stylesheet" type="text/css" />
@@ -246,7 +251,7 @@
 
                     <div class="row">
                       
-                      <div class="col-lg-6 col-md-6">
+                      <div class="col-lg-6 col-md-12">
                         
                         <section class="custom-card-weather-section">
 
@@ -272,14 +277,419 @@
 
                       </div>
 
-                      <div class="col-lg-6 col-md-6">
+                      <div class="col-lg-6 col-md-12">
                         
-                        <section class="custom-card-weather-section">
+                        <section class="custom-card-section">
 
-                          <div class="card custom-white-card01">
+                          <div class="card custom-white-card01 waether-report-white-card">
                             <div class="card-body">
                               
+                              <img src="assets/images/waether-image.jpg" class="img-fluid img-full" alt="img" />
 
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Revenue</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$34,252</h4>
+                                  <p> <span class="badge badge-light">+ 13%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon01.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Cost</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$9,722</h4>
+                                  <p> <span class="badge badge-light">+ 7%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon02.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Average Price</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$120</h4>
+                                  <p> <span class="badge badge-light">+ 15%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon03.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-6 col-md-12">
+                        
+                        <section class="custom-card-section custom-tasks-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Tasks</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-tabs-box-root">
+                                
+                                <div class="card-tabs-box-header">
+                                  <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" data-toggle="tab" href="#tasks-nav-link01">In Process</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" data-toggle="tab" href="#tasks-nav-link02">Upcoming</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="card-tabs-box-body">
+                                  <div class="tab-content">
+                                    
+                                    <div id="tasks-nav-link01" class="tab-pane active">
+                                      
+                                      <div class="tab-container-inner">
+
+                                        <div class="form-root">
+                                          <div class="row">
+                                            <div class="col-lg-12 col-md-12">
+
+                                              <div class="check-list-root">
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-in-task01" name="customCheck-in-task">
+                                                    <label class="custom-control-label" for="customCheck-in-task01">Call Michael</label>
+                                                  </div>
+                                                </div>
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-in-task02" name="customCheck-in-task">
+                                                    <label class="custom-control-label" for="customCheck-in-task02">Replace products</label>
+                                                  </div>
+                                                </div>
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-in-task03" name="customCheck-in-task">
+                                                    <label class="custom-control-label" for="customCheck-in-task03">Create social media strategy</label>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+                                              
+                                            </div>    
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                    </div>
+
+                                    <div id="tasks-nav-link02" class="tab-pane fade">
+                                      
+                                      <div class="tab-container-inner">
+
+                                        <div class="form-root">
+                                          <div class="row">
+                                            <div class="col-lg-12 col-md-12">
+
+                                              <div class="check-list-root">
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-upcoming-task01" name="customCheck-upcoming-task">
+                                                    <label class="custom-control-label" for="customCheck-upcoming-task01">Call Michael</label>
+                                                  </div>
+                                                </div>
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-upcoming-task02" name="customCheck-upcoming-task">
+                                                    <label class="custom-control-label" for="customCheck-upcoming-task02">Replace products</label>
+                                                  </div>
+                                                </div>
+
+                                                <div class="check-list-row">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck-upcoming-task03" name="customCheck-upcoming-task">
+                                                    <label class="custom-control-label" for="customCheck-upcoming-task03">Create social media strategy</label>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+                                              
+                                            </div>    
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-6 col-md-12">
+                        
+                        <section class="custom-card-section custom-chat-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              
+                            </div>
+                            <div class="card-body">
+                              
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-6 col-md-12">
+                        
+                        <section class="custom-card-section custom-upc-jobs-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <div class="title-txt-div">
+                                <h2 class="h2-title">
+                                  <span class="icon-span"> <i class="bg-custom-icon calendar-black-icon"></i> </span>
+                                  <span class="txt-span"> Upcoming Jobs </span>
+                                </h2>
+                              </div>
+                            </div>
+                            <div class="card-body">
+
+                              <div class="upc-jobs-root-div">
+                                <div class="upc-jobs-root-top">
+                                  <div class="upc-jobs-root-top-left">
+                                    <h4>Monday, August 10, 2020</h4>
+                                  </div>
+                                  <div class="upc-jobs-root-top-right">
+                                    <div class="select2-form-group">
+                                      <div class="select-box select-custom2 select-custom2-general">
+                                        <select class="js-select2 select2" id="select-sort-type">
+                                          <option selected>Day</option>
+                                          <option>Month </option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="upc-jobs-root-middle">
+
+                                  <div class="table-responsive">
+                                    <table class="table table-custom-01">
+                                      <tbody>
+                                        <tr>
+                                          <th>1:00 PM</th>
+                                          <td> &nbsp; </td>
+                                        </tr>
+                                        <tr>
+                                          <th>2:00 PM</th>
+                                          <td> &nbsp; </td>
+                                        </tr>
+                                        <tr>
+                                          <th>3:00 PM</th>
+                                          <td> &nbsp; </td>
+                                        </tr>
+                                        <tr>
+                                          <th>4:00 PM</th>
+                                          <td> &nbsp; </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-6 col-md-12">
+                        
+                        <section class="custom-card-section custom-map-lt-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <div class="title-txt-div">
+                                <h2 class="h2-title">
+                                  <span class="icon-span"> <i class="bg-custom-icon location-black-icon"></i> </span>
+                                  <span class="txt-span"> Map </span>
+                                </h2>
+                              </div>
+                            </div>
+                            <div class="card-body">
+
+                              <div class="map-lt-root-div">
+                                <div class="map-lt-root-top">
+                                  <div class="map-lt-root-top-left">
+                                    <h4>Live Tracking</h4>
+                                  </div>
+                                  <div class="map-lt-root-top-right">
+                                    <div class="search-new-div">
+                                      <div class="search-new-row">
+                                        <div class="search-input-box">
+                                          <input type="text" class="form-control form-search" />
+                                          <div class="search-icon-box">
+                                            <button class="btn btn-search"><span class="bg-custom-icon search-icon"></span></button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="map-lt-root-middle">
+
+                                  <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.8230161159163!2d-96.82322058430753!3d32.98207088091057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c215969b93149%3A0x2aef9683ac96db5d!2sBent%20Tree%20Country%20Club!5e0!3m2!1sen!2sin!4v1611138113466!5m2!1sen!2sin" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-xl-6 col-lg-12 col-md-12">
+                        
+                        <section class="custom-card-section custom-table-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <div class="title-txt-div">
+                                <h2 class="h2-title">
+                                  <span class="icon-span"> <i class="bg-custom-icon clipart-black-icon"></i> </span>
+                                  <span class="txt-span"> Pending Quotes </span>
+                                </h2>
+                              </div>
+                            </div>
+                            <div class="card-body">
+
+                              <div class="cm-table-card-root-div">
+                                <div class="cm-table-card-root-middle">
+
+                                  <div class="table-responsive">
+                                    <table class="table table-custom-02">
+                                      <thead>
+                                        <tr>
+                                          <th>#</th>
+                                          <th>Name</th>
+                                          <th>Date</th>
+                                          <th>Service</th>
+                                          <th>Total</th>
+                                          <th>Status</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td> 01 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>Youssef Kone</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Engine Bay </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="select2-form-group">
+                                                  <div class="select-box select-custom2 select-custom2-general">
+                                                    <select class="js-select2 select2" id="select-sort-type">
+                                                      <option selected> Action </option>
+                                                      <option> View </option>
+                                                    </select>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                </div>
+                              </div>
 
                             </div>
                           </div>                      
@@ -291,78 +701,6 @@
                     </div>      
 
                   </div>
-                  
-                  <section class="table-white-card-section">
-                    <div class="row">
-                      <div class="col-lg-12 col-md-12">
-
-                        <div class="white-card">
-                          <div class="white-card-inner">
-
-                            <div class="white-card-header">
-                              <div class="white-card-header-left">
-                                <h3>Recent Approval</h3>
-                              </div>
-                              <div class="white-card-header-right">
-                                <a href="#" class="btn btn-white">View all</a>
-                              </div>
-                            </div>
-
-                            <div class="white-card-body">
-                              
-                              <div class="table-responsive">
-                                <table class="table table-sm table-hover mb-0">
-                                  <thead>
-                                    <tr>
-                                      <th class="width-25 text-left" scope="col">Name</th>
-                                      <th class="width-25" scope="col">Request</th>
-                                      <th class="width-25" scope="col">Approval Time</th>
-                                      <th class="width-25" scope="col">Approval Date</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td class="text-left">COMPANY NAME</td>
-                                      <td>Check-IN</td>
-                                      <td>12pm</td>
-                                      <td>30th December 2020</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text-left">COMPANY NAME</td>
-                                      <td>Check-IN</td>
-                                      <td>12pm</td>
-                                      <td>30th December 2020</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text-left">COMPANY NAME</td>
-                                      <td>Check-IN</td>
-                                      <td>12pm</td>
-                                      <td>30th December 2020</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text-left">COMPANY NAME</td>
-                                      <td>Check-IN</td>
-                                      <td>12pm</td>
-                                      <td>30th December 2020</td>
-                                    </tr>
-                                    <tr>
-                                      <td class="text-left">COMPANY NAME</td>
-                                      <td>Check-IN</td>
-                                      <td>12pm</td>
-                                      <td>30th December 2020</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-
-                            </div>
-
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </section>
                   
                 </div>  
               </div>        
@@ -379,6 +717,7 @@
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-asPieProgress.js"></script>
+<script src="assets/js/select2.full.js"></script>
 <script src="assets/js/dashboard.js"></script>
 <script src="assets/js/custom.js"></script>
 

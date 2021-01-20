@@ -114,6 +114,30 @@
   background-image: url(../images/icons/custom/weather-sun.svg);
 }
 
+.calendar-black-icon {
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/icons/custom/calendar-black-icon.png);
+}
+
+.calendar-black-icon {
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/icons/custom/calendar-black-icon.png);
+}
+
+.location-black-icon {
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/icons/custom/location-black-icon.png);
+}
+
+.clipart-black-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icons/custom/clipart-black-icon.png);
+}
+
 .left-side-nav {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;

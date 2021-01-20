@@ -1,0 +1,109 @@
+.table.table-custom-01 tbody td {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 16px 20px 14px 20px;
+}
+
+.table.table-custom-01 tbody th {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 16px 20px 14px 20px;
+  border-right: 1px solid #ebeaea;
+  width: 110px;
+  text-align: center;
+}
+
+.table.table-custom-02 thead th {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 16px 15px 14px 15px;
+}
+
+.table.table-custom-02 thead th:first-child {
+  padding-left: 20px;
+}
+
+.table.table-custom-02 thead th:last-child {
+  padding-right: 20px;
+}
+
+.table.table-custom-02 tbody td {
+  color: #06151b;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 16px 15px 14px 15px;
+  vertical-align: middle;
+}
+
+.table.table-custom-02 tbody td:first-child {
+  padding-left: 20px;
+}
+
+.table.table-custom-02 tbody td:last-child {
+  padding-right: 20px;
+}
+
+.table.table-custom-02 tbody td .img-txt-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.table.table-custom-02 tbody td .img-txt-div .img-div {
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.table.table-custom-02 tbody td .img-txt-div .txt-div {
+  width: calc(100% - 40px);
+  padding: 0 0 0 10px;
+}
+
+.table.table-custom-02 tbody td .status-row-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div {
+  position: relative;
+  margin: 0 10px 0 0;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt {
+  position: relative;
+  padding: 0 0 0 15px;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt .dot {
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+  background-color: #eb8900;
+  border-radius: 100px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+/*# sourceMappingURL=table-custom-style.css.map */

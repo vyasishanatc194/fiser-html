@@ -365,6 +365,38 @@
   .table-white-card-section .statistics-card .statistics-card-inner .statistics-card-body .statistics-number-view-box h4 {
     font-size: 22px;
   }
+  .custom-card-weather-section .custom-color-card01 {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+    margin: 0 0 25px 0;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body {
+    padding: 25px 20px 25px 20px;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body h3 {
+    font-size: 20px;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body p {
+    font-size: 14px;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx {
+    padding: 15px 15px;
+    margin: 25px 0 0 0;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-left-bx .weather-sun-solid-icon {
+    width: 40px;
+    height: 34px;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-left-bx .txt-span {
+    font-size: 26px;
+    line-height: 26px;
+    width: calc(100% - 40px);
+    padding: 3px 0 0 10px;
+  }
+  .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-right-bx .btn.btn-weather-primary {
+    padding: 6px 15px 4px 15px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
