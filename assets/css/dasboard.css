@@ -288,6 +288,7 @@
   letter-spacing: 1px;
   width: calc(100% - 55px);
   padding: 3px 0 0 12px;
+  min-width: 105px;
 }
 
 .custom-card-weather-section .custom-color-card01 .card-body .bottom-row-bx .bottom-right-bx .btn.btn-weather-primary {

@@ -14,9 +14,9 @@ Highcharts.chart("hours-graph", {
       "10:00 AM",
       "12:00 AM",
       "02:00 PM",
-      "02:00 PM",
-      "02:00 PM",
-      "02:00 PM",
+      "04:00 PM",
+      "06:00 PM",
+      "08:00 PM",
     ],
   },
 
@@ -49,17 +49,19 @@ Highcharts.chart("hours-graph", {
   plotOptions: {
     column: {
       stacking: "normal",
+      borderRadiusTopLeft: 15,
+      borderRadiusTopRight: 15,
     },
   },
 
   series: [
     {
-      name: "John",
+      name: "Normal Time",
       data: [5, 3, 5, 4, 7, 5, 4, 7],
       stack: "male",
     },
     {
-      name: "Joe",
+      name: "Busiest Hours",
       data: [5, 7, 5, 6, 3, 5, 6, 3],
       stack: "male",
     },
