@@ -1,23 +1,23 @@
 $(document).ready(function () {
   $("#pie_progress01").asPieProgress({
     namespace: "pie_progress",
-    barcolor: "#85D100",
-    trackcolor: "#fff",
-    fillcolor: "#F9FFF4",
+    barcolor: "#6D82E8",
+    trackcolor: "#F4F4F4",
+    fillcolor: "#fff",
   });
 
   $("#pie_progress02").asPieProgress({
     namespace: "pie_progress",
-    barcolor: "#FFBD6A",
-    trackcolor: "#fff",
-    fillcolor: "#FDF9F4",
+    barcolor: "#34c38f",
+    trackcolor: "#F4F4F4",
+    fillcolor: "#fff",
   });
 
   $("#pie_progress03").asPieProgress({
     namespace: "pie_progress",
-    barcolor: "#98A9BC",
-    trackcolor: "#E8ECEF",
-    fillcolor: "#FEFEFE",
+    barcolor: "#f46a6a",
+    trackcolor: "#F4F4F4",
+    fillcolor: "#fff",
   });
 
   $(".pie_progress").asPieProgress("start");
