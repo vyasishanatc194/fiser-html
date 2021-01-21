@@ -580,6 +580,87 @@
   line-height: 1;
 }
 
+.client-upload-section .upload-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  width: 100%;
+}
+
+.client-upload-section .fileupload.custom-file {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+
+.client-upload-section .fileupload.custom-file .custom-file-input {
+  display: none;
+}
+
+.client-upload-section .fileupload.custom-file label {
+  position: unset;
+  background-color: #000;
+  color: #fff;
+  width: 360px;
+  height: 130px;
+  border-radius: 20px;
+  font-size: 30px;
+  line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.client-upload-section .fileupload.custom-file label::after {
+  display: none;
+}
+
+.client-upload-section .fileupload.custom-file span {
+  padding: 20px 0;
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000;
+}
+
+.service-upload {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
 @media (max-width: 767px) {
   .setting-tools-section .setting-tools-group {
     -webkit-box-orient: vertical;
@@ -621,6 +702,18 @@
     padding: 12px 15px;
     white-space: nowrap;
     text-align: center;
+  }
+  .calendar-section .fc-header-toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .calendar-section .fc-header-toolbar .fc-toolbar-chunk {
+    margin-bottom: 10px;
   }
 }
 

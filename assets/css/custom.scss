@@ -21,8 +21,6 @@
   }
 }
 
-
-
 .breadcrumb-section {
   margin-bottom: 50px;
 
@@ -546,6 +544,67 @@
 
 // tables end
 
+.client-upload-section {
+  
+  .upload-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+  }
+
+  .fileupload.custom-file {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: auto;
+
+      .custom-file-input {
+       display: none;
+      }
+  
+      label {
+        position: unset;
+        background-color: #000;
+        color: #fff;
+        width: 360px;
+        height: 130px;
+        border-radius: 20px;
+        font-size: 30px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: 800;
+
+        &::after {
+          display: none;
+        }
+      }
+
+      span {
+        padding: 20px 0;  
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        color: #000;
+      }
+    }
+  
+}
+
+.service-upload {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
+
 @media (max-width: 767px) {
 
   // client tabs
@@ -590,6 +649,18 @@
           white-space: nowrap;
           text-align: center;
         }
+      }
+    }
+  }
+
+  .calendar-section {
+    
+    .fc-header-toolbar {
+      display: flex;
+      flex-direction: column;
+
+      .fc-toolbar-chunk {
+        margin-bottom: 10px;
       }
     }
   }
