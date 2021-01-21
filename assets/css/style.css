@@ -305,6 +305,30 @@ body {
   background-image: url(../images/icons/custom/clipart-black-icon.png);
 }
 
+.email-color-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/icons/custom/email-color-icon.svg);
+}
+
+.phone-color-icon {
+  width: 13px;
+  height: 21px;
+  background-image: url(../images/icons/custom/phone-color-icon.svg);
+}
+
+.company-color-icon {
+  width: 25px;
+  height: 23px;
+  background-image: url(../images/icons/custom/company-color-icon.svg);
+}
+
+.ratings-color-icon {
+  width: 19px;
+  height: 23px;
+  background-image: url(../images/icons/custom/ratings-color-icon.svg);
+}
+
 /*  general css */
 .display_show {
   display: block;

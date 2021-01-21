@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Dashboard | Fiser</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#06151B">
+<meta name="msapplication-navbutton-color" content="#06151B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+<link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/mg-profile.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper dashboard-wrapper">
+
+  <!-- left-side -->
+  <div class="left-side-nav">
+    <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo" >
+            <img src="assets/images/logo.png" class="logo" alt="logo" /> 
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="responsive-menu-view-div desktop-hidden" id="responsive-menu-view-area">
+              
+            </div>
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
+                    <span class="text-collapse-menu">Communication</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span> 
+                    <span class="text-collapse-menu">Customize My App</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span> 
+                    <span class="text-collapse-menu">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+        
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+    </div>
+  </div>
+  <!--  End of left-side  -->
+
+  <!-- Begin page content -->
+  <main role="main" class="middle-area-dashboard main-dashboard">
+    <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid d-block">
+                    
+                    <div class="row col-header-row">
+                        <div class="col-lg-12 col-12">
+
+                            <div class="nav-dashboard-row">
+
+                                <div class="nav-dashboard-left">
+                                  <div class="nav-dashboard-left-inner">
+                                    <div class="nav-dashboard-btn-box">
+                                      <a href="#" class="btn btn-primary">ADD NEW</a>
+                                    </div>
+                                    <div class="search-div">
+                                      <div class="search-row">
+                                        <div class="search-input-box">
+                                          <div class="search-icon-box">
+                                            <button class="btn btn-search" id="btn-search-tp"><span class="bg-custom-icon search-icon"></span></button>
+                                          </div>
+                                          <input type="text" class="form-control form-search" id="form-search" placeholder="Search...">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="nav-dashboard-right mobile-hidden" id="nav-top-header-right-area">
+
+                                  <div class="nav-list-top-right-div">
+                                    <ul class="nav-list-top-right-ul">
+                                      <li class="nav-item nav-item01">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon document-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item02">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon clock-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item03">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon chat-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item04">
+                                        <a href="#" class="btn btn-nav-link notification-btn-link">
+                                          <i class="bg-custom-icon notification-icon"></i>
+                                          <span class="number-span">4</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item05">
+                                        <div class="user-drop-down">
+                                          <div class="dropdown drop-left dropdown-custom-top">
+                                            <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <div class="user-profile">
+                                                <div class="user-info">
+                                                  <h3>Youssef Kone</h3>
+                                                  <p>Available</p>
+                                                </div>
+                                                <div class="user-img">
+                                                  <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                                </div>
+                                              </div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <ul>
+                                                <li><a class="dropdown-item" href="#"> Profile</a></li>
+                                                <li class="logout-li"><a class="dropdown-item" href="#"> <i class="fe fe-log-in"></i> Logout</a></li>
+                                              </ul>                   
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="nav-item nav-item06">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon book-icon"></i>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </nav>
+        </header>
+        <!-- End of header -->
+        
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                  <section class="breadcrumb-section">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Management</a></li>
+                        <li class="breadcrumb-item"><a href="#">Team Members</a></li>
+                        <li class="breadcrumb-item"><a href="#">Admins</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                      </ol>
+                    </nav>
+                  </section>
+                  <!-- bread crumb end -->
+
+                  <div class="profile-root-div">
+
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12">
+
+                        <div class="profile-view-banner-root">
+                          <div class="profile-view-banner-row">
+
+                            <div class="profile-view-banner-top">
+                              <div class="profile-view-thumb-div">
+                                <img src="assets/images/background/img-banner.jpg" class="img-fluid img-banner" alt="img" />
+                              </div>
+                            </div>
+                            <div class="profile-view-banner-body">
+
+                              <div class="profile-view-text-div">
+                                <div class="profile-view-text-row">
+                                  
+                                  <div class="profile-view-text-left">
+                                    <div class="img-div">
+                                      <img src="assets/images/user-img-01.png" class="img-fluid img-user" alt="img" />
+                                    </div>
+                                  </div>
+
+                                  <div class="profile-view-text-right">
+
+                                    <div class="profile-title-div">
+                                      <div class="profile-title-left-div">
+                                        <h2>ALEXANDER GAUSS</h2>
+                                      </div>
+                                      <div class="profile-title-right-div">
+                                        <div class="btn-div">
+                                          <a href="#" class="btn btn-white mr-20">Update Info</a>
+                                          <a href="#" class="btn btn-white">Activity</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="profile-info-row">
+                                      <div class="profile-info-bx">
+                                        <h3 class="title-h3"> <span class="icon-span"> <i class="bg-custom-icon email-color-icon"></i> </span> <span class="text-span">Email</span> </h3>
+                                        <p> <a href="mailto:Johndoe@gmail.com" class="link">Johndoe@gmail.com</a> </p>
+                                      </div>
+                                      <div class="profile-info-bx">
+                                        <h3 class="title-h3"> <span class="icon-span"> <i class="bg-custom-icon phone-color-icon"></i> </span> <span class="text-span">Phone Number</span> </h3>
+                                        <p> <a href="tel:80012080000" class="link">800-120-80000</a> </p>
+                                      </div>
+                                      <div class="profile-info-bx">
+                                        <h3 class="title-h3"> <span class="icon-span"> <i class="bg-custom-icon company-color-icon"></i> </span> <span class="text-span">Company</span> </h3>
+                                        <p> Tesla </p>
+                                      </div>
+                                      <div class="profile-info-bx">
+                                        <h3 class="title-h3"> <span class="icon-span"> <i class="bg-custom-icon ratings-color-icon"></i> </span> <span class="text-span">Ratings</span> </h3>
+                                        <p> 55 </p>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div>    
+                              </div>
+
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Revenue</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$34,252</h4>
+                                  <p> <span class="badge badge-light">+ 13%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon01.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Cost</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$9,722</h4>
+                                  <p> <span class="badge badge-light">+ 7%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon02.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-lg-4 col-md-12">
+                        
+                        <section class="custom-card-section custom-icon-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <h3>Average Price</h3>
+                            </div>
+                            <div class="card-body">
+                              <div class="card-icon-txt-box">
+                                <div class="card-icon-txt-left-box">
+                                  <h4>$120</h4>
+                                  <p> <span class="badge badge-light">+ 15%</span> From previous <span class="block">period</span> </p>
+                                </div>
+                                <div class="card-icon-txt-right-box">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/icon03.png" class="img-fluid img-icon" alt="icon" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                      <div class="col-xl-6 col-lg-12 col-md-12">
+                        
+                        <section class="custom-card-section custom-table-card-section">
+
+                          <div class="card custom-white-card02">
+                            <div class="card-header">
+                              <div class="title-txt-div">
+                                <h2 class="h2-title">
+                                  <span class="icon-span"> <i class="bg-custom-icon clipart-black-icon"></i> </span>
+                                  <span class="txt-span"> Pending Quotes </span>
+                                </h2>
+                              </div>
+                            </div>
+                            <div class="card-body">
+
+                              <div class="cm-table-card-root-div">
+                                <div class="cm-table-card-root-middle">
+
+                                  <div class="table-responsive">
+                                    <table class="table table-hover table-custom-02">
+                                      <thead>
+                                        <tr>
+                                          <th class="width-50px">#</th>
+                                          <th class="width-34-50px min-width-172">Name</th>
+                                          <th class="width-15">Date</th>
+                                          <th class="width-15 min-width-90">Service</th>
+                                          <th class="width-15">Total</th>
+                                          <th class="width-26 min-width-200">Status</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td> 01 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>Youssef Kone</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Engine Bay </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="dropdown dropdown-custom-action">
+                                                  <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Action
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul>
+                                                      <li><a class="dropdown-item" href="#">View</a></li>
+                                                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Text</a></li>
+                                                      <li><a class="dropdown-item" href="#">Push Notification</a></li>
+                                                      <li><a class="dropdown-item" href="#">Add Credit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Inactivate</a></li>
+                                                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td> 02 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.png" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>James Brown</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Engine Bay </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt canceled-status"> <span class="dot"></span> Canceled</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="dropdown dropdown-custom-action">
+                                                  <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Action
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul>
+                                                      <li><a class="dropdown-item" href="#">View</a></li>
+                                                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Text</a></li>
+                                                      <li><a class="dropdown-item" href="#">Push Notification</a></li>
+                                                      <li><a class="dropdown-item" href="#">Add Credit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Inactivate</a></li>
+                                                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td> 03 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>Barack Obama</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Hand Wash </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="dropdown dropdown-custom-action">
+                                                  <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Action
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul>
+                                                      <li><a class="dropdown-item" href="#">View</a></li>
+                                                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Text</a></li>
+                                                      <li><a class="dropdown-item" href="#">Push Notification</a></li>
+                                                      <li><a class="dropdown-item" href="#">Add Credit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Inactivate</a></li>
+                                                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td> 04 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>Michael Jackson</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Engine Bay </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="dropdown dropdown-custom-action">
+                                                  <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Action
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul>
+                                                      <li><a class="dropdown-item" href="#">View</a></li>
+                                                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Text</a></li>
+                                                      <li><a class="dropdown-item" href="#">Push Notification</a></li>
+                                                      <li><a class="dropdown-item" href="#">Add Credit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Inactivate</a></li>
+                                                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td> 05 </td>
+                                          <td>
+                                            <div class="img-txt-div">
+                                              <div class="img-div">
+                                                <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                              </div>
+                                              <div class="txt-div">
+                                                <p>Michael Jackson</p>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td> 07/20/2020 </td>
+                                          <td> Engine Bay </td>
+                                          <td> $190.00 </td>
+                                          <td>
+                                            <div class="status-row-div">
+                                              <div class="status-label-div">
+                                                <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
+                                              </div>
+                                              <div class="status-select-div">
+                                                <div class="dropdown dropdown-custom-action">
+                                                  <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Action
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul>
+                                                      <li><a class="dropdown-item" href="#">View</a></li>
+                                                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Text</a></li>
+                                                      <li><a class="dropdown-item" href="#">Push Notification</a></li>
+                                                      <li><a class="dropdown-item" href="#">Add Credit</a></li>
+                                                      <li><a class="dropdown-item" href="#">Inactivate</a></li>
+                                                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>                      
+
+                        </section>
+
+                      </div>
+
+                    </div>      
+
+                  </div>
+                  
+                </div>  
+              </div>        
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+    </div>
+  </main>
+
+</div><!-- end of wrapper -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/select2.full.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
