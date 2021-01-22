@@ -962,6 +962,10 @@
   border-radius: 100px;
 }
 
+.service-add-item .card-header-one .form-group {
+  margin-bottom: 10px;
+}
+
 .service-add-item .card-header-one .select2-container {
   width: 100% !important;
 }
@@ -972,6 +976,8 @@
 
 .service-add-item .card-header-one .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .service-add-item .card-header-one .select2-container--default .select2-selection--single .select2-selection__arrow {
