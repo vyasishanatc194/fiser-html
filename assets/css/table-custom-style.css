@@ -183,6 +183,14 @@
   background-color: #12eb00;
 }
 
+.table.table-borderless thead th {
+  border-color: transparent;
+}
+
+.table.table-borderless tbody td {
+  border-color: transparent;
+}
+
 @media (max-width: 767px) {
   .table.table-custom-01 tbody th {
     font-size: 14px;

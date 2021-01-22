@@ -175,7 +175,24 @@
             }
           }
         }
+
+        .status-btn-div {
+        }
       }
+    }
+  }
+}
+
+.table.table-borderless {
+  thead {
+    th {
+      border-color: transparent;
+    }
+  }
+
+  tbody {
+    td {
+      border-color: transparent;
     }
   }
 }
