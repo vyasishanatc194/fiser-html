@@ -46,6 +46,26 @@
         width: 10%;
       }
 
+      &.width-11 {
+        width: 11%;
+      }
+
+      &.width-12 {
+        width: 12%;
+      }
+
+      &.width-13 {
+        width: 13%;
+      }
+
+      &.width-25-50px {
+        width: calc(25% - 15px);
+      }
+
+      &.width-30-50px {
+        width: calc(30% - 15px);
+      }
+
       &.width-34-50px {
         width: calc(34% - 15px);
       }
@@ -56,6 +76,10 @@
 
       &.width-15 {
         width: 15%;
+      }
+
+      &.width-20 {
+        width: 20%;
       }
 
       &.width-25 {
@@ -76,6 +100,10 @@
 
       &.min-width-90 {
         min-width: 90px;
+      }
+
+      &.min-width-140 {
+        min-width: 140px;
       }
 
       &.min-width-172 {
@@ -179,6 +207,24 @@
         .status-btn-div {
         }
       }
+
+      .badge.badge-custom {
+        padding: 5px 14px 3px 14px;
+        font-size: 13px;
+        line-height: 16px;
+        border-radius: 5px;
+        border: none;
+        background-color: #12eb00;
+        color: #fff;
+
+        &.badge-debit {
+          background-color: #e51616;
+        }
+
+        &.badge-credit {
+          background-color: #12eb00;
+        }
+      }
     }
   }
 }
@@ -187,11 +233,20 @@
   thead {
     th {
       border-color: transparent;
+      text-align: left;
     }
   }
 
   tbody {
     td {
+      border-color: transparent;
+    }
+  }
+}
+
+.table-heading-borderless {
+  thead {
+    th {
       border-color: transparent;
     }
   }

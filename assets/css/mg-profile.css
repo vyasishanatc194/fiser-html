@@ -389,6 +389,38 @@
   padding: 12px 0 0 0;
 }
 
+.profile-tab-section .tab-pane-inner-div .wallet-tab-table-div .title-div h3 {
+  color: #06151b;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 700;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.profile-tab-section .tab-pane-inner-div .wallet-tab-table-div .table.table-custom-02 tbody td {
+  padding: 30px 15px 30px 15px;
+}
+
+.profile-tab-section .tab-pane-inner-div .wallet-tab-table-div .border-card-txt-div {
+  margin: 0 0 10px 0;
+}
+
+.profile-tab-section .tab-pane-inner-div .wallet-tab-table-div .border-card-txt-div .border-card-txt-inner-div {
+  background-color: #fff;
+  border: 1px solid #d9d8d8;
+  border-radius: 10px;
+  padding: 20px 20px 15px 20px;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #06151b;
+}
+
+.profile-tab-section .tab-pane-inner-div .wallet-tab-table-div .border-card-txt-div .border-card-txt-inner-div .bold {
+  font-weight: 700;
+}
+
 .profile-tab-section .base-tab-pane-inner .base-rate-tab-root {
   padding: 20px 30px 15px 30px;
 }

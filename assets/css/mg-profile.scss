@@ -337,6 +337,46 @@
         }
       }
     }
+
+    .wallet-tab-table-div {
+      .title-div {
+        h3 {
+          color: #06151b;
+          font-size: 22px;
+          line-height: 1.5;
+          font-weight: 700;
+          display: block;
+          margin: 0 0 10px 0;
+        }
+      }
+
+      .table.table-custom-02 {
+        tbody {
+          td {
+            padding: 30px 15px 30px 15px;
+          }
+        }
+      }
+
+      .border-card-txt-div {
+        margin: 0 0 10px 0;
+
+        .border-card-txt-inner-div {
+          background-color: #fff;
+          border: 1px solid #d9d8d8;
+          border-radius: 10px;
+          padding: 20px 20px 15px 20px;
+          margin: 0 0 20px 0;
+          font-size: 16px;
+          line-height: 24px;
+          color: #06151b;
+
+          .bold {
+            font-weight: 700;
+          }
+        }
+      }
+    }
   }
 
   .base-tab-pane-inner {

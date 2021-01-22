@@ -325,21 +325,24 @@
                                 <div class="client-tabs">
                                   <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                      <a class="nav-link active" id="profile-tab-01" data-toggle="tab" href="#profile-01" role="tab" aria-selected="true">User Activity</a>
+                                      <a class="nav-link active" id="profile-user-tab-01" data-toggle="tab" href="#profile-user-01" role="tab" aria-selected="true">User Stats</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                      <a class="nav-link" id="profile-tab-02" data-toggle="tab" href="#profile-02" role="tab" aria-selected="false">Jobs</a>
+                                      <a class="nav-link" id="profile-user-tab-02" data-toggle="tab" href="#profile-user-02" role="tab" aria-selected="false">Bookings</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                      <a class="nav-link" id="profile-tab-03" data-toggle="tab" href="#profile-03" role="tab" aria-selected="false">User Type</a>
+                                      <a class="nav-link" id="profile-user-tab-03" data-toggle="tab" href="#profile-user-03" role="tab" aria-selected="false">Favorite Providers</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                      <a class="nav-link" id="profile-tab-04" data-toggle="tab" href="#profile-04" role="tab" aria-selected="false">Extra Info</a>
+                                      <a class="nav-link" id="profile-user-tab-04" data-toggle="tab" href="#profile-user-04" role="tab" aria-selected="false">Wallet</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <a class="nav-link" id="profile-user-tab-05" data-toggle="tab" href="#profile-user-05" role="tab" aria-selected="false">Extra Info</a>
                                     </li>
                                   </ul>
 
                                   <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="profile-01" role="tabpanel">
+                                    <div class="tab-pane fade show active" id="profile-user-01" role="tabpanel">
                                       
                                       <div class="tab-pane-inner-div">
 
@@ -352,12 +355,12 @@
                       
                                                 <div class="card custom-white-card02">
                                                   <div class="card-header">
-                                                    <h3>Earning</h3>
+                                                    <h3>Spent</h3>
                                                   </div>
                                                   <div class="card-body">
                                                     <div class="card-icon-txt-box">
                                                       <div class="card-icon-txt-left-box">
-                                                        <h4>$34,252</h4>
+                                                        <h4>$4,252</h4>
                                                         <p> <span class="badge badge-light">+ 13%</span> From previous <span class="block">period</span> </p>
                                                       </div>
                                                       <div class="card-icon-txt-right-box">
@@ -379,7 +382,7 @@
                       
                                                 <div class="card custom-white-card02">
                                                   <div class="card-header">
-                                                    <h3>Completed Jobs</h3>
+                                                    <h3>Completed Bookings</h3>
                                                   </div>
                                                   <div class="card-body">
                                                     <div class="card-icon-txt-box">
@@ -406,7 +409,7 @@
                       
                                                 <div class="card custom-white-card02">
                                                   <div class="card-header">
-                                                    <h3>Average Revenue</h3>
+                                                    <h3>Average Spent</h3>
                                                   </div>
                                                   <div class="card-body">
                                                     <div class="card-icon-txt-box">
@@ -434,7 +437,7 @@
 
                                     </div>
 
-                                    <div class="tab-pane fade" id="profile-02" role="tabpanel">
+                                    <div class="tab-pane fade" id="profile-user-02" role="tabpanel">
                                       
                                       <div class="tab-pane-inner-div">
 
@@ -606,222 +609,121 @@
 
                                     </div>
 
-                                    <div class="tab-pane fade" id="profile-03" role="tabpanel">
+                                    <div class="tab-pane fade" id="profile-user-03" role="tabpanel">
                                       
                                       <div class="tab-pane-inner-div">
 
-                                        <div class="user-type-root-div">
-                                          <div class="user-type-root-middle">
+                                        <div class="tab-table-card-root-div">
+                                          <div class="tab-table-card-root-middle">
           
-                                            <div class="row">
-                                              <div class="col-lg-4 col-md-5">
-                                                <div class="ut-bx-group-div">
-                                                  <div class="form-group-rd-div">
-                                                    <h3>Role</h3>
-
-                                                    <div class="form-group-rd-list">
-                                                      <div class="custom-control custom-radio custom-rd-control">
-                                                        <input type="radio" class="custom-control-input" id="customRadio-role01" name="role-radio-list" value="customEx">
-                                                        <label class="custom-control-label" for="customRadio-role01">Admin / Owner</label>
+                                            <div class="table-responsive">
+                                              <table class="table table-hover table-custom-02 table-borderless">
+                                                <thead>
+                                                  <tr>
+                                                    <th class="width-50px">#</th>
+                                                    <th class="width-30-50px min-width-172">Name</th>
+                                                    <th class="width-15 min-width-140">Phone Number</th>
+                                                    <th class="width-15 min-width-90">Company</th>
+                                                    <th class="width-15 min-width-140 min-w-text-right">Amount Spent</th>
+                                                    <th class="width-12 min-width-90">Ratings</th>
+                                                    <th class="width-13 min-width-90">Reviews</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td> 01 </td>
+                                                    <td>
+                                                      <div class="img-txt-div">
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
                                                       </div>
-
-                                                      <div class="custom-control custom-radio custom-rd-control">
-                                                        <input type="radio" class="custom-control-input" id="customRadio-role02" name="role-radio-list" value="customEx">
-                                                        <label class="custom-control-label" for="customRadio-role02">Manager</label>
+                                                    </td>
+                                                    <td> 800-201-9880 </td>
+                                                    <td> Tesla </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> &nbsp; </td>
+                                                    <td> 41 </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> 02 </td>
+                                                    <td>
+                                                      <div class="img-txt-div">
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
                                                       </div>
-
-                                                      <div class="custom-control custom-radio custom-rd-control">
-                                                        <input type="radio" class="custom-control-input" id="customRadio-role03" name="role-radio-list" value="customEx">
-                                                        <label class="custom-control-label" for="customRadio-role03">Field Technician</label>
+                                                    </td>
+                                                    <td> 800-201-9880 </td>
+                                                    <td> Tesla </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> &nbsp; </td>
+                                                    <td> 41 </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> 03 </td>
+                                                    <td>
+                                                      <div class="img-txt-div">
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.png" alt="img" class="img-fluid rounded-circle" />
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
                                                       </div>
-
-                                                      <div class="custom-control custom-radio custom-rd-control">
-                                                        <input type="radio" class="custom-control-input" id="customRadio-role04" name="role-radio-list" value="customEx">
-                                                        <label class="custom-control-label" for="customRadio-role04">Contractors</label>
+                                                    </td>
+                                                    <td> 800-201-9880 </td>
+                                                    <td> Tesla </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> &nbsp; </td>
+                                                    <td> 41 </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> 04 </td>
+                                                    <td>
+                                                      <div class="img-txt-div">
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
                                                       </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-
-                                              <div class="col-lg-8 col-md-7">
-                                                <div class="ut-bx-group-div">
-                                                  <div class="form-group-rd-div">
-                                                    <h3>Permissions</h3>
-
-                                                    <div class="form-group-switch-list">
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle01" checked="" />
-                                                            <label for="fg-pr-toggle01">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Dispatch/communication (Liaison)</p>
-                                                        </div> 
+                                                    </td>
+                                                    <td> 800-201-9880 </td>
+                                                    <td> Tesla </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> &nbsp; </td>
+                                                    <td> 41 </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> 05 </td>
+                                                    <td>
+                                                      <div class="img-txt-div">
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
                                                       </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle02" checked="" />
-                                                            <label for="fg-pr-toggle02">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Online/app booking availability</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle03" checked="" />
-                                                            <label for="fg-pr-toggle03">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Add/edit contractors</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle04" checked="" />
-                                                            <label for="fg-pr-toggle04">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Update company account info</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle05" checked="" />
-                                                            <label for="fg-pr-toggle05">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Edit/add services</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle06" checked="" />
-                                                            <label for="fg-pr-toggle06">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Edit/add marketing campaigns</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle07" checked="" />
-                                                            <label for="fg-pr-toggle07">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Edit/add/delete jobs</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle08" checked="" />
-                                                            <label for="fg-pr-toggle08">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Take payments/see prices</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle09" checked="" />
-                                                            <label for="fg-pr-toggle09">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>See/edit customer info</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle10" checked="" />
-                                                            <label for="fg-pr-toggle10">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>See complete schedule</p>
-                                                        </div> 
-                                                      </div>
-
-                                                      <div class="form-group-switch-list-row">
-                                                        <div class="fg-switch-list-left">
-                                                          <div class="switch-slider">
-                                                            <input type="checkbox" class="toggle" id="fg-pr-toggle11" checked="" />
-                                                            <label for="fg-pr-toggle11">
-                                                              <span class="on"></span>
-                                                              <span class="off"></span>
-                                                            </label>
-                                                          </div>
-                                                        </div> 
-                                                        <div class="fg-switch-list-right">
-                                                          <p>Location tracking</p>
-                                                        </div> 
-                                                      </div>
-                                                      
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
+                                                    </td>
+                                                    <td> 800-201-9880 </td>
+                                                    <td> Tesla </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> &nbsp; </td>
+                                                    <td> 41 </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
                                             </div>
-                                            
+          
                                           </div>
                                         </div>
 
@@ -829,7 +731,74 @@
 
                                     </div>
 
-                                    <div class="tab-pane fade" id="profile-04" role="tabpanel">
+                                    <div class="tab-pane fade " id="profile-user-04" role="tabpanel">
+                                      
+                                      <div class="tab-pane-inner-div">
+
+                                        <div class="tab-table-card-root-div wallet-tab-table-div">
+                                          <div class="tab-table-card-root-middle">
+
+                                            <div class="border-card-txt-div">
+                                              <div class="row">
+                                                <div class="col-lg-6 col-md-6">
+                                                  <div class="border-card-txt-inner-div">
+                                                    <p>
+                                                      <span class="bold">Name:</span> <span class="txt-span">Youssef Kone</span>
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                  <div class="border-card-txt-inner-div">
+                                                    <p>
+                                                      <span class="bold">Wallet Balance:</span> <span class="txt-span">$0.00</span>
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="title-div">
+                                              <h3>Transactions</h3>
+                                            </div>
+          
+                                            <div class="table-responsive">
+                                              <table class="table table-hover table-custom-02 table-heading-borderless">
+                                                <thead>
+                                                  <tr>
+                                                    <th class="width-50px">#</th>
+                                                    <th class="width-25-50px min-width-90">Amount</th>
+                                                    <th class="width-20 min-width-140">Type</th>
+                                                    <th class="width-40 min-width-200">Description</th>
+                                                    <th class="width-15 min-width-90 min-w-text-right">Date</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td> 01 </td>
+                                                    <td class="min-w-text-right"> $190.00 </td>
+                                                    <td> <span class="badge badge-custom badge-debit">Debit</span> </td>
+                                                    <td>The user has been debited for the amount $190 from their wallet</td>
+                                                    <td> 07/20/2020 </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td> 02 </td>
+                                                    <td class="min-w-text-right"> $20 </td>
+                                                    <td> <span class="badge badge-custom badge-credit">Credit</span> </td>
+                                                    <td>The user has been credited for the amount $20 earned for a referral</td>
+                                                    <td> 07/20/2020 </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+          
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="profile-user-05" role="tabpanel">
 
                                       <div class="tab-pane-inner-div">
                                         <div class="info-forms-root-div">
