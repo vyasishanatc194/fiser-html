@@ -305,6 +305,30 @@ body {
   background-image: url(../images/icons/custom/clipart-black-icon.png);
 }
 
+.email-color-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/icons/custom/email-color-icon.svg);
+}
+
+.phone-color-icon {
+  width: 13px;
+  height: 21px;
+  background-image: url(../images/icons/custom/phone-color-icon.svg);
+}
+
+.company-color-icon {
+  width: 25px;
+  height: 23px;
+  background-image: url(../images/icons/custom/company-color-icon.svg);
+}
+
+.ratings-color-icon {
+  width: 19px;
+  height: 23px;
+  background-image: url(../images/icons/custom/ratings-color-icon.svg);
+}
+
 /*  general css */
 .display_show {
   display: block;
@@ -787,6 +811,50 @@ body {
 
 .form-root .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #5772e3;
+}
+
+.form-root-custom .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-root-custom .form-group .label-div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-root-custom .form-group .label-div label {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  display: block;
+  margin: 0;
+}
+
+.form-root-custom .form-group .input-control-group-div {
+  width: 50%;
+}
+
+.form-root-custom .form-group .input-control-group-div .form-control {
+  width: 100%;
+  border: 1px solid #d9d8d8;
+  border-radius: 10px;
+  padding: 7px 15px 5px 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  min-height: 44px;
 }
 
 /*  End of general css */
@@ -1655,6 +1723,48 @@ body {
 }
 
 /* End of checkbox */
+.custom-rd-control {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  display: block;
+  margin: 0 0 15px 0;
+  padding-left: 0;
+}
+
+.custom-rd-control .custom-control-label {
+  padding: 1px 0 0 30px;
+  cursor: pointer;
+}
+
+.custom-rd-control .custom-control-label::before {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ff9605;
+  background-color: #fff;
+  top: 0;
+}
+
+.custom-rd-control .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #fff;
+}
+
+.custom-rd-control .custom-control-input:checked ~ .custom-control-label::after {
+  height: 12px;
+  width: 12px;
+  background: #ff9605;
+  border-radius: 100px;
+  top: 5px;
+  left: 5px;
+}
+
+.custom-rd-control .custom-control-input:focus ~ .custom-control-label::before {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* End fo radio btn */
 .default-icon-list-div {
   padding: 0;
   margin: 0;
@@ -3224,6 +3334,13 @@ body {
   }
   .custom-top-selling-card-section .custom-white-card02 .card-body .selling-area-card-root .selling-area-card-body .selling-product-div .selling-product-row .selling-product-right .txt-div h2 {
     font-size: 20px;
+  }
+  .form-root-custom .form-group .label-div {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .form-root-custom .form-group .input-control-group-div {
+    width: 100%;
   }
 }
 

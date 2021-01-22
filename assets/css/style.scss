@@ -463,6 +463,43 @@ body {
   /* End of checkbox */
 }
 
+.form-root-custom {
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .label-div {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      label {
+        color: #06151b;
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 700;
+        display: block;
+        margin: 0;
+      }
+    }
+
+    .input-control-group-div {
+      width: 50%;
+
+      .form-control {
+        width: 100%;
+        border: 1px solid #d9d8d8;
+        border-radius: 10px;
+        padding: 7px 15px 5px 15px;
+        box-shadow: none;
+        min-height: 44px;
+      }
+    }
+  }
+}
+
 /*  End of general css */
 
 /* main right content area */
@@ -1243,6 +1280,48 @@ body {
 }
 
 /* End of checkbox */
+
+.custom-rd-control {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  display: block;
+  margin: 0 0 15px 0;
+  padding-left: 0;
+
+  .custom-control-label {
+    padding: 1px 0 0 30px;
+    cursor: pointer;
+
+    &::before {
+      width: 22px;
+      height: 22px;
+      border: 1px solid #ff9605;
+      background-color: #fff;
+      top: 0;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #fff;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::after {
+    height: 12px;
+    width: 12px;
+    background: #ff9605;
+    border-radius: 100px;
+    top: 5px;
+    left: 5px;
+  }
+
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+  }
+}
+
+/* End fo radio btn */
 .default-icon-list-div {
   padding: 0;
   margin: 0;
@@ -2924,6 +3003,19 @@ body {
             }
           }
         }
+      }
+    }
+  }
+
+  .form-root-custom {
+    .form-group {
+      .label-div {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+
+      .input-control-group-div {
+        width: 100%;
       }
     }
   }
