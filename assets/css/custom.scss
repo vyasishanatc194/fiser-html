@@ -591,6 +591,7 @@
               margin-bottom: 5px;
             }
           }
+
           .card-budget {
             text-align: right;
             h3 {
@@ -622,6 +623,9 @@
 .client-tabs {
   ul {
     border: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
     li {
       border: 0;
       a {
@@ -649,6 +653,7 @@
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     padding: 10px 10px;
+    min-height: 300px;
   }
 }
 
@@ -727,7 +732,7 @@
       color: #707070;
       font-weight: 600;
       line-height: 20px;
-      font-size: 14 px;
+      font-size: 14px;
       border: 1px solid #707070;
       border-radius: 10px;
       display: flex;
@@ -751,6 +756,184 @@
       }
     }
   }
+}
+
+
+.table-marketing {
+  padding: 20px 0;
+  table {
+
+    thead {
+      th {
+        font-size: 18px;
+        line-height: 22px;
+        color: #000;
+        border: 0;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+    }
+
+    tbody {
+
+      td, th {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #000;
+        border: 0;
+        vertical-align: middle;
+        white-space: nowrap;
+        border-top: 1px solid #dee2e6;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+    
+   
+
+    .tbl-prfoile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .profile-img {
+        height: 40px;
+        width: 40px;
+        border-radius: 100px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .profile-content {
+        padding-left: 10px;
+        h3 {
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 700;
+            color: #000;
+        }
+      }
+    }
+
+    .tbl-address {
+      p {
+        color: #000;
+      }
+      span {
+        color: #707070; 
+      }
+    }
+
+    .btn-dropdown {
+      padding: 5px 40px 5px 20px;
+      background-color: #fff;
+      color: #707070;
+      font-weight: 600;
+      line-height: 20px;
+      font-size: 14px;
+      border: 1px solid #707070;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      &::after {
+        content: "\e92e";
+        position: absolute;
+        right: 30px;
+        top: 8px;
+        border: 0;
+        font-family: Feather!important;
+        speak: none;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      }
+    }
+
+    .dot {
+      height: 8px;
+      width: 8px;
+      border-radius: 100px;
+      background-color: #12EB00;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+
+
+.marketing-tabs {
+
+  ul {
+    border: 0;
+    height: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    width: 100%;
+    li {
+      border: 0;
+      padding: 10px 0 0 0;
+      height: 100%;
+
+      a {
+        border: 0 !important;
+        padding: 20px 60px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #707070;
+        font-weight: 700;
+        white-space: nowrap;
+
+        &.active {
+        color: #000 !important;
+        font-weight: 700;
+        background-color: #fff;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 10px 10px 0 0;
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    padding: 10px 10px;
+    min-height: 300px;
+    
+  }
+
+  .tab-innner {
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    padding: 10px 10px;
+    min-height: 300px;
+  }
+
+  .no-bg {
+    background-color: transparent !important;
+    box-shadow: unset !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+
+  .max-width-500 {
+    max-width: 500px;
+    white-space: normal;
+  } 
 }
 
 // tables end
@@ -814,7 +997,6 @@
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
 }
-
 
 .pricing-method {
   display: flex;
@@ -894,15 +1076,17 @@
       width: 100%;
       max-width: 180px;
       border-radius: 100px;
+      padding: 10px 15px;
     }
   }
 
   .card-header-one {
+    padding: 15px 15px 5px 15px;
 
     .form-group {
       margin-bottom: 10px;
     }
-    
+
     .select2-container {
       width: 100% !important;
     }
@@ -1036,6 +1220,7 @@
   }
 
   .form-group  {
+
     label {
       font-size: 16px;
       color: #000;
@@ -1061,6 +1246,52 @@
       width: 200px;
       margin: 0;
   }
+}
+
+// marketing
+
+
+.marketing-section {
+
+  .card-refreal {
+    border: 0;
+    padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .card-header {
+      background-color: #06151B;
+      color: #fff;
+      border: 0;
+      padding: 20px;
+
+      h3 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+      }
+
+    }
+  }
+
+  .btn-notification {
+    background-color: #06151B;
+    color: #fff;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      font-size: 24px;
+      color: #fff;
+    }
+
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -1095,7 +1326,29 @@
       border: 0;
       display: flex;
       flex-wrap: nowrap;
-      overflow-y: auto;
+      overflow-x: auto;
+
+      li {
+        border: 0;
+        width: 100%;
+        a {
+          font-size: 14px;
+          line-height: 24px;
+          padding: 12px 15px;
+          white-space: nowrap;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .marketing-tabs {
+    padding-top: 20px;
+    ul {
+      border: 0;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
 
       li {
         border: 0;
@@ -1207,4 +1460,20 @@
     }
   }
 
+  .service-detail-section {
+    .service-card-right {
+      .card-header {
+        .service-detail-tab {
+          li {
+            a {
+                font-size: 16px;
+                line-height: 20px;
+                padding: 12px 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
 }

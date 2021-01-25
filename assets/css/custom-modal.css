@@ -38,6 +38,11 @@
   line-height: 34px;
 }
 
+.modal.fixed-right .modal-header .text-center {
+  width: 100%;
+  text-align: center;
+}
+
 .modal.fixed-right .modal-header .close {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -153,6 +158,92 @@
           justify-content: center;
 }
 
+.modal-promo .edit-promo-content .form-group {
+  margin-bottom: 30px;
+}
+
+.modal-promo .edit-promo-content .form-group label {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.modal-promo .edit-promo-content .form-group .form-control {
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+}
+
+.modal-promo .edit-promo-content textarea.form-control {
+  height: 180px !important;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+.modal-referal .edit-promo-content .form-group {
+  margin-bottom: 30px;
+}
+
+.modal-referal .edit-promo-content .form-group label {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.modal-referal .edit-promo-content .form-group .form-control {
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+}
+
+.modal-referal .edit-promo-content .input-group {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.modal-referal .edit-promo-content .input-group input {
+  border-radius: 4px;
+  font-weight: 700;
+  padding-left: 70px;
+}
+
+.modal-referal .edit-promo-content .input-group .input-group-text {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  width: 60px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+}
+
+.modal-referal .edit-promo-content textarea.form-control {
+  height: 180px !important;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
 @media (max-width: 767px) {
   .modal-package .modal-body {
     padding: 20px 20px;
@@ -172,6 +263,50 @@
   }
   .modal-package .modal-footer {
     padding-left: 20px !important;
+  }
+  .modal-promo .edit-promo-content .form-group {
+    margin-bottom: 20px;
+  }
+  .modal-promo .edit-promo-content .form-group .form-control {
+    height: 50px;
+  }
+  .modal-promo .edit-promo-content textarea.form-control {
+    height: 180px !important;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+  }
+  .modal-referal .edit-promo-content .form-group {
+    margin-bottom: 20px;
+  }
+  .modal-referal .edit-promo-content .form-group label {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .modal-referal .edit-promo-content .form-group .form-control {
+    height: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+  }
+  .modal-referal .edit-promo-content .input-group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .modal-referal .edit-promo-content .input-group input {
+    border-radius: 4px;
+    font-weight: 700;
+    height: 50px;
+    padding-left: 70px;
+  }
+  .modal-referal .edit-promo-content textarea.form-control {
+    height: 120px !important;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
   }
 }
 /*# sourceMappingURL=custom-modal.css.map */

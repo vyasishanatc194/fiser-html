@@ -1243,7 +1243,7 @@
   <div class="modal-dialog modal-dialog-vertical" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Schedule Settings</h5>
+        <h5 class="modal-title text-center">Schedule Settings</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true"><i class="fe fe-x"></i></span>
         </button>
@@ -1486,80 +1486,6 @@
       }
   );
 
-document.addEventListener('DOMContentLoaded', function() {
-  var calendarEl = document.getElementById('calendar');
-
-  var calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'dayGridMonth',
-    initialDate: '2020-09-07',
-    headerToolbar: {
-      left: 'prev,next today',
-      center: 'title',
-      right: 'dayGridMonth,timeGridWeek,timeGridDay'
-    },
-    // 		customButtons: {
-		// 	addRoom: {
-		// 		text: 'Add room',
-		// 	},
-		// 	addReservation: {
-		// 		text: 'Add reservation',
-		// 	},
-		// },
-    events: [
-      {
-        title: 'All Day Event',
-        start: '2020-09-01'
-      },
-      {
-        title: 'Long Event',
-        start: '2020-09-07',
-        end: '2020-09-10',
-        color: '#ff0000'
-      },
-      {
-        groupId: '999',
-        title: 'Repeating Event',
-        start: '2020-09-09T16:00:00',
-      
-      },
-      {
-        groupId: '999',
-        title: 'Repeating Event',
-        start: '2020-09-16T16:00:00'
-      },
-      {
-        title: 'Conference',
-        start: '2020-09-11',
-        end: '2020-09-13'
-      },
-      {
-        title: 'Meeting',
-        start: '2020-09-12T10:30:00',
-        end: '2020-09-12T12:30:00'
-      },
-      {
-        title: 'Lunch',
-        start: '2020-09-12T12:00:00'
-      },
-      {
-        title: 'Meeting',
-        start: '2020-09-12T14:30:00'
-      },
-      {
-        title: 'Birthday Party',
-        start: '2020-09-13T07:00:00'
-      },
-      {
-        title: 'Click for Google',
-        url: 'http://google.com/',
-        start: '2020-09-28',
-        color: '#FFcc00'
-      }
-    ]
-  });
-
-  calendar.render();
-});
 </script>
 
 </body>

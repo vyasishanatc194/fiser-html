@@ -6,8 +6,6 @@
     transform: translateX(0);
   }
   
-
-  
   .modal.fixed-right .modal-dialog-vertical {
     margin-left: auto;
     z-index: 999999999;
@@ -30,7 +28,6 @@
     }
   }
   
-
   .modal.fixed-right {
     padding-right: 0!important;
    
@@ -38,6 +35,11 @@
       background-color: #EBEAEA;
       font-size: 24px;
       line-height: 34px;
+
+      .text-center {
+        width: 100%;
+        text-align: center;
+      }
 
       .close {
           box-shadow: none;
@@ -80,9 +82,10 @@
                 border: 0;
             }
         }
-
        
       }
+
+     
     }
   
     .modal-footer {
@@ -96,7 +99,6 @@
     }
   }
 
-
 // modal
 
 .modal-package {
@@ -105,6 +107,8 @@
       text-align: center;
       width: 100%;
     }
+
+   
   }
 
   .modal-body {
@@ -161,40 +165,208 @@
         
     }
 
+   
+
   }
 }
 
+.modal-promo {
+  .edit-promo-content {
+
+    .form-group {
+      margin-bottom: 30px;
+
+      label {
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+  
+      .form-control {
+        height: 60px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+      }
+
+    }
+
+  
+
+    textarea.form-control {
+      height: 180px !important;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+    }
+  } 
+}
+
+.modal-referal {
+  .edit-promo-content {
+
+    .form-group {
+      margin-bottom: 30px;
+
+      label {
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+  
+      .form-control {
+        height: 60px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+      }
+      
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 50px;
+
+      input {
+        border-radius: 4px;
+        font-weight: 700;
+        padding-left: 70px;
+      }
+
+      .input-group-text {
+        background-color: #000;
+        color: #fff;
+        border-radius: 8px;
+        width: 60px;
+        height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+      }
+    }
+
+    textarea.form-control {
+      height: 180px !important;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+    }
+  } 
+}
 
 @media (max-width: 767px) {
   .modal-package {
-  .modal-body {
-    padding: 20px 20px;
+    .modal-body {
+      padding: 20px 20px;
 
-    .form-package {
-      .form-group {
-      
-        label {
-          font-size: 16px;
-          margin-bottom: 10px;
-        }
+      .form-package {
+        .form-group {
+        
+          label {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
 
-        .form-control {
-          height: 50px;
-          font-size: 16px;
-        }
+          .form-control {
+            height: 50px;
+            font-size: 16px;
+          }
 
-        .pricing-method .form-check label {
-          padding: 10px 15px;
-          font-size: 16px;
-          line-height: 24px;
+          .pricing-method .form-check label {
+            padding: 10px 15px;
+            font-size: 16px;
+            line-height: 24px;
+          }
         }
       }
     }
+
+    .modal-footer {
+      padding-left: 20px !important;
+    }
+
   }
 
-  .modal-footer {
-    padding-left: 20px !important;
-  }
+  .modal-promo {
+    .edit-promo-content {
+  
+      .form-group {
+        margin-bottom: 20px;
 
+        .form-control {
+          height: 50px;
+        }
+  
+      }
+  
+    
+  
+      textarea.form-control {
+        height: 180px !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+      }
+    } 
+  }
+  
+  .modal-referal {
+    .edit-promo-content {
+  
+      .form-group {
+        margin-bottom: 20px;
+  
+        label {
+          font-size: 18px;
+          line-height: 24px;
+          color: #000;
+          font-weight: 600;
+          margin-bottom: 15px;
+        }
+    
+        .form-control {
+          height: 50px;
+          font-size: 18px;
+          line-height: 30px;
+          color: #000;
+        }
+        
+      }
+  
+  
+      .input-group {
+        position: relative;
+        margin-bottom: 30px;
+        
+        input {
+          border-radius: 4px;
+          font-weight: 700;
+          height: 50px;
+          padding-left: 70px;
+        }
+  
+    
+      }
+  
+    
+  
+      textarea.form-control {
+        height: 120px !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+      }
+    } 
+  }
 }
-}
+
