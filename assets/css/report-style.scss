@@ -1,0 +1,264 @@
+.reports-tools-up-section {
+  .setting-tools-group {
+    .btn-group-setting {
+      margin: 0 0 8px 0;
+    }
+  }
+}
+
+.reports-main-tab-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .reports-main-tab-inner {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .reports-tabs {
+    .nav-tabs {
+      .nav-item {
+        margin-bottom: 0;
+
+        .nav-link {
+          padding: 20px 50px 16px 50px;
+        }
+
+        .show,
+        .active {
+          color: #fff !important;
+          background-color: #06151b;
+        }
+      }
+    }
+  }
+
+  .tab-pane-inner-div {
+    .table-title-div {
+      h4 {
+        color: #06151b;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding: 12px 15px 10px 15px;
+      }
+    }
+  }
+
+  .overview-card-root-div {
+    .overview-card-root-inner {
+      padding: 20px 15px 20px 15px;
+      border-bottom: 5px solid #d9d8d8;
+    }
+
+    .title-o-div {
+      margin: 0 0 10px 0;
+
+      h4 {
+        color: #06151b;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding: 5px 0 10px 0;
+      }
+    }
+
+    .progressbar-root-div {
+      .progressbar-root-row {
+        margin: 0 0 25px 0;
+      }
+
+      .progress-multiple-custom {
+        height: 52px;
+        font-size: 1rem;
+        background-color: #8bf583;
+        border-radius: 10px;
+
+        .progress-bar {
+          &.bg-color01 {
+            background-color: #e51616;
+          }
+
+          &.bg-color02 {
+            background-color: #ff9605;
+          }
+
+          &.bg-color03 {
+            background-color: #ebeb3b;
+          }
+
+          &.bg-color04 {
+            background-color: #eb3be4;
+          }
+
+          &.bg-color05 {
+            background-color: #4088f6;
+          }
+
+          &.br-right-tb {
+            border-radius: 0 10px 10px 0;
+          }
+        }
+      }
+
+      .progressbar-list-box-body {
+        padding: 0;
+        margin: 0;
+        position: relative;
+      }
+
+      .progressbar-list-box {
+        padding: 12px 0;
+        margin: 0;
+        border-bottom: 1px solid #d9d8d8;
+        position: relative;
+
+        .progressbar-list-row {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          position: relative;
+          margin-right: -12px;
+          margin-left: -12px;
+
+          .progressbar-list-col {
+            width: 100%;
+            padding-right: 12px;
+            padding-left: 12px;
+
+            &.progressbar-list-col01 {
+              width: 200px;
+            }
+
+            &.progressbar-list-col02 {
+              width: calc(70% - 200px);
+            }
+
+            &.progressbar-list-col03 {
+              width: 30%;
+            }
+
+            .number-bar {
+              height: 52px;
+              font-size: 24px;
+              background-color: rgba(217, 216, 216, 0.7);
+              border-radius: 10px;
+              color: #2e2e2e;
+              font-weight: 700;
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              justify-content: center;
+              padding: 10px 10px 5px 10px;
+
+              &.bg-color01 {
+                background-color: rgba(229, 22, 22, 0.7);
+              }
+
+              &.bg-color02 {
+                background-color: rgba(255, 151, 5, 0.7);
+              }
+
+              &.bg-color03 {
+                background-color: rgba(235, 235, 59, 0.7);
+              }
+
+              &.bg-color04 {
+                background-color: rgba(235, 59, 229, 0.7);
+              }
+
+              &.bg-color05 {
+                background-color: rgba(64, 137, 246, 0.7);
+              }
+
+              &.bg-color-default {
+                background-color: rgba(217, 216, 216, 0.7);
+              }
+            }
+
+            p {
+              font-size: 18px;
+              line-height: 22px;
+              font-weight: 400;
+              color: #2e2e2e;
+            }
+          }
+        }
+      }
+
+      .progressbar-list-box-footer {
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+        .progressbar-list-box {
+          border-top: 4px solid #d9d8d8;
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .reports-tools-up-section {
+    margin-bottom: 20px;
+
+    .setting-tools-group {
+      .tabs-link {
+        margin-bottom: 30px;
+
+        ul {
+          width: 100%;
+          overflow-x: auto;
+          white-space: nowrap;
+
+          li {
+            a {
+              font-size: 14px;
+              padding: 13px 15px 10px 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .reports-main-tab-section {
+    .overview-card-root-div {
+      .overview-card-root-inner {
+        padding: 10px 10px 20px 10px;
+      }
+
+      .progressbar-root-div {
+        .progressbar-list-box {
+          .progressbar-list-row {
+            .progressbar-list-col {
+              width: 100%;
+
+              &.progressbar-list-col01,
+              &.progressbar-list-col02,
+              &.progressbar-list-col03 {
+                width: 100%;
+              }
+
+              .number-bar {
+                margin: 0 0 15px 0;
+              }
+
+              p {
+                margin: 0 0 5px 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}

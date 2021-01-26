@@ -1,0 +1,232 @@
+.reports-tools-up-section .setting-tools-group .btn-group-setting {
+  margin: 0 0 8px 0;
+}
+
+.reports-main-tab-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.reports-main-tab-section .reports-main-tab-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.reports-main-tab-section .reports-tabs .nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+
+.reports-main-tab-section .reports-tabs .nav-tabs .nav-item .nav-link {
+  padding: 20px 50px 16px 50px;
+}
+
+.reports-main-tab-section .reports-tabs .nav-tabs .nav-item .show,
+.reports-main-tab-section .reports-tabs .nav-tabs .nav-item .active {
+  color: #fff !important;
+  background-color: #06151b;
+}
+
+.reports-main-tab-section .tab-pane-inner-div .table-title-div h4 {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 12px 15px 10px 15px;
+}
+
+.reports-main-tab-section .overview-card-root-div .overview-card-root-inner {
+  padding: 20px 15px 20px 15px;
+  border-bottom: 5px solid #d9d8d8;
+}
+
+.reports-main-tab-section .overview-card-root-div .title-o-div {
+  margin: 0 0 10px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .title-o-div h4 {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  padding: 5px 0 10px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-root-row {
+  margin: 0 0 25px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom {
+  height: 52px;
+  font-size: 1rem;
+  background-color: #8bf583;
+  border-radius: 10px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color01 {
+  background-color: #e51616;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color02 {
+  background-color: #ff9605;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color03 {
+  background-color: #ebeb3b;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color04 {
+  background-color: #eb3be4;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color05 {
+  background-color: #4088f6;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.br-right-tb {
+  border-radius: 0 10px 10px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box-body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box {
+  padding: 12px 0;
+  margin: 0;
+  border-bottom: 1px solid #d9d8d8;
+  position: relative;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col {
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col01 {
+  width: 200px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col02 {
+  width: calc(70% - 200px);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col03 {
+  width: 30%;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar {
+  height: 52px;
+  font-size: 24px;
+  background-color: rgba(217, 216, 216, 0.7);
+  border-radius: 10px;
+  color: #2e2e2e;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 10px 5px 10px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color01 {
+  background-color: rgba(229, 22, 22, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color02 {
+  background-color: rgba(255, 151, 5, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color03 {
+  background-color: rgba(235, 235, 59, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color04 {
+  background-color: rgba(235, 59, 229, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color05 {
+  background-color: rgba(64, 137, 246, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar.bg-color-default {
+  background-color: rgba(217, 216, 216, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box-footer {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box-footer .progressbar-list-box {
+  border-top: 4px solid #d9d8d8;
+  border-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .reports-tools-up-section {
+    margin-bottom: 20px;
+  }
+  .reports-tools-up-section .setting-tools-group .tabs-link {
+    margin-bottom: 30px;
+  }
+  .reports-tools-up-section .setting-tools-group .tabs-link ul {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .reports-tools-up-section .setting-tools-group .tabs-link ul li a {
+    font-size: 14px;
+    padding: 13px 15px 10px 15px;
+  }
+  .reports-main-tab-section .overview-card-root-div .overview-card-root-inner {
+    padding: 10px 10px 20px 10px;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col {
+    width: 100%;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col01, .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col02, .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col.progressbar-list-col03 {
+    width: 100%;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col .number-bar {
+    margin: 0 0 15px 0;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col p {
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=report-style.css.map */

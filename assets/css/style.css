@@ -227,6 +227,12 @@ body {
   background-image: url(../images/icons/custom/communication-white.png);
 }
 
+.reports-white {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/custom/reports-white.png);
+}
+
 .custom-app-white {
   width: 25px;
   height: 25px;
@@ -657,6 +663,38 @@ body {
 
 .select2-form-group .select2.select2-container {
   width: 100% !important;
+}
+
+.select2-line-form-group .select2-container {
+  width: 100% !important;
+}
+
+.select2-line-form-group .select2-container--default .select2-selection--single {
+  height: 40px;
+}
+
+.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px;
+  width: 30px;
+}
+
+.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+  border-left: 1px solid #707070;
+  content: "";
+  top: 8px;
+  left: -3px;
+  height: 25px;
+  position: absolute;
+}
+
+.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  margin-left: -5px;
 }
 
 /* end of select2 */
@@ -2967,6 +3005,123 @@ body {
   display: block;
 }
 
+.setting-tools-up-01-section .tabs-link ul li a {
+  padding-top: 13px;
+}
+
+.center-modal-white .call-sw-div .call-sw-inner {
+  padding: 40px 0;
+}
+
+.center-modal-white .call-sw-div .call-sw-inner .top-img-div {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.center-modal-white .call-sw-div .call-sw-inner .top-img-div .rounded-span-icon {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #2e2e2e;
+  color: #2e2e2e;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 21px;
+  margin: 0 0 30px 0;
+}
+
+.center-modal-white .call-sw-div .call-sw-inner .text-div-row {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.center-modal-white .call-sw-div .call-sw-inner .text-div-row p {
+  font-weight: 400;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  color: #2e2e2e;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+}
+
+.center-modal-white .modal-footer-center {
+  padding: 10px 16px;
+}
+
+.center-modal-white .modal-footer-center .modal-footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.center-modal-white .modal-footer-center .modal-footer-row .btn.btn-primary {
+  margin: 0;
+  padding: 8px 22px 6px 22px;
+  border-radius: 30px;
+  font-weight: 600;
+  min-height: 42px;
+}
+
+.center-modal-white .modal-footer-center .modal-footer-row .btn.white-border-btn {
+  background-color: #fff;
+  color: #06151b;
+  border: 1px solid #06151b;
+  min-height: 42px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 15px 0 0;
+  padding: 8px 22px 6px 22px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.center-modal-white .modal-footer-center .modal-footer-row .btn.white-border-btn:hover {
+  background-color: #06151b;
+  color: #fff;
+  border: 1px solid #06151b;
+}
+
 @media (min-width: 1025px) {
   /* main right content area */
   .middle-area-dashboard .main-middle-area.active-progress-area {
@@ -3341,6 +3496,13 @@ body {
   }
   .form-root-custom .form-group .input-control-group-div {
     width: 100%;
+  }
+  .center-modal-white .call-sw-div .call-sw-inner {
+    padding: 25px 0;
+  }
+  .center-modal-white .call-sw-div .call-sw-inner .text-div-row p {
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 
