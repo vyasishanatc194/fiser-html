@@ -227,6 +227,12 @@ body {
   background-image: url(../images/icons/custom/communication-white.png);
 }
 
+.reports-white {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/icons/custom/reports-white.png);
+}
+
 .custom-app-white {
   width: 25px;
   height: 25px;
