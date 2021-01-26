@@ -1382,6 +1382,71 @@
   font-weight: 700;
 }
 
+.marketing-section .email-setting {
+  padding: 20px;
+}
+
+.marketing-section .email-setting .custom-checkbox .custom-control-label {
+  font-size: 18px;
+}
+
+.marketing-section .email-setting .form-group {
+  margin-bottom: 30px;
+}
+
+.marketing-section .email-setting .form-group label {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.marketing-section .email-setting .form-group .form-control {
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+}
+
+.marketing-section .email-setting .form-group p {
+  font-size: 18px;
+  color: #000;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.marketing-section .email-setting .btn-groups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 30px;
+}
+
+.marketing-section .email-setting .btn-groups .btn {
+  width: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: unset;
+  margin-right: 30px;
+}
+
+.marketing-section .email-setting .btn-groups .btn:last-child {
+  margin-right: 0;
+}
+
 @media (max-width: 767px) {
   .setting-tools-section .setting-tools-group {
     -webkit-box-orient: vertical;
@@ -1502,6 +1567,24 @@
   }
   .btn-collaps .card-header {
     display: none;
+  }
+  .marketing-section .email-setting {
+    padding: 20px;
+  }
+  .marketing-section .email-setting .custom-checkbox .custom-control-label {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .marketing-section .email-setting .form-group {
+    margin-bottom: 20px;
+  }
+  .marketing-section .email-setting .form-group label {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .marketing-section .email-setting .form-group .form-control {
+    height: 50px;
   }
 }
 
