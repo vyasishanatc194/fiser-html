@@ -182,6 +182,7 @@
   margin: 40px 0 0 0;
   box-shadow: none;
   padding: 0;
+  min-height: auto;
 
   .tab-pane {
     padding: 10px;
@@ -212,6 +213,10 @@
 
 .profile-tab-section {
   margin: 0 0 20px 0;
+
+  .nav-tabs .nav-item {
+    margin-bottom: 0;
+  }
 
   .tab-pane-inner-div {
     .ua-div-root {
