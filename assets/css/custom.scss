@@ -21,8 +21,6 @@
   }
 }
 
-
-
 .breadcrumb-section {
   margin-bottom: 50px;
 
@@ -936,6 +934,8 @@
   } 
 }
 
+
+
 // tables end
 
 .client-upload-section {
@@ -1250,7 +1250,27 @@
 
 // marketing
 
+.btn-notification {
+  background-color: #06151B;
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
+  i {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #06151B;
+  }
+}
 .marketing-section {
 
   .card-refreal {
@@ -1274,23 +1294,7 @@
     }
   }
 
-  .btn-notification {
-    background-color: #06151B;
-    color: #fff;
-    line-height: 24px;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 12px 20px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    i {
-      font-size: 24px;
-      color: #fff;
-    }
-
-  }
+  
 
 }
 

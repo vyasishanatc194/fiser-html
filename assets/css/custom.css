@@ -1334,6 +1334,34 @@
   margin: 0;
 }
 
+.btn-notification {
+  background-color: #06151B;
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-notification i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.btn-notification:hover {
+  color: #fff;
+  background-color: #06151B;
+}
+
 .marketing-section .card-refreal {
   border: 0;
   padding: 0;
@@ -1352,29 +1380,6 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-}
-
-.marketing-section .btn-notification {
-  background-color: #06151B;
-  color: #fff;
-  line-height: 24px;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 12px 20px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.marketing-section .btn-notification i {
-  font-size: 24px;
-  color: #fff;
 }
 
 @media (max-width: 767px) {
