@@ -268,8 +268,8 @@
 
                       <div class="tabs-link">
                         <ul>
-                          <li><a href="#" class="active">Financial Report</a></li>
-                          <li><a href="#" class="">Work Report</a></li>
+                          <li><a href="#" class="">Financial Report</a></li>
+                          <li><a href="#" class="active">Work Report</a></li>
                           <li><a href="#" class="">Clients Report</a></li>
                         </ul>
                       </div>
@@ -285,22 +285,25 @@
                           <div class="client-tabs reports-tabs">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                               <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="freports-tab-01" data-toggle="tab" href="#freports-01" role="tab" aria-selected="true">Projected Income</a>
+                                <a class="nav-link active" id="wreports-tab-01" data-toggle="tab" href="#wreports-01" role="tab" aria-selected="true">Invoices</a>
                               </li>
                               <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="freports-tab-02" data-toggle="tab" href="#freports-02" role="tab" aria-selected="false">Transactions</a>
+                                <a class="nav-link" id="wreports-tab-02" data-toggle="tab" href="#wreports-02" role="tab" aria-selected="false">Quotes</a>
                               </li>
                               <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="freports-tab-03" data-toggle="tab" href="#freports-03" role="tab" aria-selected="false">Bookings</a>
+                                <a class="nav-link" id="wreports-tab-03" data-toggle="tab" href="#wreports-03" role="tab" aria-selected="false">Timesheets</a>
                               </li>
                               <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="freports-tab-04" data-toggle="tab" href="#freports-04" role="tab" aria-selected="false">Commissions</a>
+                                <a class="nav-link" id="wreports-tab-04" data-toggle="tab" href="#wreports-04" role="tab" aria-selected="false">Products & Services</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="wreports-tab-05" data-toggle="tab" href="#wreports-05" role="tab" aria-selected="false">Leaderboard</a>
                               </li>
                             </ul>
 
                             <div class="tab-content" id="myTabContent">
 
-                              <div class="tab-pane fade show active" id="freports-01" role="tabpanel">
+                              <div class="tab-pane fade" id="wreports-01" role="tabpanel">
                                 
                                 <div class="tab-pane-inner-div">
 
@@ -317,11 +320,10 @@
                                           <div class="progressbar-root-div">
                                             <div class="progressbar-root-row">
                                               <div class="progress progress-multiple-custom">
-                                                <div class="progress-bar bg-color01" style="width:8%"></div>
+                                                <div class="progress-bar bg-color-default" style="width:8%"></div>
                                                 <div class="progress-bar bg-color02" style="width:8%"></div>
-                                                <div class="progress-bar bg-color03" style="width:8%"></div>
-                                                <div class="progress-bar bg-color04" style="width:8%"></div>
-                                                <div class="progress-bar bg-color05 br-right-tb" style="width:8%"></div>
+                                                <div class="progress-bar bg-color05" style="width:8%"></div>
+                                                <div class="progress-bar bg-color01 br-right-tb" style="width:8%"></div>
                                               </div>
                                             </div>
 
@@ -331,10 +333,10 @@
                                                 <div class="progressbar-list-box">
                                                   <div class="progressbar-list-row">
                                                     <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color01"> <span class="txt-number">1</span> </div>
+                                                      <div class="number-bar bg-color-default"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Late invoices</p>
+                                                      <p>Drafts</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -348,35 +350,7 @@
                                                       <div class="number-bar bg-color02"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Invoices due today</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color03"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Invoices due in 7 days</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color04"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Invoices due 7 to 30 days</p>
+                                                      <p>Pending</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -390,7 +364,21 @@
                                                       <div class="number-bar bg-color05"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Invoices due in more than 30 days </p>
+                                                      <p>Approved</p>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col03">
+                                                      <p><b>$100</b></p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="progressbar-list-box">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-col01">
+                                                      <div class="number-bar bg-color01"> <span class="txt-number">1</span> </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col02">
+                                                      <p>Declined</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -405,13 +393,13 @@
                                                 <div class="progressbar-list-box">
                                                   <div class="progressbar-list-row">
                                                     <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color-default"> <span class="txt-number">5</span> </div>
+                                                      <div class="number-bar bg-color-default"> <span class="txt-number">4</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p> <b>Outstanding invoices </b> </p>
+                                                      <p> <b>Total </b> </p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$500</b></p>
+                                                      <p><b>$400</b></p>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -518,321 +506,7 @@
 
                               </div>
 
-                              <div class="tab-pane fade" id="freports-02" role="tabpanel">
-                                
-                                <div class="tab-pane-inner-div">
-
-                                  <div class="overview-card-root-div">
-                                    <div class="overview-card-root-inner">
-
-                                      <div class="row">
-                                        <div class="col-lg-12 col-md-12">
-
-                                          <div class="title-o-div">
-                                            <h4>Overview</h4>
-                                          </div>
-
-                                          <div class="progressbar-root-div">
-                                            <div class="progressbar-root-row">
-                                              <div class="progress progress-multiple-custom">
-                                                <div class="progress-bar bg-color01" style="width:8%"></div>
-                                                <div class="progress-bar bg-color02" style="width:8%"></div>
-                                                <div class="progress-bar bg-color03" style="width:8%"></div>
-                                                <div class="progress-bar bg-color04" style="width:8%"></div>
-                                                <div class="progress-bar bg-color05 br-right-tb" style="width:8%"></div>
-                                              </div>
-                                            </div>
-
-                                            <div class="progressbar-list-box-root">
-                                              <div class="progressbar-list-box-body">
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color01"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Canceled</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color02"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Refunded</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color03"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Pending</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color05"> <span class="txt-number">1</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Paid</p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$100</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                              </div>
-
-                                              <div class="progressbar-list-box-footer">
-
-                                                <div class="progressbar-list-box">
-                                                  <div class="progressbar-list-row">
-                                                    <div class="progressbar-list-col progressbar-list-col01">
-                                                      <div class="number-bar bg-color-default"> <span class="txt-number">4</span> </div>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p> <b>Balance </b> </p>
-                                                    </div>
-                                                    <div class="progressbar-list-col progressbar-list-col03">
-                                                      <p><b>$500</b></p>
-                                                    </div>
-                                                  </div>
-                                                </div>
-
-                                              </div>
-                                            </div>
-
-                                          </div>
-
-
-                                        </div>
-                                      </div>
-
-                                    </div>
-                                  </div>
-
-                                  <div class="tab-table-card-root-div">
-                                    <div class="tab-table-card-root-middle">
-
-                                      <div class="table-title-div">
-                                        <h4>List View</h4>
-                                      </div>
-    
-                                      <div class="table-responsive">
-                                        <table class="table table-hover table-custom-02 table-heading-borderless">
-                                          <thead>
-                                            <tr>
-                                              <th class="text-left width-50px">#</th>
-                                              <th class="text-left width-30-50px min-width-172">Customer</th>
-                                              <th class="text-left width-10">Service</th>
-                                              <th class="text-left width-16 min-width-172">Address</th>
-                                              <th class="text-left width-8 min-width-90">Invoice #</th>
-                                              <th class="text-left width-10 min-width-115">Booked For</th>
-                                              <th class="text-left width-10 min-width-140">Booking Type</th>
-                                              <th class="text-left width-8 min-width-90">Amount</th>
-                                              <th class="text-left width-10 min-width-125">Status</th>
-                                            </tr>
-                                          </thead>
-                                          <tbody>
-                                            
-                                            <tr>
-                                              <td> 01 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt paid-status"> <span class="dot"></span> Paid</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 02 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 03 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt refunded-status"> <span class="dot"></span> Refunded</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 04 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt paid-status"> <span class="dot"></span> Paid</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 05 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt canceled-status2"> <span class="dot"></span> Canceled </span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-                                           
-                                          </tbody>
-                                        </table>
-                                      </div>
-    
-                                    </div>
-                                  </div>
-
-                                </div>
-
-                              </div>
-
-                              <div class="tab-pane fade" id="freports-03" role="tabpanel">
+                              <div class="tab-pane fade" id="wreports-02" role="tabpanel">
                                 
                                 <div class="tab-pane-inner-div">
 
@@ -851,8 +525,7 @@
                                               <div class="progress progress-multiple-custom">
                                                 <div class="progress-bar bg-color-default" style="width:8%"></div>
                                                 <div class="progress-bar bg-color02" style="width:8%"></div>
-                                                <div class="progress-bar bg-color05" style="width:8%"></div>
-                                                <div class="progress-bar bg-color01 br-right-tb" style="width:8%"></div>
+                                                <div class="progress-bar bg-color05 br-right-tb" style="width:8%"></div>
                                               </div>
                                             </div>
 
@@ -865,7 +538,7 @@
                                                       <div class="number-bar bg-color-default"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Drafts</p>
+                                                      <p>Sent</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -879,7 +552,7 @@
                                                       <div class="number-bar bg-color02"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Awaiting Payment</p>
+                                                      <p>Paid</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -893,7 +566,7 @@
                                                       <div class="number-bar bg-color05"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Paid</p>
+                                                      <p>Pending</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -907,7 +580,7 @@
                                                       <div class="number-bar bg-color01"> <span class="txt-number">1</span> </div>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col02">
-                                                      <p>Bad Debt</p>
+                                                      <p>Canceled</p>
                                                     </div>
                                                     <div class="progressbar-list-col progressbar-list-col03">
                                                       <p><b>$100</b></p>
@@ -1035,7 +708,231 @@
 
                               </div>
 
-                              <div class="tab-pane fade" id="freports-04" role="tabpanel">
+                              <div class="tab-pane fade" id="wreports-03" role="tabpanel">
+                                
+                                <div class="tab-pane-inner-div">
+
+                                  <div class="overview-card-root-div pro-overview-card-root-div01">
+                                    <div class="overview-card-root-inner">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="title-o-div">
+                                            <h4>Overview</h4>
+                                          </div>
+
+                                          <div class="progressbar-root-div">
+                                            <div class="progressbar-root-row">
+                                              <div class="progress progress-multiple-custom multiple-custom-color01">
+                                                <div class="progress-bar bg-color06" style="width:8%"></div>
+                                                <div class="progress-bar bg-color02" style="width:8%"></div>
+                                                <div class="progress-bar bg-color05 br-right-tb" style="width:8%"></div>
+                                              </div>
+                                            </div>
+
+                                            <div class="progressbar-list-box-root pro-overview-list-box-root">
+                                              <div class="progressbar-list-box-body">
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="number-div">
+                                                          <h3>01</h3>
+                                                        </div>
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle">
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-01">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30.10 hours</span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="number-div">
+                                                          <h3>02</h3>
+                                                        </div>
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle">
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-02">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30.10 hours</span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="number-div">
+                                                          <h3>03</h3>
+                                                        </div>
+                                                        <div class="img-div">
+                                                          <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle">
+                                                        </div>
+                                                        <div class="txt-div">
+                                                          <p>Youssef Kone</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-03">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30.10 hours</span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="progressbar-list-box-footer">
+
+                                                <div class="progressbar-list-box">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-col01">
+                                                      <div class="number-bar bg-color-default"> <span class="txt-number">3</span> </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col02">
+                                                      <p> <b>Total </b> </p>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col03">
+                                                      <p class="right-txt-p"><b>90.30 hours</b></p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div class="tab-table-card-root-div">
+                                    <div class="tab-table-card-root-middle">
+
+                                      <div class="table-title-div">
+                                        <h4>List View</h4>
+                                      </div>
+    
+                                      <div class="table-responsive">
+                                        <table class="table table-hover table-custom-02 table-heading-borderless">
+                                          <thead>
+                                            <tr>
+                                              <th class="text-left width-50px">#</th>
+                                              <th class="text-left width-34-50px min-width-172">Customer</th>
+                                              <th class="text-left width-15">Date</th>
+                                              <th class="text-left width-15 min-width-115">Start Time</th>
+                                              <th class="text-left width-15 min-width-115">End Time</th>
+                                              <th class="text-left width-13 min-width-115">Hours</th>
+                                              <th class="text-left width-13 min-width-140">Cost Per Hour</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            
+                                            <tr>
+                                              <td> 01 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> 08:00 AM </td>
+                                              <td> 5:00PM </td>
+                                              <td> 30.10 </td>
+                                              <td> $15 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 02 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> 08:00 AM </td>
+                                              <td> 5:00PM </td>
+                                              <td> 30.10 </td>
+                                              <td> $15 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 03 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> 08:00 AM </td>
+                                              <td> 5:00PM </td>
+                                              <td> 30.10 </td>
+                                              <td> $15 </td>
+                                            </tr>
+                                           
+                                          </tbody>
+                                        </table>
+                                      </div>
+    
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="tab-pane fade show active" id="wreports-04" role="tabpanel">
 
                                 <div class="tab-pane-inner-div">
 
@@ -1090,14 +987,14 @@
                                           <thead>
                                             <tr>
                                               <th class="text-left width-50px">#</th>
-                                              <th class="text-left width-30-50px min-width-172">Technician</th>
-                                              <th class="text-left width-10">Service</th>
-                                              <th class="text-left width-16 min-width-172">Address</th>
-                                              <th class="text-left width-8 min-width-90">Invoice #</th>
-                                              <th class="text-left width-10 min-width-115">Cash</th>
-                                              <th class="text-left width-10 min-width-140">Credit</th>
-                                              <th class="text-left width-8 min-width-90">Amount</th>
-                                              <th class="text-left width-10 min-width-125">Status</th>
+                                              <th class="text-left width-15-50px min-width-90">Service</th>
+                                              <th class="text-left width-10 min-width-90">One Off</th>
+                                              <th class="text-left width-10 min-width-90">Weekly</th>
+                                              <th class="text-left width-10 min-width-115">Bi-Weekly</th>
+                                              <th class="text-left width-10 min-width-140">Monthly</th>
+                                              <th class="text-left width-15 min-width-160">Average Duration</th>
+                                              <th class="text-left width-15 min-width-150">Average Amount</th>
+                                              <th class="text-left width-15 min-width-140">Total Amount</th>
                                             </tr>
                                           </thead>
 
@@ -1105,167 +1002,14 @@
                                             
                                             <tr>
                                               <td> 01 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
                                               <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
+                                              <td> 4</td>
+                                              <td> 4</td>
+                                              <td> 3</td>
+                                              <td> 14</td>
+                                              <td> 30 Mins </td>
                                               <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt paid-status2"> <span class="dot"></span> Paid</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 02 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
                                               <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt completed-status"> <span class="dot"></span> Completed</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 03 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt pending-status"> <span class="dot"></span> Pending</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 04 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt paid-status2"> <span class="dot"></span> Paid</span>
-                                                  </div>
-                                                </div> 
-                                              </td>
-                                            </tr>
-
-                                            <tr>
-                                              <td> 05 </td>
-                                              <td>
-                                                <div class="img-txt-div">
-                                                  <div class="img-div">
-                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
-                                                  </div>
-                                                  <div class="txt-div">
-                                                    <p>Youssef Kone</p>
-                                                  </div>
-                                                </div>
-                                              </td>
-                                              <td> Hand Wash </td>
-                                              <td> 
-                                                <div class="txt-box-addr">
-                                                  <p>1531 Hollywood Blvd
-                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
-                                                  </p>
-                                                </div>
-                                              </td>
-                                              <td> 0830202B </td>
-                                              <td> 07/20/2020 </td>
-                                              <td> On Demand </td>
-                                              <td> $250 </td>
-                                              <td> 
-                                                <div class="status-row-div">
-                                                  <div class="status-label-div">
-                                                    <span class="status-label-txt canceled-status2"> <span class="dot"></span> Canceled </span>
-                                                  </div>
-                                                </div> 
-                                              </td>
                                             </tr>
                                            
                                           </tbody>
@@ -1286,6 +1030,14 @@
     
                                     </div>
                                   </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="tab-pane fade" id="wreports-05" role="tabpanel">
+
+                                <div class="tab-pane-inner-div">
 
                                 </div>
 

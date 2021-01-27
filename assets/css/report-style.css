@@ -64,6 +64,10 @@
   border-radius: 10px;
 }
 
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom.multiple-custom-color01 {
+  background-color: rgba(217, 216, 216, 0.49);
+}
+
 .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color01 {
   background-color: #e51616;
 }
@@ -82,6 +86,14 @@
 
 .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color05 {
   background-color: #4088f6;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color06 {
+  background-color: #12eb00;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.bg-color-default {
+  background-color: #d9d8d8;
 }
 
 .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progress-multiple-custom .progress-bar.br-right-tb {
@@ -196,6 +208,135 @@
   border-bottom: 0;
 }
 
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .progressbar-list-box-body {
+  padding: 12px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 {
+  margin: 0 0 12px 0;
+  border-bottom: 0 solid #d9d8d8;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progressbar-list-row .progressbar-list-width-240 {
+  width: 240px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progressbar-list-row .progressbar-list-width-100-240 {
+  width: calc(100% - 240px);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .number-div {
+  width: 40px;
+  padding: 0 10px 0 0;
+  text-align: right;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .number-div h3 {
+  max-width: 40px;
+  display: inline-block;
+  color: #06151b;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .img-div {
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .img-div .img-fluid {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .txt-div {
+  width: calc(100% - 80px);
+  padding: 0 0 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .txt-div p {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  color: #06151b;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress {
+  height: 26px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress .progress-bar {
+  border-radius: 10px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress .txt-span {
+  color: #2e2e2e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  position: absolute;
+  right: 30px;
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress.progress-color-01 .progress-bar {
+  background-color: rgba(20, 235, 0, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress.progress-color-02 .progress-bar {
+  background-color: rgba(255, 151, 5, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress.progress-color-03 .progress-bar {
+  background-color: rgba(64, 137, 246, 0.7);
+}
+
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .progressbar-list-box-footer .progressbar-list-box .progressbar-list-row .progressbar-list-col .right-txt-p {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .donut-chart-root {
+  max-width: 510px;
+  width: 100%;
+  margin: 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .graph-bottom-div .graph-bottom-row {
+  margin: 20px 0 20px 0;
+}
+
 @media (max-width: 767px) {
   .reports-tools-up-section {
     margin-bottom: 20px;
@@ -227,6 +368,33 @@
   .reports-main-tab-section .overview-card-root-div .progressbar-root-div .progressbar-list-box .progressbar-list-row .progressbar-list-col p {
     margin: 0 0 5px 0;
     text-align: center;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progressbar-list-row .progressbar-list-width-240 {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progressbar-list-row .progressbar-list-width-100-240 {
+    width: 100%;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress .txt-span {
+    font-size: 14px;
+    right: 15px;
+  }
+  .reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .progressbar-list-box-footer .progressbar-list-box .progressbar-list-row .progressbar-list-col .right-txt-p {
+    text-align: center;
+    padding-right: 0;
+  }
+  .reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .donut-chart-root .chart-donut-contain {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .donut-chart-root {
+    max-width: 310px;
+  }
+  .reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .donut-chart-root .chart-donut-contain {
+    height: 200px;
   }
 }
 /*# sourceMappingURL=report-style.css.map */
