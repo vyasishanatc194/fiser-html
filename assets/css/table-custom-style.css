@@ -37,6 +37,10 @@
   width: 50px;
 }
 
+.table.table-custom-02 thead th.width-8 {
+  width: 8%;
+}
+
 .table.table-custom-02 thead th.width-10 {
   width: 10%;
 }
@@ -51,6 +55,18 @@
 
 .table.table-custom-02 thead th.width-13 {
   width: 13%;
+}
+
+.table.table-custom-02 thead th.width-16 {
+  width: 16%;
+}
+
+.table.table-custom-02 thead th.width-18 {
+  width: 18%;
+}
+
+.table.table-custom-02 thead th.width-15-50px {
+  width: calc(15% - 15px);
 }
 
 .table.table-custom-02 thead th.width-25-50px {
@@ -101,8 +117,20 @@
   min-width: 115px;
 }
 
+.table.table-custom-02 thead th.min-width-125 {
+  min-width: 125px;
+}
+
 .table.table-custom-02 thead th.min-width-140 {
   min-width: 140px;
+}
+
+.table.table-custom-02 thead th.min-width-150 {
+  min-width: 150px;
+}
+
+.table.table-custom-02 thead th.min-width-160 {
+  min-width: 160px;
 }
 
 .table.table-custom-02 thead th.min-width-172 {
@@ -113,7 +141,8 @@
   min-width: 205px;
 }
 
-.table.table-custom-02 tbody td {
+.table.table-custom-02 tbody td,
+.table.table-custom-02 tfoot td {
   color: #06151b;
   font-size: 14px;
   line-height: 1.5;
@@ -122,15 +151,18 @@
   vertical-align: middle;
 }
 
-.table.table-custom-02 tbody td:first-child {
+.table.table-custom-02 tbody td:first-child,
+.table.table-custom-02 tfoot td:first-child {
   padding-left: 20px;
 }
 
-.table.table-custom-02 tbody td:last-child {
+.table.table-custom-02 tbody td:last-child,
+.table.table-custom-02 tfoot td:last-child {
   padding-right: 20px;
 }
 
-.table.table-custom-02 tbody td .img-txt-div {
+.table.table-custom-02 tbody td .img-txt-div,
+.table.table-custom-02 tfoot td .img-txt-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,7 +173,8 @@
       flex-wrap: wrap;
 }
 
-.table.table-custom-02 tbody td .img-txt-div .img-div {
+.table.table-custom-02 tbody td .img-txt-div .img-div,
+.table.table-custom-02 tfoot td .img-txt-div .img-div {
   width: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,14 +183,16 @@
       flex-wrap: wrap;
 }
 
-.table.table-custom-02 tbody td .img-txt-div .img-div .img-fluid {
+.table.table-custom-02 tbody td .img-txt-div .img-div .img-fluid,
+.table.table-custom-02 tfoot td .img-txt-div .img-div .img-fluid {
   width: 40px;
   height: 40px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.table.table-custom-02 tbody td .img-txt-div .txt-div {
+.table.table-custom-02 tbody td .img-txt-div .txt-div,
+.table.table-custom-02 tfoot td .img-txt-div .txt-div {
   width: calc(100% - 40px);
   padding: 6px 0 2px 10px;
   display: -webkit-box;
@@ -167,7 +202,8 @@
       flex-wrap: wrap;
 }
 
-.table.table-custom-02 tbody td .img-txt-div .txt-div p {
+.table.table-custom-02 tbody td .img-txt-div .txt-div p,
+.table.table-custom-02 tfoot td .img-txt-div .txt-div p {
   overflow: hidden;
   white-space: nowrap;
   max-width: 100px;
@@ -175,7 +211,13 @@
   text-overflow: ellipsis;
 }
 
-.table.table-custom-02 tbody td .status-row-div {
+.table.table-custom-02 tbody td .txt-box-addr .txt-color-01,
+.table.table-custom-02 tfoot td .txt-box-addr .txt-color-01 {
+  color: #707070;
+}
+
+.table.table-custom-02 tbody td .status-row-div,
+.table.table-custom-02 tfoot td .status-row-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,17 +228,24 @@
       flex-wrap: wrap;
 }
 
-.table.table-custom-02 tbody td .status-row-div .status-label-div {
+.table.table-custom-02 tbody td .status-row-div .status-label-div,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div {
   position: relative;
   margin: 0 10px 0 0;
 }
 
-.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt {
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt {
   position: relative;
   padding: 0 0 0 15px;
+  /* status option2 */
+  /* End of status option2 */
+  /* status option3 */
+  /* End of status option3 */
 }
 
-.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt .dot {
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt .dot {
   display: inline-block;
   height: 9px;
   width: 9px;
@@ -207,15 +256,48 @@
   top: 2px;
 }
 
-.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.canceled-status .dot {
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.canceled-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.canceled-status .dot {
   background-color: #eb0051;
 }
 
-.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.accepted-status .dot {
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.accepted-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.accepted-status .dot {
   background-color: #12eb00;
 }
 
-.table.table-custom-02 tbody td .badge.badge-custom {
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.paid-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.paid-status .dot {
+  background-color: #4088f6;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.pending-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.pending-status .dot {
+  background-color: #ebeb3b;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.refunded-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.refunded-status .dot {
+  background-color: #ff9605;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.canceled-status2 .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.canceled-status2 .dot {
+  background-color: #e51616;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.paid-status2 .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.paid-status2 .dot {
+  background-color: #12eb00;
+}
+
+.table.table-custom-02 tbody td .status-row-div .status-label-div .status-label-txt.completed-status .dot,
+.table.table-custom-02 tfoot td .status-row-div .status-label-div .status-label-txt.completed-status .dot {
+  background-color: #12eb00;
+}
+
+.table.table-custom-02 tbody td .badge.badge-custom,
+.table.table-custom-02 tfoot td .badge.badge-custom {
   padding: 5px 14px 3px 14px;
   font-size: 13px;
   line-height: 16px;
@@ -225,12 +307,49 @@
   color: #fff;
 }
 
-.table.table-custom-02 tbody td .badge.badge-custom.badge-debit {
+.table.table-custom-02 tbody td .badge.badge-custom.badge-debit,
+.table.table-custom-02 tfoot td .badge.badge-custom.badge-debit {
   background-color: #e51616;
 }
 
-.table.table-custom-02 tbody td .badge.badge-custom.badge-credit {
+.table.table-custom-02 tbody td .badge.badge-custom.badge-credit,
+.table.table-custom-02 tfoot td .badge.badge-custom.badge-credit {
   background-color: #12eb00;
+}
+
+.table.table-custom-02 tbody td .prog-final-number-box .number-bar,
+.table.table-custom-02 tfoot td .prog-final-number-box .number-bar {
+  height: 52px;
+  font-size: 24px;
+  background-color: rgba(217, 216, 216, 0.7);
+  border-radius: 10px;
+  color: #2e2e2e;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 10px 5px 10px;
+}
+
+.table.table-custom-02 tbody td .prog-final-number-box .number-bar.bg-color-default,
+.table.table-custom-02 tfoot td .prog-final-number-box .number-bar.bg-color-default {
+  background-color: rgba(217, 216, 216, 0.7);
+}
+
+.table.table-custom-02 tbody td h5.font-text-h5,
+.table.table-custom-02 tfoot td h5.font-text-h5 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #2e2e2e;
 }
 
 .table.table-borderless thead th {

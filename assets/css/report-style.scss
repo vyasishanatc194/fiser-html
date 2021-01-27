@@ -76,6 +76,10 @@
         background-color: #8bf583;
         border-radius: 10px;
 
+        &.multiple-custom-color01 {
+          background-color: rgba(217, 216, 216, 0.49);
+        }
+
         .progress-bar {
           &.bg-color01 {
             background-color: #e51616;
@@ -95,6 +99,14 @@
 
           &.bg-color05 {
             background-color: #4088f6;
+          }
+
+          &.bg-color06 {
+            background-color: #12eb00;
+          }
+
+          &.bg-color-default {
+            background-color: #d9d8d8;
           }
 
           &.br-right-tb {
@@ -198,6 +210,147 @@
           border-bottom: 0;
         }
       }
+
+      .pro-overview-list-box-root {
+        .progressbar-list-box-body {
+          padding: 12px 0;
+        }
+
+        .pro-list-box01 {
+          margin: 0 0 12px 0;
+          border-bottom: 0 solid #d9d8d8;
+
+          .progressbar-list-row {
+            .progressbar-list-width-240 {
+              width: 240px;
+            }
+
+            .progressbar-list-width-100-240 {
+              width: calc(100% - 240px);
+            }
+          }
+
+          .pro-img-txt-div {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .number-div {
+              width: 40px;
+              padding: 0 10px 0 0;
+              text-align: right;
+
+              h3 {
+                max-width: 40px;
+                display: inline-block;
+                color: #06151b;
+                font-size: 14px;
+                line-height: 1.5;
+                font-weight: 700;
+                vertical-align: middle;
+              }
+            }
+
+            .img-div {
+              width: 40px;
+              display: flex;
+              flex-wrap: wrap;
+
+              .img-fluid {
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+              }
+            }
+
+            .txt-div {
+              width: calc(100% - 80px);
+              padding: 0 0 0 10px;
+              display: flex;
+              flex-wrap: wrap;
+
+              p {
+                overflow: hidden;
+                white-space: nowrap;
+                max-width: 100px;
+                display: inline-block;
+                text-overflow: ellipsis;
+                color: #06151b;
+                font-size: 14px;
+                line-height: 1.5;
+                font-weight: 700;
+                vertical-align: middle;
+              }
+            }
+          }
+
+          .progress-custom-div {
+            .progress {
+              height: 26px;
+              border-radius: 10px;
+              position: relative;
+
+              .progress-bar {
+                border-radius: 10px;
+              }
+
+              .txt-span {
+                color: #2e2e2e;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 29px;
+                position: absolute;
+                right: 30px;
+              }
+
+              &.progress-color-01 {
+                .progress-bar {
+                  background-color: rgba(20, 235, 0, 0.7);
+                }
+              }
+
+              &.progress-color-02 {
+                .progress-bar {
+                  background-color: rgba(255, 151, 5, 0.7);
+                }
+              }
+
+              &.progress-color-03 {
+                .progress-bar {
+                  background-color: rgba(64, 137, 246, 0.7);
+                }
+              }
+            }
+          }
+        }
+
+        .progressbar-list-box-footer {
+          .progressbar-list-box {
+            .progressbar-list-row {
+              .progressbar-list-col {
+                .right-txt-p {
+                  text-align: right;
+                  padding-right: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .custom-donut-chart-section {
+      .donut-chart-root {
+        max-width: 510px;
+        width: 100%;
+        margin: 0;
+      }
+
+      .graph-bottom-div {
+        .graph-bottom-row {
+          margin: 20px 0 20px 0;
+        }
+      }
     }
   }
 }
@@ -255,10 +408,68 @@
             }
           }
         }
+
+        .pro-overview-list-box-root {
+          .pro-list-box01 {
+            .progressbar-list-row {
+              .progressbar-list-width-240 {
+                width: 100%;
+                margin: 0 0 15px 0;
+              }
+
+              .progressbar-list-width-100-240 {
+                width: 100%;
+              }
+            }
+
+            .progress-custom-div {
+              .progress {
+                .txt-span {
+                  font-size: 14px;
+                  right: 15px;
+                }
+              }
+            }
+          }
+
+          .progressbar-list-box-footer {
+            .progressbar-list-box {
+              .progressbar-list-row {
+                .progressbar-list-col {
+                  .right-txt-p {
+                    text-align: center;
+                    padding-right: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .custom-donut-chart-section {
+        .donut-chart-root {
+          .chart-donut-contain {
+            height: 200px;
+          }
+        }
       }
     }
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .reports-main-tab-section {
+    .overview-card-root-div {
+      .custom-donut-chart-section {
+        .donut-chart-root {
+          max-width: 310px;
+
+          .chart-donut-contain {
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
 }

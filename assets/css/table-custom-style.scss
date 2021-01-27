@@ -42,6 +42,10 @@
         width: 50px;
       }
 
+      &.width-8 {
+        width: 8%;
+      }
+
       &.width-10 {
         width: 10%;
       }
@@ -56,6 +60,18 @@
 
       &.width-13 {
         width: 13%;
+      }
+
+      &.width-16 {
+        width: 16%;
+      }
+
+      &.width-18 {
+        width: 18%;
+      }
+
+      &.width-15-50px {
+        width: calc(15% - 15px);
       }
 
       &.width-25-50px {
@@ -106,8 +122,20 @@
         min-width: 115px;
       }
 
+      &.min-width-125 {
+        min-width: 125px;
+      }
+
       &.min-width-140 {
         min-width: 140px;
+      }
+
+      &.min-width-150 {
+        min-width: 150px;
+      }
+
+      &.min-width-160 {
+        min-width: 160px;
       }
 
       &.min-width-172 {
@@ -120,7 +148,8 @@
     }
   }
 
-  tbody {
+  tbody,
+  tfoot {
     td {
       color: #06151b;
       font-size: 14px;
@@ -170,6 +199,12 @@
         }
       }
 
+      .txt-box-addr {
+        .txt-color-01 {
+          color: #707070;
+        }
+      }
+
       .status-row-div {
         display: flex;
         align-items: center;
@@ -205,10 +240,47 @@
                 background-color: #12eb00;
               }
             }
-          }
-        }
 
-        .status-btn-div {
+            /* status option2 */
+            &.paid-status {
+              .dot {
+                background-color: #4088f6;
+              }
+            }
+
+            &.pending-status {
+              .dot {
+                background-color: #ebeb3b;
+              }
+            }
+
+            &.refunded-status {
+              .dot {
+                background-color: #ff9605;
+              }
+            }
+
+            &.canceled-status2 {
+              .dot {
+                background-color: #e51616;
+              }
+            }
+            /* End of status option2 */
+
+            /* status option3 */
+            &.paid-status2 {
+              .dot {
+                background-color: #12eb00;
+              }
+            }
+
+            &.completed-status {
+              .dot {
+                background-color: #12eb00;
+              }
+            }
+            /* End of status option3 */
+          }
         }
       }
 
@@ -228,6 +300,33 @@
         &.badge-credit {
           background-color: #12eb00;
         }
+      }
+
+      .prog-final-number-box {
+        .number-bar {
+          height: 52px;
+          font-size: 24px;
+          background-color: rgba(217, 216, 216, 0.7);
+          border-radius: 10px;
+          color: #2e2e2e;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 10px 10px 5px 10px;
+
+          &.bg-color-default {
+            background-color: rgba(217, 216, 216, 0.7);
+          }
+        }
+      }
+
+      h5.font-text-h5 {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #2e2e2e;
       }
     }
   }
