@@ -501,6 +501,43 @@ body {
           box-shadow: none;
 }
 
+.btn.btn-balck {
+  background-color: #06151B;
+  border-radius: 10px;
+  color: #fff;
+  padding: 7px 16px 6px 16px;
+  min-height: 46px;
+  margin: 0 auto;
+  font-weight: 700;
+  border: none;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn.btn-balck:hover, .btn.btn-balck:focus, .btn.btn-balck:active {
+  background-color: #06151B;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.btn-balck:not(:disabled):not(.disabled).active, .btn.btn-balck:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #06151B;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .btn-flex {
   display: -webkit-box;
   display: -ms-flexbox;

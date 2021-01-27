@@ -160,6 +160,38 @@ body {
   }
 }
 
+
+.btn.btn-balck {
+  background-color: #06151B;
+  border-radius: 10px;
+  color: #fff;
+  padding: 7px 16px 6px 16px;
+  min-height: 46px;
+  margin: 0 auto;
+  font-weight: 700;
+  border: none;
+  transition: all 0.8s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #06151B;
+    box-shadow: none;
+  }
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #06151B;
+    box-shadow: none;
+  }
+}
 .btn-flex {
   display: flex;
   align-items: center;

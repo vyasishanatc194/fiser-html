@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Sales Order | Fiser</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#06151B">
+<meta name="msapplication-navbutton-color" content="#06151B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/asPieProgress.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/calendar.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/switch.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom-modal.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/dasboard.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper dashboard-wrapper">
+
+  <!-- left-side -->
+  <div class="left-side-nav">
+    <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo" >
+            <img src="assets/images/logo.png" class="logo" alt="logo" /> 
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="responsive-menu-view-div desktop-hidden" id="responsive-menu-view-area">
+              
+            </div>
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item ">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
+                    <span class="text-collapse-menu">Communication</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span> 
+                    <span class="text-collapse-menu">Customize My App</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span> 
+                    <span class="text-collapse-menu">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+        
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+    </div>
+  </div>
+  <!--  End of left-side  -->
+
+  <!-- Begin page content -->
+  <main role="main" class="middle-area-dashboard main-dashboard">
+    <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+          <nav class="navbar navbar-light">
+              <div class="container-fluid d-block">
+                  
+                  <div class="row col-header-row">
+                      <div class="col-lg-12 col-12">
+
+                          <div class="nav-dashboard-row">
+
+                              <div class="nav-dashboard-left">
+                                <div class="nav-dashboard-left-inner">
+                                  <div class="nav-dashboard-btn-box">
+                                    <a href="#" class="btn btn-primary">ADD NEW</a>
+                                  </div>
+                                  <div class="search-div">
+                                    <div class="search-row">
+                                      <div class="search-input-box">
+                                        <div class="search-icon-box">
+                                          <button class="btn btn-search" id="btn-search-tp"><span class="bg-custom-icon search-icon"></span></button>
+                                        </div>
+                                        <input type="text" class="form-control form-search" id="form-search" placeholder="Search...">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="nav-dashboard-right mobile-hidden" id="nav-top-header-right-area">
+
+                                <div class="nav-list-top-right-div">
+                                  <ul class="nav-list-top-right-ul">
+                                    <li class="nav-item nav-item01">
+                                      <a href="#" class="btn btn-nav-link">
+                                        <i class="bg-custom-icon document-icon"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item nav-item02">
+                                      <a href="#" class="btn btn-nav-link">
+                                        <i class="bg-custom-icon clock-icon"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item nav-item03">
+                                      <a href="#" class="btn btn-nav-link">
+                                        <i class="bg-custom-icon chat-icon"></i>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item nav-item04">
+                                      <a href="#" class="btn btn-nav-link notification-btn-link">
+                                        <i class="bg-custom-icon notification-icon"></i>
+                                        <span class="number-span">4</span>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item nav-item05">
+                                      <div class="user-drop-down">
+                                        <div class="dropdown drop-left dropdown-custom-top">
+                                          <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <div class="user-profile">
+                                              <div class="user-info">
+                                                <h3>Youssef Kone</h3>
+                                                <p>Available</p>
+                                              </div>
+                                              <div class="user-img">
+                                                <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                              </div>
+                                            </div>
+                                          </a>
+                                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <ul>
+                                              <li><a class="dropdown-item" href="#"> Profile</a></li>
+                                              <li class="logout-li"><a class="dropdown-item" href="#"> <i class="fe fe-log-in"></i> Logout</a></li>
+                                            </ul>                   
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item nav-item06">
+                                      <a href="#" class="btn btn-nav-link">
+                                        <i class="bg-custom-icon book-icon"></i>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                
+                              </div>
+
+                          </div>
+
+                      </div>
+                  </div>
+              
+              </div>
+          </nav>
+      </header>
+        <!-- End of header -->
+        
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                 <section class="breadcrumb-section ">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="management.html">Manegement</a></li>
+                      <li class="breadcrumb-item"><a href="management-clients.html">Clients</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">New</li>
+                    </ol>
+                  </nav>
+                 </section>
+                   <!-- bread crumb end -->
+
+                  <section class="setting-tools-section">
+                      <div class="setting-tools-group">
+
+                      
+                        <div class="">
+                        </div>
+                  
+
+                        <div class="btn-group-setting">
+                          <a href="#" class="btn btn-tools mr-2" id="search"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
+                          <a href="#" class="btn btn-tools mr-2" data-toggle="modal" data-target="#schedule-settings"><span class="btn-icon mr-2"><i class="fe fe-file"></i></span>Add</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-upload"></i></span>Export</a>
+                          <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-settings"></i></span>Setting</a>
+                        </div>
+                          
+                      </div>
+                  </section>
+
+                  <section class="search-bar" style="display: none;">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="search here.." >
+                      <div class="input-group-append">
+                        <a href="#!" class="btn input-group-text btn-primary">Search</a>
+                      </div>
+                    </div>
+                  </section>
+                  
+                  <!-- client card -->
+
+                  <section class="cleint-section">
+                      <div class="client-inner">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="client-tabs">
+                              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-selected="true">Requests</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab"  aria-selected="false">Estimates</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab"aria-selected="false">Invoices</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-selected="false">Payments</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="home-tab">
+                                  <div class="table-responsive table-sales">
+                                    <table class="table table-hover">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">#</th>
+                                          <th scope="col">Customer</th>
+                                          <th scope="col">Service</th>
+                                          <th scope="col">Address</th>
+                                          <th scope="col">Invoice #</th>
+                                          <th scope="col">Booked For</th>
+                                          <th scope="col">Booking Type</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">&nbsp;</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Hand Wash</td>
+                                
+                                          <td>
+                                            <div class="tbl-address">
+                                              <p>1531 Hollywood Blvd</p>
+                                              <span>Los Angeles, California, 90101</span>
+                                            </div>
+                                          
+                                          </td>
+                                          <td>0830202B</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot accepted">
+                                            </span>
+                                            Accepted
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Hand Wash</td>
+                                
+                                          <td>
+                                            <div class="tbl-address">
+                                              <p>1531 Hollywood Blvd</p>
+                                              <span>Los Angeles, California, 90101</span>
+                                            </div>
+                                          
+                                          </td>
+                                          <td>0830202B</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot completed">
+                                            </span>
+                                            Completed
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Hand Wash</td>
+                                
+                                          <td>
+                                            <div class="tbl-address">
+                                              <p>1531 Hollywood Blvd</p>
+                                              <span>Los Angeles, California, 90101</span>
+                                            </div>
+                                          
+                                          </td>
+                                          <td>0830202B</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot pending">
+                                            </span>
+                                            Pending
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Hand Wash</td>
+                                
+                                          <td>
+                                            <div class="tbl-address">
+                                              <p>1531 Hollywood Blvd</p>
+                                              <span>Los Angeles, California, 90101</span>
+                                            </div>
+                                          
+                                          </td>
+                                          <td>0830202B</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot inprogress">
+                                            </span>
+                                            In Progress
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Hand Wash</td>
+                                
+                                          <td>
+                                            <div class="tbl-address">
+                                              <p>1531 Hollywood Blvd</p>
+                                              <span>Los Angeles, California, 90101</span>
+                                            </div>
+                                          
+                                          </td>
+                                          <td>0830202B</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot canceled">
+                                            </span>
+                                            Canceled 
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="tab-pane fade" id="two" role="tabpanel">
+                                
+                                </div>
+                                <div class="tab-pane fade" id="three" role="tabpanel" >
+                              
+                                </div>
+                                <div class="tab-pane fade" id="four" role="tabpanel" >
+                                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </section>
+                </div>  
+              </div>        
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+    </div>
+  </main>
+
+</div><!-- end of wrapper -->
+
+
+<!-- modal -->
+
+<div class="modal fade fixed-right" tabindex="-1" role="dialog" id="schedule-settings">
+  <div class="modal-dialog modal-dialog-vertical" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center">Schedule Settings</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fe fe-x"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="schedule-content">
+          <h3>Business hours</h3>
+          <table class="table ">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Working</th>
+                <th scope="col">Start at:</th>
+                <th scope="col">End at:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle2" checked="">
+                  <label for="toggle2">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Tuesday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle22" checked="">
+                  <label for="toggle22">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td>Wednesday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle23" checked="">
+                  <label for="toggle23">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+
+              <tr>
+                <td>Thursday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle24" checked="">
+                  <label for="toggle24">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Friday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle25" checked="">
+                  <label for="toggle25">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Saturday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle26" checked="">
+                  <label for="toggle26">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Sunday</td>
+                <td>
+                  <div class="switch-slider">
+                  <input type="checkbox" class="toggle" id="toggle27" checked="">
+                  <label for="toggle27">
+                    <span class="on">ON</span>
+                    <span class="off">OFF</span>
+                  </label>
+                </div>
+              </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="" id="" class="select2">
+                    <option value="">9:00</option>
+                    <option value="">9:30</option>
+                    <option value="">9:40</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-save">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-asPieProgress.js"></script>
+
+<script src="assets/js/admin-dashboard.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/select2.full.js"></script>
+<script src="assets/js/calender.min.js"></script>
+
+
+<script>
+
+  $("#search").click(function(){
+    $(".search-bar").toggle();
+  });
+
+  $('.select2').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+  );
+
+document.addEventListener('DOMContentLoaded', function() {
+  var calendarEl = document.getElementById('calendar');
+
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'dayGridMonth',
+    initialDate: '2020-09-07',
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'dayGridMonth,timeGridWeek,timeGridDay'
+    },
+    // 		customButtons: {
+		// 	addRoom: {
+		// 		text: 'Add room',
+		// 	},
+		// 	addReservation: {
+		// 		text: 'Add reservation',
+		// 	},
+		// },
+    events: [
+      {
+        title: 'All Day Event',
+        start: '2020-09-01'
+      },
+      {
+        title: 'Long Event',
+        start: '2020-09-07',
+        end: '2020-09-10',
+        color: '#ff0000'
+      },
+      {
+        groupId: '999',
+        title: 'Repeating Event',
+        start: '2020-09-09T16:00:00',
+      
+      },
+      {
+        groupId: '999',
+        title: 'Repeating Event',
+        start: '2020-09-16T16:00:00'
+      },
+      {
+        title: 'Conference',
+        start: '2020-09-11',
+        end: '2020-09-13'
+      },
+      {
+        title: 'Meeting',
+        start: '2020-09-12T10:30:00',
+        end: '2020-09-12T12:30:00'
+      },
+      {
+        title: 'Lunch',
+        start: '2020-09-12T12:00:00'
+      },
+      {
+        title: 'Meeting',
+        start: '2020-09-12T14:30:00'
+      },
+      {
+        title: 'Birthday Party',
+        start: '2020-09-13T07:00:00'
+      },
+      {
+        title: 'Click for Google',
+        url: 'http://google.com/',
+        start: '2020-09-28',
+        color: '#FFcc00'
+      }
+    ]
+  });
+
+  calendar.render();
+});
+</script>
+
+</body>
+</html>
