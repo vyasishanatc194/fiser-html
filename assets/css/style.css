@@ -465,7 +465,7 @@ body {
 }
 
 .btn.btn-default {
-  background-color: #D9D8D8;
+  background-color: #d9d8d8;
   border-radius: 10px;
   color: #06151b;
   padding: 7px 16px 6px 16px;
@@ -1302,6 +1302,7 @@ body {
           box-shadow: none;
   outline: none;
   min-height: 64px;
+  background: transparent;
 }
 
 .nav-dashboard-right .user-drop-down .dropdown-custom-top .btn.dropdown-toggle::after {
