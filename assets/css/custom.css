@@ -1038,6 +1038,15 @@
   margin-right: 10px;
 }
 
+.table-sales table .won {
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background-color: #12EB00;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .table-sales table .accepted {
   height: 8px;
   width: 8px;
@@ -1056,7 +1065,25 @@
   margin-right: 10px;
 }
 
+.table-sales table .unsent {
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background-color: #FF9605;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .table-sales table .canceled {
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background-color: #E51616;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.table-sales table .denied {
   height: 8px;
   width: 8px;
   border-radius: 100px;
@@ -1370,6 +1397,16 @@
   padding: 30px 20px;
 }
 
+.sales-section .additional-card .card-body .additional-detail ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .sales-section .additional-card .card-body .additional-detail ul li {
   font-size: 18px;
   line-height: 30px;
@@ -1389,6 +1426,131 @@
 .sales-section .additional-card .card-body .additional-detail ul li span {
   width: 50%;
   font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-header {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #fff;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
+  background-color: #fff;
+  color: #FECB2F;
+  border: 1px solid #FECB2F;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  padding: 12px 20px;
+  margin-right: 20px;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:last-child {
+  margin-right: 0;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:hover {
+  background-color: #FECB2F;
+  color: #fff;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:focus {
+  background-color: #FECB2F;
+  color: #fff;
+}
+
+.estimation-section .card-estimate .card-body {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header {
+  background-color: #000;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to {
+  margin-bottom: 30px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 17px;
+  font-weight: 700;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info h4 {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p a {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  padding: 0;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li span {
+  width: 50%;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li .remaind {
+  font-weight: 400;
+  color: #FECB2F;
 }
 
 .client-upload-section .upload-section {
