@@ -57,6 +57,10 @@
   width: 13%;
 }
 
+.table.table-custom-02 thead th.width-14 {
+  width: 14%;
+}
+
 .table.table-custom-02 thead th.width-16 {
   width: 16%;
 }
@@ -103,6 +107,10 @@
 
 .table.table-custom-02 thead th.width-30 {
   width: 30%;
+}
+
+.table.table-custom-02 thead th.width-35 {
+  width: 35%;
 }
 
 .table.table-custom-02 thead th.width-40 {

@@ -291,6 +291,10 @@
   vertical-align: middle;
 }
 
+.reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .pro-img-txt-div .txt-div .max-100per {
+  max-width: 100%;
+}
+
 .reports-main-tab-section .overview-card-root-div .progressbar-root-div .pro-overview-list-box-root .pro-list-box01 .progress-custom-div .progress {
   height: 26px;
   border-radius: 10px;
@@ -335,6 +339,17 @@
 
 .reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .graph-bottom-div .graph-bottom-row {
   margin: 20px 0 20px 0;
+}
+
+.reports-main-tab-section .overview-card-root-div .overview-top-selling-section .card.custom-white-card02 {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+}
+
+.leaderboard-list-view-report {
+  padding: 20px 15px 10px 15px;
 }
 
 @media (max-width: 767px) {
@@ -386,6 +401,16 @@
   }
   .reports-main-tab-section .overview-card-root-div .custom-donut-chart-section .donut-chart-root .chart-donut-contain {
     height: 200px;
+  }
+  .reports-main-tab-section .overview-card-root-div .overview-top-selling-section .custom-white-card02 .card-header {
+    padding: 20px 15px 10px 15px;
+  }
+  .reports-main-tab-section .overview-card-root-div .overview-top-selling-section .custom-white-card02 .card-header .title-row-new-div .title-row-new-left {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .reports-main-tab-section .overview-card-root-div .overview-top-selling-section .custom-white-card02 .card-body {
+    padding: 10px 15px 10px 15px;
   }
 }
 

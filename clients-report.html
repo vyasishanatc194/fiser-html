@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Report | Fiser</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#06151B">
+<meta name="msapplication-navbutton-color" content="#06151B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+<link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/switch.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/report-style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper dashboard-wrapper">
+
+  <!-- left-side -->
+  <div class="left-side-nav">
+    <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo" >
+            <img src="assets/images/logo.png" class="logo" alt="logo" /> 
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="responsive-menu-view-div desktop-hidden" id="responsive-menu-view-area">
+              
+            </div>
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
+                    <span class="text-collapse-menu">Chat</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon reports-white"></i> </span> 
+                    <span class="text-collapse-menu">Reports</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span> 
+                    <span class="text-collapse-menu">Customize My App</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span> 
+                    <span class="text-collapse-menu">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+        
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+    </div>
+  </div>
+  <!--  End of left-side  -->
+
+  <!-- Begin page content -->
+  <main role="main" class="middle-area-dashboard main-dashboard">
+    <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid d-block">
+                    
+                    <div class="row col-header-row">
+                        <div class="col-lg-12 col-12">
+
+                            <div class="nav-dashboard-row">
+
+                                <div class="nav-dashboard-left">
+                                  <div class="nav-dashboard-left-inner">
+                                    <div class="nav-dashboard-btn-box">
+                                      <a href="#" class="btn btn-primary">ADD NEW</a>
+                                    </div>
+                                    <div class="search-div">
+                                      <div class="search-row">
+                                        <div class="search-input-box">
+                                          <div class="search-icon-box">
+                                            <button class="btn btn-search" id="btn-search-tp"><span class="bg-custom-icon search-icon"></span></button>
+                                          </div>
+                                          <input type="text" class="form-control form-search" id="form-search" placeholder="Search...">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="nav-dashboard-right mobile-hidden" id="nav-top-header-right-area">
+
+                                  <div class="nav-list-top-right-div">
+                                    <ul class="nav-list-top-right-ul">
+                                      <li class="nav-item nav-item01">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon document-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item02">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon clock-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item03">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon chat-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item04">
+                                        <a href="#" class="btn btn-nav-link notification-btn-link">
+                                          <i class="bg-custom-icon notification-icon"></i>
+                                          <span class="number-span">4</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item05">
+                                        <div class="user-drop-down">
+                                          <div class="dropdown drop-left dropdown-custom-top">
+                                            <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <div class="user-profile">
+                                                <div class="user-info">
+                                                  <h3>Youssef Kone</h3>
+                                                  <p>Available</p>
+                                                </div>
+                                                <div class="user-img">
+                                                  <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                                </div>
+                                              </div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <ul>
+                                                <li><a class="dropdown-item" href="#"> Profile</a></li>
+                                                <li class="logout-li"><a class="dropdown-item" href="#"> <i class="fe fe-log-in"></i> Logout</a></li>
+                                              </ul>                   
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="nav-item nav-item06">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon book-icon"></i>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </nav>
+        </header>
+        <!-- End of header -->
+        
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                  <section class="breadcrumb-section">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Services</a></li>
+                        <li class="breadcrumb-item"><a href="#">Auto Detailing</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">New</li>
+                      </ol>
+                    </nav>
+                  </section>
+                  <!-- bread crumb end -->
+
+                  <section class="setting-tools-section setting-tools-up-01-section reports-tools-up-section">
+                    <div class="setting-tools-group flex-wrap">
+                      
+                      <div class="btn-group-setting w-100">
+                        <a href="#" class="btn btn-tools mr-2" id="search"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
+                        <a href="#" class="btn btn-tools mr-2" data-toggle="modal" data-target="#schedule-settings"><span class="btn-icon mr-2"><i class="fe fe-file"></i></span>Add</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-upload"></i></span>Export</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-settings"></i></span>Setting</a>
+                      </div>
+
+                      <div class="tabs-link">
+                        <ul>
+                          <li><a href="report.html" class="">Financial Report</a></li>
+                          <li><a href="work-report.html" class="">Work Report</a></li>
+                          <li><a href="clients-report.html" class="active">Clients Report</a></li>
+                        </ul>
+                      </div>
+                        
+                    </div>
+                  </section>
+
+                  <section class="reports-main-tab-section">
+                    <div class="reports-main-tab-inner">
+                      <div class="row">
+                        <div class="col-lg-12">
+
+                          <div class="client-tabs reports-tabs">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="creports-tab-01" data-toggle="tab" href="#creports-01" role="tab" aria-selected="true">Users</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="creports-tab-02" data-toggle="tab" href="#creports-02" role="tab" aria-selected="false">Referrals</a>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="creports-tab-03" data-toggle="tab" href="#creports-03" role="tab" aria-selected="false">Marketing</a>
+                              </li>
+                            </ul>
+
+                            <div class="tab-content" id="myTabContent">
+
+                              <div class="tab-pane fade show active" id="creports-01" role="tabpanel">
+                                
+                                <div class="tab-pane-inner-div">
+
+                                  <div class="overview-card-root-div">
+                                    <div class="overview-card-root-inner">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="title-o-div">
+                                            <h4>Overview</h4>
+                                          </div>
+
+                                          <div class="user-overview-card-root">
+
+                                            <div class="row">
+                                              <div class="col-xl-8 col-lg-12 col-md-12">
+                        
+                                                <section class="custom-card-section custom-earnings-card-section">
+                        
+                                                  <div class="card custom-white-card02">
+                                                    <div class="card-header">
+                                                      <div class="title-txt-div">
+                                                        
+                                                        <div class="title-row-new-div">
+                                                          <div class="title-row-new-left">
+                                                            <h3>Users</h3>
+                                                          </div>
+                                                          <div class="title-row-new-right">
+                                                            <div class="select-with-label-div">
+                                                              <div class="select2-form-group">
+                                                                <div class="select-box select-custom2 select-custom2-general">
+                                                                  <select class="js-select2 select2" id="select-sort-type">
+                                                                    <option selected>Jan</option>
+                                                                    <option>Feb </option>
+                                                                    <option>Mar </option>
+                                                                    <option>Apr </option>
+                                                                    <option>May </option>
+                                                                    <option>Jun </option>
+                                                                    <option>Jul </option>
+                                                                    <option>Aug </option>
+                                                                    <option>Sep </option>
+                                                                    <option>Oct </option>
+                                                                    <option>Nov </option>
+                                                                    <option>Dec </option>
+                                                                  </select>
+                                                                </div>
+                                                                <div class="label-div">
+                                                                  <p>Month</p>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                        
+                                                      </div>
+                                                    </div>
+                                                    <div class="card-body">
+                        
+                                                      <div class="earnings-card-chart-root">
+                                                        
+                                                        <div class="earnings-card-chart-row">
+                                                          <div class="earnings-card-chart-left">
+                                                            <p>This month</p>
+                                                            <h4 class="mb-25">50</h4>
+                                                            <div class="txt-badge-div mb-25">
+                                                              <p> <span class="badge badge-light">+ 5%</span> From previous <span class="block">period</span> </p>
+                                                            </div>
+                                                            <div class="btn-div mb-25">
+                                                              <button class="btn btn-primary-view-icon"> View details <i class="fe fe-chevron-right"></i> </button>
+                                                            </div>
+                                                            <div class="text-div mb-25">
+                                                              <p>Last month</p>
+                                                              <h4>45</h4>
+                                                            </div>
+                                                          </div>
+                        
+                                                          <div class="earnings-card-chart-right">
+                                                            <div class="chart">
+                                                              <canvas id="myChart-user" class="chart-canvas"></canvas>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                        
+                                                      </div>
+                        
+                                                    </div>
+                                                  </div>                      
+                        
+                                                </section>
+                        
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div class="tab-table-card-root-div">
+                                    <div class="tab-table-card-root-middle">
+
+                                      <div class="table-responsive">
+                                        <table class="table table-hover table-custom-02 table-heading-borderless">
+                                          <thead>
+                                            <tr>
+                                              <th class="text-left width-50px">#</th>
+                                              <th class="text-left width-25-50px min-width-172">Name</th>
+                                              <th class="text-left width-14 min-width-172">Phone Number</th>
+                                              <th class="text-left width-16 min-width-172">Email</th>
+                                              <th class="text-left width-20 min-width-172">Address</th>
+                                              <th class="text-left width-15 min-width-115">Referral Code</th>
+                                              <th class="text-left width-10 min-width-140">Added</th>
+                                            </tr>
+                                          </thead>
+
+                                          <tbody>
+                                            
+                                            <tr>
+                                              <td> 01 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 800-888-8000 </td>
+                                              <td> Johndoe@gmail.com </td>
+                                              <td> 
+                                                <div class="txt-box-addr">
+                                                  <p>1531 Hollywood Blvd
+                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
+                                                  </p>
+                                                </div>
+                                              </td>
+                                              <td> MPK001 </td>
+                                              <td> 07/20/2020 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 02 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 800-888-8000 </td>
+                                              <td> Johndoe@gmail.com </td>
+                                              <td> 
+                                                <div class="txt-box-addr">
+                                                  <p>1531 Hollywood Blvd
+                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
+                                                  </p>
+                                                </div>
+                                              </td>
+                                              <td> MPK001 </td>
+                                              <td> 07/20/2020 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 03 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 800-888-8000 </td>
+                                              <td> Johndoe@gmail.com </td>
+                                              <td> 
+                                                <div class="txt-box-addr">
+                                                  <p>1531 Hollywood Blvd
+                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
+                                                  </p>
+                                                </div>
+                                              </td>
+                                              <td> MPK001 </td>
+                                              <td> 07/20/2020 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 04 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 800-888-8000 </td>
+                                              <td> Johndoe@gmail.com </td>
+                                              <td> 
+                                                <div class="txt-box-addr">
+                                                  <p>1531 Hollywood Blvd
+                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
+                                                  </p>
+                                                </div>
+                                              </td>
+                                              <td> MPK001 </td>
+                                              <td> 07/20/2020 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 05 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 800-888-8000 </td>
+                                              <td> Johndoe@gmail.com </td>
+                                              <td> 
+                                                <div class="txt-box-addr">
+                                                  <p>1531 Hollywood Blvd
+                                                    <span class="block txt-color-01">Los Angeles, California, 90101</span>
+                                                  </p>
+                                                </div>
+                                              </td>
+                                              <td> MPK001 </td>
+                                              <td> 07/20/2020 </td>
+                                            </tr>
+                                           
+                                          </tbody>
+                                        </table>
+                                      </div>
+    
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="tab-pane fade" id="creports-02" role="tabpanel">
+                                
+                                <div class="tab-pane-inner-div">
+
+                                  <div class="overview-card-root-div">
+                                    <div class="overview-card-root-inner">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="title-o-div">
+                                            <h4>Overview</h4>
+                                          </div>
+
+                                          <div class="user-overview-card-root">
+
+                                            <div class="row">
+                                              <div class="col-xl-8 col-lg-12 col-md-12">
+                        
+                                                <section class="custom-card-section custom-earnings-card-section">
+                        
+                                                  <div class="card custom-white-card02">
+                                                    <div class="card-header">
+                                                      <div class="title-txt-div">
+                                                        
+                                                        <div class="title-row-new-div">
+                                                          <div class="title-row-new-left">
+                                                            <h3>Referrals</h3>
+                                                          </div>
+                                                          <div class="title-row-new-right">
+                                                            <div class="select-with-label-div">
+                                                              <div class="select2-form-group">
+                                                                <div class="select-box select-custom2 select-custom2-general">
+                                                                  <select class="js-select2 select2" id="select-sort-type">
+                                                                    <option selected>Jan</option>
+                                                                    <option>Feb </option>
+                                                                    <option>Mar </option>
+                                                                    <option>Apr </option>
+                                                                    <option>May </option>
+                                                                    <option>Jun </option>
+                                                                    <option>Jul </option>
+                                                                    <option>Aug </option>
+                                                                    <option>Sep </option>
+                                                                    <option>Oct </option>
+                                                                    <option>Nov </option>
+                                                                    <option>Dec </option>
+                                                                  </select>
+                                                                </div>
+                                                                <div class="label-div">
+                                                                  <p>Month</p>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                        
+                                                      </div>
+                                                    </div>
+                                                    <div class="card-body">
+                        
+                                                      <div class="earnings-card-chart-root">
+                                                        
+                                                        <div class="earnings-card-chart-row">
+                                                          <div class="earnings-card-chart-left">
+                                                            <p>This month</p>
+                                                            <h4 class="mb-25">20</h4>
+                                                            <div class="txt-badge-div mb-25">
+                                                              <p> <span class="badge badge-light">+ 5%</span> From previous <span class="block">period</span> </p>
+                                                            </div>
+                                                            <div class="btn-div mb-25">
+                                                              <button class="btn btn-primary-view-icon"> View details <i class="fe fe-chevron-right"></i> </button>
+                                                            </div>
+                                                            <div class="text-div mb-25">
+                                                              <p>Last month</p>
+                                                              <h4>15</h4>
+                                                            </div>
+                                                          </div>
+                        
+                                                          <div class="earnings-card-chart-right">
+                                                            <div class="chart">
+                                                              <canvas id="myChart-referrals" class="chart-canvas"></canvas>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                        
+                                                      </div>
+                        
+                                                    </div>
+                                                  </div>                      
+                        
+                                                </section>
+                        
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div class="tab-table-card-root-div">
+                                    <div class="tab-table-card-root-middle">
+
+                                      <div class="table-title-div">
+                                        <h4>List View</h4>
+                                      </div>
+    
+                                      <div class="table-responsive">
+                                        <table class="table table-hover table-custom-02 table-heading-borderless">
+                                          <thead>
+                                            <tr>
+                                              <th class="text-left width-50px">#</th>
+                                              <th class="text-left width-34-50px min-width-172">Name</th>
+                                              <th class="text-left width-15 min-width-140">Date Added</th>
+                                              <th class="text-left width-15 min-width-90">Credit</th>
+                                              <th class="text-left width-15 min-width-140">Credit Used</th>
+                                              <th class="text-left width-13 min-width-140">Referral Code</th>
+                                              <th class="text-left width-13 min-width-140">Referred From</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            
+                                            <tr>
+                                              <td> 01 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> $20 </td>
+                                              <td> Yes </td>
+                                              <td> HJ87S2 </td>
+                                              <td> Brenda Becerra </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 02 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> $20 </td>
+                                              <td> Yes </td>
+                                              <td> HJ87S2 </td>
+                                              <td> Brenda Becerra </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 03 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> $20 </td>
+                                              <td> Yes </td>
+                                              <td> HJ87S2 </td>
+                                              <td> Brenda Becerra </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 04 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> $20 </td>
+                                              <td> Yes </td>
+                                              <td> HJ87S2 </td>
+                                              <td> Brenda Becerra </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 05 </td>
+                                              <td>
+                                                <div class="img-txt-div">
+                                                  <div class="img-div">
+                                                    <img src="assets/images/profile.jpg" alt="img" class="img-fluid rounded-circle" />
+                                                  </div>
+                                                  <div class="txt-div">
+                                                    <p>Youssef Kone</p>
+                                                  </div>
+                                                </div>
+                                              </td>
+                                              <td> 07/20/2020 </td>
+                                              <td> $20 </td>
+                                              <td> Yes </td>
+                                              <td> HJ87S2 </td>
+                                              <td> Brenda Becerra </td>
+                                            </tr>
+                                           
+                                          </tbody>
+                                        </table>
+                                      </div>
+    
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div class="tab-pane fade" id="creports-03" role="tabpanel">
+
+                                <div class="tab-pane-inner-div">
+
+                                  <div class="overview-card-root-div pro-overview-card-root-div01">
+                                    <div class="overview-card-root-inner">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="title-o-div">
+                                            <h4>Overview</h4>
+                                          </div>
+
+                                          <div class="progressbar-root-div">
+                                            <div class="progressbar-root-row">
+                                              <div class="progress progress-multiple-custom multiple-custom-color01">
+                                                <div class="progress-bar bg-color06" style="width:8%"></div>
+                                                <div class="progress-bar bg-color02" style="width:8%"></div>
+                                                <div class="progress-bar bg-color05 br-right-tb" style="width:8%"></div>
+                                              </div>
+                                            </div>
+
+                                            <div class="progressbar-list-box-root pro-overview-list-box-root">
+                                              <div class="progressbar-list-box-body">
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="txt-div">
+                                                          <p class="max-100per">Email</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-01">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30</span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="txt-div">
+                                                          <p class="max-100per">SMS</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-02">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30</span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="progressbar-list-box pro-list-box01">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-width-240">
+                                                      <div class="pro-img-txt-div">
+                                                        <div class="txt-div w-100">
+                                                          <p class="max-100per">Push Notification</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-width-100-240">
+                                                      <div class="progress-custom-div">
+                                                        <div class="progress progress-color-03">
+                                                          <div class="progress-bar" style="width:70%"> </div>
+                                                          <span class="txt-span">30 </span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="progressbar-list-box-footer">
+
+                                                <div class="progressbar-list-box">
+                                                  <div class="progressbar-list-row">
+                                                    <div class="progressbar-list-col progressbar-list-col01">
+                                                      <div class="number-bar bg-color-default"> <span class="txt-number">Total</span> </div>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col02">
+                                                      <p> <b> &nbsp; </b> </p>
+                                                    </div>
+                                                    <div class="progressbar-list-col progressbar-list-col03">
+                                                      <p class="right-txt-p"><b>90</b></p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+                                            </div>
+
+                                          </div>
+
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div class="tab-table-card-root-div">
+                                    <div class="tab-table-card-root-middle">
+
+                                      <div class="table-title-div">
+                                        <h4>List View</h4>
+                                      </div>
+    
+                                      <div class="table-responsive">
+                                        <table class="table table-hover table-custom-02 table-heading-borderless">
+                                          <thead>
+                                            <tr>
+                                              <th class="text-left width-50px">#</th>
+                                              <th class="text-left width-25-50px min-width-172">Name</th>
+                                              <th class="text-left width-20">Sent</th>
+                                              <th class="text-left width-20 min-width-90">Delivered</th>
+                                              <th class="text-left width-35 min-width-90">Opened</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            
+                                            <tr>
+                                              <td> 01 </td>
+                                              <td>Email</td>
+                                              <td> 155 </td>
+                                              <td> 155 </td>
+                                              <td> 100 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 02 </td>
+                                              <td>SMS</td>
+                                              <td> 155 </td>
+                                              <td> 155 </td>
+                                              <td> 100 </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td> 03 </td>
+                                              <td>Push Notification</td>
+                                              <td> 155 </td>
+                                              <td> 155 </td>
+                                              <td> 100 </td>
+                                            </tr>
+                                           
+                                          </tbody>
+                                        </table>
+                                      </div>
+    
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  
+                </div>  
+              </div>        
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+    </div>
+  </main>
+
+</div><!-- end of wrapper -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/select2.full.js"></script>
+
+<!-- Chart js -->
+<script src="assets/js/graph/Chart.js" ></script>
+<script src="assets/js/user-line-graph-get.js"></script>
+<script src="assets/js/referrals-line-graph-get.js"></script>
+<!-- End of Chart js -->
+
+<script src="assets/js/custom.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.select2').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+  });
+</script>
+
+</body>
+</html>

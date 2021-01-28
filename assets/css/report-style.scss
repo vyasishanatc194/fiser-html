@@ -281,6 +281,10 @@
                 font-weight: 700;
                 vertical-align: middle;
               }
+
+              .max-100per {
+                max-width: 100%;
+              }
             }
           }
 
@@ -352,7 +356,19 @@
         }
       }
     }
+
+    .overview-top-selling-section {
+      .card.custom-white-card02 {
+        box-shadow: none;
+        border: 1px solid #dee2e6;
+        border-radius: 0;
+      }
+    }
   }
+}
+
+.leaderboard-list-view-report {
+  padding: 20px 15px 10px 15px;
 }
 
 @media (max-width: 767px) {
@@ -451,6 +467,25 @@
         .donut-chart-root {
           .chart-donut-contain {
             height: 200px;
+          }
+        }
+      }
+
+      .overview-top-selling-section {
+        .custom-white-card02 {
+          .card-header {
+            padding: 20px 15px 10px 15px;
+
+            .title-row-new-div {
+              .title-row-new-left {
+                width: 100%;
+                margin: 0 0 10px 0;
+              }
+            }
+          }
+
+          .card-body {
+            padding: 10px 15px 10px 15px;
           }
         }
       }
