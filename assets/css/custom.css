@@ -1428,131 +1428,6 @@
   font-weight: 600;
 }
 
-.estimation-section .card-estimate .card-header {
-  border: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  background-color: #fff;
-}
-
-.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
-  background-color: #fff;
-  color: #FECB2F;
-  border: 1px solid #FECB2F;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 700;
-  padding: 12px 20px;
-  margin-right: 20px;
-}
-
-.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:last-child {
-  margin-right: 0;
-}
-
-.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:hover {
-  background-color: #FECB2F;
-  color: #fff;
-}
-
-.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:focus {
-  background-color: #FECB2F;
-  color: #fff;
-}
-
-.estimation-section .card-estimate .card-body {
-  padding: 30px;
-  background-color: #fff;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header {
-  background-color: #000;
-  padding: 20px 30px;
-  border-radius: 10px;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to {
-  margin-bottom: 30px;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to h3 {
-  color: #fff;
-  font-size: 28px;
-  line-height: 17px;
-  font-weight: 700;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info h4 {
-  font-size: 20px;
-  line-height: 34px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p {
-  font-size: 20px;
-  line-height: 34px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p a {
-  font-size: 20px;
-  line-height: 34px;
-  color: #fff;
-  padding: 0;
-  font-weight: 500;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  font-size: 20px;
-  line-height: 30px;
-  color: #fff;
-  font-weight: 400;
-  width: 100%;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li span {
-  width: 50%;
-  display: inline-block;
-  font-weight: 700;
-}
-
-.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li .remaind {
-  font-weight: 400;
-  color: #FECB2F;
-}
-
 .client-upload-section .upload-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2024,6 +1899,362 @@
   margin-right: 0;
 }
 
+.estimation-section .card-estimate .card-header {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #fff;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
+  background-color: #fff;
+  color: #FECB2F;
+  border: 1px solid #FECB2F;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  padding: 12px 20px;
+  margin-right: 20px;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:last-child {
+  margin-right: 0;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:hover {
+  background-color: #FECB2F;
+  color: #06151B;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white.active {
+  background-color: #FECB2F;
+  color: #06151B;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:focus {
+  background-color: #FECB2F;
+  color: #06151B;
+}
+
+.estimation-section .card-estimate .card-body {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header {
+  background-color: #000;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to {
+  margin-bottom: 30px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 17px;
+  font-weight: 700;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info h4 {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p a {
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff;
+  padding: 0;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li span {
+  width: 50%;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li .remaind {
+  font-weight: 400;
+  color: #FECB2F;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list {
+  padding-bottom: 40px;
+  border-bottom: 3px solid #000;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 3px solid #06151B;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.heading li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #06151b;
+  line-height: 30px;
+  display: inline-block;
+  padding: 5px 10px;
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.heading li:first-child {
+  width: 100%;
+  min-width: auto;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #06151b;
+  line-height: 30px;
+  display: inline-block;
+  padding: 5px 10px;
+  min-width: 90px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul li:first-child {
+  width: 100%;
+  min-width: auto;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.sub-product li {
+  font-weight: 400;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .note {
+  padding: 30px 0 0 0;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .note p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total {
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 2px solid #06151b;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .sub-total {
+  border-bottom: 2px solid #06151b;
+  padding: 10px 0;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .sub-total h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .sub-total h3 span {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .main-total {
+  padding: 10px 0;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .main-total h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .main-total h3 span {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details {
+  padding: 20px 0 0 0;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details .form-group {
+  margin-bottom: 20px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details .form-group label {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details .form-group .form-control {
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details .form-group textarea.form-control {
+  height: 160px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .note-details .form-group p {
+  font-size: 18px;
+  color: #000;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .select-file .fileupload .custom-file-input {
+  display: none !important;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .select-file .fileupload .custom-file-label {
+  position: relative;
+  top: unset;
+  left: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  color: #FECB2F;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  height: 60px;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .select-file .fileupload .custom-file-label::after {
+  display: none;
+}
+
+.estimation-section .card-estimate .card-body .bill-root .bill-body .select-file .fileupload .selected {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #000;
+}
+
 @media (max-width: 767px) {
   .setting-tools-section .setting-tools-group {
     -webkit-box-orient: vertical;
@@ -2162,6 +2393,40 @@
   }
   .marketing-section .email-setting .form-group .form-control {
     height: 50px;
+  }
+  .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FECB2F;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+  }
+  .estimation-section .card-estimate .card-body {
+    padding: 5px 10px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header {
+    padding: 20px 10px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body {
+    padding: 20px 10px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul li {
+    overflow-x: unset;
+    font-size: 14px;
+    padding: 6px 6px;
+    min-width: 40px;
+    max-width: 40px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul li:first-child {
+    max-width: unset;
+    min-width: unset;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.heading li {
+    overflow-x: unset;
+    font-size: 14px;
+    padding: 6px 6px;
+    min-width: 40px;
   }
 }
 
