@@ -366,7 +366,7 @@
                                   <div class="bmapp-text-container-div">
 
                                     <div class="row">
-                                      <div class="col-lg-6 col-md-12">
+                                      <div class="col-xl-6 col-lg-12 col-md-12">
                                         <div class="app-icon-color-logo-div">
 
                                           <div class="bmapp-text-heading-div">
@@ -382,11 +382,38 @@
                                                   <div class="bmapp-icon-list-left">
                                                     <div class="profile-pic-upload-group">
                                                       <div class="circle">
-                                                        <img class="profile-pic" src="assets/images/profile.jpg" />
-                                                        <label class="filelabel-icon" for="file-uploadpic">
+                                                        <img class="profile-pic" src="assets/images/app-icon-f.png" />
+                                                        <label class="filelabel-icon d-none" for="file-uploadpic">
                                                           <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
                                                         </label>
                                                         <input class="file-upload d-none" id="file-uploadpic" type="file" accept="image/*" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="bmapp-icon-list-right">
+                                                    <div class="bmapp-icon-list-right-row">
+                                                      <div class="bmapp-icon-list-rleft-div">
+                                                        <h4>Add Large Size Icon</h4>
+                                                        <h4>512 x 512</h4>
+                                                      </div>
+                                                      <div class="bmapp-icon-list-rright-div">
+                                                        <a href="#" class="link link-action delete-btn"> <i class="fe fe-trash"></i> </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="bmapp-icon-list-box">
+                                                <div class="bmapp-icon-list-row">
+                                                  <div class="bmapp-icon-list-left">
+                                                    <div class="profile-pic-upload-group">
+                                                      <div class="circle">
+                                                        <img class="profile-pic display-none" id="profile-pic02" src="assets/images/profile.jpg" />
+                                                        <label class="filelabel-icon" for="file-uploadpic02">
+                                                          <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
+                                                        </label>
+                                                        <input class="file-upload d-none" id="file-uploadpic02" type="file" accept="image/*" />
                                                       </div>
                                                     </div>
                                                   </div>
@@ -410,9 +437,19 @@
 
                                         </div>
                                       </div>
-                                      <div class="col-lg-6 col-md-12">
-                                        <div class="img-div">
+                                      <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="img-center-div">
                                           <img src="assets/images/app-mockup-01.png" class="img-fluid img-mockup-app" alt="img" />
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col-lg-12 col-md-12">
+                                        <div class="btn-bottom-div">
+                                          <div class="btn-div-row">
+                                            <a href="#" class="btn btn-primary">NEXT STEP</a>
+                                          </div>    
                                         </div>
                                       </div>
                                     </div>
@@ -467,19 +504,16 @@
         var reader = new FileReader();
 
         reader.onload = function (e) {
-          $('.profile-pic').attr('src', e.target.result);
+          $('#profile-pic02').attr('src', e.target.result);
         }
 
         reader.readAsDataURL(input.files[0]);
       }
     }
 
-    $(".file-upload").on('change', function () {
+    $("#file-uploadpic02").on('change', function () {
       readURL(this);
-    });
-
-    $(".upload-button").on('click', function () {
-      $(".file-upload").click();
+      $(this).parent().addClass("active");
     });
 
     /* end of pic */

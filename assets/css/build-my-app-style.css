@@ -228,12 +228,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left {
@@ -257,9 +259,16 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
-  display: block;
   border: 0 solid #f6f8fb;
   background: #f4f4f4;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle .display-none {
+  display: none;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle.active .display-none {
+  display: block;
 }
 
 .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle label.filelabel-icon {
@@ -303,7 +312,66 @@
   border-radius: 100%;
 }
 
-.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle label.filelabel-icon .material-icons {
-  font-size: 21px;
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right {
+  width: calc(100% - 140px);
+  padding: 0 0 0 20px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div {
+  width: calc(100% - 50px);
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div h4 {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rright-div {
+  width: 50px;
+  text-align: right;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rright-div .link-action.delete-btn {
+  color: #707070;
+  font-size: 24px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div {
+  margin: 20px 0 0 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div .btn-div-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div .btn-div-row .btn.btn-primary {
+  margin: 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .img-center-div {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
 }
 /*# sourceMappingURL=build-my-app-style.css.map */

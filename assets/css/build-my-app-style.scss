@@ -215,9 +215,11 @@
         .bmapp-icon-list-box {
           .bmapp-icon-list-row {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             flex-wrap: wrap;
             width: 100%;
+            padding: 10px 0;
+            border-bottom: 1px solid #d9d8d8;
           }
 
           .bmapp-icon-list-left {
@@ -237,9 +239,18 @@
                 height: 125px;
                 object-fit: cover;
                 border-radius: 10px;
-                display: block;
                 border: 0 solid #f6f8fb;
                 background: #f4f4f4;
+              }
+
+              .display-none {
+                display: none;
+              }
+
+              &.active {
+                .display-none {
+                  display: block;
+                }
               }
 
               label.filelabel-icon {
@@ -268,15 +279,68 @@
                   background: #06151b;
                   border-radius: 100%;
                 }
+              }
+            }
+          }
 
-                .material-icons {
-                  font-size: 21px;
+          .bmapp-icon-list-right {
+            width: calc(100% - 140px);
+            padding: 0 0 0 20px;
+
+            .bmapp-icon-list-right-row {
+              padding: 20px 0;
+              display: flex;
+              flex-wrap: wrap;
+              width: 100%;
+
+              .bmapp-icon-list-rleft-div {
+                width: calc(100% - 50px);
+
+                h4 {
+                  font-size: 16px;
+                  color: #06151b;
+                  letter-spacing: 0;
+                  line-height: 22px;
+                  font-weight: 700;
+                  margin: 0 0 2px 0;
+                }
+              }
+
+              .bmapp-icon-list-rright-div {
+                width: 50px;
+                text-align: right;
+
+                .link-action.delete-btn {
+                  color: #707070;
+                  font-size: 24px;
                 }
               }
             }
           }
         }
       }
+    }
+
+    .btn-bottom-div {
+      margin: 20px 0 0 0;
+
+      .btn-div-row {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+
+        .btn.btn-primary {
+          margin: 0;
+        }
+      }
+    }
+
+    .img-center-div {
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+
+      
     }
   }
 }
