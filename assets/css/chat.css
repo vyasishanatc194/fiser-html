@@ -1014,8 +1014,8 @@
 
 .chat-section .chat-message .chat-message-footer .chat-tools .btnAttach label {
   display: block;
-  border: 0px;
-  outline: 0px;
+  border: 0;
+  outline: 0;
   cursor: pointer;
   color: rgba(34, 34, 33, 0.5);
 }
@@ -1172,7 +1172,7 @@
   height: 40px;
 }
 
-.calls-sup-section .calls-service-add-item .card-header-one .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+.calls-sup-section .calls-service-add-item .card-header-one .select2-container--default .select2-selection--single .select2-selection__arrow::before {
   border-left: 1px solid #707070;
   content: "";
   top: 8px;
@@ -1535,7 +1535,7 @@
   }
   .chat-section .chat-inner .chat-message .chat-message-footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     width: 100%;
   }
