@@ -275,6 +275,116 @@
   }
 }
 
+.form-custom-app-div {
+  padding: 0 0;
+  margin: 0;
+  position: relative;
+
+  .form-group-custom {
+    margin-bottom: 24px;
+    position: relative;
+
+    label {
+      font-weight: 400;
+      font-size: 14px;
+      color: #252631;
+      line-height: 1.4;
+      margin: 0 0 10px 0;
+    }
+
+    .form-control {
+      font-size: 18px;
+      color: #06151b;
+      border: 1px solid #d9d8d8;
+      border-radius: 10px;
+      min-height: 52px;
+      padding: 10px 20px 8px 20px;
+      line-height: 24px;
+      margin: 0 0 5px 0;
+      font-weight: 700;
+
+      &::-webkit-input-placeholder {
+        color: #06151b;
+      }
+
+      &::-moz-placeholder {
+        color: #06151b;
+      }
+
+      &:-ms-input-placeholder {
+        color: #06151b;
+      }
+
+      &:-moz-placeholder {
+        color: #06151b;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: #4d7cfe;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+
+    input[type="password"].form-control {
+      padding-right: 40px;
+    }
+
+    .custom-icon {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      height: 38px;
+      width: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8e98a0;
+
+      .icon-UserName1 {
+        font-size: 20px;
+      }
+
+      .icon-Password {
+        font-size: 20px;
+      }
+    }
+
+    .icon-group {
+      position: absolute;
+      top: 1px;
+      right: 1px;
+    }
+
+    .pass-hide {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      border: none;
+      color: rgba(142, 152, 160, 0.5);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .form-info-txt-div {
+      p {
+        font-size: 16px;
+        color: #06151b;
+        letter-spacing: 0;
+        line-height: 22px;
+        font-weight: 400;
+        margin: 15px 0 0 0;
+        display: block;
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .card-white-form {
     .card-white-form-header {

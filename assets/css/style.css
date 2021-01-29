@@ -142,6 +142,10 @@ body {
   max-width: 1585px;
 }
 
+.container-fluid-1600 {
+  max-width: 1600px;
+}
+
 .page-link:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -335,6 +339,12 @@ body {
   background-image: url(../images/icons/custom/ratings-color-icon.svg);
 }
 
+.edit-white-icon {
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/icons/custom/edit-icon.svg);
+}
+
 /*  general css */
 .display_show {
   display: block;
@@ -434,6 +444,48 @@ body {
           box-shadow: none;
 }
 
+.btn.btn-primary-black {
+  background-color: #06151b;
+  border-radius: 10px;
+  color: #fff;
+  padding: 7px 25px 6px 25px;
+  min-height: 46px;
+  font-weight: 700;
+  border: none;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn.btn-primary-black:hover, .btn.btn-primary-black:focus, .btn.btn-primary-black:active {
+  background-color: #f3c330;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.btn-primary-black:not(:disabled):not(.disabled).active, .btn.btn-primary-black:not(:disabled):not(.disabled):active {
+  color: #06151b;
+  background-color: #f3c330;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.btn-primary-black.btn-big-primary-black-54 {
+  min-height: 54px;
+  font-size: 20px;
+  line-height: 1;
+}
+
 .btn.btn-secondary {
   background-color: #556ee6;
   border-radius: 4px;
@@ -526,14 +578,14 @@ body {
 }
 
 .btn.btn-balck:hover, .btn.btn-balck:focus, .btn.btn-balck:active {
-  background-color: #06151B;
+  background-color: #06151b;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn.btn-balck:not(:disabled):not(.disabled).active, .btn.btn-balck:not(:disabled):not(.disabled):active {
   color: #fff;
-  background-color: #06151B;
+  background-color: #06151b;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

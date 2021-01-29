@@ -1,0 +1,255 @@
+.middle-area-dashboard-new {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.top-black-main-section {
+  padding: 0;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.top-black-main-section .top-black-main-div {
+  padding: 10px 0;
+  margin: 0;
+  position: relative;
+  background: #06151b;
+  width: 100%;
+  min-height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.top-black-main-section .top-black-main-div .top-black-title-div .top-black-title-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.top-black-main-section .top-black-main-div .top-black-title-div .top-black-title-row .span-icon {
+  width: 30px;
+}
+
+.top-black-main-section .top-black-main-div .top-black-title-div .top-black-title-row .span-text {
+  padding: 2px 0 0 5px;
+  width: calc(100% - 30px);
+  line-height: 28px;
+}
+
+.top-black-main-section .top-black-main-div .top-black-title-div .top-black-title-row .link.back-link {
+  font-size: 30px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.body-black-main-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: calc(100vh - 76px);
+}
+
+.settings-fluid-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.settings-fluid-section .settings-fluid-div {
+  padding: 30px 0;
+  margin: 0;
+  position: relative;
+  min-height: calc(100vh - 76px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings-fluid-section .settings-bx-div {
+  padding: 40px 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.settings-fluid-section .settings-bx-div .settings-bx-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  font-size: 22px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.settings-fluid-section .settings-bx-div .settings-bx-link .settings-bx-thumb {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.settings-fluid-section .settings-bx-div .settings-bx-link .settings-bx-thumb .icon-setting-fluid {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.settings-fluid-section .settings-bx-div .settings-bx-link .text {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.radius-set-fluid-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.radius-set-fluid-section .radius-set-fluid-div {
+  padding: 60px 0;
+  margin: 0;
+  position: relative;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top {
+  padding: 0;
+  margin: 0 0 45px 0;
+  position: relative;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div {
+  position: relative;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control {
+  font-size: 20px;
+  color: #06151b;
+  border: 1px solid #d9d8d8;
+  border-radius: 15px;
+  min-height: 60px;
+  padding: 12px 125px 8px 20px;
+  line-height: 24px;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control::-webkit-input-placeholder {
+  color: #707070;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control::-moz-placeholder {
+  color: #707070;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control:-ms-input-placeholder {
+  color: #707070;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control:-moz-placeholder {
+  color: #707070;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control:hover, .radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control:focus, .radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .form-control:active {
+  border-color: #4d7cfe;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .btn-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .btn-div .btn-primary-black.btn-big-primary-black-60 {
+  min-height: 60px;
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 15px;
+  min-width: 110px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.radius-set-fluid-section .radius-set-fluid-middle .map-div .map-iframe {
+  width: 100%;
+  min-height: calc(100vh - 320px);
+}
+
+@media (max-width: 767px) {
+  .settings-fluid-section .settings-bx-div {
+    padding: 30px 0;
+  }
+  .settings-fluid-section .settings-bx-div .settings-bx-link {
+    font-size: 11px;
+  }
+  .settings-fluid-section .settings-bx-div .settings-bx-link .settings-bx-thumb .icon-setting-fluid {
+    width: 54px;
+    height: 54px;
+  }
+  .radius-set-fluid-section .radius-set-fluid-top .search-save-group-div .btn-div {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 15px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .settings-fluid-section .settings-bx-div {
+    padding: 50px 0;
+  }
+  .settings-fluid-section .settings-bx-div .settings-bx-link {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=settings.css.map */

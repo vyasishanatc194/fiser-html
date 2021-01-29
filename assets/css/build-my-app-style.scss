@@ -92,6 +92,8 @@
           font-size: 20px;
           line-height: 24px;
           padding: 10px 16px 6px 16px;
+          word-break: break-word;
+          white-space: normal;
         }
       }
 
@@ -319,10 +321,229 @@
           }
         }
       }
+
+      .bmapp-screen-logo-div {
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+        .bmapp-screen-logo-box {
+          padding: 0;
+          margin: 0;
+          position: relative;
+
+          .bmapp-screen-logo-thumb-box {
+            padding: 0;
+            margin: 0 0 30px 0;
+            position: relative;
+
+            .img-screen-logo {
+              width: 140px;
+              height: 130px;
+              object-fit: cover;
+              border-radius: 0;
+            }
+          }
+
+          .bmapp-screen-logo-text-box {
+            h5 {
+              font-size: 16px;
+              color: #06151b;
+              letter-spacing: 0;
+              line-height: 22px;
+              font-weight: 700;
+              margin: 0 0 20px 0;
+            }
+
+            p {
+              font-size: 16px;
+              color: #06151b;
+              letter-spacing: 0;
+              line-height: 22px;
+              font-weight: 400;
+              margin: 0 0 10px 0;
+            }
+          }
+        }
+      }
+
+      .bmapp-color-scheme-list-div {
+        .bmapp-color-scheme-box {
+          .bmapp-color-scheme-list-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 10px 0;
+            border-bottom: 1px solid #d9d8d8;
+          }
+
+          .bmapp-color-scheme-list-left {
+            width: calc(100% - 230px);
+
+            h4 {
+              font-size: 16px;
+              color: #06151b;
+              letter-spacing: 0;
+              line-height: 22px;
+              font-weight: 700;
+              margin: 0 0 2px 0;
+            }
+          }
+
+          .bmapp-color-scheme-list-right {
+            width: 230px;
+            padding: 0 0 0 20px;
+
+            .color-scheme-edit-div {
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              width: 100%;
+
+              .edit-btn {
+                width: 60px;
+              }
+
+              .input-box-group-color {
+                width: calc(100% - 60px);
+                padding: 0 0 0 15px;
+
+                .color-control {
+                  box-shadow: 0 0 10px 0 #00000029;
+                  min-height: 46px;
+                  border: none;
+                  color: #06151b;
+                  padding: 9px 20px 5px 20px;
+                  font-size: 18px;
+                  font-weight: 700;
+                  border-radius: 10px;
+                }
+              }
+
+              .btn.btn-rounded-black {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 60px;
+                width: 60px;
+                border-radius: 100px;
+                background: #06151b;
+                padding: 5px;
+              }
+            }
+          }
+        }
+      }
+
+      .desc-txt-div {
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          color: #06151b;
+          letter-spacing: 0;
+          line-height: 26px;
+          margin: 0 0 10px 0;
+        }
+      }
+
+      .app-graphics-upload-div {
+        h4 {
+          font-size: 16px;
+          color: #06151b;
+          letter-spacing: 0;
+          line-height: 22px;
+          font-weight: 700;
+          margin: 0 0 15px 0;
+        }
+
+        p {
+          font-size: 16px;
+          color: #06151b;
+          letter-spacing: 0;
+          line-height: 22px;
+          font-weight: 400;
+          margin: 0 0 15px 0;
+        }
+
+        .app-graphics-upload-header {
+          margin: 0 0 25px 0;
+        }
+
+        .app-graphics-upload-middle {
+          .app-graphics-upload-group-box {
+            padding: 0 0 30px 0;
+            margin: 0 0 30px 0;
+            border-bottom: 1px solid #d9d8d8;
+
+            .app-graphics-rounded {
+              width: 100%;
+              max-width: 650px;
+              height: 275px;
+              position: relative;
+              display: block;
+              border-radius: 10px;
+              background: #f4f4f4;
+              -webkit-box-shadow: 0 0 10px 0 #00000029;
+              box-shadow: 0 0 10px 0 #00000029;
+
+              .profile-pic {
+                width: 100%;
+                max-width: 650px;
+                height: 275px;
+                object-fit: cover;
+                border-radius: 10px;
+                border: 0 solid #f6f8fb;
+                background: #f4f4f4;
+              }
+
+              .display-none {
+                display: none;
+              }
+
+              &.active {
+                .display-none {
+                  display: block;
+                }
+              }
+
+              label.filelabel-icon {
+                height: 100%;
+                width: 100%;
+                background: transparent;
+                color: #fff;
+                box-shadow: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+                font-size: 140px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+                border: 0;
+
+                span.span-rounded {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  height: 150px;
+                  width: 150px;
+                  background: #06151b;
+                  border-radius: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
     }
 
     .btn-bottom-div {
       margin: 20px 0 0 0;
+      padding: 20px 0 0 0;
 
       .btn-div-row {
         display: flex;
@@ -331,6 +552,8 @@
 
         .btn.btn-primary {
           margin: 0;
+          padding: 10px 40px 7px 40px;
+          min-height: 52px;
         }
       }
     }
@@ -340,7 +563,257 @@
       margin: 0 auto;
       text-align: center;
 
-      
+      .img-fluid.img-mockup-app {
+        max-height: 700px;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .verticle-app-main-tab-section {
+    .verticle-tab-div {
+      .verticle-tab-inner {
+        padding: 15px 20px;
+        margin: 0 0 30px 0;
+      }
+
+      .verticle-tabs-bottom {
+        .btn-div-tabs {
+          .btn.btn-primary.btn-big-primary {
+            min-height: 60px;
+            font-size: 16px;
+            padding: 10px 15px 6px 15px;
+          }
+        }
+      }
+    }
+
+    .verticle-tab-content-root {
+      .tab-inner-container {
+        padding: 15px 20px;
+      }
+
+      .bmapp-text-container-div {
+        .bmapp-text-middle-div {
+          .btn.btn-primary.btn-big-primary-60 {
+            min-height: 50px;
+          }
+
+          .btn-div {
+            .btn.btn-primary {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+
+          .desc-div {
+            p {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+
+          .nexr-text-btn-link-div {
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .bmapp-icon-list-div {
+          .bmapp-icon-list-box {
+            .bmapp-icon-list-left {
+              width: 100px;
+
+              .circle {
+                width: 100px;
+                height: 90px;
+
+                .profile-pic {
+                  width: 100px;
+                  height: 90px;
+                }
+              }
+            }
+
+            .bmapp-icon-list-right {
+              width: calc(100% - 100px);
+              padding: 0 0 0 15px;
+
+              .bmapp-icon-list-right-row {
+                padding: 10px 0;
+
+                .bmapp-icon-list-rleft-div {
+                  h4 {
+                    font-size: 14px;
+                    line-height: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .bmapp-screen-logo-div {
+          .bmapp-screen-logo-box {
+            .bmapp-screen-logo-thumb-box {
+              .img-screen-logo {
+                width: 120px;
+                height: 110px;
+              }
+            }
+          }
+        }
+
+        .bmapp-color-scheme-list-div {
+          .bmapp-color-scheme-box {
+            .bmapp-color-scheme-list-left {
+              width: 100%;
+              margin: 0 0 10px 0;
+            }
+
+            .bmapp-color-scheme-list-right {
+              width: 100%;
+              padding: 0;
+              margin: 0 0 10px 0;
+            }
+          }
+        }
+
+        .desc-txt-div {
+          p {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+
+        .app-graphics-upload-div {
+          .app-graphics-upload-middle {
+            .app-graphics-upload-group-box {
+              .app-graphics-rounded {
+                height: 230px;
+
+                .profile-pic {
+                  height: 230px;
+                }
+
+                label.filelabel-icon {
+                  font-size: 80px;
+
+                  span.span-rounded {
+                    height: 100px;
+                    width: 100px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .verticle-app-main-tab-section {
+    .verticle-tab-div {
+      .verticle-tab-inner {
+        padding: 15px 20px;
+        margin: 0 0 30px 0;
+      }
+
+      .verticle-tabs-bottom {
+        .btn-div-tabs {
+          .btn.btn-primary.btn-big-primary {
+            min-height: 60px;
+            font-size: 16px;
+            padding: 10px 15px 6px 15px;
+          }
+        }
+      }
+    }
+
+    .verticle-tab-content-root {
+      .tab-inner-container {
+        padding: 15px 20px;
+      }
+
+      .bmapp-text-container-div {
+        .bmapp-text-middle-div {
+          .btn.btn-primary.btn-big-primary-60 {
+            min-height: 50px;
+          }
+
+          .btn-div {
+            .btn.btn-primary {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+
+          .desc-div {
+            p {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+
+          .nexr-text-btn-link-div {
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .bmapp-icon-list-div {
+          .bmapp-icon-list-box {
+            .bmapp-icon-list-left {
+              width: 100px;
+
+              .circle {
+                width: 100px;
+                height: 90px;
+
+                .profile-pic {
+                  width: 100px;
+                  height: 90px;
+                }
+              }
+            }
+
+            .bmapp-icon-list-right {
+              width: calc(100% - 100px);
+              padding: 0 0 0 15px;
+
+              .bmapp-icon-list-right-row {
+                padding: 10px 0;
+
+                .bmapp-icon-list-rleft-div {
+                  h4 {
+                    font-size: 14px;
+                    line-height: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .bmapp-screen-logo-div {
+          .bmapp-screen-logo-box {
+            .bmapp-screen-logo-thumb-box {
+              .img-screen-logo {
+                width: 120px;
+                height: 110px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -168,6 +168,12 @@
   background-image: url(../images/icons/custom/ratings-color-icon.svg);
 }
 
+.edit-white-icon {
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/icons/custom/edit-icon.svg);
+}
+
 .left-side-nav {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
