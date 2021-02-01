@@ -726,6 +726,11 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-radius: 100px;
+  padding: 0 12px 0 12px;
+  min-height: 42px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .chat-section .chat-message .chat-group .chat-message-header .chat-message-header-row .chat-message-header-right .chat-header-top-row ul .dropdown-custom-top .btn.btn-rounded-primary::after {

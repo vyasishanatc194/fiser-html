@@ -3268,6 +3268,42 @@ body {
   }
 }
 
+.custom-chat-card-section .open-chat-div {
+  display: none;
+}
+
+.custom-chat-card-section .open-chat-div .btn.btn-primary {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 60px;
+  font-size: 18px;
+}
+
+.custom-chat-card-section .chat-section {
+  min-height: auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 20px;
+}
+
+.custom-chat-card-section .chat-section .chat-message {
+  border-radius: 20px;
+}
+
+.custom-chat-card-section .chat-section .chat-message .chat-group .chat-message-body .chat-message-body-inner {
+  max-height: 160px;
+  min-height: 160px;
+}
+
+.custom-chat-card-section .chat-section .chat-message .chat-message-footer {
+  border-radius: 0 0 20px 20px;
+}
+
+.custom-chat-card-section .chat-section .chat-message .chat-message-footer .chat-tools .no-attach-textarea-div textarea.form-control {
+  padding: 13px 20px 10px 20px;
+}
+
 @media (max-width: 767px) {
   body {
     overflow-x: hidden;
@@ -3630,6 +3666,19 @@ body {
   .center-modal-white .call-sw-div .call-sw-inner .text-div-row p {
     font-size: 16px;
     line-height: 22px;
+  }
+  .custom-chat-card-section .open-chat-div {
+    display: block;
+  }
+  .custom-chat-card-section .chat-section {
+    border-radius: 0;
+  }
+  .custom-chat-card-section .chat-section .chat-message {
+    border-radius: 0;
+  }
+  .custom-chat-card-section .chat-section .chat-message .chat-group .chat-message-body .chat-message-body-inner {
+    max-height: unset;
+    min-height: unset;
   }
 }
 

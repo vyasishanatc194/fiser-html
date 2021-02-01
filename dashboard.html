@@ -20,6 +20,7 @@
 
 <link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/chat.css" media="all" rel="stylesheet" type="text/css" />
 
 <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
 <link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
@@ -495,12 +496,244 @@
                         <section class="custom-card-section custom-chat-card-section">
 
                           <div class="card custom-white-card02">
-                            <div class="card-header">
-                              
+
+                            <div class="open-chat-div">
+                              <div class="button-block-div">
+                                <a href="#" class="btn btn-primary" id="onclick-chat-open"> Open chat box </a>
+                              </div>
                             </div>
-                            <div class="card-body">
-                              
+                            
+                            <div class="chat-section">
+                              <div class="chat-inner">
+                                <div class="chat-container">
+                                  <div class="row row-0">
+                                    
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-pad-0 chat-message-show">
+                                      <div class="chat-message">
+                                        <div class="chat-group">
+    
+                                          <div class="chat-message-header">
+                                            <div class="chat-message-header-row">
+    
+                                              <div class="chat-message-header-left">
+                                                <div class="back-to-user">
+                                                  <i class="fe fe-arrow-left"></i>
+                                                </div>
+        
+                                                <div class="chat-message-detail">
+                                                  <h3>Donald Johnson</h3>
+                                                  <div class="status-bar">
+                                                    <ul>
+                                                      <li> <h5 class="status-text active"><span class="dot"></span> <span>Active now</span> </h5> </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+    
+                                              <div class="chat-message-header-right">
+                                                <div class="chat-header-top-row">
+                                                  <ul> 
+                                                    <li class="chat-btn-item-li hidden-mobile"> <button class="btn btn-rounded-primary "> <i class="fe fe-search"></i> </button> </li>
+                                                    <li class="chat-btn-item-li hidden-mobile"> <button class="btn btn-rounded-primary "> <i class="fe fe-settings"></i> </button> </li>
+                                                    <li class="chat-btn-item-li">
+                                                      <div class="dropdown drop-left dropdown-custom-top">
+                                                        <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                          <i class="fe fe-more-horizontal"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                          <ul>
+                                                            <li class="hidden-desktop"><a class="dropdown-item" href="#"> Search </a></li>
+                                                            <li class="hidden-desktop"><a class="dropdown-item" href="#"> Setting </a></li>
+                                                            <li><a class="dropdown-item" href="#"> Option 01 </a></li>
+                                                            <li><a class="dropdown-item" href="#"> Option 02 </a></li>
+                                                            <li><a class="dropdown-item" href="#"> Option 03 </a></li>
+                                                          </ul>                   
+                                                        </div>
+                                                      </div>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+    
+                                          <div class="chat-message-body">
+                        
+                                            <div class="chat-message-body-inner">
+                        
+                                              <!-- message received -->
+                                              <div class="messagebox message-received">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <!-- message sent -->
+                                              <div class="messagebox message-sent">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+    
+                                              <!-- message received -->
+                                              <div class="messagebox message-received">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <!-- message sent -->
+                                              <div class="messagebox message-sent">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+    
+                                              <!-- message received -->
+                                              <div class="messagebox message-received">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <!-- message sent -->
+                                              <div class="messagebox message-sent">
+                                                <div class="message-text">
+                                                  <h3 class="user-name-text">Donald Johnson</h3>
+                                                  <div class="desc-div">
+                                                    <p>Lorem, ipsum dolor.</p>
+                                                  </div>
+                                                  <span class="date"> <i class="fe fe-clock"></i> <span class="span-txt">10:00</span> </span>
+    
+                                                  <div class="dropdown drop-left dropdown-custom-top drop-cust-01">
+                                                    <a class="btn btn-default dropdown-toggle btn-rounded-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      <i class="fe fe-more-vertical"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                                      <ul>
+                                                        <li><a class="dropdown-item" href="#"> Edit </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Share </a></li>
+                                                        <li><a class="dropdown-item" href="#"> Delete </a></li>
+                                                      </ul>                   
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+    
+                                            </div>
+                                            
+                                          </div>
+                                          
+                                        </div>
+                                       
+                                        <div class="chat-message-footer">
+                                            <div class="chat-tools">
+                                              <div class="left-message-textarea-div no-attach-textarea-div"> 
+                                                <textarea placeholder="Enter Message..."  spellcheck="false" class="form-control"></textarea>
+                                                <!-- <div class="textarea-attach-div">
+                                                  <a href="#" class="icon-link"><span class="material-icons"> sentiment_satisfied_alt </span></a> 
+                                                  <a href="#" class="icon-link"> <span class="material-icons material-icons-outlined"> add_photo_alternate </span> </a>
+                                                  <a href="#" class="icon-link">  <span class="material-icons material-icons-outlined"> description </span> </a>
+                                                </div> -->
+                                              </div>
+                                              <div class="btn-send-div">
+                                                <button type="button" class="btn btn-send"> <span class="text-span">Send</span>  <span class="material-icons"> send </span> </button>
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+    
+                                  </div>
+                                </div>
+                              </div>
                             </div>
+
                           </div>                      
 
                         </section>
@@ -1698,6 +1931,21 @@
 
 <script src="assets/js/dashboard.js"></script>
 <script src="assets/js/custom.js"></script>
+
+<script>
+  // onclick-chat-open
+  $(document).ready(function() {
+    $('#onclick-chat-open').click(function(){
+      $('.chat-message-show').addClass('mobile');
+      $('.user-display-hide').addClass('mobile');
+    });
+
+    $('.back-to-user').click(function(){
+      $('.chat-message-show').removeClass('mobile');
+      $('.user-display-hide').removeClass('mobile');
+    });
+  });
+</script>
 
 </body>
 </html>
