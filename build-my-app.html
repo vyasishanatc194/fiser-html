@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Build My App | Fiser</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#06151B">
+<meta name="msapplication-navbutton-color" content="#06151B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+<link href='assets/images/favicon.png' rel='shortcut icon'>
+<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+<link href="assets/css/custom-form.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/switch.css" media="all" rel="stylesheet" type="text/css" />
+
+<link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="assets/css/build-my-app-style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper dashboard-wrapper">
+
+  <!-- left-side -->
+  <div class="left-side-nav">
+    <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo" >
+            <img src="assets/images/logo.png" class="logo" alt="logo" /> 
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="responsive-menu-view-div desktop-hidden" id="responsive-menu-view-area">
+              
+            </div>
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
+                    <span class="text-collapse-menu">Chat</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon reports-white"></i> </span> 
+                    <span class="text-collapse-menu">Reports</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span> 
+                    <span class="text-collapse-menu">Customize My App</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="#">
+                    <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span> 
+                    <span class="text-collapse-menu">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+        </div>
+        
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+    </div>
+  </div>
+  <!--  End of left-side  -->
+
+  <!-- Begin page content -->
+  <main role="main" class="middle-area-dashboard main-dashboard">
+    <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid d-block">
+                    
+                    <div class="row col-header-row">
+                        <div class="col-lg-12 col-12">
+
+                            <div class="nav-dashboard-row">
+
+                                <div class="nav-dashboard-left">
+                                  <div class="nav-dashboard-left-inner">
+                                    <div class="nav-dashboard-btn-box">
+                                      <a href="#" class="btn btn-primary">ADD NEW</a>
+                                    </div>
+                                    <div class="search-div">
+                                      <div class="search-row">
+                                        <div class="search-input-box">
+                                          <div class="search-icon-box">
+                                            <button class="btn btn-search" id="btn-search-tp"><span class="bg-custom-icon search-icon"></span></button>
+                                          </div>
+                                          <input type="text" class="form-control form-search" id="form-search" placeholder="Search...">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="nav-dashboard-right mobile-hidden" id="nav-top-header-right-area">
+
+                                  <div class="nav-list-top-right-div">
+                                    <ul class="nav-list-top-right-ul">
+                                      <li class="nav-item nav-item01">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon document-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item02">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon clock-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item03">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon chat-icon"></i>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item04">
+                                        <a href="#" class="btn btn-nav-link notification-btn-link">
+                                          <i class="bg-custom-icon notification-icon"></i>
+                                          <span class="number-span">4</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-item nav-item05">
+                                        <div class="user-drop-down">
+                                          <div class="dropdown drop-left dropdown-custom-top">
+                                            <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              <div class="user-profile">
+                                                <div class="user-info">
+                                                  <h3>Youssef Kone</h3>
+                                                  <p>Available</p>
+                                                </div>
+                                                <div class="user-img">
+                                                  <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                                </div>
+                                              </div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                              <ul>
+                                                <li><a class="dropdown-item" href="#"> Profile</a></li>
+                                                <li class="logout-li"><a class="dropdown-item" href="#"> <i class="fe fe-log-in"></i> Logout</a></li>
+                                              </ul>                   
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="nav-item nav-item06">
+                                        <a href="#" class="btn btn-nav-link">
+                                          <i class="bg-custom-icon book-icon"></i>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </nav>
+        </header>
+        <!-- End of header -->
+        
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                  <section class="breadcrumb-section">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Customize My App</li>
+                      </ol>
+                    </nav>
+                  </section>
+                  <!-- bread crumb end -->
+
+                  <section class="setting-tools-section setting-tools-up-01-section customize-app-section">
+                    <div class="setting-tools-group flex-wrap">
+                      
+                      <div class="btn-group-setting w-100">
+                        <a href="#" class="btn btn-tools mr-2" id="search"><span class="btn-icon mr-2"><i class="fe fe-search"></i></span>Search</a>
+                        <a href="#" class="btn btn-tools mr-2" data-toggle="modal" data-target="#schedule-settings"><span class="btn-icon mr-2"><i class="fe fe-file"></i></span>Add</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-filter"></i></span>Filter</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-upload"></i></span>Export</a>
+                        <a href="#" class="btn btn-tools mr-2"><span class="btn-icon mr-2"><i class="fe fe-settings"></i></span>Setting</a>
+                      </div>
+                        
+                    </div>
+                  </section>
+
+                  <section class="verticle-app-main-tab-section">
+                    <div class="verticle-app-main-tab-inner">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-5">
+
+                          <div class="verticle-tab-div">
+                            <div class="verticle-tab-inner">
+
+                              <div class="verticle-tabs-top">
+                                <div class="tabs-title-div">
+                                  <h2>Create Custom App</h2>
+                                </div>
+                              </div>
+
+                              <div class="verticle-tabs-middle">
+                                <ul class="nav nav-tabs">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#vt-app-custom-tab01">1. Introduction <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span> </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#vt-app-custom-tab02">2. Add App Icon <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#vt-app-custom-tab03">3. Add Start Screen Logo <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#vt-app-custom-tab04">4. Choose Colors <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#vt-app-custom-tab05">5. Add Text <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#vt-app-custom-tab06">6. Add Marketing Graphics <span class="span-icon"> <i class="fe fe-chevron-right"></i> </span></a>
+                                  </li>
+                                </ul>
+                              </div>
+
+                              <div class="verticle-tabs-bottom">
+                                <div class="btn-div-tabs">
+                                  <a href="#" class="btn btn-primary btn-big-primary">SUBMIT APP CREATION REQUEST</a>
+                                </div>
+                                <div class="img-div-tabs">
+                                  <div class="img-thumb-div">
+                                    <img src="assets/images/icons/app-icon-img.png" class="img-fluid" alt="img" />
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-8 col-md-7">
+
+                          <div class="verticle-tab-content-root">
+
+                            <div class="tab-content">
+                              <div id="vt-app-custom-tab01" class="tab-pane active">
+
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="bmapp-text-heading-div">
+                                      <h2>About Your Custom App</h2>
+                                    </div>
+
+                                    <div class="bmapp-text-middle-div">
+                                      <div class="desc-div">
+                                        <p>Pro subscribers and above can have their own versions of the Noovvo Apple and Android apps. The Android apps
+                                          have their own listing on Google Play but due to Apple’s rules the iOS app will be listed as an unbranded container
+                                          app which then becomes custom branded to your company and logo as soon as logged into for the first time. </p>
+                                      </div>
+
+                                      <div class="btn-div">
+                                        <div class="btn-div-row">
+                                          <a href="#" class="btn btn-primary btn-big-primary-60">SUBMIT APP CREATION REQUEST</a>
+                                        </div>
+                                      </div>
+
+                                      <div class="nexr-text-btn-link-div">
+                                        <p>Next: <a href="#" class="link link-primary">2. Add App Icon</a> </p>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div>  
+
+                              </div>
+
+                              <div id="vt-app-custom-tab02" class="tab-pane">
+                                
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="row">
+                                      <div class="col-xl-7 col-lg-12 col-md-12">
+                                        <div class="app-icon-color-logo-div">
+
+                                          <div class="bmapp-text-heading-div">
+                                            <h2>Add App Icon</h2>
+                                          </div>
+      
+                                          <div class="bmapp-text-middle-div">
+                                            
+                                            <div class="bmapp-icon-list-div">
+
+                                              <div class="bmapp-icon-list-box">
+                                                <div class="bmapp-icon-list-row">
+                                                  <div class="bmapp-icon-list-left">
+                                                    <div class="profile-pic-upload-group">
+                                                      <div class="circle">
+                                                        <img class="profile-pic" src="assets/images/app-icon-f.png" />
+                                                        <label class="filelabel-icon d-none" for="file-uploadpic">
+                                                          <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
+                                                        </label>
+                                                        <input class="file-upload d-none" id="file-uploadpic" type="file" accept="image/*" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="bmapp-icon-list-right">
+                                                    <div class="bmapp-icon-list-right-row">
+                                                      <div class="bmapp-icon-list-rleft-div">
+                                                        <h4>Add Large Size Icon</h4>
+                                                        <h4>512 x 512</h4>
+                                                      </div>
+                                                      <div class="bmapp-icon-list-rright-div">
+                                                        <a href="#" class="link link-action delete-btn"> <i class="fe fe-trash"></i> </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="bmapp-icon-list-box">
+                                                <div class="bmapp-icon-list-row">
+                                                  <div class="bmapp-icon-list-left">
+                                                    <div class="profile-pic-upload-group">
+                                                      <div class="circle">
+                                                        <img class="profile-pic display-none" id="profile-pic02" src="assets/images/profile.jpg" />
+                                                        <label class="filelabel-icon" for="file-uploadpic02">
+                                                          <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
+                                                        </label>
+                                                        <input class="file-upload d-none" id="file-uploadpic02" type="file" accept="image/*" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="bmapp-icon-list-right">
+                                                    <div class="bmapp-icon-list-right-row">
+                                                      <div class="bmapp-icon-list-rleft-div">
+                                                        <h4>Add Large Size Icon</h4>
+                                                        <h4>512 x 512</h4>
+                                                      </div>
+                                                      <div class="bmapp-icon-list-rright-div">
+                                                        <a href="#" class="link link-action delete-btn"> <i class="fe fe-trash"></i> </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+
+                                          </div>
+
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-5 col-lg-12 col-md-12">
+                                        <div class="img-center-div">
+                                          <img src="assets/images/app-mockup-01.png" class="img-fluid img-mockup-app" alt="img" />
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col-lg-12 col-md-12">
+                                        <div class="btn-bottom-div">
+                                          <div class="btn-div-row">
+                                            <a href="#" class="btn btn-primary">NEXT STEP</a>
+                                          </div>    
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div> 
+
+                              </div>
+
+                              <div id="vt-app-custom-tab03" class="tab-pane">
+                                
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="row">
+                                      <div class="col-xl-7 col-lg-12 col-md-12">
+                                        <div class="app-icon-color-logo-div">
+
+                                          <div class="bmapp-text-heading-div">
+                                            <h2>Choose Start Screen Logo</h2>
+                                          </div>
+      
+                                          <div class="bmapp-text-middle-div">
+                                            
+                                            <div class="bmapp-screen-logo-div">
+
+                                              <div class="bmapp-screen-logo-box">
+                                                <div class="bmapp-screen-logo-thumb-box">
+                                                  <img src="assets/images/app-icon-f.png" class="img-fluid img-screen-logo" alt="img" />
+                                                </div>
+                                                <div class="bmapp-screen-logo-text-box">
+                                                  <h5>IMAGE SIZE</h5>
+                                                  <p>750 Wide x Up to 750 High</p>
+                                                </div>
+                                              </div>
+
+                                            </div>
+
+                                          </div>
+
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-5 col-lg-12 col-md-12">
+                                        <div class="img-center-div">
+                                          <img src="assets/images/app-mockup-02.png" class="img-fluid img-mockup-app" alt="img" />
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col-lg-12 col-md-12">
+                                        <div class="btn-bottom-div">
+                                          <div class="btn-div-row">
+                                            <a href="#" class="btn btn-primary">NEXT STEP</a>
+                                          </div>    
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div> 
+
+                              </div>
+
+                              <div id="vt-app-custom-tab04" class="tab-pane">
+                                
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="row">
+                                      <div class="col-xl-7 col-lg-12 col-md-12">
+                                        <div class="app-icon-color-logo-div">
+
+                                          <div class="bmapp-text-heading-div">
+                                            <h2>Choose Color Scheme</h2>
+                                          </div>
+      
+                                          <div class="bmapp-text-middle-div">
+                                            
+                                            <div class="bmapp-color-scheme-list-div mb-5">
+
+                                              <div class="bmapp-color-scheme-box">
+                                                <div class="bmapp-color-scheme-list-row">
+                                                  <div class="bmapp-color-scheme-list-left">
+                                                    <h4>Primary Color</h4>
+                                                  </div>
+                                                  <div class="bmapp-color-scheme-list-right">
+                                                    <div class="color-scheme-edit-div">
+                                                      <div class="edit-btn">
+                                                        <button class="btn btn-rounded-black"> <i class="bg-custom-icon edit-white-icon"></i> </button>
+                                                      </div>
+                                                      <div class="input-box-group-color">
+                                                        <input type="text" class="form-control color-control" value="#06151B" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="bmapp-color-scheme-box">
+                                                <div class="bmapp-color-scheme-list-row">
+                                                  <div class="bmapp-color-scheme-list-left">
+                                                    <h4>Secondary  Color</h4>
+                                                  </div>
+                                                  <div class="bmapp-color-scheme-list-right">
+                                                    <div class="color-scheme-edit-div">
+                                                      <div class="edit-btn">
+                                                        <button class="btn btn-rounded-black"> <i class="bg-custom-icon edit-white-icon"></i> </button>
+                                                      </div>
+                                                      <div class="input-box-group-color">
+                                                        <input type="text" class="form-control color-control" value="#FF9605" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                            </div>
+
+                                            <div class="desc-txt-div">
+                                              <p>These colors should be dark enough to contrast with white</p>
+                                            </div>
+
+                                          </div>
+
+                                        </div>
+                                      </div>
+                                      <div class="col-xl-5 col-lg-12 col-md-12">
+                                        <div class="img-center-div">
+                                          <img src="assets/images/app-mockup-03.png" class="img-fluid img-mockup-app" alt="img" />
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="row">
+                                      <div class="col-lg-12 col-md-12">
+                                        <div class="btn-bottom-div">
+                                          <div class="btn-div-row">
+                                            <a href="#" class="btn btn-primary">NEXT STEP</a>
+                                          </div>    
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div> 
+
+                              </div>
+
+                              <div id="vt-app-custom-tab05" class="tab-pane">
+
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="bmapp-text-heading-div">
+                                      <h2>Add Text</h2>
+                                    </div>
+
+                                    <div class="bmapp-text-middle-div">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="form-custom-app-div">
+
+                                            <div class="form-group form-group-custom">
+                                              <div class="input-group-row">
+                                                <input type="text" class="form-control" placeholder="App Name" />
+                                              </div>
+                                              <div class="form-info-txt-div">
+                                                <p>The name of your app.</p>
+                                              </div>
+                                            </div>
+
+                                            <div class="form-group form-group-custom">
+                                              <div class="input-group-row">
+                                                <input type="email" class="form-control" placeholder="Email Address" />
+                                              </div>
+                                              <div class="form-info-txt-div">
+                                                <p>The email address which you want to appear in your Google Play listing.</p>
+                                              </div>
+                                            </div>
+
+                                            <div class="form-group form-group-custom">
+                                              <div class="input-group-row">
+                                                <textarea class="form-control" placeholder="Short Description" id="" cols="30" rows="2"></textarea>
+                                              </div>
+                                              <div class="form-info-txt-div">
+                                                <p>The short description of your app to go in the Google Play listing. (80 Characters Max - No links or email addresses).</p>
+                                              </div>
+                                            </div>  
+
+                                            <div class="form-group form-group-custom">
+                                              <div class="input-group-row">
+                                                <textarea class="form-control" placeholder="Full Description" id="" cols="30" rows="6"></textarea>
+                                              </div>
+                                              <div class="form-info-txt-div">
+                                                <p>The full description of your app to go in the Google Play listing. (4000 Characters Max - No links or email addresses).</p>
+                                              </div>
+                                            </div>  
+
+                                          </div>
+
+                                          <div class="btn-div">
+                                            <div class="btn-div-row">
+                                              <a href="#" class="btn btn-primary-black btn-big-primary-black-54">SAVE </a>
+                                            </div>
+                                          </div>
+
+                                        </div>
+                                      </div>
+
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                          <div class="btn-bottom-div">
+                                            <div class="btn-div-row">
+                                              <a href="#" class="btn btn-primary">NEXT STEP</a>
+                                            </div>    
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                              <div id="vt-app-custom-tab06" class="tab-pane ">
+
+                                <div class="tab-inner-container">
+
+                                  <div class="bmapp-text-container-div">
+
+                                    <div class="bmapp-text-heading-div">
+                                      <h2>Add Marketing Graphics</h2>
+                                    </div>
+
+                                    <div class="bmapp-text-middle-div">
+
+                                      <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+
+                                          <div class="app-graphics-upload-div">
+                                            <div class="app-graphics-upload-inner">
+                                              
+                                              <div class="app-graphics-upload-header">
+                                                <h4>App Store Feature Graphic</h4>
+                                                <p>The header image that appears on your App Store listing.</p>
+                                              </div>
+
+                                              <div class="app-graphics-upload-middle">
+
+                                                <div class="app-graphics-upload-group-box">
+                                                  <div class="app-graphics-rounded">
+                                                    <img class="profile-pic profile-pic-graphics-01" src="assets/images/background/default-bgcolor-img.png" />
+                                                    <label class="filelabel-icon" for="file-uploadpic-graphics-01">
+                                                      <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
+                                                    </label>
+                                                    <input data-id="file-upload-graphics-01" class="file-upload d-none" id="file-uploadpic-graphics-01" type="file" accept="image/*" />
+                                                  </div>
+                                                </div>
+
+                                                <div class="app-graphics-upload-group-box">
+                                                  <div class="app-graphics-rounded">
+                                                    <img class="profile-pic profile-pic-graphics-02" src="assets/images/background/default-bgcolor-img.png" />
+                                                    <label class="filelabel-icon" for="file-uploadpic-graphics-02">
+                                                      <span class="span-rounded"> <i class="fe fe-plus"> </i></span>
+                                                    </label>
+                                                    <input data-id="file-upload-graphics-02" class="file-upload d-none" id="file-uploadpic-graphics-02" type="file" accept="image/*" />
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="app-graphics-upload-bottom">
+                                                <h4>IMAGE SIZE</h4>
+                                                <p>1024 x 500</p>
+                                              </div>
+
+                                            </div>
+                                          </div>                                          
+
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                            </div>
+                            
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  
+                </div>  
+              </div>        
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+    </div>
+  </main>
+
+</div><!-- end of wrapper -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/select2.full.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.select2').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+
+    /* profile pic */
+
+    var readURL = function (input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+          $('#profile-pic02').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+
+    $("#file-uploadpic02").on('change', function () {
+      readURL(this);
+      $(this).parent().addClass("active");
+    });
+
+
+    // file-uploadpic-graphics-02
+    // file-upload-graphics-02
+    /* end of pic */
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,764 @@
+.verticle-app-main-tab-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-app-main-tab-inner {
+  padding: 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tab-inner {
+  padding: 20px 25px;
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  -webkit-box-shadow: 0 0 10px 0 #00000029;
+          box-shadow: 0 0 10px 0 #00000029;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-top .tabs-title-div h2 {
+  font-weight: 700;
+  padding: 15px 0 25px 0;
+  margin: 0;
+  font-size: 22px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle {
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle .nav.nav-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  margin: 0 0 25px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle .nav.nav-tabs .nav-item {
+  margin: 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle .nav.nav-tabs .nav-item .nav-link {
+  border: none;
+  font-weight: 700;
+  padding: 19px 0 13px 0;
+  margin: 0;
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle .nav.nav-tabs .nav-item .nav-link.active {
+  color: #fecb2f;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-middle .nav.nav-tabs .nav-item .nav-link .span-icon i.fe {
+  font-size: 24px;
+  color: #707070;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom {
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .btn-div-tabs {
+  margin: 0 0 50px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .btn-div-tabs .btn.btn-primary.btn-big-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 80px;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px 16px 6px 16px;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .img-div-tabs .img-thumb-div {
+  display: block;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .img-div-tabs .img-fluid {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .tab-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .tab-content .tab-pane {
+  width: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .tab-inner-container {
+  padding: 20px 25px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: none;
+  -webkit-box-shadow: 0 0 10px 0 #00000029;
+          box-shadow: 0 0 10px 0 #00000029;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-heading-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-heading-div h2 {
+  font-weight: 700;
+  padding: 15px 0 25px 0;
+  margin: 0;
+  font-size: 22px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div {
+  padding: 25px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .desc-div {
+  padding: 0;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .desc-div p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn.btn-primary.btn-big-primary-60 {
+  min-height: 60px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn-div .btn-div-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 50px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn-div .btn.btn-primary {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 20px 6px 20px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .nexr-text-btn-link-div p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .nexr-text-btn-link-div p .link.link-primary {
+  color: #fecb2f;
+  font-weight: 700;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left {
+  width: 140px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle {
+  width: 140px;
+  height: 125px;
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  background: #f4f4f4;
+  -webkit-box-shadow: 0 0 10px 0 #00000029;
+          box-shadow: 0 0 10px 0 #00000029;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle .profile-pic {
+  width: 140px;
+  height: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 0 solid #f6f8fb;
+  background: #f4f4f4;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle .display-none {
+  display: none;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle.active .display-none {
+  display: block;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle label.filelabel-icon {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  font-size: 32px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle label.filelabel-icon span.span-rounded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 52px;
+  width: 52px;
+  background: #06151b;
+  border-radius: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right {
+  width: calc(100% - 140px);
+  padding: 0 0 0 20px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div {
+  width: calc(100% - 50px);
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div h4 {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rright-div {
+  width: 50px;
+  text-align: right;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rright-div .link-action.delete-btn {
+  color: #707070;
+  font-size: 24px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-thumb-box {
+  padding: 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-thumb-box .img-screen-logo {
+  width: 140px;
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-text-box h5 {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-text-box p {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-left {
+  width: calc(100% - 230px);
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-left h4 {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right {
+  width: 230px;
+  padding: 0 0 0 20px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right .color-scheme-edit-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right .color-scheme-edit-div .edit-btn {
+  width: 60px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right .color-scheme-edit-div .input-box-group-color {
+  width: calc(100% - 60px);
+  padding: 0 0 0 15px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right .color-scheme-edit-div .input-box-group-color .color-control {
+  -webkit-box-shadow: 0 0 10px 0 #00000029;
+          box-shadow: 0 0 10px 0 #00000029;
+  min-height: 46px;
+  border: none;
+  color: #06151b;
+  padding: 9px 20px 5px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right .color-scheme-edit-div .btn.btn-rounded-black {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  background: #06151b;
+  padding: 5px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .desc-txt-div p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div h4 {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div p {
+  font-size: 16px;
+  color: #06151b;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-header {
+  margin: 0 0 25px 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box {
+  padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded {
+  width: 100%;
+  max-width: 650px;
+  height: 275px;
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  background: #f4f4f4;
+  -webkit-box-shadow: 0 0 10px 0 #00000029;
+  box-shadow: 0 0 10px 0 #00000029;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded .profile-pic {
+  width: 100%;
+  max-width: 650px;
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 0 solid #f6f8fb;
+  background: #f4f4f4;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded .display-none {
+  display: none;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded.active .display-none {
+  display: block;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded label.filelabel-icon {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  font-size: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded label.filelabel-icon span.span-rounded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150px;
+  width: 150px;
+  background: #06151b;
+  border-radius: 100%;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div {
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div .btn-div-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .btn-bottom-div .btn-div-row .btn.btn-primary {
+  margin: 0;
+  padding: 10px 40px 7px 40px;
+  min-height: 52px;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .img-center-div {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.verticle-app-main-tab-section .verticle-tab-content-root .img-center-div .img-fluid.img-mockup-app {
+  max-height: 700px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .verticle-app-main-tab-section .verticle-tab-div .verticle-tab-inner {
+    padding: 15px 20px;
+    margin: 0 0 30px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .btn-div-tabs .btn.btn-primary.btn-big-primary {
+    min-height: 60px;
+    font-size: 16px;
+    padding: 10px 15px 6px 15px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .tab-inner-container {
+    padding: 15px 20px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn.btn-primary.btn-big-primary-60 {
+    min-height: 50px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn-div .btn.btn-primary {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .desc-div p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .nexr-text-btn-link-div p {
+    font-size: 16px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left {
+    width: 100px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle {
+    width: 100px;
+    height: 90px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle .profile-pic {
+    width: 100px;
+    height: 90px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right {
+    width: calc(100% - 100px);
+    padding: 0 0 0 15px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row {
+    padding: 10px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-thumb-box .img-screen-logo {
+    width: 120px;
+    height: 110px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-left {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-color-scheme-list-div .bmapp-color-scheme-box .bmapp-color-scheme-list-right {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .desc-txt-div p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded {
+    height: 230px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded .profile-pic {
+    height: 230px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded label.filelabel-icon {
+    font-size: 80px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .app-graphics-upload-div .app-graphics-upload-middle .app-graphics-upload-group-box .app-graphics-rounded label.filelabel-icon span.span-rounded {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .verticle-app-main-tab-section .verticle-tab-div .verticle-tab-inner {
+    padding: 15px 20px;
+    margin: 0 0 30px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-div .verticle-tabs-bottom .btn-div-tabs .btn.btn-primary.btn-big-primary {
+    min-height: 60px;
+    font-size: 16px;
+    padding: 10px 15px 6px 15px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .tab-inner-container {
+    padding: 15px 20px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn.btn-primary.btn-big-primary-60 {
+    min-height: 50px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .btn-div .btn.btn-primary {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .desc-div p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-text-middle-div .nexr-text-btn-link-div p {
+    font-size: 16px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left {
+    width: 100px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle {
+    width: 100px;
+    height: 90px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-left .circle .profile-pic {
+    width: 100px;
+    height: 90px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right {
+    width: calc(100% - 100px);
+    padding: 0 0 0 15px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row {
+    padding: 10px 0;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-icon-list-div .bmapp-icon-list-box .bmapp-icon-list-right .bmapp-icon-list-right-row .bmapp-icon-list-rleft-div h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .verticle-app-main-tab-section .verticle-tab-content-root .bmapp-text-container-div .bmapp-screen-logo-div .bmapp-screen-logo-box .bmapp-screen-logo-thumb-box .img-screen-logo {
+    width: 120px;
+    height: 110px;
+  }
+}
+/*# sourceMappingURL=build-my-app-style.css.map */

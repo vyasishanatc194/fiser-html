@@ -874,8 +874,8 @@
 
           label {
             display: block;
-            border: 0px;
-            outline: 0px;
+            border: 0;
+            outline: 0;
             cursor: pointer;
             color: rgba(34, 34, 33, 0.5);
 
@@ -1030,7 +1030,7 @@
       .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 40px;
 
-        &:before {
+        &::before {
           border-left: 1px solid #707070;
           content: "";
           top: 8px;
@@ -1421,7 +1421,7 @@
 
         .chat-message-footer {
           position: fixed;
-          bottom: 0px;
+          bottom: 0;
           left: 0;
           width: 100%;
 
