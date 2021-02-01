@@ -1092,6 +1092,15 @@
   margin-right: 10px;
 }
 
+.table-sales table .failed {
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background-color: #E51616;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .marketing-tabs ul {
   border: 0;
   height: 100%;
@@ -2408,6 +2417,25 @@
   .estimation-section .card-estimate .card-body .bill-root .bill-header {
     padding: 20px 10px;
   }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-to h3 {
+    font-size: 18px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info P {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info P a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li {
+    font-size: 16px;
+    font-weight: 500;
+  }
   .estimation-section .card-estimate .card-body .bill-root .bill-body {
     padding: 20px 10px;
   }
@@ -2427,6 +2455,17 @@
     font-size: 14px;
     padding: 6px 6px;
     min-width: 40px;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total {
+    border-left: 0;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .sub-total h3 {
+    font-size: 16px;
+    color: #000;
+  }
+  .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .main-total h3 {
+    font-size: 16px;
+    color: #000;
   }
 }
 

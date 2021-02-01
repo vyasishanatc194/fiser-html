@@ -355,7 +355,7 @@
                                               </a>
                                             
                                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#" >View</a>
                                                 <a class="dropdown-item" href="#">Edit</a>
                                                 <a class="dropdown-item" href="#">Delete</a>
                                               </div>
@@ -549,7 +549,7 @@
                                 </div>
                                 <div class="tab-pane fade show active" id="two" role="tabpanel">
                                
-                                    <div class="table-responsive table-sales">
+                                    <div class="table-responsive table-sales"  id="tbl-estimate">
                                       <table class="table table-hover">
                                         <thead>
                                           <tr>
@@ -601,7 +601,7 @@
                                                 </a>
                                               
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                  <a class="dropdown-item" href="#">View</a>
+                                                  <a class="dropdown-item" href="#" id="view-estimate" >View</a>
                                                   <a class="dropdown-item" href="#">Edit</a>
                                                   <a class="dropdown-item" href="#">Pending</a>
                                                   <a class="dropdown-item" href="#">Unsent</a>
@@ -910,7 +910,7 @@
                                     </div>
 
 
-                                    <div class="estimation-section">
+                                    <div class="estimation-section mb-5" style="display: none;" id="view-estimate-bill">
                                       
                                       <div class="row">
                                         <div class="col-lg-12">
@@ -1013,15 +1013,12 @@
                                                       <span class="file-name selected"></span>
                                                     </div>
                                                   </div>
-
                                                  
                                                 </div>
                                               </div>
                                                
                                             </div>
-                                            <div class="card-header">
-                                              
-                                            </div>
+                                          
                                           </div>
 
                                         </div>
@@ -1031,13 +1028,308 @@
 
                                       
                                     </div>
+
+                                    <div class="estimation-section">
+                                      
+                                      <div class="row">
+                                        <div class="col-lg-12">
+
+                                          <div class="card card-estimate">
+                                          
+                                            <div class="card-body">
+                                              <div class="bill-root">
+                                                <div class="bill-header">
+                                                 <div class="bill-to">
+                                                  <h3>Bill To:</h3>
+                                                 </div>
+                                                  <div class="row">
+                                                    <div class="col-lg-7 col-md-7">
+                                                      <div class="bill-info">
+                                                        <h4>Youssef Kone</h4>
+                                                        <p>5173 Sunset Blvd, Los Angeles, CA, 90027
+                                                        </p>
+                                                        <p>(702)918-1905
+                                                        </p>
+                                                        <p><a href="#" class="btn">Youssefmalcom@gmail.com</a>
+                                                        </p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-5">
+                                                      <div class="bill-detail">
+                                                        <ul>
+                                                          <li><span>Estimate:</span>1</li>
+                                                          <li><span>Date: </span>08/19/2020</li>
+                                                          <li><span>Reminder:</span><span class="remaind">08/25/2020</span></li>
+                                                          <li><span>Status:</span>Sent</li>
+                                                        </ul>
+
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
+                                                </div>
+
+                                                <div class="bill-body">
+                                                  <div class="products-list">
+                                                    <ul class="heading">
+                                                      <li>Product / Service</li>
+                                                      <li>Qty.</li>
+                                                      <li>Price</li>
+                                                      <li>Tax</li>
+                                                      <li>Total</li>
+                                                    </ul>
+                                                    <ul class="">
+                                                      <li>
+                                                        <!-- <div class="add-service">
+                                                          <a href="#" class="btn add-service">ADD SERVICE / PRODUCT</a>
+                                                        </div> -->
+                                                      </li>
+                                                      <li>1</li>
+                                                      <li>$100</li>
+                                                      <li>10%</li>
+                                                      <li>$110</li>
+                                                    </ul>
+
+                                                    <ul class="sub-product">
+                                                      <li>Weekly Service</li>
+                                                    </ul>
+                                                  </div>
+
+                                                  <div class="sub-total-div">
+                                                    <div class="row">
+                                                      <div class="col-lg-7 col-md-5">
+                                                          <div class="note">
+                                                            <p>This quote is valid for the next 30 days, after which values may be subject to change.</p>
+                                                          </div>
+                                                      </div>
+                                                      <div class="col-lg-5 col-md-5">
+                                                        <div class="total">
+                                                          <div class="sub-total">
+                                                            <h3>Sub Total<span>$110</span></h3>
+                                                          </div>
+                                                          <div class="main-total">
+                                                            <h3>Sub Total<span>$110</span></h3>
+                                                          </div>
+                                                        </div>
+                                                       
+                                                      </div>  
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="note-details">
+                                                    <div class="form-group">
+                                                      <label for="">Internal notes and attachments</label>
+                                                      <textarea type="text" class="form-control" placeholder="Notes details"></textarea>
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="select-file">
+                                                    <div class="custom-file fileupload">
+                                                      <input type="file" class="custom-file-input" id="customFile">
+                                                      <label class="custom-file-label" for="customFile">SELECT A FILE</label>
+                                                      <span class="file-name selected"></span>
+                                                    </div>
+                                                  </div>
+                                                 
+                                                </div>
+                                              </div>
+                                               
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
                                   
                                 </div>
                                 <div class="tab-pane fade" id="three" role="tabpanel" >
                               
                                 </div>
                                 <div class="tab-pane fade" id="four" role="tabpanel" >
+                                  <div class="table-responsive table-sales">
+                                    <table class="table table-hover">
+                                      <thead>
+                                        <tr>
+                                          <th scope="col">#</th>
+                                          <th scope="col">User</th>
+                                          <th scope="col">Transaction ID</th>
+                                          <th scope="col">Unique ID</th>
+                                          <th scope="col">Type</th>
+                                          <th scope="col">Date</th>
+                                          <th scope="col">Booking Type</th>
+                                          <th scope="col">Amount</th>
+                                          <th scope="col">Status</th>
+                                          <th scope="col">&nbsp;</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Ch_1FEjUwKJ4z</td>
                                 
+                                          <td>
+                                            Ch_1FEjUwKJ4z
+                                          </td>
+                                          <td>Credit</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot accepted">
+                                            </span>
+                                            Accepted
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Ch_1FEjUwKJ4z</td>
+                                
+                                          <td>
+                                            Ch_1FEjUwKJ4z
+                                          </td>
+                                          <td>Credit</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot pending">
+                                            </span>
+                                            Pending
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Ch_1FEjUwKJ4z</td>
+                                
+                                          <td>
+                                            Ch_1FEjUwKJ4z
+                                          </td>
+                                          <td>Credit</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot failed">
+                                            </span>
+                                            Failed
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                        <tr>
+                                          <th scope="row">01</th>
+                                          <td>
+                                            <div class="tbl-prfoile">
+                                              <div class="profile-img">
+                                                <img src="assets/images/profile.png" alt="">
+                                              </div>
+                                              <div class="profile-content">
+                                                <h3>Youssef Kone</h3>
+                                              </div>
+                                            </div>
+                                          </td>
+                                          <td>Ch_1FEjUwKJ4z</td>
+                                
+                                          <td>
+                                            Ch_1FEjUwKJ4z
+                                          </td>
+                                          <td>Credit</td>
+                                          <td>07/20/2020</td>
+                                          <td>On Demand</td>
+                                          <td>$250</td>
+                                          <td>
+                                            <span class="dot accepted">
+                                            </span>
+                                            Accepted
+                                          </td>
+                                          <td>
+                                            <div class="dropdown">
+                                              <a class="btn btn-dropdown dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Action
+                                              </a>
+                                            
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">View</a>
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                        </tr>
+
+                                      </tbody>
+                                    </table>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -1295,8 +1587,14 @@
 
 <script>
 
+
   $("#search").click(function(){
     $(".search-bar").toggle();
+  });
+
+ $("#view-estimate").click(function(){
+    $("#view-estimate-bill").toggle();
+    $("#tbl-estimate").hide();
   });
 
   $('.select2').select2(
