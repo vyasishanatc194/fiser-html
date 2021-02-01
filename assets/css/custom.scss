@@ -1044,6 +1044,16 @@
       display: inline-block;
       margin-right: 10px;
     }
+
+    .failed {
+      height: 8px;
+      width: 8px;
+      border-radius: 100px;
+      background-color: #E51616;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
   }
 }
 
@@ -1293,7 +1303,6 @@
     }
   }
 
-
   .additional-card {
     border-radius: 10px 10px 0 0 ;
     overflow: hidden;
@@ -1341,7 +1350,7 @@
     }
   }
 
-
+  
 }
 
 
@@ -2287,9 +2296,40 @@
         .bill-root {
           .bill-header {
             padding: 20px 10px;
+
+            .bill-to {
+              h3 {
+                font-size: 18px;
+                
+              }
+            }
+
+            .bill-info {
+              h4 {
+                font-size: 18px;
+                line-height: 30px;
+              }
+
+               P {
+                 font-size: 16px;
+                 line-height: 26px;
+
+                 a {
+                   font-size: 16px;
+                   line-height: 26px;
+                 }
+               }
+            }
+
+            .bill-detail ul li {
+              font-size: 16px;
+              font-weight: 500;
+            }
           }
           .bill-body {
             padding: 20px 10px;
+
+           
 
             .products-list {
               ul {
@@ -2315,6 +2355,29 @@
                 }
               }
             }
+
+            .sub-total-div {
+              .total {
+                border-left: 0;
+                
+                  .sub-total {
+                    h3 {
+                      font-size: 16px;
+                      color: #000;
+                    }
+                  }
+
+                  .main-total {
+                    h3 {
+                      font-size: 16px;
+                      color: #000;
+                    }
+                  }
+              }
+
+              
+            }
+
           }
         }
       }
@@ -2322,7 +2385,6 @@
   }
    
 }
-
 
 
 @media (min-width: 767px) and (max-width: 1024px) {
