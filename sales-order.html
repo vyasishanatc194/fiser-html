@@ -301,6 +301,16 @@
                               </ul>
                               <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade " id="one" role="tabpanel" aria-labelledby="home-tab">
+
+                                  <div class="row">
+                                    <div class="col-lg-12 text-right">
+                                      <a href="#" class="btn  mb-3 btn-notification" data-toggle="modal" data-target="#notification-setting">
+                                        <i class="fe fe-send mr-2"></i>
+                                        Dispatch Job
+                                      </a>
+                                    </div>
+                                  </div>
+
                                   <div class="table-responsive table-sales">
                                     <table class="table table-hover">
                                       <thead>
@@ -602,7 +612,7 @@
                                               
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                   <a class="dropdown-item" href="#" id="view-estimate" >View</a>
-                                                  <a class="dropdown-item" href="#">Edit</a>
+                                                  <a class="dropdown-item" href="#" id="edit-estimate">Edit</a>
                                                   <a class="dropdown-item" href="#">Pending</a>
                                                   <a class="dropdown-item" href="#">Unsent</a>
                                                   <a class="dropdown-item" href="#">Denied</a>
@@ -649,8 +659,8 @@
                                                 </a>
                                               
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                  <a class="dropdown-item" href="#">View</a>
-                                                  <a class="dropdown-item" href="#">Edit</a>
+                                                  <a class="dropdown-item" href="#" id="view-estimate">View</a>
+                                                  <a class="dropdown-item" href="#" id="edit-estimate">Edit</a>
                                                   <a class="dropdown-item" href="#">Pending</a>
                                                   <a class="dropdown-item" href="#">Unsent</a>
                                                   <a class="dropdown-item" href="#">Denied</a>
@@ -909,7 +919,6 @@
                                       </table>
                                     </div>
 
-
                                     <div class="estimation-section mb-5" style="display: none;" id="view-estimate-bill">
                                       
                                       <div class="row">
@@ -918,8 +927,8 @@
                                           <div class="card card-estimate">
                                             <div class="card-header">
                                               <div class="btn-groups">
-                                                <a href="#" class="btn btn-primary-white active">COLLECT PAYMENT</a>
-                                                <a href="#" class="btn btn-primary-white">EDIT</a>
+                                                <a href="#" class="btn btn-primary-white active" data-toggle="modal" data-target="#collect-payment">COLLECT PAYMENT</a>
+                                                <a href="#" class="btn btn-primary-white" id="edit-estimate-btn">EDIT</a>
                                                 <a href="#" class="btn btn-primary-white">MORE ACTIONS</a>
                                               </div>
                                             </div>
@@ -1029,7 +1038,7 @@
                                       
                                     </div>
 
-                                    <div class="estimation-section">
+                                    <div class="estimation-section estimate-edit" style="display: none;" id="edit-estimate-bill">
                                       
                                       <div class="row">
                                         <div class="col-lg-12">
@@ -1080,37 +1089,86 @@
                                                     </ul>
                                                     <ul class="">
                                                       <li>
-                                                        <!-- <div class="add-service">
-                                                          <a href="#" class="btn add-service">ADD SERVICE / PRODUCT</a>
-                                                        </div> -->
+                                                        <div class="add-service-div">
+                                                          <a href="#" class="btn btn-add-service">ADD SERVICE / PRODUCT</a>
+                                                        </div>
                                                       </li>
-                                                      <li>1</li>
-                                                      <li>$100</li>
-                                                      <li>10%</li>
-                                                      <li>$110</li>
+                                                      <li>
+                                                        <div class="service-group">
+                                                          <input type="text" class="form-control" name="" id="" value="01">
+                                                        </div>
+                                                      </li>
+                                                      <li>
+                                                        <div class="service-group">
+                                                          <input type="text" class="form-control" name="" id="" value="$100">
+                                                        </div>
+                                                      </li>
+                                                      <li>
+                                                        <div class="service-group">
+                                                          <input type="text" class="form-control" name="" id="" value="10%">
+                                                        </div>
+                                                      </li>
+                                                      <li>
+                                                        <div class="service-group">
+                                                          <input type="text" class="form-control" name="" id="" value="$110">
+                                                        </div>
+                                                      </li>
                                                     </ul>
 
-                                                    <ul class="sub-product">
-                                                      <li>Weekly Service</li>
-                                                    </ul>
+                                                  
                                                   </div>
 
                                                   <div class="sub-total-div">
                                                     <div class="row">
-                                                      <div class="col-lg-7 col-md-5">
+                                                      <div class="col-lg-7 col-md-6">
                                                           <div class="note">
                                                             <p>This quote is valid for the next 30 days, after which values may be subject to change.</p>
+
+                                                            <div class="form-group mt-3">
+                                                              <textarea name="" class="form-control" id=""></textarea>
+                                                            </div>
                                                           </div>
                                                       </div>
-                                                      <div class="col-lg-5 col-md-5">
+                                                      <div class="col-lg-5 col-md-6">
                                                         <div class="total">
                                                           <div class="sub-total">
                                                             <h3>Sub Total<span>$110</span></h3>
+
+                                                            <h3>Discount<span><a href="#!">Add Discount</a></span></h3>
+
+                                                            <h3>Tax<span><a href="#!">Add Tax</a></span></h3>
                                                           </div>
                                                           <div class="main-total">
                                                             <h3>Sub Total<span>$110</span></h3>
                                                           </div>
+
+                                                          <div class="diposit-required">
+                                                          <div class="deposit-left">
+                                                            <p>Required 
+                                                              deposit</p>
+
+                                                            <div class="deposit-amount">
+                                                                <div class="form-gruop">
+                                                                  <input type="text" class="form-control" value="$50.00">
+                                                                  <select name="" id="" class="select2 select-amount">
+                                                                    <option value="">$</option>
+                                                                    <option value="">€</option>
+                                                                    <option value="">€</option>
+                                                                  </select>
+                                                                </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="deposit-right">
+                                                            <h3>$60</h3>
+
+                                                            <a href="#" class="delete-btn"><i class="fe fe-trash"></i></a>
+                                                          </div>
+
+                                                           
+                                                          </div>
                                                         </div>
+
+                                                       
                                                        
                                                       </div>  
                                                     </div>
@@ -1132,6 +1190,19 @@
                                                   </div>
                                                  
                                                 </div>
+
+                                                <div class="bill-footer">
+                                                  <div class="bill-left">
+                                                    <a href="#"class="btn btn-delete">DELETE</a>
+                                                    <a href="#"class="btn btn-cancel">Cancel</a>
+                                                  </div>
+
+                                                  <div class="bill-right">
+                                                    <a href="#"class="btn btn-update">UPDATE</a>
+                                                    <a href="#"class="btn btn-send">UPDATE & SEND</a>
+                                                  </div>
+
+                                                </div>
                                               </div>
                                                
                                             </div>
@@ -1142,9 +1213,303 @@
                                     </div>
                                   
                                 </div>
+
                                 <div class="tab-pane fade" id="three" role="tabpanel" >
                               
+                                  <div class="invoice-section mb-5" id="invoice-view">
+                                      
+                                    <div class="row">
+                                      <div class="col-lg-12">
+
+                                        <div class="card card-invoice">
+                                          <div class="card-header">
+                                            <div class="btn-groups">
+                                              <a href="#" class="btn btn-primary-white active">COLLECT PAYMENT</a>
+                                              <a href="#" class="btn btn-primary-white" id="invoice-edit-view">EDIT</a>
+                                              <a href="#" class="btn btn-primary-white">MORE ACTIONS</a>
+                                            </div>
+                                          </div>
+                                          <div class="card-body">
+                                            <div class="bill-root">
+                                              <div class="bill-header">
+                                               <div class="bill-to">
+                                                <h3>Bill To:</h3>
+                                               </div>
+                                                <div class="row">
+                                                  <div class="col-lg-7 col-md-7">
+                                                    <div class="bill-info">
+                                                      <h4>Youssef Kone</h4>
+                                                      <p>5173 Sunset Blvd, Los Angeles, CA, 90027
+                                                      </p>
+                                                      <p>(702)918-1905
+                                                      </p>
+                                                      <p><a href="#" class="btn">Youssefmalcom@gmail.com</a>
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-5 col-md-5">
+                                                    <div class="bill-detail">
+                                                      <ul>
+                                                        <li><span>Estimate:</span>1</li>
+                                                        <li><span>Date: </span>08/19/2020</li>
+                                                        <li><span>Reminder:</span><span class="remaind">08/25/2020</span></li>
+                                                        <li><span>Status:</span>Sent</li>
+                                                      </ul>
+                                                      
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="bill-body">
+                                                <div class="products-list">
+                                                  <ul class="heading">
+                                                    <li>Product / Service</li>
+                                                    <li>Qty.</li>
+                                                    <li>Price</li>
+                                                    <li>Tax</li>
+                                                    <li>Total</li>
+                                                  </ul>
+                                                  <ul class="">
+                                                    <li>Hand Wash</li>
+                                                    <li>1</li>
+                                                    <li>$100</li>
+                                                    <li>10%</li>
+                                                    <li>$110</li>
+                                                  </ul>
+
+                                                  <ul class="sub-product">
+                                                    <li>Weekly Service</li>
+                                                  </ul>
+                                                </div>
+
+                                                <div class="sub-total-div">
+                                                  <div class="row">
+                                                    <div class="col-lg-7 col-md-5">
+                                                        <div class="note">
+                                                          <p>This quote is valid for the next 30 days, after which values may be subject to change.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-5">
+                                                      <div class="total">
+                                                        <div class="sub-total">
+                                                          <h3>Sub Total<span>$110</span></h3>
+                                                        </div>
+                                                        <div class="main-total">
+                                                          <h3>Sub Total<span>$110</span></h3>
+                                                        </div>
+                                                      </div>
+                                                     
+                                                    </div>  
+                                                  </div>
+                                                </div>
+
+                                                <div class="note-details">
+                                                  <div class="form-group">
+                                                    <label for="">Internal notes and attachments</label>
+                                                    <textarea type="text" class="form-control" placeholder="Notes details"></textarea>
+                                                  </div>
+                                                </div>
+
+                                                <div class="select-file">
+                                                  <div class="custom-file fileupload">
+                                                    <input type="file" class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">SELECT A FILE</label>
+                                                    <span class="file-name selected"></span>
+                                                  </div>
+                                                </div>
+                                               
+                                              </div>
+                                            </div>
+                                             
+                                          </div>
+                                        
+                                        </div>
+
+                                      </div>
+                                    </div>
+
+                                    
+
+                                    
+                                  </div>
+
+                                  <div class="invoice-section invoice-edit" id="invoice-edit" style="display: none;">
+                                    
+                                    <div class="row">
+                                      <div class="col-lg-12">
+
+                                        <div class="card card-invoice">
+                                        
+                                          <div class="card-body">
+                                            <div class="bill-root">
+                                              <div class="bill-header">
+                                               <div class="bill-to">
+                                                <h3>Bill To:</h3>
+                                               </div>
+                                                <div class="row">
+                                                  <div class="col-lg-7 col-md-7">
+                                                    <div class="bill-info">
+                                                      <h4>Youssef Kone</h4>
+                                                      <p>5173 Sunset Blvd, Los Angeles, CA, 90027
+                                                      </p>
+                                                      <p>(702)918-1905
+                                                      </p>
+                                                      <p><a href="#" class="btn">Youssefmalcom@gmail.com</a>
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-5 col-md-5">
+                                                    <div class="bill-detail">
+                                                      <ul>
+                                                        <li><span>Estimate:</span>1</li>
+                                                        <li><span>Date: </span>08/19/2020</li>
+                                                        <li><span>Reminder:</span><span class="remaind">08/25/2020</span></li>
+                                                        <li><span>Status:</span>Sent</li>
+                                                      </ul>
+
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                              </div>
+
+                                              <div class="bill-body">
+                                                <div class="products-list">
+                                                  <ul class="heading">
+                                                    <li>Product / Service</li>
+                                                    <li>Qty.</li>
+                                                    <li>Price</li>
+                                                    <li>Tax</li>
+                                                    <li>Total</li>
+                                                  </ul>
+                                                  <ul class="">
+                                                    <li>
+                                                      <div class="add-service-div">
+                                                        <a href="#" class="btn btn-add-service">ADD SERVICE / PRODUCT</a>
+                                                      </div>
+                                                    </li>
+                                                    <li>
+                                                      <div class="service-group">
+                                                        <input type="text" class="form-control" name="" id="" value="01">
+                                                      </div>
+                                                    </li>
+                                                    <li>
+                                                      <div class="service-group">
+                                                        <input type="text" class="form-control" name="" id="" value="$100">
+                                                      </div>
+                                                    </li>
+                                                    <li>
+                                                      <div class="service-group">
+                                                        <input type="text" class="form-control" name="" id="" value="10%">
+                                                      </div>
+                                                    </li>
+                                                    <li>
+                                                      <div class="service-group">
+                                                        <input type="text" class="form-control" name="" id="" value="$110">
+                                                      </div>
+                                                    </li>
+                                                  </ul>
+
+                                                
+                                                </div>
+
+                                                <div class="sub-total-div">
+                                                  <div class="row">
+                                                    <div class="col-lg-7 col-md-6">
+                                                        <div class="note">
+                                                          <p>This quote is valid for the next 30 days, after which values may be subject to change.</p>
+
+                                                          <div class="form-group mt-3">
+                                                            <textarea name="" class="form-control" id=""></textarea>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5 col-md-6">
+                                                      <div class="total">
+                                                        <div class="sub-total">
+                                                          <h3>Sub Total<span>$110</span></h3>
+
+                                                          <h3>Discount<span><a href="#!">Add Discount</a></span></h3>
+
+                                                          <h3>Tax<span><a href="#!">Add Tax</a></span></h3>
+                                                        </div>
+                                                        <div class="main-total">
+                                                          <h3>Sub Total<span>$110</span></h3>
+                                                        </div>
+
+                                                        <div class="diposit-required">
+                                                        <div class="deposit-left">
+                                                          <p>Required 
+                                                            deposit</p>
+
+                                                          <div class="deposit-amount">
+                                                              <div class="form-gruop">
+                                                                <input type="text" class="form-control" value="$50.00">
+                                                                <select name="" id="" class="select2 select-amount">
+                                                                  <option value="">$</option>
+                                                                  <option value="">€</option>
+                                                                  <option value="">€</option>
+                                                                </select>
+                                                              </div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="deposit-right">
+                                                          <h3>$60</h3>
+
+                                                          <a href="#" class="delete-btn"><i class="fe fe-trash"></i></a>
+                                                        </div>
+
+                                                         
+                                                        </div>
+                                                      </div>
+
+                                                     
+                                                     
+                                                    </div>  
+                                                  </div>
+                                                </div>
+
+                                                <div class="note-details">
+                                                  <div class="form-group">
+                                                    <label for="">Internal notes and attachments</label>
+                                                    <textarea type="text" class="form-control" placeholder="Notes details"></textarea>
+                                                  </div>
+                                                </div>
+
+                                                <div class="select-file">
+                                                  <div class="custom-file fileupload">
+                                                    <input type="file" class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">SELECT A FILE</label>
+                                                    <span class="file-name selected"></span>
+                                                  </div>
+                                                </div>
+                                               
+                                              </div>
+
+                                              <div class="bill-footer">
+                                                <div class="bill-left">
+                                                  <a href="#"class="btn btn-delete">DELETE</a>
+                                                  <a href="#"class="btn btn-cancel">Cancel</a>
+                                                </div>
+
+                                                <div class="bill-right">
+                                                  <a href="#"class="btn btn-update">UPDATE</a>
+                                                  <a href="#"class="btn btn-send">UPDATE & SEND</a>
+                                                </div>
+
+                                              </div>
+                                            </div>
+                                             
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                  </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="four" role="tabpanel" >
                                   <div class="table-responsive table-sales">
                                     <table class="table table-hover">
@@ -1574,6 +1939,38 @@
   </div>
 </div>
 
+
+<div class="modal fade fixed-right" tabindex="-1" role="dialog" id="collect-payment">
+  <div class="modal-dialog modal-dialog-vertical" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center">Collect Payment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fe fe-x"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="collect-patyment-form">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label for="">Method</label>
+                <input type="text" class="form=control">
+              </div>
+
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-save">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -1596,6 +1993,27 @@
     $("#view-estimate-bill").toggle();
     $("#tbl-estimate").hide();
   });
+
+  $("#edit-estimate").click(function(){
+    $("#edit-estimate-bill").toggle();
+    $("#tbl-estimate").hide();
+  });
+
+  $("#edit-estimate-btn").click(function(){
+    $("#view-estimate-bill").toggle();
+    $("#edit-estimate-bill").toggle();
+    $("#tbl-estimate").hide();
+  });
+
+
+  // invoice
+
+  $("#invoice-edit-view").click(function(){
+    $("#invoice-view").toggle();
+    $("#invoice-edit").toggle();
+  });
+
+  // end
 
   $('.select2').select2(
       {
