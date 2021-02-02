@@ -766,7 +766,7 @@
 }
 
 .card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row02 {
-  padding: 0 0 10px 0;
+  padding: 2px 0 10px 0;
   margin: 0 0 10px 0;
   position: relative;
   display: -webkit-box;
@@ -779,6 +779,130 @@
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid #ddd;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row02 h4 {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #06151b;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row02 h4.text-color01 {
+  color: #f9cb2f;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row02 p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #06151b;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-info {
+  padding: 10px 0 10px 0;
+  margin: 0 0 10px 0;
+  color: #06151b;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-info h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #06151b;
+  margin: 0 0 5px 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-info .card-pro-set-box-row-info-inner p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info {
+  padding: 10px 0 10px 0;
+  margin: 0;
+  color: #06151b;
+  position: relative;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #06151b;
+  margin: 0 0 10px 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info .card-pro-set-box-row-number-inner {
+  padding: 18px 20px 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info .card-pro-set-box-row-number-inner p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 5px 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info .card-pro-set-box-row-number-inner h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row-number-info .card-pro-set-box-row-number-inner h2.color-text01 {
+  color: #f9cb2f;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro tbody th {
+  width: 150px;
+  background: #06151b;
+  color: #fff;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro tbody td:last-child {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro tbody td.right-text-td {
+  text-align: right;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro tbody tr .badge-span {
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 7px 8px 5px 8px;
+  border-radius: 6px;
+}
+
+.card-set-fluid-section .card-table-pro-set-div .table.table-custom-pro tbody tr:last-child th {
+  border-bottom: 1px solid #dee2e6;
 }
 
 @media (max-width: 767px) {
@@ -850,6 +974,9 @@
   .affiliate-set-fluid-section .affiliate-set-fluid-middle .affiliate-set-middle-row .desc-affiliate-div .btn-div .btn.btn-primary.btn-big-primary .small-text {
     font-size: 12px;
     line-height: 16px;
+  }
+  .card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .card-pro-set-box-row-left {
+    width: 100%;
   }
 }
 

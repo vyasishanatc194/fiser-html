@@ -4,8 +4,8 @@
   padding: 5px 8px;
   line-height: 20px;
   font-size: 18px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,14 +20,14 @@
 
 .btn-tools:hover {
   color: #000;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
 }
 
 .btn-tools:focus {
   color: #000;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
 }
 
 .breadcrumb-section {
@@ -115,12 +115,12 @@
 }
 
 .add-service .btn {
-  background-color: #D9D8D8 !important;
+  background-color: #d9d8d8 !important;
   border-radius: 10px;
   font-size: 20px;
   text-transform: uppercase;
   line-height: 30px;
-  color: #06151B !important;
+  color: #06151b !important;
   -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
   font-weight: 600;
@@ -148,12 +148,12 @@
   height: 15px;
   width: 15px;
   border-radius: 100px;
-  background-color: #E51616;
+  background-color: #e51616;
   border: 1px solid #707070;
 }
 
 .add-service .dropdown-menu a .green {
-  background-color: #12EB00;
+  background-color: #12eb00;
 }
 
 .search-bar .btn {
@@ -168,7 +168,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #D9D8D8;
+  background-color: #d9d8d8;
   border-radius: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -182,7 +182,7 @@
 
 .tabs-link ul li a {
   background-color: transparent;
-  color: #06151B;
+  color: #06151b;
   padding: 10px 20px;
   width: 100%;
   min-width: 250px;
@@ -198,7 +198,7 @@
 }
 
 .tabs-link ul li a.active {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
 }
 
@@ -212,7 +212,7 @@
 
 .service-detail-section .service-card-left {
   height: 100%;
-  background-color: #06151B;
+  background-color: #06151b;
 }
 
 .service-detail-section .service-card-left .card-header {
@@ -250,7 +250,7 @@
   color: #fff;
   font-size: 18;
   font-weight: 700;
-  background-color: #06151B;
+  background-color: #06151b;
   border-radius: 8px;
   text-align: center;
   display: block;
@@ -342,7 +342,7 @@
   min-width: 80px;
   text-align: right;
   display: block;
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .calendar-section .filter-result {
@@ -397,7 +397,7 @@
 }
 
 .calendar-section .filter-result .dropdown-mune-result h3 {
-  color: #06151B;
+  color: #06151b;
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
@@ -428,22 +428,22 @@
   font-size: 20px;
   line-height: 24px;
   padding: 5px;
-  background-color: #4088F6;
+  background-color: #4088f6;
   color: #fff;
   margin-bottom: 10px;
   border-radius: 6px;
 }
 
 .calendar-section .filter-result .dropdown-mune-result .tags li .green {
-  background-color: #12EB00;
+  background-color: #12eb00;
 }
 
 .calendar-section .filter-result .dropdown-mune-result .tags li .yellow {
-  background-color: #FF9605;
+  background-color: #ff9605;
 }
 
 .calendar-section .filter-result .dropdown-mune-result .tags li .red {
-  background-color: #E51616;
+  background-color: #e51616;
 }
 
 .calendar-section .filter-result .dropdown-mune-result .list {
@@ -472,21 +472,22 @@
   text-transform: capitalize;
   color: #fff;
   color: var(--fc-button-text-color, #fff);
-  background-color: #2C3E50;
-  background-color: var(--fc-button-bg-color, #556EE6);
-  border-color: #556EE6;
-  border-color: var(--fc-button-border-color, #556EE6);
+  background-color: #2c3e50;
+  background-color: var(--fc-button-bg-color, #556ee6);
+  border-color: #556ee6;
+  border-color: var(--fc-button-border-color, #556ee6);
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
-.calendar-section .fc .fc-button-primary:not(:disabled).fc-button-active, .calendar-section .fc .fc-button-primary:not(:disabled):active {
+.calendar-section .fc .fc-button-primary:not(:disabled).fc-button-active,
+.calendar-section .fc .fc-button-primary:not(:disabled):active {
   color: #fff;
   color: var(--fc-button-text-color, #fff);
-  background-color: #2948E0;
-  background-color: var(--fc-button-active-bg-color, #2948E0);
-  border-color: #2948E0;
-  border-color: var(--fc-button-active-border-color, #2948E0);
+  background-color: #2948e0;
+  background-color: var(--fc-button-active-bg-color, #2948e0);
+  border-color: #2948e0;
+  border-color: var(--fc-button-active-border-color, #2948e0);
 }
 
 .calendar-section .fc-toolbar-title {
@@ -584,23 +585,23 @@
   font-size: 14px;
   line-height: 13px;
   border-radius: 8px !important;
-  background-color: #E6E7EA;
+  background-color: #e6e7ea;
   color: #707070;
 }
 
 .mgmt-card-section .card .card-body .card-box .card-top h3 span.tag-red {
   background-color: rgba(229, 22, 22, 0.25);
-  color: #E51616;
+  color: #e51616;
 }
 
 .mgmt-card-section .card .card-body .card-box .card-top h3 span.tag-blue {
   background-color: rgba(85, 110, 230, 0.25);
-  color: #556EE6;
+  color: #556ee6;
 }
 
 .mgmt-card-section .card .card-body .card-box .card-top h3 span.tag-green {
   background-color: rgba(105, 210, 171, 0.25);
-  color: #69D2AB;
+  color: #69d2ab;
 }
 
 .mgmt-card-section .card .card-body .card-box .card-top h3 span.tag-yellow {
@@ -708,7 +709,8 @@
   white-space: nowrap;
 }
 
-.table-mgmt table tbody td, .table-mgmt table tbody th {
+.table-mgmt table tbody td,
+.table-mgmt table tbody th {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -812,7 +814,8 @@
   white-space: nowrap;
 }
 
-.table-marketing table tbody td, .table-marketing table tbody th {
+.table-marketing table tbody td,
+.table-marketing table tbody th {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -823,7 +826,8 @@
   border-top: 1px solid #dee2e6;
 }
 
-.table-marketing table tbody td a, .table-marketing table tbody th a {
+.table-marketing table tbody td a,
+.table-marketing table tbody th a {
   color: #000;
 }
 
@@ -912,7 +916,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   display: inline-block;
   margin-right: 10px;
 }
@@ -930,7 +934,8 @@
   white-space: nowrap;
 }
 
-.table-sales table tbody td, .table-sales table tbody th {
+.table-sales table tbody td,
+.table-sales table tbody th {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -941,7 +946,8 @@
   border-top: 1px solid #dee2e6;
 }
 
-.table-sales table tbody td a, .table-sales table tbody th a {
+.table-sales table tbody td a,
+.table-sales table tbody th a {
   color: #000;
 }
 
@@ -1030,7 +1036,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1039,7 +1045,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1048,7 +1054,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1057,7 +1063,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1066,7 +1072,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #FF9605;
+  background-color: #ff9605;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1075,7 +1081,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #FF9605;
+  background-color: #ff9605;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1084,7 +1090,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #E51616;
+  background-color: #e51616;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1093,7 +1099,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #E51616;
+  background-color: #e51616;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1102,7 +1108,7 @@
   height: 8px;
   width: 8px;
   border-radius: 100px;
-  background-color: #E51616;
+  background-color: #e51616;
   display: inline-block;
   margin-right: 10px;
 }
@@ -1229,7 +1235,7 @@
 }
 
 .sales-section .job-card .card-body .invoice-detail ul li span {
-  color: #06151B;
+  color: #06151b;
   font-weight: 600;
   width: 50%;
   display: block;
@@ -1326,11 +1332,11 @@
 }
 
 .sales-section .job-card .card-body .payment-detail ul li:before {
-  content: '';
+  content: "";
   height: 8px;
   width: 8px;
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 10px;
   background-color: #000;
   border-radius: 100px;
@@ -1519,7 +1525,7 @@
 }
 
 .service-upload {
-  background-color: #FFFFFF;
+  background-color: #fff;
   -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
@@ -1537,8 +1543,8 @@
           justify-content: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: #FFFFFF;
-  border: 1px solid #D9D8D8;
+  background-color: #fff;
+  border: 1px solid #d9d8d8;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -1569,8 +1575,8 @@
   margin-bottom: 0 !important;
 }
 
-.pricing-method .form-check .form-check-input[type=radio]:checked ~ label {
-  background-color: #06151B;
+.pricing-method .form-check .form-check-input[type="radio"]:checked ~ label {
+  background-color: #06151b;
   color: #fff !important;
 }
 
@@ -1646,7 +1652,7 @@
 
 .service-add-item .card-header-one .select2-container--default .select2-selection--single .select2-selection__arrow:before {
   border-left: 1px solid #707070;
-  content: '';
+  content: "";
   top: 8px;
   left: -3px;
   height: 25px;
@@ -1725,7 +1731,7 @@
 }
 
 .service-create-form {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .service-create-form .card {
@@ -1769,7 +1775,7 @@
 
 .service-create-form .select2-container--default .select2-selection--single .select2-selection__arrow:before {
   border-left: 1px solid #707070;
-  content: '';
+  content: "";
   top: 8px;
   left: -3px;
   height: 35px;
@@ -1803,7 +1809,7 @@
 }
 
 .btn-notification {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
   line-height: 24px;
   font-size: 18px;
@@ -1827,7 +1833,7 @@
 
 .btn-notification:hover {
   color: #fff;
-  background-color: #06151B;
+  background-color: #06151b;
 }
 
 .marketing-section .card-refreal {
@@ -1838,7 +1844,7 @@
 }
 
 .marketing-section .card-refreal .card-header {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
   border: 0;
   padding: 20px;
@@ -1931,8 +1937,8 @@
 
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
   background-color: #fff;
-  color: #FECB2F;
-  border: 1px solid #FECB2F;
+  color: #fecb2f;
+  border: 1px solid #fecb2f;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -1945,18 +1951,18 @@
 }
 
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:hover {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white.active {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:focus {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .estimation-section .card-estimate .card-body {
@@ -2043,7 +2049,7 @@
 
 .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-detail ul li .remaind {
   font-weight: 400;
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .products-list {
@@ -2068,7 +2074,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  border-bottom: 3px solid #06151B;
+  border-bottom: 3px solid #06151b;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .products-list ul.heading li {
@@ -2170,7 +2176,7 @@
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .sub-total h3 span a {
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .main-total {
@@ -2258,7 +2264,7 @@
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-left .deposit-amount .select2-container--default .select2-selection--single {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
   font-weight: 600;
   height: 50px;
@@ -2288,14 +2294,14 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  color: #06151B;
+  color: #06151b;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-right .delete-btn {
   position: absolute;
   right: -20px;
   top: 0px;
-  color: #06151B;
+  color: #06151b;
   font-size: 23px;
   line-height: 30px;
 }
@@ -2361,7 +2367,7 @@
           justify-content: center;
   width: 100%;
   background-color: #fff;
-  color: #FECB2F;
+  color: #fecb2f;
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 18px;
@@ -2396,7 +2402,7 @@
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn {
   padding: 12px 40px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   font-size: 22px;
   line-height: 26px;
   margin-right: 5px;
@@ -2411,24 +2417,24 @@
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-delete {
-  background-color: #E51616;
-  color: #FFFFFF;
+  background-color: #e51616;
+  color: #fff;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-cancel {
   background-color: #707070;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-send {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-update {
   background-color: #fff;
-  color: #06151B;
-  border: 1px solid #06151B;
+  color: #06151b;
+  border: 1px solid #06151b;
 }
 
 .estimate-edit .add-service-div {
@@ -2446,8 +2452,8 @@
 
 .estimate-edit .add-service-div .btn-add-service {
   background-color: #fff;
-  color: #FECB2F !important;
-  border: 1px solid #D9D8D8 !important;
+  color: #fecb2f !important;
+  border: 1px solid #d9d8d8 !important;
 }
 
 .estimate-edit .service-group .form-control {
@@ -2473,8 +2479,8 @@
 
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white {
   background-color: #fff;
-  color: #FECB2F;
-  border: 1px solid #FECB2F;
+  color: #fecb2f;
+  border: 1px solid #fecb2f;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -2487,18 +2493,18 @@
 }
 
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white:hover {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white.active {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white:focus {
-  background-color: #FECB2F;
-  color: #06151B;
+  background-color: #fecb2f;
+  color: #06151b;
 }
 
 .invoice-section .card-invoice .card-body {
@@ -2585,7 +2591,7 @@
 
 .invoice-section .card-invoice .card-body .bill-root .bill-header .bill-detail ul li .remaind {
   font-weight: 400;
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .products-list {
@@ -2610,7 +2616,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  border-bottom: 3px solid #06151B;
+  border-bottom: 3px solid #06151b;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .products-list ul.heading li {
@@ -2712,7 +2718,7 @@
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .sub-total h3 span a {
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .main-total {
@@ -2800,7 +2806,7 @@
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-left .deposit-amount .select2-container--default .select2-selection--single {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
   font-weight: 600;
   height: 50px;
@@ -2830,14 +2836,14 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  color: #06151B;
+  color: #06151b;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-right .delete-btn {
   position: absolute;
   right: -20px;
   top: 0px;
-  color: #06151B;
+  color: #06151b;
   font-size: 23px;
   line-height: 30px;
 }
@@ -2903,7 +2909,7 @@
           justify-content: center;
   width: 100%;
   background-color: #fff;
-  color: #FECB2F;
+  color: #fecb2f;
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 18px;
@@ -2938,7 +2944,7 @@
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn {
   padding: 12px 40px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   font-size: 22px;
   line-height: 26px;
   margin-right: 5px;
@@ -2953,24 +2959,24 @@
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-delete {
-  background-color: #E51616;
-  color: #FFFFFF;
+  background-color: #e51616;
+  color: #fff;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-cancel {
   background-color: #707070;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-send {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-update {
   background-color: #fff;
-  color: #06151B;
-  border: 1px solid #06151B;
+  color: #06151b;
+  border: 1px solid #06151b;
 }
 
 .invoice-edit .add-service-div {
@@ -2988,8 +2994,8 @@
 
 .invoice-edit .add-service-div .btn-add-service {
   background-color: #fff;
-  color: #FECB2F !important;
-  border: 1px solid #D9D8D8 !important;
+  color: #fecb2f !important;
+  border: 1px solid #d9d8d8 !important;
 }
 
 .invoice-edit .service-group .form-control {
@@ -3080,7 +3086,7 @@
     line-height: 26px;
     color: #fff !important;
     font-weight: 700;
-    background-color: #06151B !important;
+    background-color: #06151b !important;
     border-radius: 8px;
     text-align: center;
     padding: 12px 20px;
@@ -3139,7 +3145,7 @@
   .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
     font-size: 14px;
     line-height: 24px;
-    color: #FECB2F;
+    color: #fecb2f;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 8px 10px;
@@ -3260,7 +3266,7 @@
   .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white {
     font-size: 14px;
     line-height: 24px;
-    color: #FECB2F;
+    color: #fecb2f;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 8px 10px;

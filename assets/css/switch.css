@@ -32,7 +32,7 @@ input[type="checkbox"].toggle.toggle + label {
   height: 25px;
   width: 67px;
   line-height: 40px;
-  background-color: #E51616;
+  background-color: #e51616;
   padding: 0 10px;
   border-radius: 4px;
   display: -webkit-box;
@@ -54,10 +54,10 @@ input[type="checkbox"].toggle.toggle + label::before, input[type="checkbox"].tog
   content: " ";
   position: absolute;
   top: -2px;
-  left: 0px;
+  left: 0;
   width: 28px;
   height: 28px;
-  background: #EBEAEA;
+  background: #ebeaea;
   z-index: 2;
   border-radius: 5px;
   -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08);
@@ -91,7 +91,7 @@ input[type="checkbox"].toggle.toggle:checked + label,
 input[type="checkbox"].toggle.toggle:focus:checked + label {
   height: 25px;
   width: 67px;
-  background-color: #12EB00;
+  background-color: #12eb00;
   border: 1px solid #e0e0e0;
 }
 
