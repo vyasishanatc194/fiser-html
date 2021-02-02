@@ -345,7 +345,6 @@ body {
   background-image: url(../images/icons/custom/edit-icon.svg);
 }
 
-/*  general css */
 .display_show {
   display: block;
 }
@@ -391,7 +390,6 @@ body {
   padding-left: 10px !important;
 }
 
-/* Button */
 .btn.btn-link {
   padding: 0;
   font-weight: 500;
@@ -607,8 +605,6 @@ body {
   text-align: center;
 }
 
-/* End of Button */
-/* select2 */
 .select-box {
   position: relative;
   display: -webkit-box;
@@ -730,7 +726,6 @@ body {
   border: 0 solid #aaa;
 }
 
-/* End of select2 multiple */
 .select2-form-group .selectbox-inline {
   width: 100%;
 }
@@ -823,13 +818,10 @@ body {
   margin-left: -5px;
 }
 
-/* end of select2 */
 .form-root {
   padding: 0 0;
   margin: 0;
   position: relative;
-  /* checkbox */
-  /* End of checkbox */
 }
 
 .form-root .form-group-custom {
@@ -1021,8 +1013,6 @@ body {
   min-height: 44px;
 }
 
-/*  End of general css */
-/* main right content area */
 .middle-area-dashboard {
   padding: 0 0 0 280px;
   margin: 0;
@@ -1537,7 +1527,6 @@ body {
           justify-content: center;
 }
 
-/* End of main right content area */
 .main-section {
   padding: 0;
   margin: 0;
@@ -1550,7 +1539,6 @@ body {
   min-height: calc(100vh - 127px);
 }
 
-/* modal */
 .form-custom-div01-01 {
   padding: 0 0;
   margin: 0;
@@ -1849,7 +1837,6 @@ body {
   z-index: 9;
 }
 
-/* checkbox */
 .custom-checkbox-new {
   position: relative;
   display: block;
@@ -1887,7 +1874,6 @@ body {
   background-color: #303030;
 }
 
-/* End of checkbox */
 .custom-rd-control {
   color: #06151b;
   font-size: 16px;
@@ -1929,7 +1915,6 @@ body {
           box-shadow: none;
 }
 
-/* End fo radio btn */
 .default-icon-list-div {
   padding: 0;
   margin: 0;
@@ -2157,7 +2142,6 @@ body {
   color: #5772e3;
 }
 
-/* dashboard cards */
 .custom-card-section .custom-white-card01 {
   border: none;
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.16);
@@ -3250,7 +3234,6 @@ body {
 }
 
 @media (min-width: 1025px) {
-  /* main right content area */
   .middle-area-dashboard .main-middle-area.active-progress-area {
     width: calc(100% - 310px);
   }
@@ -3317,7 +3300,6 @@ body {
   .mobile-hidden {
     display: none;
   }
-  /**  main area  */
   .middle-area-dashboard {
     padding: 70px 0 0 0;
     margin: 0;
@@ -3452,7 +3434,6 @@ body {
     top: 4px;
     left: 2px;
   }
-  /* End of get started */
   .heading-main-section .breadcrumb-card-root {
     margin: 0 0 20px 0;
   }
@@ -3695,7 +3676,6 @@ body {
   .mobile-hidden {
     display: none;
   }
-  /**  main area  */
   .middle-area-dashboard {
     padding: 70px 0 0 0;
     margin: 0;
