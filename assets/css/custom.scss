@@ -276,9 +276,13 @@
 
       .service-detail-tab {
         border: 0;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
 
           li {
             a {
+              white-space: nowrap;
               background-color: transparent;  
               color: #707070;
               border: 0;
@@ -622,6 +626,7 @@
   ul {
     border: 0;
     flex-wrap: nowrap;
+    overflow-y: hidden;
     overflow-x: auto;
 
     li {
@@ -1062,8 +1067,9 @@
   ul {
     border: 0;
     height: 100%;
-    overflow-x: auto;
     flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
     width: 100%;
     li {
       border: 0;
@@ -2820,7 +2826,6 @@
       border: 0;
       display: flex;
       flex-wrap: nowrap;
-      overflow-x: auto;
 
       li {
         border: 0;
@@ -2842,7 +2847,7 @@
       border: 0;
       display: flex;
       flex-wrap: nowrap;
-      overflow-x: auto;
+      
 
       li {
         border: 0;
