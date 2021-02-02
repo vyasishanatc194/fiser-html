@@ -23,6 +23,7 @@
   line-height: 1.5;
   font-weight: 700;
   padding: 12px 15px 10px 15px;
+  text-align: left;
 }
 
 .table.table-custom-02 thead th:first-child {
