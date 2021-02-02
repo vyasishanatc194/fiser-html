@@ -1,137 +1,129 @@
 .modal.fixed-right.fade .modal-dialog-vertical {
-    transform: translateX(100%);
-  }
-  
-  .modal.fixed-right.show .modal-dialog-vertical {
-    transform: translateX(0);
-  }
-  
-  .modal.fixed-right .modal-dialog-vertical {
-    margin-left: auto;
-    z-index: 999999999;
-  }
-  
-  .modal-dialog-vertical {
-    height: 100%;
-    max-width: 700px;
-    margin: 0;
+  transform: translateX(100%);
+}
 
-    .modal-content {
-        border: 0 !important;
-        border-radius: 0;
+.modal.fixed-right.show .modal-dialog-vertical {
+  transform: translateX(0);
+}
+
+.modal.fixed-right .modal-dialog-vertical {
+  margin-left: auto;
+  z-index: 999999999;
+}
+
+.modal-dialog-vertical {
+  height: 100%;
+  max-width: 700px;
+  margin: 0;
+
+  .modal-content {
+    border: 0 !important;
+    border-radius: 0;
+  }
+}
+
+.modal-open {
+  .left-side-nav {
+    z-index: 99;
+  }
+}
+
+.modal.fixed-right {
+  padding-right: 0 !important;
+
+  .modal-header {
+    background-color: #ebeaea;
+    font-size: 24px;
+    line-height: 34px;
+
+    .text-center {
+      width: 100%;
+      text-align: center;
+    }
+
+    .close {
+      box-shadow: none;
+      outline: 0 !important;
+
+      i {
+        font-size: 30px;
+      }
     }
   }
 
-  .modal-open {
-    .left-side-nav {
-      z-index: 99;
-    }
-  }
-  
-  .modal.fixed-right {
-    padding-right: 0!important;
-   
-    .modal-header {
-      background-color: #EBEAEA;
-      font-size: 24px;
-      line-height: 34px;
+  .modal-body {
+    background-color: #fff;
+    border: 0;
+    height: calc(100vh - 140px);
+    overflow-y: auto;
 
-      .text-center {
-        width: 100%;
-        text-align: center;
-      }
-
-      .close {
-          box-shadow: none;
-          outline: 0 !important;
-          
-          i  {
-            font-size: 30px;
-          }
-      }
-    } 
-  
-    .modal-body {
-      background-color: #fff;
-      border: 0;
-      height: calc(100vh - 140px);
-      overflow-y: auto;
-      
-      .schedule-content {
-        h3 {
-          font-size: 24px;
-          line-height: 26px;
-          color: #000;
-          margin: 30px 0;
-          font-weight: 600;
-        }
-
-        .table {
-            border: 0;
-            th {
-                font-size: 20px;
-                line-height: 28px;
-                color: #000;
-                border: 0;
-            }
-
-            td {
-                font-size: 20px;
-                line-height: 28px;
-                color: #000;
-                border: 0;
-            }
-        }
-       
-      }
-
-     
-    }
-  
-    .modal-footer {
-      justify-content: flex-start;
-  
-      .btn-save {
-        background-color: #FECB2F;
+    .schedule-content {
+      h3 {
+        font-size: 24px;
+        line-height: 26px;
         color: #000;
+        margin: 30px 0;
         font-weight: 600;
       }
 
+      .table {
+        border: 0;
+        th {
+          font-size: 20px;
+          line-height: 28px;
+          color: #000;
+          border: 0;
+        }
 
-      .btn-cancel {
-        background-color: #707070;
-        color: #fff;
-        font-weight: 600;
+        td {
+          font-size: 20px;
+          line-height: 28px;
+          color: #000;
+          border: 0;
+        }
       }
-
-      .btn-save-email {
-        background-color: #FFFFFF;
-        color: #06151B;
-        border: 1px solid #06151B;
-        font-weight: 600;
-      }
-
-      .btn-save-black {
-        background-color: #06151B;
-        color: #fff;
-        border: 1px solid #06151B;
-        font-weight: 600;
-      }
-
     }
   }
+
+  .modal-footer {
+    justify-content: flex-start;
+
+    .btn-save {
+      background-color: #fecb2f;
+      color: #000;
+      font-weight: 600;
+    }
+
+    .btn-cancel {
+      background-color: #707070;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .btn-save-email {
+      background-color: #fff;
+      color: #06151b;
+      border: 1px solid #06151b;
+      font-weight: 600;
+    }
+
+    .btn-save-black {
+      background-color: #06151b;
+      color: #fff;
+      border: 1px solid #06151b;
+      font-weight: 600;
+    }
+  }
+}
 
 // modal
 
 .modal-package {
-  
   .modal-header {
     h5 {
       text-align: center;
       width: 100%;
     }
-
-   
   }
 
   .modal-body {
@@ -139,65 +131,57 @@
     background-color: #fff;
 
     .form-package {
-        label {
-          font-size: 18px;
-          line-height: 24px;
-          color: #000;
+      label {
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .form-control {
+        height: 60px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000;
+      }
+
+      textarea.form-control {
+        height: 180px !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+      }
+
+      .max-width-200 {
+        width: 150px;
+      }
+
+      .input-group {
+        input {
+          border-radius: 4px;
+          font-weight: 700;
+        }
+
+        .input-group-text {
+          background-color: #000;
+          color: #fff;
+          border-radius: 8px;
+          width: 50px;
           font-weight: 600;
-          margin-bottom: 15px;
+          font-size: 24px;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
-
-        .form-control {
-          height: 60px;
-          font-size: 18px;
-          line-height: 30px;
-          color: #000;
-        }
-
-        textarea.form-control {
-          height: 180px !important;
-          font-size: 20px;
-          line-height: 30px;
-          color: #000;
-        }
-        
-        .max-width-200 {
-          width: 150px;
-        }
-
-        .input-group {
-          input {
-            border-radius: 4px;
-            font-weight: 700;
-          }
-
-          .input-group-text {
-            background-color: #000;
-            color: #fff;
-            border-radius: 8px;
-            width: 50px;
-            font-weight: 600;
-            font-size: 24px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-        }
-
-        
+      }
     }
-
-   
-
   }
-
- 
 }
 
 .modal-promo {
   .edit-promo-content {
-
     .form-group {
       margin-bottom: 30px;
 
@@ -208,17 +192,14 @@
         font-weight: 600;
         margin-bottom: 15px;
       }
-  
+
       .form-control {
         height: 60px;
         font-size: 18px;
         line-height: 30px;
         color: #000;
       }
-
     }
-
-  
 
     textarea.form-control {
       height: 180px !important;
@@ -226,12 +207,11 @@
       line-height: 30px;
       color: #000;
     }
-  } 
+  }
 }
 
 .modal-referal {
   .edit-promo-content {
-
     .form-group {
       margin-bottom: 30px;
 
@@ -242,14 +222,13 @@
         font-weight: 600;
         margin-bottom: 15px;
       }
-  
+
       .form-control {
         height: 60px;
         font-size: 18px;
         line-height: 30px;
         color: #000;
       }
-      
     }
 
     .input-group {
@@ -286,12 +265,11 @@
       line-height: 30px;
       color: #000;
     }
-  } 
+  }
 }
 
 .modal-send-push {
   .notification-content {
-    
     .form-group {
       margin-bottom: 30px;
 
@@ -302,7 +280,7 @@
         font-weight: 600;
         margin-bottom: 15px;
       }
-  
+
       .form-control {
         height: 60px;
         font-size: 18px;
@@ -315,7 +293,6 @@
         color: #000;
         line-height: 24px;
       }
-      
     }
 
     .input-group {
@@ -365,7 +342,6 @@
         font-weight: 600;
         margin-bottom: 15px;
       }
-
     }
 
     .claneder-icon-main {
@@ -392,12 +368,10 @@
     }
 
     .select-group {
-
       display: flex;
       align-items: center;
       justify-content: flex-start;
 
-    
       .select-parent {
         margin-right: 10px;
       }
@@ -413,11 +387,11 @@
       .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 60px;
         width: 35px;
-    
+
         &:before {
           display: none;
           border-left: 1px solid #707070;
-          content: '';
+          content: "";
           top: 8px;
           left: -3px;
           height: 45px;
@@ -473,19 +447,14 @@
         margin-right: 20px;
         width: 100%;
       }
-
     }
 
     .search-by {
       max-width: 250px;
       width: 100%;
     }
-
-
-
-  } 
+  }
 }
-
 
 .collect-patyment-form {
   padding: 40px 30px;
@@ -514,7 +483,7 @@
       font-weight: 600;
       margin-bottom: 15px;
     }
-  
+
     .form-control {
       height: 60px;
       font-size: 18px;
@@ -558,7 +527,7 @@
       width: 100%;
     }
   }
- 
+
   .select2-container {
     width: 100% !important;
   }
@@ -606,28 +575,26 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    
-  ul {
-    display: block;
-    width: 100%;
 
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    ul {
+      display: block;
       width: 100%;
-      font-size: 18px;
-      line-height: 40px;
-      font-weight: 500;
-      border-bottom: 1px solid #000;
-      &:last-child {
-        border: 0;
 
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 500;
+        border-bottom: 1px solid #000;
+        &:last-child {
+          border: 0;
+        }
       }
     }
   }
-  }
-
 }
 
 @media (max-width: 767px) {
@@ -637,7 +604,6 @@
 
       .form-package {
         .form-group {
-        
           label {
             font-size: 16px;
             margin-bottom: 10px;
@@ -660,38 +626,32 @@
     .modal-footer {
       padding-left: 20px !important;
     }
-
   }
 
   .modal-promo {
     .edit-promo-content {
-  
       .form-group {
         margin-bottom: 20px;
 
         .form-control {
           height: 50px;
         }
-  
       }
-  
-    
-  
+
       textarea.form-control {
         height: 180px !important;
         font-size: 20px;
         line-height: 30px;
         color: #000;
       }
-    } 
+    }
   }
-  
+
   .modal-referal {
     .edit-promo-content {
-  
       .form-group {
         margin-bottom: 20px;
-  
+
         label {
           font-size: 18px;
           line-height: 24px;
@@ -699,40 +659,33 @@
           font-weight: 600;
           margin-bottom: 15px;
         }
-    
+
         .form-control {
           height: 50px;
           font-size: 18px;
           line-height: 30px;
           color: #000;
         }
-        
       }
-  
-  
+
       .input-group {
         position: relative;
         margin-bottom: 30px;
-        
+
         input {
           border-radius: 4px;
           font-weight: 700;
           height: 50px;
           padding-left: 70px;
         }
-  
-    
       }
-  
-    
-  
+
       textarea.form-control {
         height: 120px !important;
         font-size: 20px;
         line-height: 30px;
         color: #000;
       }
-    } 
+    }
   }
 }
-

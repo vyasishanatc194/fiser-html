@@ -4,7 +4,7 @@
   padding: 5px 8px;
   line-height: 20px;
   font-size: 18px;
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -12,12 +12,12 @@
 
   &:hover {
     color: #000;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   }
 
   &:focus {
     color: #000;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
   }
 }
 
@@ -1219,12 +1219,13 @@
             line-height: 30px;
             position: relative;
             padding-left: 15px;
+
             &:before {
               content: "";
               height: 8px;
               width: 8px;
               position: absolute;
-              left: 0px;
+              left: 0;
               top: 10px;
               background-color: #000;
               border-radius: 100px;
@@ -1381,7 +1382,7 @@
 }
 
 .service-upload {
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
 }
@@ -1391,7 +1392,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #d9d8d8;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -2146,7 +2147,7 @@
 
           .btn {
             padding: 12px 40px;
-            background-color: #ffffff;
+            background-color: #fff;
             font-size: 22px;
             line-height: 26px;
             margin-right: 5px;
@@ -2162,12 +2163,12 @@
 
           .btn-delete {
             background-color: #e51616;
-            color: #ffffff;
+            color: #fff;
           }
 
           .btn-cancel {
             background-color: #707070;
-            color: #ffffff;
+            color: #fff;
           }
 
           .btn-send {
@@ -2629,7 +2630,7 @@
 
           .btn {
             padding: 12px 40px;
-            background-color: #ffffff;
+            background-color: #fff;
             font-size: 22px;
             line-height: 26px;
             margin-right: 5px;
@@ -2645,12 +2646,12 @@
 
           .btn-delete {
             background-color: #e51616;
-            color: #ffffff;
+            color: #fff;
           }
 
           .btn-cancel {
             background-color: #707070;
-            color: #ffffff;
+            color: #fff;
           }
 
           .btn-send {

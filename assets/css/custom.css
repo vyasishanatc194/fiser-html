@@ -4,8 +4,8 @@
   padding: 5px 8px;
   line-height: 20px;
   font-size: 18px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,14 +20,14 @@
 
 .btn-tools:hover {
   color: #000;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
 }
 
 .btn-tools:focus {
   color: #000;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
 }
 
 .breadcrumb-section {
@@ -1336,7 +1336,7 @@
   height: 8px;
   width: 8px;
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 10px;
   background-color: #000;
   border-radius: 100px;
@@ -1525,7 +1525,7 @@
 }
 
 .service-upload {
-  background-color: #ffffff;
+  background-color: #fff;
   -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
@@ -1543,7 +1543,7 @@
           justify-content: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #d9d8d8;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -2402,7 +2402,7 @@
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn {
   padding: 12px 40px;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 22px;
   line-height: 26px;
   margin-right: 5px;
@@ -2418,12 +2418,12 @@
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-delete {
   background-color: #e51616;
-  color: #ffffff;
+  color: #fff;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-cancel {
   background-color: #707070;
-  color: #ffffff;
+  color: #fff;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-footer .btn-send {
@@ -2944,7 +2944,7 @@
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn {
   padding: 12px 40px;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 22px;
   line-height: 26px;
   margin-right: 5px;
@@ -2960,12 +2960,12 @@
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-delete {
   background-color: #e51616;
-  color: #ffffff;
+  color: #fff;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-cancel {
   background-color: #707070;
-  color: #ffffff;
+  color: #fff;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-footer .btn-send {
