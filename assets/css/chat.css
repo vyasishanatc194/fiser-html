@@ -793,7 +793,6 @@
 
 .chat-section .chat-message .chat-group .chat-message-body .chat-message-body-inner {
   overflow-y: auto;
-  min-height: auto;
   max-height: calc(100vh - 430px);
   min-height: calc(100vh - 430px);
   margin-right: -10px;
