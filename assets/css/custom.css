@@ -305,9 +305,14 @@
 
 .service-detail-section .service-card-right .card-header .service-detail-tab {
   border: 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .service-detail-section .service-card-right .card-header .service-detail-tab li a {
+  white-space: nowrap;
   background-color: transparent;
   color: #707070;
   border: 0;
@@ -655,6 +660,7 @@
   border: 0;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  overflow-y: hidden;
   overflow-x: auto;
 }
 
@@ -1104,9 +1110,10 @@
 .marketing-tabs ul {
   border: 0;
   height: 100%;
-  overflow-x: auto;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
   width: 100%;
 }
 
@@ -3021,7 +3028,6 @@
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    overflow-x: auto;
   }
   .client-tabs ul li {
     border: 0;
@@ -3044,7 +3050,6 @@
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    overflow-x: auto;
   }
   .marketing-tabs ul li {
     border: 0;

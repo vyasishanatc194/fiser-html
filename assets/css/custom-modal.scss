@@ -96,12 +96,35 @@
         color: #000;
         font-weight: 600;
       }
+
+
+      .btn-cancel {
+        background-color: #707070;
+        color: #fff;
+        font-weight: 600;
+      }
+
+      .btn-save-email {
+        background-color: #FFFFFF;
+        color: #06151B;
+        border: 1px solid #06151B;
+        font-weight: 600;
+      }
+
+      .btn-save-black {
+        background-color: #06151B;
+        color: #fff;
+        border: 1px solid #06151B;
+        font-weight: 600;
+      }
+
     }
   }
 
 // modal
 
 .modal-package {
+  
   .modal-header {
     h5 {
       text-align: center;
@@ -168,6 +191,8 @@
    
 
   }
+
+ 
 }
 
 .modal-promo {
@@ -456,7 +481,153 @@
       width: 100%;
     }
 
+
+
   } 
+}
+
+
+.collect-patyment-form {
+  padding: 40px 30px;
+
+  .form-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    label {
+      width: 30%;
+    }
+
+    .input-div {
+      width: 70%;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 30px;
+
+    label {
+      font-size: 18px;
+      line-height: 24px;
+      color: #000;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+  
+    .form-control {
+      height: 60px;
+      font-size: 18px;
+      line-height: 30px;
+      color: #000;
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 50px;
+
+      input {
+        border-radius: 4px;
+        font-weight: 700;
+        padding-left: 70px;
+      }
+
+      .input-group-text {
+        background-color: #000;
+        color: #fff;
+        border-radius: 8px;
+        width: 60px;
+        height: 100%;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+      }
+    }
+
+    textarea.form-control {
+      height: 180px !important;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+      width: 100%;
+    }
+  }
+ 
+  .select2-container {
+    width: 100% !important;
+  }
+
+  .select2-container--default .select2-selection--single {
+    height: 60px;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 60px;
+  }
+
+  .claneder-icon-main {
+    position: relative;
+
+    .form-control {
+      background-color: #fff;
+      padding-right: 60px;
+    }
+
+    .calender-icon {
+      position: absolute;
+      right: 0;
+      top: 10px;
+      height: auto;
+      width: 60px;
+
+      img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .client-detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+  ul {
+    display: block;
+    width: 100%;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 18px;
+      line-height: 40px;
+      font-weight: 500;
+      border-bottom: 1px solid #000;
+      &:last-child {
+        border: 0;
+
+      }
+    }
+  }
+  }
+
 }
 
 @media (max-width: 767px) {
