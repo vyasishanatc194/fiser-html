@@ -639,6 +639,148 @@
   font-weight: 400;
 }
 
+.card-set-fluid-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.card-set-fluid-section .card-set-fluid-div {
+  padding: 60px 0;
+  margin: 0;
+  position: relative;
+}
+
+.card-set-fluid-section .card-set-fluid-middle {
+  padding: 20px;
+  -webkit-box-shadow: 0 0 30px 0 #00000029;
+          box-shadow: 0 0 30px 0 #00000029;
+  margin: 0 0 40px 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.card-set-fluid-section .card-pro-set-box-left {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 {
+  padding: 0 0 20px 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .card-pro-set-box-row-left {
+  width: 50%;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .card-pro-set-box-row-right {
+  width: 50%;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .img-txt-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .img-txt-div .img-div {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .img-txt-div .img-div .img-fluid {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .img-txt-div .txt-div {
+  width: calc(100% - 60px);
+  padding: 6px 0 2px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .img-txt-div .txt-div p {
+  color: #06151b;
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 700;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .btn-div-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row01 .btn-div-right .btn.btn-primary {
+  margin: 0;
+}
+
+.card-set-fluid-section .card-pro-set-box-left .card-pro-set-box-left-inner .card-pro-set-box-row02 {
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
 @media (max-width: 767px) {
   .settings-fluid-section .settings-bx-div {
     padding: 30px 0;
