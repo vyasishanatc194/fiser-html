@@ -1652,6 +1652,7 @@
     background-color: #06151b;
   }
 }
+
 .marketing-section {
   .card-refreal {
     border: 0;
@@ -2694,8 +2695,180 @@
   }
 }
 
+
+.job-create-form {
+  .card {
+ 
+    background-color: #fff;
+
+    .card-header {
+
+      background-color: #fff;
+
+    }
+  }
+
+  .card-form {
+    .card-header {
+      h3 {
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+
+    .card-body {
+
+
+      .add-div {
+        position: absolute;
+        right: -40px;
+        top: 40px;
+
+        .btn-round-add {
+          height: 40px;
+          width: 40px;
+          border-radius: 100px;
+          border: 1px solid #ced4da;
+          color: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+      }
+      .form-group {
+        margin-bottom: 20px;
+
+        label {
+          font-size: 16px;
+          color: #000;
+          line-height: 20px;
+          font-weight: 600;
+          margin-bottom: 15px;
+        }
+
+        .form-control {
+          display: block;
+          width: 100%;
+          height: 60px;
+          color: #495057;
+          font-weight: 600;
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 1px solid #ced4da;
+          border-radius: 0;
+        }
+
+        textarea.form-control {
+          height: 150px;
+        }
+
+        .input-search {
+          display: flex;
+          flex-wrap: nowrap;
+
+          .input-group-text {
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+          }
+        }
+      }
+
+      .input-two {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+
+        .phone {
+          width: calc(100% - 120px);
+
+          .form-control {
+          
+          }
+        }
+
+        .ext {
+          width: 120px;
+        }
+      }
+
+      .input-50 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+
+        .control-50 {
+          width: 50%;
+        }
+
+        
+      }
+
+      .select2-container {
+        width: 100% !important;
+      }
+    
+      .select2-container--default .select2-selection--single {
+        height: 60px;
+        border-radius: 0;
+      }
+    
+      .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 55px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+      }
+    
+      .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 60px;
+      }
+
+      .text-view {
+        margin: 8px 0 8px 0;
+        display: flex;
+        font-weight: 600;
+      }
+
+      .date-picker-group {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        .date {
+          width: 70%;
+        }
+
+        .time {
+          width: 30%;
+        }
+      }
+
+      
+    }
+  }
+}
+
 @media (max-width: 767px) {
   // client tabs
+
+  .job-create-form .card .card-body {
+    padding: 20px 10px;
+
+    .add-div {
+      position: absolute;
+      right: 14px;
+      top: -11px;
+    }
+  }
 
   .setting-tools-section {
     .setting-tools-group {
