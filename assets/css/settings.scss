@@ -638,6 +638,7 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #ddd;
+        flex-wrap: wrap;
 
         .card-pro-set-box-row-left {
           width: 50%;
@@ -961,6 +962,65 @@
         .card-pro-set-box-row01 {
           .card-pro-set-box-row-left {
             width: 100%;
+            margin: 0 0 15px 0;
+          }
+
+          .card-pro-set-box-row-right {
+            width: 100%;
+
+            .btn.btn-primary {
+              width: 100%;
+              justify-content: center;
+            }
+          }
+        }
+
+        .card-pro-set-box-row02 {
+          h4 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+
+        .card-pro-set-box-row-info {
+          h3 {
+            font-size: 16px;
+          }
+        }
+
+        .card-pro-set-box-row-info {
+          .card-pro-set-box-row-info-inner {
+            p {
+              font-size: 13px;
+            }
+          }
+        }
+
+        .card-pro-set-box-row-number-info {
+          h3 {
+            font-size: 14px;
+          }
+        }
+
+        .card-pro-set-box-row-number-info {
+          .card-pro-set-box-row-number-inner {
+            margin: 0 0 20px 0;
+
+            p {
+              font-size: 14px;
+              margin: 0 0 0 0;
+            }
+
+            h2 {
+              font-size: 18px;
+            }
+
+            .bx-card {
+              padding: 10px 0 10px 0;
+            }
           }
         }
       }
@@ -975,6 +1035,65 @@
 
       .settings-bx-link {
         font-size: 18px;
+      }
+    }
+  }
+
+  .card-set-fluid-section {
+    .card-pro-set-box-left {
+      .card-pro-set-box-left-inner {
+        .card-pro-set-box-row01 {
+          
+        }
+
+        .card-pro-set-box-row02 {
+          h4 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+
+        .card-pro-set-box-row-info {
+          h3 {
+            font-size: 16px;
+          }
+        }
+
+        .card-pro-set-box-row-info {
+          .card-pro-set-box-row-info-inner {
+            p {
+              font-size: 13px;
+            }
+          }
+        }
+
+        .card-pro-set-box-row-number-info {
+          h3 {
+            font-size: 14px;
+          }
+        }
+
+        .card-pro-set-box-row-number-info {
+          .card-pro-set-box-row-number-inner {
+            margin: 0 0 20px 0;
+
+            p {
+              font-size: 14px;
+              margin: 0 0 0 0;
+            }
+
+            h2 {
+              font-size: 18px;
+            }
+
+            .bx-card {
+              padding: 10px 0 10px 0;
+            }
+          }
+        }
       }
     }
   }
