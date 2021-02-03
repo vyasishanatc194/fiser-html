@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+@import "../default-style";
+
+.display_show {
+  display: block;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.position-fixed {
+  position: unset !important;
+  overflow: hidden;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mlr-6 {
+  margin-right: -6px !important;
+  margin-left: -6px !important;
+}
+
+.plr-6 {
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+}
+
+.mlr-10 {
+  margin-right: -10px !important;
+  margin-left: -10px !important;
+}
+
+.plr-10 {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.container-fluid {
+  max-width: calc(100% - 30px);
+}
+
+.btn.btn-primary {
+  background-color: #fecb2f;
+  border-radius: 10px;
+  color: #06151b;
+  padding: 7px 16px 6px 16px;
+  min-height: 46px;
+  font-weight: 700;
+  border: none;
+  transition: all 0.8s;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #f3c330;
+    box-shadow: none;
+  }
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active {
+    color: #06151b;
+    background-color: #f3c330;
+    box-shadow: none;
+  }
+
+  &.btn-primary-big {
+    width: 100%;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 15px;
+    min-height: 60px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 10px 16px 6px 16px;
+  }
+}
+
+/* START MAIN STYLE */
+.form-icon-custom-root {
+  .input-form-group {
+    padding: 0;
+    margin-bottom: 25px;
+
+    .form-control {
+      font-size: 20px;
+      color: #707070;
+      background-color: #fff;
+      border: 1px solid #d9d8d8;
+      border-radius: 15px;
+      min-height: 60px;
+      padding: 12px 15px 8px 72px;
+      line-height: 24px;
+      margin: 0 0 5px 0;
+      font-weight: 600;
+
+      &::-webkit-input-placeholder {
+        color: #707070;
+      }
+
+      &::-moz-placeholder {
+        color: #707070;
+      }
+
+      &:-ms-input-placeholder {
+        color: #707070;
+      }
+
+      &:-moz-placeholder {
+        color: #707070;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: #707070;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+
+    .form-group-row {
+      position: relative;
+    }
+
+    .icon-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      height: 60px;
+      width: 72px;
+      padding: 0 0 0 10px;
+    }
+  }
+}
+
+.user-module-main-section {
+  padding: 80px 0 0 0;
+  margin: 0;
+  position: relative;
+  transition: all 0.8s;
+  min-height: 100vh;
+}
+
+.check-availability-main-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .check-availability-div {
+    padding: 60px 0;
+    margin: 0;
+    position: relative;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .check-availability-root {
+      width: 100%;
+    }
+  }
+
+  .check-availability-card {
+    padding: 30px;
+    margin: 0;
+    position: relative;
+    background: #06151b;
+    border-radius: 10px;
+
+    max-width: 500px;
+    width: 100%;
+
+    .check-availability-card-top {
+      padding: 0;
+      margin: 0 0 30px 0;
+      position: relative;
+
+      h2 {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+
+    .check-availability-card-middle {
+      padding: 0;
+      margin: 0 0 20px 0;
+      position: relative;
+    }
+  }
+
+  .availability-center-char-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .thumb-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+    }
+
+    .img-character {
+      max-height: calc(100vh - 210px);
+      object-fit: contain;
+    }
+  }
+}

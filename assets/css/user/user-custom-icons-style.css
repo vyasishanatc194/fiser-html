@@ -1,0 +1,36 @@
+.bg-custom-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.user-white-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/icons/custom/user-icon.png);
+}
+
+.location-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../images/icons/user/location-icon.png);
+}
+
+.calendar-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../images/icons/user/calendar-icon.png);
+}
+
+.vehicles-count-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../images/icons/user/vehicles-count-icon.png);
+}
+
+.vehicle-type-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../../images/icons/user/vehicle-type-icon.png);
+}
+/*# sourceMappingURL=user-custom-icons-style.css.map */
