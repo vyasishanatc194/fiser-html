@@ -33,4 +33,10 @@
   height: 30px;
   background-image: url(../../images/icons/user/vehicle-type-icon.png);
 }
+
+.notification-icon {
+  width: 32px;
+  height: 36px;
+  background-image: url(../../images/icons/custom/notification-white-icon.svg);
+}
 /*# sourceMappingURL=user-custom-icons-style.css.map */

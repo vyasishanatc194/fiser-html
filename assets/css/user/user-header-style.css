@@ -297,6 +297,50 @@
   line-height: 24px;
 }
 
+.header-user .header-user-div .ullist-inline .btn.btn-nav-link {
+  padding: 0 5px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.header-user .header-user-div .ullist-inline .btn.btn-nav-link .notification-icon {
+  width: 28px;
+  height: 32px;
+}
+
+.header-user .header-user-div .ullist-inline .btn.btn-nav-link .number-span {
+  position: absolute;
+  top: -5px;
+  right: 4px;
+  background-color: #e51616;
+  color: #fff;
+  border-radius: 30px;
+  padding: 1px 0 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  height: 18px;
+  width: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .header-user .header-user-div .ullist-inline .dropdown-toggle::after {
   display: none;
 }
