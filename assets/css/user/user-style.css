@@ -436,6 +436,252 @@ body {
      object-fit: contain;
 }
 
+/* left side */
+.user-left-side-nav {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: #06151b;
+  width: 320px;
+  height: 100%;
+  min-height: calc(100vh - 80px);
+  z-index: 9999;
+  border-right: 1px solid #06151b;
+}
+
+.user-left-side-nav .nav-logo-section {
+  padding: 5px 15px 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  min-height: 100px;
+}
+
+.user-left-side-nav .nav-logo-section .dash-logo {
+  max-height: 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.user-left-side-nav .nav-logo-section .dash-logo img {
+  width: 100%;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group {
+  position: relative;
+  padding: 50px 25px 25px 25px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .circle {
+  width: 72px;
+  height: 72px;
+  position: relative;
+  border-radius: 100%;
+  display: block;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .circle .profile-pic {
+  width: 72px;
+  height: 72px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  display: block;
+  border: 1px solid #f6f8fb;
+  background-color: #f6f8fb;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .circle label.filelabel-icon {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  color: #06151b;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  font-size: 14px;
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+  cursor: pointer;
+  border: 0;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .circle label.filelabel-icon .material-icons {
+  font-size: 21px;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .text-div {
+  width: calc(100% - 72px);
+  padding: 0 0 0 13px;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .text-div h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #fff;
+  letter-spacing: -0.2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 3px 0;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .text-div p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #fff;
+  letter-spacing: -0.15px;
+  display: block;
+}
+
+.user-left-side-nav .user-info-div-menu .profile-pic-upload-group .text-div .text-div-inner {
+  position: relative;
+}
+
+.user-left-side-nav .left-side-menu {
+  padding: 0 0;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner {
+  height: calc(100vh - 80px);
+  min-height: 100px;
+  overflow-y: auto;
+  position: relative;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner::-webkit-scrollbar {
+  width: 5px;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner::-webkit-scrollbar-thumb {
+  background: #70777a;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner::-webkit-scrollbar-thumb:hover {
+  background: #70777a;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .responsive-menu-view-div {
+  display: none;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item {
+  padding-bottom: 30px;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul {
+  margin: 0;
+  padding: 0;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li.active .nav-link {
+  position: relative;
+  color: #fff;
+  background: #838a8d;
+  font-weight: 600;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #06151b;
+  padding: 12px 25px 10px 25px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0;
+  border-radius: 0;
+  min-height: 66px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li .nav-link .icon-span {
+  width: 25px;
+  text-align: center;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li .nav-link .text-collapse-menu {
+  width: 100%;
+}
+
+.user-left-side-nav .left-side-menu .left-side-inner .side-nav-item ul li .nav-link:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #70777a;
+}
+
+/* End of left side */
+@media (min-width: 2000px) {
+  .container-fluid {
+    max-width: calc(1920px - 30px);
+  }
+}
+
 @media (max-width: 767px) {
   .container-fluid {
     max-width: 100%;
@@ -492,6 +738,7 @@ body {
   }
   .check-availability-main-section .check-availability-card {
     margin: 0 0 40px 0;
+    padding: 25px;
   }
   .check-availability-main-section .check-availability-card .check-availability-card-top h2 {
     font-size: 24px;
