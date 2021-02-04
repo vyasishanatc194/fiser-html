@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Bookings Details | Fiser</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#06151B">
+  <meta name="msapplication-navbutton-color" content="#06151B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+
+  <link href="assets/css/flatpickr.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link href="assets/css/user/user-header-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/user/user-custom-icons-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/user/user-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/user/user-custom.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper user-wrapper">
+
+    <!-- Begin page content -->
+    <main role="main" class="middle-area-dashboard main-dashboard">
+      <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-user">
+          <div class="header-user-div clearfix">
+            <div class="inner-top-header-div clearfix">
+              <div class="container-fluid d-block">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="header-container">
+    
+                      <div class="logo-div">
+                        <a class="logo_link clearfix" href="#">
+                          <img src="assets/images/logo.png" class="img-fluid logo_img main-logo" alt="logo" />
+                        </a>
+                      </div>
+    
+                      <nav class="nav-center-div">
+                        <div class="top-nav1">
+                          <div class="cd-shadow-layer"></div>
+                          <div class="nav-m-bar">
+                            <a onclick="openNav()" class="opennav" data-placement="bottom" title=""
+                              data-original-title="Menu">
+                              <i class="fe fe-menu menu-bars menu-icon"></i>
+                            </a>
+                          </div>
+                          <div class="nav-div clearfix" id="mySidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <div class="right-side">
+
+                              <ul class="nav ullist-inline" id="nav-res">
+                                <li>
+                                  <div class="user-lsp-link">
+                                    <span class="icon-span"> <i class="bg-custom-icon user-white-icon"></i> </span>
+                                    <span class="text-span">
+                                      <a href="#" class="text-nav-link">Profile</a>
+                                    </span>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a href="#" class="btn btn-nav-link notification-btn-link">
+                                    <i class="bg-custom-icon notification-icon"></i>
+                                    <span class="number-span">4</span>
+                                  </a>
+                                </li>
+                              </ul>
+
+                              <div class="user-responsive-menu-view-div desktop-hidden" id="user-responsive-menu-view-area">
+                                
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+    
+                    </div>
+    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- End of header -->
+
+        <!--  main  -->
+        <div class="user-module-main-section">
+          <div class="user-module-main-div">
+
+            <!-- left-side -->
+            <div class="user-left-side-nav mobile-hidden" id="left-side-nav-user">
+              <div class="user-left-side-nav-inner">
+
+                <div class="left-side-menu" id="user-dashboard-menu-clone">
+                  <div class="left-side-inner">
+
+                    <div class="user-info-div-menu">
+                      <div class="profile-pic-upload-group">
+                        <div class="circle">
+                          <img class="profile-pic" src="assets/images/user-default.png">
+                          <label class="filelabel-icon" for="file-uploadpic">
+                            <span class="material-icons">camera_alt</span>
+                          </label>
+                          <input class="file-upload d-none" id="file-uploadpic" type="file" accept="image/*">
+                        </div>
+                        <div class="text-div">
+                          <div class="text-div-inner">
+                            <h3>Youssef Kone</h3>
+                            <p>(702) 918-1905</p>
+                          </div>    
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="side-nav-item accordion" id="menu-collapse">
+                      <ul class="main-listing">
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Gift Cards</span>
+                          </a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Bookings</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Favourites</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Reviews</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Account</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Payments</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link nav-normal" href="#">
+                            <span class="text-collapse-menu">Like Us on Facebook</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                      
+                  </div>
+                </div>
+                
+                <!--  mobile  -->
+                <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+                <!--  End of mobile  -->
+
+              </div>
+            </div>
+            <!--  End of left-side  -->
+
+            <!-- right-side -->
+            
+            <div class="user-right-side-main-div">
+              <div class="container-fluid container-fluid-space">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+
+                    <div class="user-module-right-inner-div">
+
+                      <section class="booking-main-section booking-details-main-section">
+
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12">
+
+                            <div class="heading-title-div"> 
+                              <h1>11:00 AM . Fri, 10 Oct</h1>
+                            </div>
+
+                            <div class="bk-map-card-root">
+                              <div class="row">
+                                <div class="col-lg-12 col-md-12">
+
+                                  <div class="bk-map-card-root-inner">
+
+                                    <div class="bk-map-card-rt-top">
+                                      <div class="status-div">
+                                        <span class="badge-status in-route-status">IN ROUTE</span>
+                                      </div>
+                                    </div>
+
+                                    <div class="bk-map-card-rt-middle">
+
+                                      <div class="bk-map-thumb-card">
+                                        <img src="assets/images/background/map-route.jpg" class="img-fluid" alt="map" />
+                                      </div>
+
+                                      <div class="bk-info-text-card">
+                                        <div class="bk-info-wcard-row">
+                                          <div class="bk-info-wcard-left">
+                                            <div class="text-div">
+                                              <h2>
+                                                <span class="block">Advanced + Steam</span> 
+                                                <span class="block">Every 2 weeks</span>
+                                                <span class="block">Mercedes Cls 63</span>
+                                              </h2>
+  
+                                              <div class="link-row-div">
+                                                <p>Leo <a href="#" class="link">[Gold Detail]</a> </p>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <div class="bk-info-wcard-right">
+                                            
+                                            <div class="text-div">
+                                              <h2>$235</h2>
+                                              <p>90 minutes</p>
+                                              <p>11:00 AM - 12:30 PM</p>
+                                              
+                                            </div>
+  
+                                          </div>    
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                    <div class="bk-map-card-rt-bottom">
+
+                                      <div class="bk-action-bottom-div">
+
+                                        <div class="row">
+                                          <div class="col-lg-6 col-md-6">
+                                            <div class="btn-booking-div">
+                                              <a href="#" class="btn btn-white-primary btn-cancel">CANCEL</a>
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6">
+                                            <div class="btn-booking-div">
+                                              <a href="#" class="btn btn-white-primary btn-edit">EDIT</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+      
+                            <div class="bk-progress-card-root">
+                              <div class="row">
+                                <div class="col-lg-12 col-md-12">
+
+                                  <div class="bk-progress-card-root-inner">
+
+                                    <div class="header-booking-wcard-div">
+                                      <h4>PROGRESS</h4>
+                                    </div>
+
+                                    <div class="bk-progress-div">
+                                      <div class="row">
+
+                                        <div class="col-lg-3 width-20">
+                                          <div class="bk-progress-card-bx active">
+                                            <div class="bk-progress-thumb-bx">
+                                              <img src="assets/images/icons/progress/tracking-icon.png" alt="img" class="img-fluid img-progress" />
+                                            </div>
+                                            <div class="bk-progress-txt-bx">
+                                              <p>On my way</p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 width-20">
+                                          <div class="bk-progress-card-bx">
+                                            <div class="bk-progress-thumb-bx">
+                                              <img src="assets/images/icons/progress/location-icon.png" alt="img" class="img-fluid img-progress" />
+                                            </div>
+                                            <div class="bk-progress-txt-bx">
+                                              <p>Arrived</p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 width-20">
+                                          <div class="bk-progress-card-bx">
+                                            <div class="bk-progress-thumb-bx">
+                                              <img src="assets/images/icons/progress/start-icon.png" alt="img" class="img-fluid img-progress" />
+                                            </div>
+                                            <div class="bk-progress-txt-bx">
+                                              <p>Started</p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 width-20">
+                                          <div class="bk-progress-card-bx">
+                                            <div class="bk-progress-thumb-bx">
+                                              <img src="assets/images/icons/progress/finish-flag-icon.png" alt="img" class="img-fluid img-progress" />
+                                            </div>
+                                            <div class="bk-progress-txt-bx">
+                                              <p>Completed</p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 width-20">
+                                          <div class="bk-progress-card-bx">
+                                            <div class="bk-progress-thumb-bx">
+                                              <img src="assets/images/icons/progress/attchment-icon.png" alt="img" class="img-fluid img-progress" />
+                                            </div>
+                                            <div class="bk-progress-txt-bx">
+                                              <p>Attachements</p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="bk-picture-card-root">
+                              <div class="row">
+                                <div class="col-lg-12 col-md-12">
+
+                                  <div class="bk-picture-card-root-inner">
+
+                                    <div class="header-booking-wcard-div">
+                                      <h4>BEFORE PICTURES</h4>
+                                    </div>
+
+                                    <div class="bk-picture-div">
+                                      <div class="bk-picture-row">
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture01.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture02.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture02.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture03.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture02.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+                                      
+
+                                        
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="bk-picture-card-root-inner">
+
+                                    <div class="header-booking-wcard-div">
+                                      <h4>AFTER PICTURES</h4>
+                                    </div>
+
+                                    <div class="bk-picture-div">
+                                      <div class="bk-picture-row">
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture04.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture02.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture05.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture03.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+
+                                        <div class="bk-picture-card-bx">
+                                          <div class="bk-picture-thumb-bx">
+                                            <img src="assets/images/picture/picture05.png" alt="img" class="img-fluid img-picture" />
+                                          </div>
+                                        </div>
+                                      
+
+                                        
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </section>
+
+                      
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of right-side -->
+
+          </div>
+        </div><!--  end of main  -->
+
+      </div>
+    </main>
+
+  </div><!-- end of wrapper -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/flatpickr.min.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/user/read-less-text-custom.js"></script>
+  <script src="assets/js/user/user-custom.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      flatpickr('.start-date', {
+        disableMobile: "true",
+        enableTime: false,
+        // minDate: "today",
+        altInput: true,
+        altFormat: "j F Y",
+      });
+
+      /* profile pic */
+
+      var readURL = function (input) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+
+          reader.onload = function (e) {
+            $('.profile-pic').attr('src', e.target.result);
+          }
+
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      $(".file-upload").on('change', function () {
+        readURL(this);
+      });
+
+      $(".upload-button").on('click', function () {
+        $(".file-upload").click();
+      });
+      /* end of pic */
+    });
+  </script>
+
+</body>
+
+</html>
