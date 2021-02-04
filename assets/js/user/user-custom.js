@@ -4,6 +4,13 @@ function openNav() {
   $(".cd-shadow-layer").addClass("displayblock");
   $(".wrapper").addClass("position-fixed-custom");
   $("body").addClass("overflow-fixed");
+
+  if (!$("#left-side-nav-user").hasClass("clonned")) {
+    $("#left-side-nav-user").addClass("clonned");
+    $("#left-side-nav-user")
+      .clone(false)
+      .appendTo("#user-responsive-menu-view-area");
+  }
 }
 
 function closeNav() {
@@ -20,10 +27,10 @@ $(document).ready(function () {
   });
 
   $(window).scroll(function () {
-    var sticky = $(".header-div"),
+    var sticky = $(".header-user-div"),
       scroll = $(window).scrollTop();
 
-    if (scroll >= 190) {
+    if (scroll >= 1) {
       sticky.addClass("header-bgcolor slideInDown animated");
     } else {
       sticky.removeClass("header-bgcolor slideInDown animated");
