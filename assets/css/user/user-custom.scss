@@ -67,7 +67,27 @@
         }
     }
     
+    .owl-review {
+      background-color: rgba(6, 21, 27,0.75);
+      border-radius: 10px;
+      padding: 10px 30px;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0;
 
+      h3 {
+        font-size: 40px;
+        line-height: 53px;
+        color: #fff;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+      }
+    }
 
 
     .gold-detail-section {
@@ -208,7 +228,6 @@
 
       }
 
-
       .img-gallery {
         margin-bottom: 20px;
         position: relative;
@@ -235,8 +254,6 @@
           }
         }
       }
-
-   
 
       .g-large {
         img {
@@ -276,6 +293,7 @@
 
 
     .review-section {
+  margin-bottom: 60px;
 
       .review-heading {
         display: flex;
@@ -501,5 +519,33 @@
      
 
     }
+}
+
+@media (max-width: 767px){
+  .check-availibity-detail .review-section .review-heading {
+    flex-direction: column;
+
+    .review-rating {
+      flex-direction: column;
+    }
+  }  
+  .check-availibity-detail .review-section .user-review-list .user-review-heading .user-info .review-img {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+  }
+
+  .check-availibity-detail .review-section .user-review-list .user-review-heading .user-info .review-content .ratting {
+   flex-wrap: wrap;
+
+   p{
+     margin-left: 0;
+   }
+  }
+
+  .check-availibity-detail .see-ourwork-section .g-large img {
+    height: unset;
+    min-height: unset;
+  }
 }
 
