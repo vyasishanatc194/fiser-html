@@ -1628,10 +1628,70 @@ body {
     .modal-body {
       .title-div-header {
         padding: 0 15px;
+
+        .title-div-header-div {
+          padding: 15px 0 15px 0;
+
+          .title-div-header-left-div {
+            width: 40px;
+
+            .link.back-link {
+              font-size: 20px;
+            }
+          }
+
+          .title-div-header-right-div {
+            padding: 0 40px 0 0;
+            width: calc(100% - 40px);
+
+            h2 {
+              font-size: 18px;
+            }
+          }
+        }
       }
 
       .modal-main-inner-div {
         padding: 0 15px;
+
+        .sign-in-div {
+          .sign-in-row {
+            .btn-div {
+              margin: 0 0 25px 0;
+
+              .btn.btn-primary.btn-primary-big {
+                font-size: 16px;
+                min-height: 50px;
+                border-radius: 10px;
+              }
+
+              .btn.btn-primary.btn-facebook-login {
+                font-size: 16px;
+                min-height: 50px;
+                border-radius: 10px;
+              }
+            }
+
+            .or-div {
+              .or-div-row {
+                margin: 0 0 25px 0;
+
+                p {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .desc-text-div {
+        padding: 10px 0 0 0;
+
+        p {
+          font-size: 12px;
+          line-height: 1.5;
+        }
       }
     }
   }

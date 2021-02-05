@@ -1868,8 +1868,50 @@ body {
   .modal-customize .modal-body .title-div-header {
     padding: 0 15px;
   }
+  .modal-customize .modal-body .title-div-header .title-div-header-div {
+    padding: 15px 0 15px 0;
+  }
+  .modal-customize .modal-body .title-div-header .title-div-header-div .title-div-header-left-div {
+    width: 40px;
+  }
+  .modal-customize .modal-body .title-div-header .title-div-header-div .title-div-header-left-div .link.back-link {
+    font-size: 20px;
+  }
+  .modal-customize .modal-body .title-div-header .title-div-header-div .title-div-header-right-div {
+    padding: 0 40px 0 0;
+    width: calc(100% - 40px);
+  }
+  .modal-customize .modal-body .title-div-header .title-div-header-div .title-div-header-right-div h2 {
+    font-size: 18px;
+  }
   .modal-customize .modal-body .modal-main-inner-div {
     padding: 0 15px;
+  }
+  .modal-customize .modal-body .modal-main-inner-div .sign-in-div .sign-in-row .btn-div {
+    margin: 0 0 25px 0;
+  }
+  .modal-customize .modal-body .modal-main-inner-div .sign-in-div .sign-in-row .btn-div .btn.btn-primary.btn-primary-big {
+    font-size: 16px;
+    min-height: 50px;
+    border-radius: 10px;
+  }
+  .modal-customize .modal-body .modal-main-inner-div .sign-in-div .sign-in-row .btn-div .btn.btn-primary.btn-facebook-login {
+    font-size: 16px;
+    min-height: 50px;
+    border-radius: 10px;
+  }
+  .modal-customize .modal-body .modal-main-inner-div .sign-in-div .sign-in-row .or-div .or-div-row {
+    margin: 0 0 25px 0;
+  }
+  .modal-customize .modal-body .modal-main-inner-div .sign-in-div .sign-in-row .or-div .or-div-row p {
+    font-size: 16px;
+  }
+  .modal-customize .modal-body .desc-text-div {
+    padding: 10px 0 0 0;
+  }
+  .modal-customize .modal-body .desc-text-div p {
+    font-size: 12px;
+    line-height: 1.5;
   }
 }
 
