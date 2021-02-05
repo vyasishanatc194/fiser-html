@@ -878,15 +878,33 @@
     }
 
     .select-member {
-      background-color: #FECB2F;
+      background-color: rgba(254, 203, 47, 0.5);
       padding: 10px 15px;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 16px;
+      width: 300px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      border-radius: 10px;
+      border: 0;
+
+      option {
+        background-color: #fff;
+      }
     }
+
+   
   }
+
+  .btn-confrim {text-transform: uppercase;}
+
 }
 
 @media (max-width: 767px){
+
+  .modal .day-time {
+    flex-direction: column;
+  }
 
   .check-availibity-detail {
     .owl-review {
