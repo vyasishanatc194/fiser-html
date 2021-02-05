@@ -595,6 +595,232 @@
 
 .check-availibity-detail .map-section {
   width: 100%;
+  position: relative;
+}
+
+.check-availibity-detail .map-section .map-box {
+  position: absolute;
+  bottom: 20px;
+  z-index: 99px;
+  left: 20px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: calc(100% - 25px);
+}
+
+.check-availibity-detail .map-section .map-box .img-map {
+  height: 68px;
+  width: 57px;
+}
+
+.check-availibity-detail .map-section .map-box .img-map img {
+  width: 100%;
+  height: 100%;
+}
+
+.check-availibity-detail .map-section .map-box .map-content {
+  padding-left: 20px;
+}
+
+.check-availibity-detail .map-section .map-box .map-content h3 {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.check-availibity-detail .about-section {
+  padding: 20px 20px;
+  background-color: #F4F4F4;
+}
+
+.check-availibity-detail .about-section .about-content h3 {
+  font-size: 20px;
+  line-height: 40px;
+  color: #06151B;
+  margin-bottom: 30px;
+}
+
+.check-availibity-detail .about-section .about-content p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #000;
+}
+
+.check-availibity-detail .about-section .team-member {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.check-availibity-detail .about-section .team-member h3 {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.check-availibity-detail .about-section .team-member ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.check-availibity-detail .about-section .team-member ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.check-availibity-detail .about-section .team-member ul li img {
+  width: 85px;
+  height: 85px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.check-availibity-detail .about-section .team-member ul li p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.check-availibity-detail .about-section .buisness-hrs h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.check-availibity-detail .about-section .call-info {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #D9D8D8;
+  border-bottom: 1px solid #D9D8D8;
+}
+
+.check-availibity-detail .about-section .call-info h4 {
+  color: #06151B;
+  font-size: 20px;
+}
+
+.check-availibity-detail .about-section .call-info h4 a {
+  color: #06151B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.check-availibity-detail .about-section .call-info a.call {
+  background-color: #FFFFFF;
+  border: 1px solid #D9D8D8;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #06151B;
+}
+
+.check-availibity-detail .about-section .time-theme {
+  padding: 10px 0;
+}
+
+.check-availibity-detail .about-section .time-theme ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.check-availibity-detail .about-section .time-theme ul li {
+  font-size: 20px;
+  line-height: 30px;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.check-availibity-detail .about-section .time-theme p {
+  color: #707070;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 29px;
+}
+
+.check-availibity-detail .about-section .time-theme h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #707070;
+}
+
+.check-availibity-detail .about-section .time-theme .social-media {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.check-availibity-detail .about-section .time-theme .social-media li {
+  margin-right: 10px;
+}
+
+.check-availibity-detail .about-section .time-theme .social-media a {
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  background-color: #707070;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
