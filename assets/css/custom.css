@@ -456,7 +456,6 @@
 }
 
 .calendar-section .filter-result .dropdown-mune-result .list li a {
-  line-height: 15px;
   display: inline-block;
   padding: 5px;
   font-size: 20px;
@@ -507,8 +506,8 @@
 }
 
 .mgmt-card-section .card {
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
   border: 0;
   margin-bottom: 30px;
@@ -680,15 +679,15 @@
   color: #000 !important;
   font-weight: 700;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px 10px 0 0;
 }
 
 .client-tabs .tab-content {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 10px 10px;
   min-height: 300px;
@@ -1141,15 +1140,15 @@
   color: #000 !important;
   font-weight: 700;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px 10px 0 0;
 }
 
 .marketing-tabs .tab-pane {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 10px 10px;
   min-height: 300px;
@@ -1157,8 +1156,8 @@
 
 .marketing-tabs .tab-innner {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 10px 10px;
   min-height: 300px;
@@ -1286,26 +1285,6 @@
 
 .sales-section .job-card .card-body .payment-detail {
   margin-bottom: 20px;
-}
-
-.sales-section .job-card .card-body .payment-detail h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 600;
-}
-
-.sales-section .job-card .card-body .payment-detail h3 span {
-  font-size: 14px;
-  line-height: 30px;
 }
 
 .sales-section .job-card .card-body .payment-detail ul {
@@ -2379,7 +2358,6 @@
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .select-file .fileupload .selected {
   margin: 20px 0;
-  font-size: 16px;
   line-height: 30px;
   font-size: 18px;
   color: #000;
@@ -2921,7 +2899,6 @@
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .select-file .fileupload .selected {
   margin: 20px 0;
-  font-size: 16px;
   line-height: 30px;
   font-size: 18px;
   color: #000;
@@ -3344,11 +3321,11 @@
     font-size: 18px;
     line-height: 30px;
   }
-  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info P {
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p {
     font-size: 16px;
     line-height: 26px;
   }
-  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info P a {
+  .estimation-section .card-estimate .card-body .bill-root .bill-header .bill-info p a {
     font-size: 16px;
     line-height: 26px;
   }
@@ -3465,11 +3442,11 @@
     font-size: 18px;
     line-height: 30px;
   }
-  .invoice-section .card-invoice .card-body .bill-root .bill-header .bill-info P {
+  .invoice-section .card-invoice .card-body .bill-root .bill-header .bill-info p {
     font-size: 16px;
     line-height: 26px;
   }
-  .invoice-section .card-invoice .card-body .bill-root .bill-header .bill-info P a {
+  .invoice-section .card-invoice .card-body .bill-root .bill-header .bill-info p a {
     font-size: 16px;
     line-height: 26px;
   }

@@ -1362,12 +1362,6 @@
   .chat-section {
     min-height: auto;
   }
-  .chat-section .chat-inner .user-display-hide {
-    display: block;
-  }
-  .chat-section .chat-inner .user-display-hide.mobile {
-    display: none;
-  }
   .chat-section .chat-inner .chat-message-show {
     display: none;
   }

@@ -432,7 +432,6 @@
           display: block;
 
           a {
-            line-height: 15px;
             display: inline-block;
             padding: 5px;
             font-size: 20px;
@@ -488,7 +487,7 @@
 // page management
 .mgmt-card-section {
   .card {
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border: 0;
     margin-bottom: 30px;
@@ -644,7 +643,7 @@
           color: #000 !important;
           font-weight: 700;
           background-color: #fff;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
           border-radius: 10px 10px 0 0;
         }
       }
@@ -653,7 +652,7 @@
 
   .tab-content {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -661,7 +660,6 @@
 }
 
 // tables
-
 .table-mgmt {
   padding: 20px 0;
   table {
@@ -1088,7 +1086,7 @@
           color: #000 !important;
           font-weight: 700;
           background-color: #fff;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
           border-radius: 10px 10px 0 0;
         }
       }
@@ -1097,7 +1095,7 @@
 
   .tab-pane {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -1105,7 +1103,7 @@
 
   .tab-innner {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -1220,20 +1218,6 @@
 
       .payment-detail {
         margin-bottom: 20px;
-
-        h3 {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          font-size: 18px;
-          line-height: 26px;
-          font-weight: 600;
-
-          span {
-            font-size: 14px;
-            line-height: 30px;
-          }
-        }
 
         ul {
           list-style-type: circle;
@@ -2165,7 +2149,6 @@
 
               .selected {
                 margin: 20px 0;
-                font-size: 16px;
                 line-height: 30px;
                 font-size: 18px;
                 color: #000;
@@ -2648,7 +2631,6 @@
 
               .selected {
                 margin: 20px 0;
-                font-size: 16px;
                 line-height: 30px;
                 font-size: 18px;
                 color: #000;
@@ -3071,7 +3053,7 @@
                 line-height: 30px;
               }
 
-              P {
+              p {
                 font-size: 16px;
                 line-height: 26px;
 
@@ -3235,7 +3217,7 @@
                 line-height: 30px;
               }
 
-              P {
+              p {
                 font-size: 16px;
                 line-height: 26px;
 
