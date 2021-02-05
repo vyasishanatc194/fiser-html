@@ -38,8 +38,8 @@
   background-color: #fff;
   color: #06151b;
   font-weight: #06151b;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 16px;
 }
 
@@ -121,8 +121,8 @@
   text-transform: uppercase;
   line-height: 30px;
   color: #06151b !important;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   font-weight: 600;
   padding: 10px 40px;
 }
@@ -504,8 +504,8 @@
 
 .calendar-section .card {
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
 }
 
 .mgmt-card-section .card {
@@ -1331,7 +1331,7 @@
   padding-left: 15px;
 }
 
-.sales-section .job-card .card-body .payment-detail ul li:before {
+.sales-section .job-card .card-body .payment-detail ul li::before {
   content: "";
   height: 8px;
   width: 8px;
@@ -2277,7 +2277,7 @@
   height: 50px;
   font-size: 18px;
   line-height: 46px;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-left .deposit-amount .select2-container--default .select2-selection--single .select2-selection__arrow {

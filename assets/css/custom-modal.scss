@@ -388,7 +388,7 @@
         height: 60px;
         width: 35px;
 
-        &:before {
+        &::before {
           display: none;
           border-left: 1px solid #707070;
           content: "";

@@ -28,7 +28,7 @@
     background-color: #fff;
     color: #06151b;
     font-weight: #06151b;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
     border-radius: 16px;
 
     li {
@@ -91,7 +91,7 @@
     text-transform: uppercase;
     line-height: 30px;
     color: #06151b !important;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     font-weight: 600;
     padding: 10px 40px;
   }
@@ -473,7 +473,7 @@
   }
   .card {
     border-radius: 10px;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
   }
 }
 
@@ -1220,7 +1220,7 @@
             position: relative;
             padding-left: 15px;
 
-            &:before {
+            &::before {
               content: "";
               height: 8px;
               width: 8px;
@@ -2028,7 +2028,7 @@
                       height: 50px;
                       font-size: 18px;
                       line-height: 46px;
-                      padding: 0px 20px;
+                      padding: 0 20px;
                     }
 
                     .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -2695,16 +2695,12 @@
   }
 }
 
-
 .job-create-form {
   .card {
- 
     background-color: #fff;
 
     .card-header {
-
       background-color: #fff;
-
     }
   }
 
@@ -2719,8 +2715,6 @@
     }
 
     .card-body {
-
-
       .add-div {
         position: absolute;
         right: -40px;
@@ -2736,7 +2730,6 @@
           align-items: center;
           justify-content: center;
         }
-
       }
       .form-group {
         margin-bottom: 20px;
@@ -2774,7 +2767,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
           }
         }
       }
@@ -2789,7 +2781,6 @@
           width: calc(100% - 120px);
 
           .form-control {
-          
           }
         }
 
@@ -2807,26 +2798,24 @@
         .control-50 {
           width: 50%;
         }
-
-        
       }
 
       .select2-container {
         width: 100% !important;
       }
-    
+
       .select2-container--default .select2-selection--single {
         height: 60px;
         border-radius: 0;
       }
-    
+
       .select2-container--default .select2-selection--single .select2-selection__rendered {
         line-height: 55px;
         font-size: 16px;
         font-weight: 600;
         color: #000;
       }
-    
+
       .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 60px;
       }
@@ -2851,8 +2840,6 @@
           width: 30%;
         }
       }
-
-      
     }
   }
 }

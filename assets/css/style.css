@@ -297,12 +297,6 @@ body {
   background-image: url(../images/icons/custom/calendar-black-icon.png);
 }
 
-.calendar-black-icon {
-  width: 22px;
-  height: 22px;
-  background-image: url(../images/icons/custom/calendar-black-icon.png);
-}
-
 .location-black-icon {
   width: 22px;
   height: 22px;
@@ -805,7 +799,7 @@ body {
   width: 30px;
 }
 
-.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+.select2-line-form-group .select2-container--default .select2-selection--single .select2-selection__arrow::before {
   border-left: 1px solid #707070;
   content: "";
   top: 8px;

@@ -404,7 +404,7 @@
   width: 35px;
 }
 
-.modal-send-push .notification-content .select-group .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+.modal-send-push .notification-content .select-group .select2-container--default .select2-selection--single .select2-selection__arrow::before {
   display: none;
   border-left: 1px solid #707070;
   content: "";
