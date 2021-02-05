@@ -823,6 +823,206 @@
   color: #fff;
 }
 
+.modal .table-date {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.modal .table-date .btn-arrow {
+  position: absolute;
+  bottom: 25px;
+  right: -20px;
+  left: auto;
+  width: 10px;
+}
+
+.modal .table-date .btn-arrow a {
+  font-size: 26px;
+  color: #000;
+}
+
+.modal .table-date thead th {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.modal .table-date tbody {
+  padding: 5px 0;
+}
+
+.modal .table-date tbody tr td {
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px solid #D9D8D8;
+  padding: 15px 0;
+}
+
+.modal .table-date tbody tr span {
+  width: 100%;
+  display: block;
+  padding: 15px 10px;
+}
+
+.modal .table-date tbody tr .select-day {
+  border: 1px solid #D9D8D8;
+}
+
+.modal .table-date tbody tr .day {
+  background-color: rgba(254, 203, 47, 0.5);
+  border: 1px solid #D9D8D8;
+}
+
+.modal .full-booked {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 273px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal .full-booked .cal-booked {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.modal .full-booked .cal-booked img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal .full-booked p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2E2E2E;
+  white-space: nowrap;
+}
+
+.modal .day-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #D9D8D8;
+}
+
+.modal .day-time .daytime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  color: #2E2E2E;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal .day-time .daytime h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 15px 10px;
+  border-bottom: 1px solid #D9D8D8;
+}
+
+.modal .day-time .daytime ul {
+  margin: 0;
+  padding: 15px 10px;
+  list-style: none;
+  width: 100%;
+}
+
+.modal .day-time .daytime ul li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal .day-time .daytime ul li a {
+  color: #2E2E2E;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 15px 10px;
+  background-color: #fff;
+  border: 1px solid #D9D8D8;
+  border-radius: 10px;
+  display: block;
+}
+
+.modal .day-time .daytime ul li a:hover {
+  background-color: rgba(254, 203, 47, 0.5);
+}
+
+.modal .day-time .daytime ul li a.select {
+  background-color: rgba(254, 203, 47, 0.5);
+}
+
+.modal .advanced {
+  padding: 10px;
+}
+
+.modal .advanced .advanced-pay h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.modal .advanced .advanced-pay h3 span {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.modal .advanced .select-member {
+  background-color: #FECB2F;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
 @media (max-width: 767px) {
   .check-availibity-detail .owl-review {
     padding: 10px 15px;

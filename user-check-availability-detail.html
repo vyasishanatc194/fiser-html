@@ -176,7 +176,7 @@
                                         <span>30 m</span>
                                       </h3>
 
-                                      <a href="#" class="btn btn-book">Book</a>
+                                      <a href="#" class="btn btn-book" data-toggle="modal" data-target="#pick-date-modal">Book</a>
                                     </div>
                                   </div>
 
@@ -737,6 +737,183 @@
 
   </div><!-- end of wrapper -->
 
+
+   <!-- Sign in modal -->
+   <div class="modal modal-customize fade" id="pick-date-modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <div class="modal-header-left">
+            <button type="button" class="close" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-header-right">
+            <div class="flex-title-div">
+              <span class="text-span">POWERED BY</span>
+              <span class="logo-span">
+                <img src="assets/images/logo.png" class="img-fluid" alt="img" />
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal-body">
+
+          <div class="title-div-header bg-color-01">
+            <div class="title-div-header-div">
+              <div class="title-div-header-left-div">
+                <a href="#" class="link back-link"> <i class="fe fe-chevron-left"></i> </a>
+              </div>
+              <div class="title-div-header-right-div">
+                <h2>PICK A DATE & TIME</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-main-inner-div bg-color-01 br-bottom">
+            <div class="modal-main-inner-row">
+
+              <div class="form-custom-in-div">
+                <div class="form-custom-in-row">
+                  <div class="table-responsive">
+                    <table class="table table-date">
+                      <thead>
+                        <th colspan="7">
+                          OCTOBER 2020
+  
+                          <div class="btn-arrow">
+                            <a href="#" class=""><i class="fa fa-caret-right"></i></a>
+                          </div>
+                        </th>
+                      </thead>
+                      
+                      <tbody>
+                        <tr>
+                        <td>
+                          SUN
+                        </td>
+                        <td>
+                          MON
+                        </td>
+                        <td>
+                          TUE
+                        </td>
+                        <td>
+                          WED
+                        </td>
+                        <td>
+                          THU
+                        </td>
+                        <td>
+                          FRI
+                        </td>
+                        <td>
+                          SAT
+                        </td>
+                      </tr>
+  
+                      <tr>
+                        <td>
+                          <span>4</span>
+                        </td>
+                        <td>
+                          <span>5</span>
+                        </td>
+                        <td>
+                          <span>5</span>
+                        </td>
+                        <td>
+                          <span>7</span>
+                        </td>
+                        <td>
+                          <span>8</span>
+                        </td>
+                        <td>
+                          <span class="select-day">9</span>
+                        </td>
+                        <td>
+                          <span class="day">10</span>
+                        </td>
+                      </tr>
+                      </tbody>
+                      
+                    </table>
+                  </div>
+                
+                  
+                  <div class="day-time">
+                    <div class="daytime">
+                     <h3>MORNING</h3>
+                     <ul>
+                      <li>
+                        <a href="#" class="select">11:00 AM</a>
+                      </li>
+               
+                    </ul>
+                    </div>
+
+                    <div class="daytime">
+                      <h3>AFTERNOON</h3>
+
+                      <ul>
+                        <li>
+                          <a href="#" class="">01:00 PM</a>
+                        </li>
+                        <li>
+                          <a href="#" class="">02:00 PM</a>
+                        </li>
+                        <li>
+                          <a href="#" class="">03:00 PM</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="daytime">
+                      <h3>EVENING</h3>
+
+                      <div class="full-booked">
+
+                        <div class="cal-booked">
+                          <img src="assets/images/pickdate.png" alt="">
+                         
+                        </div>
+                        <p>FULLY BOOKED</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="advanced">
+                    <div class="advanced-pay">
+                      <h3>Advanced <span>$180</span></h3>
+                      <h3>Mercedes Cls 63 <span>11:00 AM - 12:45 PM</span></h3>
+                      <p>90 minutes</p>
+
+                      <select name="" id="" class="select2 form-control">
+                        <option value="">
+                          Any team member
+                        </option>
+                        <option value="">
+                          Any team member
+                        </option>
+                        <option value="">
+                          Any team member
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
@@ -747,6 +924,15 @@
 
   <script>
     $(document).ready(function () {
+
+        $('.select2').select2(
+        {
+          minimumResultsForSearch: -1,
+          width: 100,
+          dropdownParent: $('#pick-date-modal')
+        }
+    );
+
       flatpickr('.start-date', {
         disableMobile: "true",
         enableTime: false,
