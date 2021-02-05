@@ -1017,13 +1017,32 @@
 }
 
 .modal .advanced .select-member {
-  background-color: #FECB2F;
+  background-color: rgba(254, 203, 47, 0.5);
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.modal .advanced .select-member option {
+  background-color: #fff;
+}
+
+.modal .btn-confrim {
+  text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
+  .modal .day-time {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .check-availibity-detail .owl-review {
     padding: 10px 15px;
   }
