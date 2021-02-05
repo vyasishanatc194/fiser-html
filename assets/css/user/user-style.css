@@ -2535,9 +2535,6 @@ body {
   body.overflow-fixed {
     overflow: hidden;
   }
-  .user-module-main-section {
-    padding: 70px 0 0 0;
-  }
   .mobile-hidden {
     display: none;
   }

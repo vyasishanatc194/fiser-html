@@ -3128,28 +3128,6 @@ body {
     }
   }
 
-  .custom-earnings-card-section {
-    .custom-white-card02 {
-      .card-body {
-        .earnings-card-chart-root {
-          .earnings-card-chart-row {
-            p {
-              font-size: 16px;
-            }
-
-            h4 {
-              font-size: 16px;
-            }
-
-            .mb-25 {
-              margin-bottom: 20px;
-            }
-          }
-        }
-      }
-    }
-  }
-
   .custom-analytics-card-section {
     .graph-bottom-div {
       .graph-bottom-row {
@@ -3173,6 +3151,18 @@ body {
       .card-body {
         .earnings-card-chart-root {
           .earnings-card-chart-row {
+            p {
+              font-size: 16px;
+            }
+
+            h4 {
+              font-size: 16px;
+            }
+
+            .mb-25 {
+              margin-bottom: 20px;
+            }
+
             .earnings-card-chart-left {
               width: 100%;
             }

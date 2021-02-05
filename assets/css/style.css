@@ -3559,6 +3559,14 @@ body {
   .custom-map-lt-card-section .map-lt-root-div .map-lt-root-top .map-lt-root-top-right .search-new-div {
     width: 100%;
   }
+  .custom-analytics-card-section .graph-bottom-div .graph-bottom-row .graph-bottom-box .status-color-label-txt {
+    padding: 0 0 0 14px;
+    font-size: 10px;
+  }
+  .custom-analytics-card-section .graph-bottom-div .graph-bottom-row .graph-bottom-box .status-color-label-txt .dot {
+    height: 9px;
+    width: 9px;
+  }
   .custom-earnings-card-section .custom-white-card02 .card-body .earnings-card-chart-root .earnings-card-chart-row p {
     font-size: 16px;
   }
@@ -3567,14 +3575,6 @@ body {
   }
   .custom-earnings-card-section .custom-white-card02 .card-body .earnings-card-chart-root .earnings-card-chart-row .mb-25 {
     margin-bottom: 20px;
-  }
-  .custom-analytics-card-section .graph-bottom-div .graph-bottom-row .graph-bottom-box .status-color-label-txt {
-    padding: 0 0 0 14px;
-    font-size: 10px;
-  }
-  .custom-analytics-card-section .graph-bottom-div .graph-bottom-row .graph-bottom-box .status-color-label-txt .dot {
-    height: 9px;
-    width: 9px;
   }
   .custom-earnings-card-section .custom-white-card02 .card-body .earnings-card-chart-root .earnings-card-chart-row .earnings-card-chart-left {
     width: 100%;
