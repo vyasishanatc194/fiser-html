@@ -593,7 +593,24 @@
   color: #2E2E2E;
 }
 
+.check-availibity-detail .map-section {
+  width: 100%;
+}
+
 @media (max-width: 767px) {
+  .check-availibity-detail .owl-review {
+    padding: 10px 15px;
+  }
+  .check-availibity-detail .owl-review h3 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+  }
+  .check-availibity-detail .owl-review p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
   .check-availibity-detail .review-section .review-heading {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
