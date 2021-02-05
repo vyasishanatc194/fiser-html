@@ -129,8 +129,8 @@
 
 .add-service .dropdown-menu {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
   border: 0;
 }
@@ -248,7 +248,6 @@
   font-size: 18px;
   line-height: 26px;
   color: #fff;
-  font-size: 18;
   font-weight: 700;
   background-color: #06151b;
   border-radius: 8px;
@@ -325,8 +324,8 @@
 
 .service-detail-section .service-card-right .card-body {
   padding: 0 20px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
 }
 
 .service-detail-section .service-card-right .card-body .more-option a.btn-text {
@@ -360,8 +359,8 @@
   width: 100% !important;
   display: block;
   padding: 8px 10px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   margin-bottom: 20px;
   border-radius: 10px;
   font-size: 18px;
@@ -390,8 +389,8 @@
 .calendar-section .filter-result .dropdown-mune-result {
   background-color: #fff;
   padding: 10px 20px;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border: 0;
   border-radius: 10px;
 }
@@ -423,7 +422,6 @@
 }
 
 .calendar-section .filter-result .dropdown-mune-result .tags li a {
-  line-height: 15px;
   display: inline-block;
   font-size: 20px;
   line-height: 24px;
@@ -1526,8 +1524,8 @@
 
 .service-upload {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
 }
 
@@ -2300,7 +2298,7 @@
 .estimation-section .card-estimate .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-right .delete-btn {
   position: absolute;
   right: -20px;
-  top: 0px;
+  top: 0;
   color: #06151b;
   font-size: 23px;
   line-height: 30px;
@@ -2819,7 +2817,7 @@
   height: 50px;
   font-size: 18px;
   line-height: 46px;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-left .deposit-amount .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -2842,7 +2840,7 @@
 .invoice-section .card-invoice .card-body .bill-root .bill-body .sub-total-div .total .diposit-required .deposit-right .delete-btn {
   position: absolute;
   right: -20px;
-  top: 0px;
+  top: 0;
   color: #06151b;
   font-size: 23px;
   line-height: 30px;
