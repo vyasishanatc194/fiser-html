@@ -209,6 +209,79 @@
 
   </div><!-- end of wrapper -->
 
+
+  <!-- The Modal -->
+  <div class="modal modal-customize fade" id="sign-in-modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <div class="modal-header-left">
+            <button type="button" class="close" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-header-right">
+            <div class="flex-title-div">
+              <span class="text-span">POWERED BY</span>
+              <span class="logo-span">
+                <img src="assets/images/logo.png" class="img-fluid" alt="img" />
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal-body">
+
+          <div class="title-div-header">
+            <div class="title-div-header-div">
+              <div class="title-div-header-left-div">
+                <a href="#" class="link back-link"> <i class="fe fe-chevron-left"></i> </a>
+              </div>
+              <div class="title-div-header-right-div">
+                <h2>SIGN IN TO CONTINUE</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-main-inner-div">
+            <div class="modal-main-inner-row">
+
+              <div class="sign-in-div">
+                <div class="sign-in-row">
+                  <div class="btn-div">
+                    <a href="#" class="btn btn-primary btn-primary-big btn-facebook-login">CONTINUE WITH FACEBOOK</a>
+                  </div>
+
+                  <div class="or-div">
+                    <div class="or-div-row">
+                      <p> <span class="text">OR</span> </p>
+                    </div>
+                  </div>
+                  
+                  <div class="btn-div">
+                    <a href="#" class="btn btn-primary btn-primary-big btn-email-login">CONTINUE WITH EMAIL</a>
+                  </div>
+
+                  <div class="desc-text-div">
+                    <p>Fiser uses your details for bookings purposes. We do not send unwanted emails or post anything on your Facebook without your consent.</p>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+
+        </div>
+
+        <!--         
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div> -->
+        
+      </div>
+    </div>
+  </div>
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
@@ -225,6 +298,8 @@
         altInput: true,
         altFormat: "j F Y",
       });
+
+      $("#sign-in-modal").modal("show");
     });
   </script>
 
