@@ -1252,6 +1252,14 @@ body {
 
   .modal-body {
     padding: 0;
+    
+    .bg-color-01 {
+      background-color: #f4f4f4;
+    }
+
+    .br-bottom {
+      border-radius: 0 0 10px 10px;
+    }
 
     .title-div-header {
       padding: 0 40px;
@@ -1377,6 +1385,124 @@ body {
         display: block;
       }
     }
+
+    .form-custom-in-div {
+      border-top: 1px solid #d9d8d8;
+    }
+  }
+}
+
+.form-custom-in-div {
+  padding: 30px 0 20px 0;
+  margin: 0;
+  position: relative;
+
+  .form-group-custom {
+    margin-bottom: 30px;
+    position: relative;
+
+    label {
+      font-weight: 500;
+      font-size: 20px;
+      color: #2e2e2e;
+      line-height: 1.4;
+      margin: 0 0 10px 0;
+    }
+
+    .form-control {
+      font-size: 18px;
+      color: #707070;
+      border: 1px solid #d9d8d8;
+      border-radius: 10px;
+      min-height: 52px;
+      padding: 12px 20px 8px 20px;
+      line-height: 24px;
+      margin: 0 0 5px 0;
+      font-weight: 500;
+      background-color: #fff;
+
+      &::-webkit-input-placeholder {
+        color: #707070;
+      }
+
+      &::-moz-placeholder {
+        color: #707070;
+      }
+
+      &:-ms-input-placeholder {
+        color: #707070;
+      }
+
+      &:-moz-placeholder {
+        color: #707070;
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: #4d7cfe;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+
+    // input[type="password"].form-control {
+    //   padding-right: 40px;
+    // }
+    .custom-icon {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      height: 38px;
+      width: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8e98a0;
+
+      .icon-UserName1 {
+        font-size: 20px;
+      }
+
+      .icon-Password {
+        font-size: 20px;
+      }
+    }
+
+    .icon-group {
+      position: absolute;
+      top: 1px;
+      right: 1px;
+    }
+
+    .pass-hide {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      border: none;
+      color: rgba(142, 152, 160, 0.5);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .form-info-txt-div {
+      p {
+        font-size: 14px;
+        color: #06151b;
+        letter-spacing: 0;
+        line-height: 22px;
+        font-weight: 400;
+        margin: 15px 0 0 0;
+        display: block;
+      }
+    }
+  }
+
+  .btn-div {
+    padding: 10px 0 30px 0;
   }
 }
 

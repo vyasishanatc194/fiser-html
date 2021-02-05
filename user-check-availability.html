@@ -68,7 +68,7 @@
                                   <div class="user-lsp-link">
                                     <span class="icon-span"> <i class="bg-custom-icon user-white-icon"></i> </span>
                                     <span class="text-span">
-                                      <a href="#" class="text-nav-link">Login</a>
+                                      <a href="#" class="text-nav-link" data-toggle="modal" data-target="#sign-in-modal">Login</a>
                                       <span class="vline-span"> / </span>
                                       <a href="#" class="text-nav-link">Sign Up</a>
                                     </span>
@@ -210,7 +210,7 @@
   </div><!-- end of wrapper -->
 
 
-  <!-- The Modal -->
+  <!-- Sign in modal -->
   <div class="modal modal-customize fade" id="sign-in-modal">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -282,6 +282,115 @@
     </div>
   </div>
 
+  <!-- Sign in modal -->
+  <div class="modal modal-customize fade" id="sign-up-modal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <div class="modal-header-left">
+            <button type="button" class="close" data-dismiss="modal">Close</button>
+          </div>
+          <div class="modal-header-right">
+            <div class="flex-title-div">
+              <span class="text-span">POWERED BY</span>
+              <span class="logo-span">
+                <img src="assets/images/logo.png" class="img-fluid" alt="img" />
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal-body">
+
+          <div class="title-div-header bg-color-01">
+            <div class="title-div-header-div">
+              <div class="title-div-header-left-div">
+                <a href="#" class="link back-link"> <i class="fe fe-chevron-left"></i> </a>
+              </div>
+              <div class="title-div-header-right-div">
+                <h2>CREATE AN ACCOUNT</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-main-inner-div bg-color-01 br-bottom">
+            <div class="modal-main-inner-row">
+
+              <div class="form-custom-in-div">
+                <div class="form-custom-in-row">
+
+                  <div class="row">
+                    
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group form-group-custom">
+                        <label for="">Email</label>
+                        <div class="input-group-row">
+                          <input type="email" class="form-control" placeholder="This will be Your Login" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group form-group-custom">
+                        <label for="">First name</label>
+                        <div class="input-group-row">
+                          <input type="text" class="form-control" placeholder="" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group form-group-custom">
+                        <label for="">Last name</label>
+                        <div class="input-group-row">
+                          <input type="text" class="form-control" placeholder="" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group form-group-custom">
+                        <label for="">Mobile phone</label>
+                        <div class="input-group-row">
+                          <input type="text" class="form-control" placeholder="" />
+                        </div>
+                        <div class="form-info-txt-div">
+                          <p>We will verify that your phone number is valid by sending you a verification code via free text message.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                      <div class="form-group form-group-custom">
+                        <label for="">Password</label>
+                        <div class="input-group-row">
+                          <input type="password" class="form-control" placeholder="" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                      <div class="btn-div">
+                        <a href="#" class="btn btn-primary btn-primary-big btn-create-account">CREATE ACCOUNT</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
@@ -299,7 +408,7 @@
         altFormat: "j F Y",
       });
 
-      $("#sign-in-modal").modal("show");
+      $("#sign-up-modal").modal("show");
     });
   </script>
 
