@@ -14,10 +14,6 @@
   display: block;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .position-fixed {
   position: unset !important;
   overflow: hidden;
@@ -1300,6 +1296,10 @@ body {
           }
         }
       }
+
+      &.border-bottom1 {
+        border-bottom: 1px solid #d9d8d8;
+      }
     }
 
     .modal-main-inner-div {
@@ -1728,6 +1728,167 @@ body {
   }
 }
 
+.check-list-root {
+  .custom-checkbox {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #06151b;
+    letter-spacing: 0;
+    line-height: 30px;
+
+    .custom-control-label {
+      margin-bottom: 0;
+      cursor: pointer;
+      padding: 0 0 0 40px;
+
+      &::before {
+        background-color: #e8e7f0;
+        border: 1px solid #e8e7f0;
+        width: 24px;
+        height: 24px;
+        border-radius: 5px;
+        top: 2px;
+      }
+    }
+
+    .custom-control-input:checked ~ .custom-control-label::after {
+      background-size: 14px;
+      top: 6px;
+      left: 4px;
+    }
+
+    .custom-control-input:focus ~ .custom-control-label::before {
+      box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(142, 152, 160, 0.25);
+    }
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #fecb2f;
+    border: 1px solid #fecb2f;
+  }
+}
+
+.add-oaf-div-custom {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .add-oaf-div-custom-inner {
+    .heading-title-div {
+      padding: 20px 0 15px 0;
+
+      h4 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #2e2e2e;
+        line-height: 1.4;
+        margin: 0;
+      }
+    }
+
+    .add-oaf-bx-root {
+      .add-option-table {
+        td {
+          padding: 15px 0;
+        }
+
+        .text-td {
+          min-width: 200px;
+        }
+
+        .text-amount-td {
+          width: 100px;
+        }
+
+        .checkbox-td {
+          width: 190px;
+        }
+
+        .block {
+          display: block;
+        }
+
+        .text-div {
+          h4 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #06151b;
+            line-height: 1.4;
+            margin: 0;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #5d5e5e;
+            line-height: 1.4;
+            margin: 0;
+          }
+
+          h2 {
+            font-weight: 700;
+            font-size: 21px;
+            color: #2e2e2e;
+            line-height: 1.4;
+            margin: 0;
+          }
+        }
+
+        .text-amount-div {
+          padding: 0 20px 0 0;
+
+          h4 {
+            font-weight: 700;
+            font-size: 18px;
+            color: #06151b;
+            line-height: 1.4;
+            margin: 0;
+            text-align: right;
+          }
+
+          h2 {
+            font-weight: 700;
+            font-size: 21px;
+            color: #2e2e2e;
+            line-height: 1.4;
+            margin: 0;
+            text-align: right;
+          }
+        }
+
+        .check-list-root {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        .text-amount-combained-div {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+          min-width: 250px;
+
+          .right-check-text-div {
+            padding: 0 0 4px 15px;
+          }
+
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            color: #2e2e2e;
+            line-height: 1.4;
+            margin: 0;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .container-fluid {
     max-width: 100%;
@@ -2134,7 +2295,7 @@ body {
     .view-your-bk-thumb {
       padding: 50px 0 0 0;
       margin: 0 0 30px 0;
-      
+
       .view-your-bk-thumb-center {
         .img-fluid {
           width: 120px;
@@ -2158,6 +2319,58 @@ body {
       }
     }
   }
+
+  .add-oaf-div-custom {
+    .add-oaf-div-custom-inner {
+      .add-oaf-bx-root {
+        .add-option-table {
+          .text-div {
+            h4 {
+              font-size: 14px;
+            }
+
+            p {
+              font-size: 10px;
+            }
+
+            h2 {
+              font-size: 16px;
+            }
+          }
+
+          .text-amount-div {
+            h4 {
+              font-size: 14px;
+            }
+
+            h2 {
+              font-size: 16px;
+            }
+          }
+
+          .text-amount-combained-div {
+            min-width: 210px;
+
+            .right-check-text-div {
+              padding: 0 0 0 15px;
+            }
+          }
+        }
+      }
+    }
+
+    &.select-frequency-div-custom {
+      .add-oaf-div-custom-inner {
+        .add-oaf-bx-root {
+          .add-option-table {
+            .text-td {
+              min-width: 130px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -2167,10 +2380,6 @@ body {
 
   body.overflow-fixed {
     overflow: hidden;
-  }
-
-  .user-module-main-section {
-    padding: 70px 0 0 0;
   }
 
   // menu

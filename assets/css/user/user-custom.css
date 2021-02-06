@@ -78,10 +78,10 @@
 }
 
 .check-availibity-detail .owl-theme .owl-nav button:hover {
-  background-color: #FECB2F;
+  background-color: #fecb2f;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #FECB2F;
+  border: 1px solid #fecb2f;
   color: #fff;
 }
 
@@ -108,13 +108,13 @@
 }
 
 .check-availibity-detail .gold-detail-section .heading {
-  padding: 10px 0 100px  0;
+  padding: 10px 0 100px 0;
 }
 
 .check-availibity-detail .gold-detail-section .heading h3 {
   font-size: 48px;
   line-height: 60px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 700;
 }
 
@@ -135,7 +135,7 @@
 .check-availibity-detail .gold-detail-section .service-heading .title h3 {
   font-size: 32px;
   line-height: 43px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -150,11 +150,11 @@
 }
 
 .check-availibity-detail .gold-detail-section .service-heading .search .form-control {
-  background-color: #EBEAEA;
+  background-color: #ebeaea;
 }
 
 .check-availibity-detail .gold-detail-section .service-heading .search a {
-  color: #06151B;
+  color: #06151b;
 }
 
 .check-availibity-detail .gold-detail-section .service-row {
@@ -162,7 +162,7 @@
 }
 
 .check-availibity-detail .gold-detail-section .service-row .service-item {
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,7 +178,7 @@
 .check-availibity-detail .gold-detail-section .service-row .service-item .service-left h3 {
   font-size: 20px;
   line-height: 20px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -208,9 +208,9 @@
 .check-availibity-detail .gold-detail-section .service-row .service-item .service-right h3 {
   font-size: 20px;
   line-height: 20px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 700;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .check-availibity-detail .gold-detail-section .service-row .service-item .service-right span {
@@ -222,7 +222,7 @@
 }
 
 .check-availibity-detail .gold-detail-section .service-row .service-item .service-right .btn-book {
-  background-color: #06151B;
+  background-color: #06151b;
   color: #fff;
   font-size: 16px;
   line-height: 20px;
@@ -231,7 +231,7 @@
 }
 
 .check-availibity-detail .gold-detail-section .service-row .service-item .service-right .btn-book:hover {
-  background-color: #FECB2F;
+  background-color: #fecb2f;
   color: #fff;
 }
 
@@ -253,7 +253,7 @@
 .check-availibity-detail .see-ourwork-section .ourwork-heading .title h3 {
   font-size: 32px;
   line-height: 43px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -297,7 +297,7 @@
 .check-availibity-detail .see-ourwork-section .btn-see-all {
   padding: 15px 20px;
   background-color: #fff;
-  border: 1px solid #D9D8D8;
+  border: 1px solid #d9d8d8;
   width: 100%;
   text-align: center;
   -webkit-box-pack: center;
@@ -305,12 +305,12 @@
           justify-content: center;
   font-size: 22px;
   line-height: 30px;
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-weight: 600;
 }
 
 .check-availibity-detail .see-ourwork-section .btn-see-all:hover {
-  background-color: #FECB2F;
+  background-color: #fecb2f;
 }
 
 .check-availibity-detail .review-section {
@@ -337,7 +337,7 @@
 .check-availibity-detail .review-section .review-heading .title h3 {
   font-size: 32px;
   line-height: 43px;
-  color: #06151B;
+  color: #06151b;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -353,7 +353,7 @@
   width: 100%;
   padding: 20px 20px;
   background-color: #fff;
-  border: 1px solid #D9D8D8;
+  border: 1px solid #d9d8d8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +373,7 @@
 }
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-content h3 {
-  color: #06151B;
+  color: #06151b;
   font-size: 26px;
   line-height: 30px;
   font-weight: 700;
@@ -382,13 +382,13 @@
 .check-availibity-detail .review-section .review-heading .review-rating .review-content p {
   font-size: 14px;
   line-height: 27px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-content .ratting a {
   font-size: 17px;
   line-height: 24px;
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-status ul {
@@ -446,7 +446,7 @@
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-status ul li .star {
   font-size: 14px;
-  color: #FECB2F;
+  color: #fecb2f;
 }
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-status ul li .progress {
@@ -455,11 +455,11 @@
 }
 
 .check-availibity-detail .review-section .review-heading .review-rating .review-status ul li .progress .progress-bar {
-  background-color: #FECB2F;
+  background-color: #fecb2f;
 }
 
 .check-availibity-detail .review-section .user-review {
-  display: 'flex';
+  display: "flex";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -470,7 +470,7 @@
 
 .check-availibity-detail .review-section .user-review-list {
   padding: 10px 0;
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .check-availibity-detail .review-section .user-review-list .user-review-heading {
@@ -532,7 +532,7 @@
 }
 
 .check-availibity-detail .review-section .user-review-list .user-review-heading .user-info .review-content .ratting a {
-  color: #FECB2F;
+  color: #fecb2f;
   font-size: 10px;
   line-height: 16px;
 }
@@ -584,13 +584,13 @@
 .check-availibity-detail .review-section .user-review-list .user-review-body p {
   font-size: 16px;
   line-height: 26px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .check-availibity-detail .review-section .user-review-list .user-review-body .show-more {
   font-size: 16px;
   line-height: 26px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .check-availibity-detail .map-section {
@@ -642,13 +642,13 @@
 
 .check-availibity-detail .about-section {
   padding: 20px 20px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .check-availibity-detail .about-section .about-content h3 {
   font-size: 20px;
   line-height: 40px;
-  color: #06151B;
+  color: #06151b;
   margin-bottom: 30px;
 }
 
@@ -678,9 +678,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .check-availibity-detail .about-section .team-member ul li {
@@ -722,8 +719,6 @@
 .check-availibity-detail .about-section .team-member ul li p {
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
-  padding: 0 5px;
 }
 
 .check-availibity-detail .about-section .buisness-hrs h3 {
@@ -743,17 +738,17 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-top: 1px solid #D9D8D8;
-  border-bottom: 1px solid #D9D8D8;
+  border-top: 1px solid #d9d8d8;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .check-availibity-detail .about-section .call-info h4 {
-  color: #06151B;
+  color: #06151b;
   font-size: 20px;
 }
 
 .check-availibity-detail .about-section .call-info h4 a {
-  color: #06151B;
+  color: #06151b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -766,11 +761,11 @@
 }
 
 .check-availibity-detail .about-section .call-info a.call {
-  background-color: #FFFFFF;
-  border: 1px solid #D9D8D8;
+  background-color: #fff;
+  border: 1px solid #d9d8d8;
   padding: 8px 12px;
   border-radius: 4px;
-  color: #06151B;
+  color: #06151b;
 }
 
 .check-availibity-detail .about-section .time-theme {
@@ -879,7 +874,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 20px;
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
   padding: 15px 0;
 }
 
@@ -890,12 +885,12 @@
 }
 
 .modal .table-date tbody tr .select-day {
-  border: 1px solid #D9D8D8;
+  border: 1px solid #d9d8d8;
 }
 
 .modal .table-date tbody tr .day {
   background-color: rgba(254, 203, 47, 0.5);
-  border: 1px solid #D9D8D8;
+  border: 1px solid #d9d8d8;
 }
 
 .modal .full-booked {
@@ -931,7 +926,7 @@
 .modal .full-booked p {
   font-size: 20px;
   line-height: 24px;
-  color: #2E2E2E;
+  color: #2e2e2e;
   white-space: nowrap;
 }
 
@@ -946,7 +941,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .modal .day-time .daytime {
@@ -960,7 +955,7 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  color: #2E2E2E;
+  color: #2e2e2e;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -973,7 +968,7 @@
   font-size: 18px;
   line-height: 26px;
   padding: 15px 10px;
-  border-bottom: 1px solid #D9D8D8;
+  border-bottom: 1px solid #d9d8d8;
 }
 
 .modal .day-time .daytime ul {
@@ -991,12 +986,12 @@
 }
 
 .modal .day-time .daytime ul li a {
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-size: 20px;
   line-height: 26px;
   padding: 15px 10px;
   background-color: #fff;
-  border: 1px solid #D9D8D8;
+  border: 1px solid #d9d8d8;
   border-radius: 10px;
   display: block;
 }

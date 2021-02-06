@@ -28,7 +28,7 @@
     background-color: #fff;
     color: #06151b;
     font-weight: #06151b;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
     border-radius: 16px;
 
     li {
@@ -91,14 +91,14 @@
     text-transform: uppercase;
     line-height: 30px;
     color: #06151b !important;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     font-weight: 600;
     padding: 10px 40px;
   }
 
   .dropdown-menu {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
     border-radius: 10px;
     border: 0;
 
@@ -133,6 +133,7 @@
 
 .tabs-link {
   margin-bottom: 10px;
+
   ul {
     margin: 0;
     padding: 0;
@@ -186,6 +187,7 @@
     .card-header {
       padding: 15px 20px;
       border: 0 !important;
+
       h3 {
         color: #fff;
         font-size: 20px;
@@ -197,10 +199,12 @@
 
     .card-body {
       padding: 50px 0 20px 0;
+
       .service-nav {
         margin: 0;
         padding: 0;
         list-style: none;
+
         li {
           display: block;
           position: relative;
@@ -210,7 +214,6 @@
             font-size: 18px;
             line-height: 26px;
             color: #fff;
-            font-size: 18;
             font-weight: 700;
             background-color: #06151b;
             border-radius: 8px;
@@ -260,6 +263,7 @@
       }
     }
   }
+
   .service-card-right {
     height: 100%;
     background-color: #fff;
@@ -294,7 +298,7 @@
 
     .card-body {
       padding: 0 20px;
-      box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
 
       .more-option {
         a.btn-text {
@@ -336,7 +340,7 @@
       width: 100% !important;
       display: block;
       padding: 8px 10px;
-      box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
       margin-bottom: 20px;
       border-radius: 10px;
       font-size: 18px;
@@ -365,7 +369,7 @@
     .dropdown-mune-result {
       background-color: #fff;
       padding: 10px 20px;
-      box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
       border: 0;
       border-radius: 10px;
 
@@ -392,8 +396,8 @@
         li {
           margin-bottom: 10px;
           display: block;
+
           a {
-            line-height: 15px;
             display: inline-block;
             font-size: 20px;
             line-height: 24px;
@@ -407,6 +411,7 @@
           .green {
             background-color: #12eb00;
           }
+
           .yellow {
             background-color: #ff9605;
           }
@@ -425,8 +430,8 @@
         li {
           margin-bottom: 5px;
           display: block;
+
           a {
-            line-height: 15px;
             display: inline-block;
             padding: 5px;
             font-size: 20px;
@@ -450,6 +455,7 @@
     border-color: var(--fc-button-border-color, #556ee6);
     box-shadow: none !important;
   }
+
   .fc .fc-button-primary:not(:disabled).fc-button-active,
   .fc .fc-button-primary:not(:disabled):active {
     color: #fff;
@@ -471,17 +477,17 @@
     padding: 10px 20px;
     color: #495057;
   }
+
   .card {
     border-radius: 10px;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16) !important;
   }
 }
 
 // page management
-
 .mgmt-card-section {
   .card {
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border: 0;
     margin-bottom: 30px;
@@ -523,6 +529,7 @@
 
         .card-top {
           margin-bottom: 15px;
+
           h3 {
             display: flex;
             align-items: center;
@@ -546,14 +553,17 @@
               background-color: rgba(229, 22, 22, 0.25);
               color: #e51616;
             }
+
             span.tag-blue {
               background-color: rgba(85, 110, 230, 0.25);
               color: #556ee6;
             }
+
             span.tag-green {
               background-color: rgba(105, 210, 171, 0.25);
               color: #69d2ab;
             }
+
             span.tag-yellow {
               background-color: rgba(245, 208, 142, 0.25);
               color: #f5cd87;
@@ -584,6 +594,7 @@
 
           .card-budget {
             text-align: right;
+
             h3 {
               font-size: 16px;
               line-height: 24px;
@@ -619,6 +630,7 @@
 
     li {
       border: 0;
+
       a {
         border: 0 !important;
         padding: 20px 60px;
@@ -631,7 +643,7 @@
           color: #000 !important;
           font-weight: 700;
           background-color: #fff;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
           border-radius: 10px 10px 0 0;
         }
       }
@@ -640,7 +652,7 @@
 
   .tab-content {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -648,7 +660,6 @@
 }
 
 // tables
-
 .table-mgmt {
   padding: 20px 0;
   table {
@@ -686,6 +697,7 @@
         width: 40px;
         border-radius: 100px;
         overflow: hidden;
+
         img {
           object-fit: cover;
           height: 100%;
@@ -695,6 +707,7 @@
 
       .profile-content {
         padding-left: 10px;
+
         h3 {
           font-size: 14px;
           line-height: 21px;
@@ -708,6 +721,7 @@
       p {
         color: #000;
       }
+
       span {
         color: #707070;
       }
@@ -747,6 +761,7 @@
 
 .table-marketing {
   padding: 20px 0;
+
   table {
     thead {
       th {
@@ -787,6 +802,7 @@
         width: 40px;
         border-radius: 100px;
         overflow: hidden;
+
         img {
           object-fit: cover;
           height: 100%;
@@ -796,6 +812,7 @@
 
       .profile-content {
         padding-left: 10px;
+
         h3 {
           font-size: 14px;
           line-height: 21px;
@@ -809,6 +826,7 @@
       p {
         color: #000;
       }
+
       span {
         color: #707070;
       }
@@ -857,6 +875,7 @@
 
 .table-sales {
   padding: 20px 0;
+
   table {
     thead {
       th {
@@ -897,6 +916,7 @@
         width: 40px;
         border-radius: 100px;
         overflow: hidden;
+
         img {
           object-fit: cover;
           height: 100%;
@@ -906,6 +926,7 @@
 
       .profile-content {
         padding-left: 10px;
+
         h3 {
           font-size: 14px;
           line-height: 21px;
@@ -919,6 +940,7 @@
       p {
         color: #000;
       }
+
       span {
         color: #707070;
       }
@@ -1045,6 +1067,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     width: 100%;
+
     li {
       border: 0;
       padding: 10px 0 0 0;
@@ -1063,7 +1086,7 @@
           color: #000 !important;
           font-weight: 700;
           background-color: #fff;
-          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
           border-radius: 10px 10px 0 0;
         }
       }
@@ -1072,7 +1095,7 @@
 
   .tab-pane {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -1080,7 +1103,7 @@
 
   .tab-innner {
     background-color: #fff;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 10px;
     min-height: 300px;
@@ -1121,6 +1144,7 @@
 
       .invoice-detail {
         display: block;
+
         ul {
           margin: 0;
           padding: 0;
@@ -1168,9 +1192,11 @@
           font-weight: 600;
           margin-bottom: 20px;
         }
+
         ul {
           margin: 0 0 10px 0;
           padding: 0;
+
           li {
             list-style: none;
             margin-right: 30px;
@@ -1193,20 +1219,6 @@
       .payment-detail {
         margin-bottom: 20px;
 
-        h3 {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          font-size: 18px;
-          line-height: 26px;
-          font-weight: 600;
-
-          span {
-            font-size: 14px;
-            line-height: 30px;
-          }
-        }
-
         ul {
           list-style-type: circle;
           display: block;
@@ -1220,7 +1232,7 @@
             position: relative;
             padding-left: 15px;
 
-            &:before {
+            &::before {
               content: "";
               height: 8px;
               width: 8px;
@@ -1383,7 +1395,7 @@
 
 .service-upload {
   background-color: #fff;
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   border-radius: 10px;
 }
 
@@ -1479,11 +1491,13 @@
     .select2-container--default .select2-selection--single {
       height: 40px;
     }
+
     .select2-container--default .select2-selection--single .select2-selection__rendered {
       line-height: 40px;
       font-size: 16px;
       font-weight: 400;
     }
+
     .select2-container--default .select2-selection--single .select2-selection__arrow {
       height: 40px;
       &:before {
@@ -1506,6 +1520,7 @@
       margin: 0;
       padding: 0;
       display: inline-flex;
+
       li {
         list-style: none;
         margin: 0 5px 0 0;
@@ -1583,10 +1598,12 @@
     height: 50px;
     font-size: 16px;
   }
+
   .select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 50px;
     font-size: 16px;
   }
+
   .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 50px;
     width: 35px;
@@ -1614,6 +1631,7 @@
       font-size: 16px;
       line-height: 28px;
     }
+
     textarea.form-control {
       height: 140px;
       font-size: 16px;
@@ -2028,7 +2046,7 @@
                       height: 50px;
                       font-size: 18px;
                       line-height: 46px;
-                      padding: 0px 20px;
+                      padding: 0 20px;
                     }
 
                     .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -2052,7 +2070,7 @@
                   .delete-btn {
                     position: absolute;
                     right: -20px;
-                    top: 0px;
+                    top: 0;
                     color: #06151b;
                     font-size: 23px;
                     line-height: 30px;
@@ -2131,7 +2149,6 @@
 
               .selected {
                 margin: 20px 0;
-                font-size: 16px;
                 line-height: 30px;
                 font-size: 18px;
                 color: #000;
@@ -2511,7 +2528,7 @@
                       height: 50px;
                       font-size: 18px;
                       line-height: 46px;
-                      padding: 0px 20px;
+                      padding: 0 20px;
                     }
 
                     .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -2535,7 +2552,7 @@
                   .delete-btn {
                     position: absolute;
                     right: -20px;
-                    top: 0px;
+                    top: 0;
                     color: #06151b;
                     font-size: 23px;
                     line-height: 30px;
@@ -2614,7 +2631,6 @@
 
               .selected {
                 margin: 20px 0;
-                font-size: 16px;
                 line-height: 30px;
                 font-size: 18px;
                 color: #000;
@@ -2695,16 +2711,12 @@
   }
 }
 
-
 .job-create-form {
   .card {
- 
     background-color: #fff;
 
     .card-header {
-
       background-color: #fff;
-
     }
   }
 
@@ -2719,8 +2731,6 @@
     }
 
     .card-body {
-
-
       .add-div {
         position: absolute;
         right: -40px;
@@ -2736,8 +2746,8 @@
           align-items: center;
           justify-content: center;
         }
-
       }
+
       .form-group {
         margin-bottom: 20px;
 
@@ -2774,7 +2784,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
           }
         }
       }
@@ -2787,10 +2796,6 @@
 
         .phone {
           width: calc(100% - 120px);
-
-          .form-control {
-          
-          }
         }
 
         .ext {
@@ -2807,26 +2812,24 @@
         .control-50 {
           width: 50%;
         }
-
-        
       }
 
       .select2-container {
         width: 100% !important;
       }
-    
+
       .select2-container--default .select2-selection--single {
         height: 60px;
         border-radius: 0;
       }
-    
+
       .select2-container--default .select2-selection--single .select2-selection__rendered {
         line-height: 55px;
         font-size: 16px;
         font-weight: 600;
         color: #000;
       }
-    
+
       .select2-container--default .select2-selection--single .select2-selection__arrow {
         height: 60px;
       }
@@ -2851,8 +2854,6 @@
           width: 30%;
         }
       }
-
-      
     }
   }
 }
@@ -2894,6 +2895,7 @@
 
   .client-tabs {
     padding-top: 20px;
+
     ul {
       border: 0;
       display: flex;
@@ -2902,6 +2904,7 @@
       li {
         border: 0;
         width: 100%;
+
         a {
           font-size: 14px;
           line-height: 24px;
@@ -2915,6 +2918,7 @@
 
   .marketing-tabs {
     padding-top: 20px;
+
     ul {
       border: 0;
       display: flex;
@@ -2923,6 +2927,7 @@
       li {
         border: 0;
         width: 100%;
+
         a {
           font-size: 14px;
           line-height: 24px;
@@ -3048,7 +3053,7 @@
                 line-height: 30px;
               }
 
-              P {
+              p {
                 font-size: 16px;
                 line-height: 26px;
 
@@ -3082,6 +3087,7 @@
                     min-width: unset;
                   }
                 }
+
                 &.heading {
                   li {
                     overflow-x: unset;
@@ -3211,7 +3217,7 @@
                 line-height: 30px;
               }
 
-              P {
+              p {
                 font-size: 16px;
                 line-height: 26px;
 
@@ -3245,6 +3251,7 @@
                     min-width: unset;
                   }
                 }
+
                 &.heading {
                   li {
                     overflow-x: unset;
