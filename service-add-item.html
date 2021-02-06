@@ -62,55 +62,62 @@
             <div class="side-nav-item accordion" id="menu-collapse">
               <ul class="main-listing">
                 <li class="nav-item ">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="dashboard.html">
                     <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span> 
                     <span class="text-collapse-menu">Dashboard</span>
                   </a>
                 </li>
-                <li class="nav-item ">
-                  <a class="nav-link nav-normal" href="#">
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="schedule.html">
                     <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span> 
                     <span class="text-collapse-menu">Schedule</span>
                   </a>
                 </li>
-                <li class="nav-item active">
-                  <a class="nav-link nav-normal" href="#">
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="management.html">
                     <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span> 
                     <span class="text-collapse-menu">Management</span>
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="service-add-item.html">
                     <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span> 
                     <span class="text-collapse-menu">Services</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="sales-order.html">
                     <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span> 
                     <span class="text-collapse-menu">Sales</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="marketing.html">
                     <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span> 
                     <span class="text-collapse-menu">Marketing</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="chat.html">
                     <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span> 
-                    <span class="text-collapse-menu">Communication</span>
+                    <span class="text-collapse-menu">Chat</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="report.html">
+                    <span class="icon-span"> <i class="bg-custom-icon reports-white"></i> </span> 
+                    <span class="text-collapse-menu">Reports</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="build-my-app.html">
                     <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span> 
                     <span class="text-collapse-menu">Customize My App</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav-normal" href="#">
+                  <a class="nav-link nav-normal" href="settings.html">
                     <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span> 
                     <span class="text-collapse-menu">Settings</span>
                   </a>
@@ -166,22 +173,22 @@
                                 <div class="nav-list-top-right-div">
                                   <ul class="nav-list-top-right-ul">
                                     <li class="nav-item nav-item01">
-                                      <a href="#" class="btn btn-nav-link">
+                                      <a href="report.html" class="btn btn-nav-link">
                                         <i class="bg-custom-icon document-icon"></i>
                                       </a>
                                     </li>
                                     <li class="nav-item nav-item02">
-                                      <a href="#" class="btn btn-nav-link">
+                                      <a href="schedule.html" class="btn btn-nav-link">
                                         <i class="bg-custom-icon clock-icon"></i>
                                       </a>
                                     </li>
                                     <li class="nav-item nav-item03">
-                                      <a href="#" class="btn btn-nav-link">
+                                      <a href="chat.html" class="btn btn-nav-link">
                                         <i class="bg-custom-icon chat-icon"></i>
                                       </a>
                                     </li>
                                     <li class="nav-item nav-item04">
-                                      <a href="#" class="btn btn-nav-link notification-btn-link">
+                                      <a href="marketing.html" class="btn btn-nav-link notification-btn-link">
                                         <i class="bg-custom-icon notification-icon"></i>
                                         <span class="number-span">4</span>
                                       </a>
@@ -341,7 +348,7 @@
                             </div>
                             <div class="col-lg-3">
                               <div class="add-div form-group">
-                                <a href="#!" class="btn btn-primary "><i class="fe fe-plus mr-2"></i>Add New Item</a>
+                                <a href="service-create-item.html" class="btn btn-primary "><i class="fe fe-plus mr-2"></i>Add New Item</a>
                               </div>
                             </div>
                           </div>
@@ -518,6 +525,69 @@
             </div>
            
           </div> 
+          
+        </div>
+      </div>
+      <div class="modal-footer pl-5">
+        <button type="button" class="btn btn-save">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade modal-package fixed-right" tabindex="-1" role="dialog" id="add-package">
+  <div class="modal-dialog modal-dialog-vertical" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Addd Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fe fe-x"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-package">
+          <div class="form-group">
+            <label for="">Package Name</label>
+            <input type="text" class="form-control">
+          </div>  
+
+          <div class="form-group">
+            <label for="">Description</label>
+            <textarea type="text" class="form-control"></textarea>
+          </div> 
+
+          <div class="form-group">
+            <label for="">Pricing Method</label>
+            <div class="pricing-method">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="11" checked />
+                <label class="form-check-label" for="11"> Fixed Price </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="22" />
+                <label class="form-check-label" for="22"> Per Foot </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="33" />
+                <label class="form-check-label" for="33"> Per Square Feet </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group d-inline-switch">
+            <label for="">Taxable</label>
+            <div class="switch-slider">
+              <input type="checkbox" class="toggle" id="21" checked="">
+              <label for="21">
+                <span class="on">ON</span>
+                <span class="off">OFF</span>
+              </label>
+            </div>
+          </div>
+
           
         </div>
       </div>
