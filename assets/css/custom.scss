@@ -1757,6 +1757,11 @@
       background-color: #fff;
 
       .btn-groups {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
         .btn-primary-white {
           background-color: #fff;
           color: #fecb2f;
@@ -1784,6 +1789,27 @@
           &:focus {
             background-color: #fecb2f;
             color: #06151b;
+          }
+        }
+
+        .dropdown {
+          .dropdown-menu {
+            background: #fff;
+            border-radius: 0px 0px;
+            right: 0;
+            margin-top: 0;
+            left: auto !important;
+            min-width: 220px;
+            border: 0 solid #f1f1f1;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.16);
+
+             a {
+               font-size: 16px;
+               line-height: 36px;
+               color: #000;
+               font-weight: 600;
+             }
+
           }
         }
       }
@@ -2239,36 +2265,62 @@
       background-color: #fff;
 
       .btn-groups {
-        .btn-primary-white {
-          background-color: #fff;
-          color: #fecb2f;
-          border: 1px solid #fecb2f;
-          font-size: 18px;
-          line-height: 26px;
-          font-weight: 700;
-          padding: 12px 20px;
-          margin-right: 20px;
 
-          &:last-child {
-            margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+            .btn-primary-white {
+              background-color: #fff;
+              color: #fecb2f;
+              border: 1px solid #fecb2f;
+              font-size: 18px;
+              line-height: 26px;
+              font-weight: 700;
+              padding: 12px 20px;
+              margin-right: 20px;
+    
+              &:last-child {
+                margin-right: 0;
+              }
+    
+              &:hover {
+                background-color: #fecb2f;
+                color: #06151b;
+              }
+    
+              &.active {
+                background-color: #fecb2f;
+                color: #06151b;
+              }
+    
+              &:focus {
+                background-color: #fecb2f;
+                color: #06151b;
+              }
+            }
+    
+            .dropdown {
+              .dropdown-menu {
+                background: #fff;
+                border-radius: 0px 0px;
+                right: 0;
+                margin-top: 0;
+                left: auto !important;
+                min-width: 220px;
+                border: 0 solid #f1f1f1;
+                box-shadow: 0 0 10px 0 rgba(0,0,0,0.16);
+    
+                 a {
+                   font-size: 16px;
+                   line-height: 36px;
+                   color: #000;
+                   font-weight: 600;
+                 }
+    
+              }
+            }
           }
-
-          &:hover {
-            background-color: #fecb2f;
-            color: #06151b;
-          }
-
-          &.active {
-            background-color: #fecb2f;
-            color: #06151b;
-          }
-
-          &:focus {
-            background-color: #fecb2f;
-            color: #06151b;
-          }
-        }
-      }
     }
 
     .card-body {

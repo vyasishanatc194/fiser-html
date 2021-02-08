@@ -1912,6 +1912,20 @@
   background-color: #fff;
 }
 
+.estimation-section .card-estimate .card-header .btn-groups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white {
   background-color: #fff;
   color: #fecb2f;
@@ -1940,6 +1954,25 @@
 .estimation-section .card-estimate .card-header .btn-groups .btn-primary-white:focus {
   background-color: #fecb2f;
   color: #06151b;
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .dropdown .dropdown-menu {
+  background: #fff;
+  border-radius: 0px 0px;
+  right: 0;
+  margin-top: 0;
+  left: auto !important;
+  min-width: 220px;
+  border: 0 solid #f1f1f1;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.estimation-section .card-estimate .card-header .btn-groups .dropdown .dropdown-menu a {
+  font-size: 16px;
+  line-height: 36px;
+  color: #000;
+  font-weight: 600;
 }
 
 .estimation-section .card-estimate .card-body {
@@ -2453,6 +2486,20 @@
   background-color: #fff;
 }
 
+.invoice-section .card-invoice .card-header .btn-groups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white {
   background-color: #fff;
   color: #fecb2f;
@@ -2481,6 +2528,25 @@
 .invoice-section .card-invoice .card-header .btn-groups .btn-primary-white:focus {
   background-color: #fecb2f;
   color: #06151b;
+}
+
+.invoice-section .card-invoice .card-header .btn-groups .dropdown .dropdown-menu {
+  background: #fff;
+  border-radius: 0px 0px;
+  right: 0;
+  margin-top: 0;
+  left: auto !important;
+  min-width: 220px;
+  border: 0 solid #f1f1f1;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.invoice-section .card-invoice .card-header .btn-groups .dropdown .dropdown-menu a {
+  font-size: 16px;
+  line-height: 36px;
+  color: #000;
+  font-weight: 600;
 }
 
 .invoice-section .card-invoice .card-body {
