@@ -2659,6 +2659,468 @@
   }
 }
 
+.common-forms-form-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .card-custom-div {
+    background-color: #f4f4f4;
+    border: 1px solid #d9d8d8;
+    border-radius: 0;
+
+    .card-header {
+      padding: 20px 20px 15px 20px;
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #d9d8d8;
+
+      h3 {
+        color: #2e2e2e;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: 0;
+      }
+    }
+
+    .common-forms-root-div {
+      padding: 10px 0;
+      margin: 0;
+      position: relative;
+
+      .form-group-custom {
+        margin-bottom: 24px;
+        position: relative;
+
+        label {
+          font-weight: 500;
+          font-size: 18px;
+          color: #2e2e2e;
+          line-height: 1.4;
+          margin: 0 0 8px 0;
+        }
+
+        .form-control {
+          font-size: 18px;
+          color: #06151b;
+          border: 1px solid #d9d8d8;
+          border-radius: 10px;
+          min-height: 52px;
+          padding: 12px 20px 8px 20px;
+          line-height: 24px;
+          margin: 0 0 5px 0;
+          font-weight: 500;
+          background-color: #fff;
+
+          &::-webkit-input-placeholder {
+            color: #707070;
+          }
+
+          &::-moz-placeholder {
+            color: #707070;
+          }
+
+          &:-ms-input-placeholder {
+            color: #707070;
+          }
+
+          &:-moz-placeholder {
+            color: #707070;
+          }
+
+          &:hover,
+          &:focus,
+          &:active {
+            border-color: #4d7cfe;
+            box-shadow: none;
+            outline: none;
+          }
+        }
+
+        input[type="password"].form-control {
+          padding-right: 40px;
+        }
+
+        .custom-icon {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          height: 38px;
+          width: 38px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #8e98a0;
+
+          .icon-UserName1 {
+            font-size: 20px;
+          }
+
+          .icon-Password {
+            font-size: 20px;
+          }
+        }
+
+        .icon-group {
+          position: absolute;
+          top: 1px;
+          right: 1px;
+        }
+
+        .pass-hide {
+          height: 40px;
+          width: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: transparent;
+          border: none;
+          color: rgba(142, 152, 160, 0.5);
+          cursor: pointer;
+          outline: none;
+        }
+
+        .form-info-txt-div {
+          p {
+            font-size: 16px;
+            color: #06151b;
+            letter-spacing: 0;
+            line-height: 22px;
+            font-weight: 400;
+            margin: 15px 0 0 0;
+            display: block;
+          }
+
+          ul {
+            list-style: disc;
+            padding: 10px 0 0 16px;
+
+            li {
+              font-size: 16px;
+              color: #06151b;
+              letter-spacing: 0;
+              line-height: 24px;
+              font-weight: 400;
+              margin: 0;
+            }
+          }
+        }
+
+        textarea.form-control {
+          min-height: 80px;
+          resize: none;
+        }
+      }
+
+      .select2-line-form-group {
+        .select2-container:focus {
+          outline: none;
+        }
+
+        span.selection:focus {
+          outline: none;
+        }
+
+        .select2-container--default .select2-selection--single {
+          height: 52px;
+          border: 1px solid #d9d8d8;
+          border-radius: 10px;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+          line-height: 52px;
+          font-size: 18px;
+          font-weight: 500;
+          padding-left: 16px;
+        }
+
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+          height: 51px;
+          width: 34px;
+
+          &::before {
+            border-left: 1px solid #d9d8d8;
+            top: 11px;
+            height: 30px;
+          }
+        }
+
+        .select2-container.select2-container--default.select2-container--open {
+          outline: none !important;
+        }
+      }
+
+      .custom-file-div {
+        height: 52px;
+
+        .custom-file-input {
+          height: 52px;
+        }
+
+        .custom-file-label {
+          height: 52px;
+          border-radius: 10px;
+          border: 1px solid #d9d8d8;
+          padding: 14px 100px 10px 20px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+
+          &::after {
+            height: 50px;
+            padding: 13px 12px 10px 12px;
+            border-left: 1px solid #d9d8d8;
+            background-color: #e9ecef;
+            border-radius: 0 10px 10px 0;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .check-list-custom-row {
+        .custom-checkbox {
+          position: relative;
+          display: block;
+          min-height: 1.5rem;
+          padding-left: 0;
+          font-weight: 700;
+          font-size: 20px;
+          color: #06151b;
+          letter-spacing: 0;
+          line-height: 30px;
+
+          .custom-control-label {
+            margin-bottom: 0;
+            cursor: pointer;
+            padding: 0 0 0 36px;
+
+            &::before {
+              background-color: transparent;
+              border: 1px solid rgba(112, 112, 112, 0.5);
+              width: 24px;
+              height: 24px;
+              border-radius: 5px;
+              top: 2px;
+            }
+          }
+
+          .custom-control-input:checked ~ .custom-control-label::after {
+            background-size: 14px;
+            top: 6px;
+            left: 4px;
+          }
+
+          .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(142, 152, 160, 0.25);
+          }
+        }
+
+        .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+          background-color: #f9cb2f;
+          border: 1px solid #f9cb2f;
+        }
+      }
+
+      .select-multiple-custom {
+        width: 100%;
+        font-size: 18px;
+        color: #06151b;
+        border: 1px solid #d9d8d8;
+        border-radius: 10px;
+        min-height: 150px;
+        padding: 10px 0;
+        line-height: 24px;
+        margin: 0 0 5px 0;
+        font-weight: 500;
+        background-color: #fff;
+
+        option {
+          padding: 6px 20px 5px 20px;
+        }
+
+        &:focus option:checked {
+          background: #f9cb2f !important;
+          background-color: #f9cb2f !important;
+        }
+      }
+
+      .switch-slider-custom {
+        input[type="checkbox"].toggle.toggle:checked + label {
+          .on {
+            font-size: 16px;
+            font-weight: 600;
+            padding: 2px 0 0 0px;
+            margin-left: -2px;
+          }
+        }
+
+        input[type="checkbox"].toggle.toggle + label .off {
+          font-size: 16px;
+          font-weight: 600;
+          padding: 2px 0 0 0px;
+        }
+      }
+
+      .form-group-rd-list {
+        .custom-rd-control {
+          margin: 0 0 8px 0;
+        }
+
+        .custom-control-label {
+          margin: 0;
+        }
+      }
+
+      .form-group-rd-inline-list {
+        .custom-rd-control {
+          margin: 0 30px 8px 0;
+          display: inline-block;
+        }
+      }
+
+      .btn-bottom-div {
+        margin-top: 10px;
+
+        .btn.btn-default {
+          margin: 0;
+          font-size: 18px;
+          padding: 7px 20px 6px 20px;
+          justify-content: center;
+
+          &:hover,
+          &:focus {
+            background-color: #d0cece;
+          }
+        }
+
+        .btn.btn-primary {
+          margin: 0;
+          font-size: 18px;
+          padding: 7px 20px 6px 20px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.common-forms-delete-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .card-custom-div {
+    background-color: #f4f4f4;
+    border: 1px solid #d9d8d8;
+    border-radius: 0;
+
+    .card-header {
+      padding: 20px 20px 15px 20px;
+      background-color: #f4f4f4;
+      border-bottom: 1px solid #d9d8d8;
+
+      h3 {
+        color: #2e2e2e;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: 0;
+      }
+    }
+  }
+
+  .content-div-root {
+    .content-header-root {
+      margin: 0 0 20px 0;
+    }
+
+    h1 {
+      color: #2e2e2e;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.3;
+      width: 100%;
+      display: block;
+      margin: 0 0 5px 0;
+    }
+
+    p {
+      color: #2e2e2e;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.3;
+      width: 100%;
+      display: block;
+      margin: 0 0 10px 0;
+    }
+
+    h2 {
+      color: #2e2e2e;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.3;
+      width: 100%;
+      display: block;
+      margin: 0 0 10px 0;
+    }
+
+    .list-div {
+      margin: 0 0 25px 0;
+    }
+
+    ul.custom-list-ul {
+      padding: 0 0 0 16px;
+      margin: 0 0 10px 0;
+
+      li {
+        color: #2e2e2e;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        width: 100%;
+        margin: 0 0 5px 0;
+
+        a {
+          color: #707070;
+        }
+
+        ul {
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+
+  .btn-bottom-div {
+    margin-top: 10px;
+
+    .btn.btn-default {
+      margin: 0;
+      font-size: 18px;
+      padding: 7px 20px 6px 20px;
+      justify-content: center;
+
+      &:hover,
+      &:focus {
+        background-color: #d0cece;
+      }
+    }
+
+    .btn.btn-primary {
+      margin: 0;
+      font-size: 18px;
+      padding: 7px 20px 6px 20px;
+      justify-content: center;
+    }
+  }
+}
+
 @media (min-width: 1025px) {
   .middle-area-dashboard {
     .main-middle-area {
@@ -3293,6 +3755,138 @@
               min-height: unset;
             }
           }
+        }
+      }
+    }
+  }
+
+  .common-forms-form-section {
+    .card-custom-div {
+      .card-header {
+        padding: 20px 15px 15px 15px;
+
+        h3 {
+          font-size: 18px;
+        }
+      }
+
+      .card-body {
+        padding: 15px;
+      }
+
+      .common-forms-root-div {
+        .form-group-custom {
+          .form-control {
+            font-size: 16px;
+            padding: 12px 15px 8px 15px;
+          }
+
+          label {
+            font-size: 14px;
+            margin: 0 0 6px 0;
+          }
+
+          .select2-line-form-group {
+            .select2-container--default .select2-selection--single .select2-selection__rendered {
+              font-size: 16px;
+              padding-left: 11px;
+            }
+          }
+
+          .select-multiple-custom {
+            font-size: 14px;
+            min-height: 100px;
+            max-height: 250px;
+            padding: 8px 0;
+            line-height: 18px;
+
+            option {
+              padding: 6px 15px 5px 15px;
+            }
+          }
+
+          .check-list-custom-row {
+            .custom-checkbox {
+              line-height: 25px;
+
+              .custom-control-label {
+                padding: 0 0 0 30px;
+
+                &::before {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+
+              .custom-control-input:checked ~ .custom-control-label::after {
+                top: 4px;
+                left: 2px;
+                background-size: 13px;
+              }
+            }
+          }
+
+          .custom-file-div {
+            .custom-file-label {
+              padding: 17px 85px 10px 15px;
+
+              &::after {
+                font-size: 14px;
+                padding: 16px 12px 10px 12px;
+              }
+            }
+          }
+
+          .form-info-txt-div {
+            ul {
+              li {
+                font-size: 12px;
+                line-height: 18px;
+                margin: 0 0 2px 0;
+              }
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 18px;
+              margin: 10px 0 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .common-forms-delete-section {
+    .card-custom-div {
+      .card-body-div {
+        padding: 20px 15px;
+      }
+    }
+
+    .content-div-root {
+      h1 {
+        font-size: 22px;
+        line-height: 1.4;
+        margin: 0 0 5px 0;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0 0 5px 0;
+      }
+
+      ul.custom-list-ul {
+        li {
+          font-size: 14px;
+          line-height: 1.5;
+          margin: 0 0 5px 0;
         }
       }
     }

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Dashboard | Fiser</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#06151B">
+  <meta name="msapplication-navbutton-color" content="#06151B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#06151B">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/myriad-pro/myriad-pro-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/left-sidebar.css" media="all" rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet" />
+
+  <link href="assets/css/custom-form.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/table-custom-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/switch.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper dashboard-wrapper">
+
+    <!-- left-side -->
+    <div class="left-side-nav">
+      <div class="left-side-nav-inner">
+
+        <div class="nav-logo-section">
+          <a href="#" class="dash-logo">
+            <img src="assets/images/logo.png" class="logo" alt="logo" />
+          </a>
+
+          <div class="mobile-menu-div desktop-hidden">
+            <button class="navbar-toggler mobile-menu-button" id="menu-open" type="button">
+              <span class="navbar-toggler-icon"> <i class="fe fe-menu"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="left-side-menu" id="dashboard-menu-clone">
+          <div class="left-side-inner">
+
+            <!--  mobile  -->
+            <a href="javascript:void(0)" class="closebtn desktop-hidden" id="menu-closed"> <i class="fe fe-x"></i> </a>
+            <!--  End of mobile  -->
+
+            <div class="responsive-menu-view-div desktop-hidden" id="responsive-menu-view-area">
+
+            </div>
+
+            <div class="side-nav-item accordion" id="menu-collapse">
+              <ul class="main-listing">
+                <li class="nav-item ">
+                  <a class="nav-link nav-normal" href="dashboard.html">
+                    <span class="icon-span"> <i class="bg-custom-icon dashboard-white-icon"></i> </span>
+                    <span class="text-collapse-menu">Dashboard</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="schedule.html">
+                    <span class="icon-span"> <i class="bg-custom-icon schedule-white-icon"></i> </span>
+                    <span class="text-collapse-menu">Schedule</span>
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link nav-normal" href="management.html">
+                    <span class="icon-span"> <i class="bg-custom-icon management-white-icon"></i> </span>
+                    <span class="text-collapse-menu">Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="service-add-item.html">
+                    <span class="icon-span"> <i class="bg-custom-icon digital-menu-white"></i> </span>
+                    <span class="text-collapse-menu">Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="sales-order.html">
+                    <span class="icon-span"> <i class="bg-custom-icon sales-white"></i> </span>
+                    <span class="text-collapse-menu">Sales</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="marketing.html">
+                    <span class="icon-span"> <i class="bg-custom-icon marketing-white"></i> </span>
+                    <span class="text-collapse-menu">Marketing</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="chat.html">
+                    <span class="icon-span"> <i class="bg-custom-icon communication-white"></i> </span>
+                    <span class="text-collapse-menu">Chat</span>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="report.html">
+                    <span class="icon-span"> <i class="bg-custom-icon reports-white"></i> </span>
+                    <span class="text-collapse-menu">Reports</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="build-my-app.html">
+                    <span class="icon-span"> <i class="bg-custom-icon custom-app-white"></i> </span>
+                    <span class="text-collapse-menu">Customize My App</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-normal" href="settings.html">
+                    <span class="icon-span"> <i class="bg-custom-icon settings-white"></i> </span>
+                    <span class="text-collapse-menu">Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!--  mobile  -->
+        <div id="cd-shadow-layer" class="menu-closed backdrop-menu-layer"></div>
+        <!--  End of mobile  -->
+
+      </div>
+    </div>
+    <!--  End of left-side  -->
+
+    <!-- Begin page content -->
+    <main role="main" class="middle-area-dashboard main-dashboard">
+      <div class="main-middle-area">
+
+        <!--  Header  -->
+        <header class="header header-dashboard">
+          <nav class="navbar navbar-light">
+            <div class="container-fluid d-block">
+
+              <div class="row col-header-row">
+                <div class="col-lg-12 col-12">
+
+                  <div class="nav-dashboard-row">
+
+                    <div class="nav-dashboard-left">
+                      <div class="nav-dashboard-left-inner">
+                        <div class="nav-dashboard-btn-box">
+                          <a href="#" class="btn btn-primary">ADD NEW</a>
+                        </div>
+                        <div class="search-div">
+                          <div class="search-row">
+                            <div class="search-input-box">
+                              <div class="search-icon-box">
+                                <button class="btn btn-search" id="btn-search-tp"><span
+                                    class="bg-custom-icon search-icon"></span></button>
+                              </div>
+                              <input type="text" class="form-control form-search" id="form-search"
+                                placeholder="Search...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="nav-dashboard-right mobile-hidden" id="nav-top-header-right-area">
+
+                      <div class="nav-list-top-right-div">
+                        <ul class="nav-list-top-right-ul">
+                          <li class="nav-item nav-item01">
+                            <a href="report.html" class="btn btn-nav-link">
+                              <i class="bg-custom-icon document-icon"></i>
+                            </a>
+                          </li>
+                          <li class="nav-item nav-item02">
+                            <a href="schedule.html" class="btn btn-nav-link">
+                              <i class="bg-custom-icon clock-icon"></i>
+                            </a>
+                          </li>
+                          <li class="nav-item nav-item03">
+                            <a href="chat.html" class="btn btn-nav-link">
+                              <i class="bg-custom-icon chat-icon"></i>
+                            </a>
+                          </li>
+                          <li class="nav-item nav-item04">
+                            <a href="marketing.html" class="btn btn-nav-link notification-btn-link">
+                              <i class="bg-custom-icon notification-icon"></i>
+                              <span class="number-span">4</span>
+                            </a>
+                          </li>
+                          <li class="nav-item nav-item05">
+                            <div class="user-drop-down">
+                              <div class="dropdown drop-left dropdown-custom-top">
+                                <a class="btn btn-default dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <div class="user-profile">
+                                    <div class="user-info">
+                                      <h3>Youssef Kone</h3>
+                                      <p>Available</p>
+                                    </div>
+                                    <div class="user-img">
+                                      <img src="assets/images/profile.jpg" class="user-top-image" alt="user image" />
+                                    </div>
+                                  </div>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <ul>
+                                    <li><a class="dropdown-item" href="#"> Profile</a></li>
+                                    <li class="logout-li"><a class="dropdown-item" href="#"> <i
+                                          class="fe fe-log-in"></i> Logout</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="nav-item nav-item06">
+                            <a href="#" class="btn btn-nav-link">
+                              <i class="bg-custom-icon book-icon"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </nav>
+        </header>
+        <!-- End of header -->
+
+        <!--  main  -->
+        <div class="main-section">
+          <div class="main-div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+
+                  <!-- bread crumb -->
+                  <section class="breadcrumb-section">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Create new</li>
+                      </ol>
+                    </nav>
+                  </section>
+                  <!-- bread crumb end -->
+
+
+                  <section class="common-forms-form-section">
+                    <div class="common-forms-form-div">
+
+                      <div class="card card-custom-div">
+
+                        <div class="card-header card-header-div">
+                          <div class="card-header-row-div">
+                            <h3>Create New Team Member</h3>
+                          </div>
+                        </div>
+
+                        <div class="card-body card-body-div">
+
+                          <div class="common-forms-root-div">
+                            <div class="form-custom-in-row">
+
+                              <div class="row mlr-10">
+
+                                <div class="col-lg-6 col-md-6 plr-10">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">First name</label>
+                                    <div class="input-group-row">
+                                      <input type="text" class="form-control" />
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Last name</label>
+                                    <div class="input-group-row">
+                                      <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Password* </label>
+                                    <div class="input-group-row">
+                                      <input type="password" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <ul>
+                                        <li>Your password can’t be too similar to your other personal information.</li>
+                                        <li>Your password must contain at least 8 characters.</li>
+                                        <li>Your password can’t be a commonly used password.</li>
+                                        <li>Your password can’t be entirely numeric.</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Password confirmation* </label>
+                                    <div class="input-group-row">
+                                      <input type="password" class="form-control" placeholder="">
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p>Enter the same password as before, for verification.</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Role </label>
+                                    <div class="input-group-row">
+                                      <div class="form-group select2-line-form-group">
+                                        <select class="select2" name="" id="">
+                                          <option value="admin">Admin</option>
+                                          <option value="manager">Manager</option>
+                                          <option value="technician">Technician</option>
+                                          <option value="contractors">Contractors</option>
+                                          <option value="client">Client</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Email address</label>
+                                    <div class="input-group-row">
+                                      <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Street</label>
+                                    <div class="input-group-row">
+                                      <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">City</label>
+                                    <div class="input-group-row">
+                                      <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Postal Code </label>
+                                    <div class="input-group-row">
+                                      <input type="email" class="form-control" placeholder="">
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Profile Image (Size:180px x 180px) </label>
+                                    <div class="input-group-row">
+                                      <div class="custom-file custom-file-div">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                        <label class="custom-file-label" for="customFile">Choose file</label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <div class="input-group-row">
+                                      <div class="check-list-row check-list-custom-row">
+                                        <div class="custom-control custom-checkbox">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck-active01"
+                                            name="customCheck-active">
+                                          <label class="custom-control-label" for="customCheck-active01">Active</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p class="mt-2">Designates whether this user should be treated as active. Unselect
+                                        this instead of deleting accounts. </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <div class="input-group-row">
+                                      <div class="check-list-row check-list-custom-row">
+                                        <div class="custom-control custom-checkbox">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck-staff01"
+                                            name="customCheck-staff">
+                                          <label class="custom-control-label" for="customCheck-staff01">Is Staff</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p class="mt-2">Designates whether the user can log into this admin site.</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                  <div class="form-group form-group-custom">
+                                    <div class="input-group-row">
+                                      <div class="check-list-row check-list-custom-row">
+                                        <div class="custom-control custom-checkbox">
+                                          <input type="checkbox" class="custom-control-input"
+                                            id="customCheck-superuser01" name="customCheck-superuser">
+                                          <label class="custom-control-label" for="customCheck-superuser01">Is
+                                            Superuser</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p class="mt-2">Designates that this user has all permissions without explicitly
+                                        assigning them. </p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">User Role </label>
+                                    <div class="input-group-row">
+                                      <select name="groups" class="select-multiple-custom" size="10" id="id_groups"
+                                        multiple="">
+                                        <option value="1">Admin</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p>The groups this user belongs to. A user will get all permissions granted to
+                                        each of their groups.</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">User permissions </label>
+                                    <div class="input-group-row">
+                                      <select name="groups" class="select-multiple-custom" size="10" id="id_groups" multiple="">
+                                        <option value="25">account | email address | Can add email address</option>
+                                        <option value="26">account | email address | Can change email address</option>
+                                        <option value="27">account | email address | Can delete email address</option>
+                                        <option value="28">account | email address | Can view email address</option>
+                                        <option value="29">account | email confirmation | Can add email confirmation</option> 
+                                        <option value="30">account | email confirmation | Can change email confirmation </option> 
+                                        <option value="31">account | email confirmation | Can delete email confirmation </option> 
+                                        <option value="32">account | email confirmation | Can view email confirmation </option>
+                                        <option value="17">admin | log entry | Can add log entry</option>
+                                        <option value="18">admin | log entry | Can change log entry</option>
+                                        <option value="19">admin | log entry | Can delete log entry</option>
+                                        <option value="20">admin | log entry | Can view log entry</option>
+                                        <option value="5">auth | group | Can add group</option>
+                                        <option value="6">auth | group | Can change group</option>
+                                        <option value="7">auth | group | Can delete group</option>
+                                        <option value="8">auth | group | Can view group</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-info-txt-div">
+                                      <p>Specific permissions for this user.</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Toggle Btn </label>
+                                    <div class="input-group-row">
+                                      <div class="switch-slider switch-slider-custom">
+                                        <input type="checkbox" class="toggle" id="21" checked="">
+                                        <label for="21">
+                                          <span class="on">Yes</span>
+                                          <span class="off">No</span>
+                                        </label>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Radio Btn </label>
+                                    <div class="input-group-row">
+                                      <div class="form-group-rd-list">
+                                        <div class="custom-control custom-radio custom-rd-control">
+                                          <input type="radio" class="custom-control-input" id="customRadio-role01" name="role-radio-list" value="customEx">
+                                          <label class="custom-control-label" for="customRadio-role01">Admin / Owner</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio custom-rd-control">
+                                          <input type="radio" class="custom-control-input" id="customRadio-role02" name="role-radio-list" value="customEx">
+                                          <label class="custom-control-label" for="customRadio-role02">Manager</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Radio Btn Inline </label>
+                                    <div class="input-group-row">
+                                      <div class="form-group-rd-list form-group-rd-inline-list">
+                                        <div class="custom-control custom-radio custom-rd-control custom-control-inline">
+                                          <input type="radio" class="custom-control-input" id="customRadio-role-inline01" name="role-radio-list" value="customEx">
+                                          <label class="custom-control-label" for="customRadio-role-inline01">Admin / Owner</label>
+                                        </div>
+
+                                        <div class="custom-control custom-radio custom-rd-control custom-control-inline">
+                                          <input type="radio" class="custom-control-input" id="customRadio-role-inline02" name="role-radio-list" value="customEx">
+                                          <label class="custom-control-label" for="customRadio-role-inline02">Manager</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                  <div class="form-group form-group-custom">
+                                    <label for="">Description</label>
+                                    <div class="input-group-row">
+                                      <textarea class="form-control" rows="3" id="comment"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                  <div class="btn-bottom-div d-flex">
+                                    <button type="submit" class="btn btn-default btn-primary-big btn-cancel mr-10">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-primary-big btn-submit">Submit</button>
+                                  </div>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </section>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--  end of main  -->
+
+      </div>
+    </main>
+
+  </div><!-- end of wrapper -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    $("document").ready(function () {
+      $('.select2').select2({
+        minimumResultsForSearch: -1,
+        width: 100,
+      });
+
+      // Input file
+      $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
